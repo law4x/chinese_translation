@@ -1,0 +1,18 @@
+ {
+ 	"ui":{
+ 		"shell":{
+ 			"select_settlement":{
+ 				"terrain_codes":{
+ 					"mountains_9": "山峰",
+ 					"mountains_10": "山峰",
+ 					"mountains_11": "山峰",
+ 					"mountains_12": "山峰",
+ 					"mountains_13": "山峰",
+ 					"mountains_14": "山峰",
+ 					"mountains_15": "山峰",
+ 					"mountains_16": "山峰"
+ 				}
+ 			}
+ 		}
+ 	}
+ }

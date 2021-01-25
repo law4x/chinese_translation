@@ -1,0 +1,205 @@
+{
+	"buffs": {
+		"book_knowledge_buff": {
+				"description": "Packed with knowledge.",
+				"display_name": "Book of Knowledge"
+		},
+		"book_inspiration_buff": {
+				"description": "Packed with creativity.",
+				"display_name": "Book of Inspiration"
+		},
+		"book_compassion_buff": {
+				"description": "Packed with Compassion.",
+				"display_name": "Book of Compassion"
+		}
+	},
+	"category": {
+		"trough": {
+				"animal_feed": "Animal feed"
+		}
+	},
+	"jobs": {
+	  "blacksmith": {
+			"blacksmith_workbench": {
+				"category_00": "Components"
+			}
+		},
+		"scholar": {
+			"scholar_description": {
+				"display_name": "Scholar",
+				"description": "The Scholar can write down the knowledge he gathers to let others benefit.",
+				"requirements": "Crafted by Carpenter",
+				"required_job_text": "Requires Scholar"
+			},
+			"scholar_staff": {
+				"display_name": "Scholar's Staff",
+				"description": "The Staff of a Scholar.",
+				"flavor": "Does he write with it?"
+			},
+			"scholar_workbench": {
+				"display_name": "Scholar Workbench",
+				"description": "A Scholars desk.",
+				"flavor": "Chaos is the order of genii",
+				"category_00": "Basics",
+				"category_01": "Documents"
+			}
+		}
+	},
+    "entities": {
+		"consumables": {
+			"book_knowledge": {
+				"description": "A book packed with knowledge.",
+				"display_name": "Book of Knowledge",
+				"flavor": "More than a schoolbook."
+		   },
+	 		"book_inspiration": {
+	 				"description": "Packed with creativity.",
+	 				"display_name": "Book of Inspiration",
+					"flavor": "'I don't know what to say to this.' - Gawin the Librarian"
+	 		},
+	 		"book_compassion": {
+	 				"description": "Packed with Compassion.",
+	 				"display_name": "Book of Compassion",
+					"flavor": "A Hero's tale"
+	 		}
+		},
+		"construction": {
+			"drawbridge": {
+				"description": "A wooden bridge to draw.",
+				"display_name": "Drawbridge",
+				"flavor": "All you have ever wanted."
+		    },
+			"hatch": {
+				"description": "What might be under it?",
+				"display_name": "Hatch",
+				"flavor": "Follow the rabbit!"
+		    },
+			"secretDoor": {
+				"description": "What might happens if I pull this one?",
+				"display_name": "Strange Bookcase",
+				"flavor": "Decorative and usefull!"
+		    },
+			"stone_drawbridge": {
+				"description": "A sturdy bridge to draw.",
+				"display_name": "Stone Drawbridge",
+				"flavor": "All you have ever wanted."
+		    },
+			"stone_portcullis": {
+				"description": "A stone gate to draw.",
+				"display_name": "Stone Portcullis",
+				"flavor": "A gate to draw!"
+			},
+			"stone_portcullis_ornate": {
+				"description": "A fancy stone gate to draw.",
+				"display_name": "Ornate Stone Portcullis",
+				"flavor": "A gate to draw!"
+			},
+			"wood_portcullis": {
+				"description": "A wooden gate to draw.",
+				"display_name": "Wooden Portcullis",
+				"flavor": "A wooden gate to draw!"
+			}
+		},
+		"decorative": {
+			"bookcase": {
+				"description": "A case for books.",
+				"display_name": "Bookcase",
+				"flavor": "Everyone looks smarter with books.",
+				"category_written": "Written Books",
+				"category_unwritten": "Empty Books"
+		    },
+			"bridge": {
+				"description": "Basically unnecessary",
+				"display_name": "Wooden Bridge",
+				"flavor": "Connecting Hearthlings."
+		    },
+			"bridge_ornate": {
+				"description": "Basically unnecessary, but eye candy",
+				"display_name": "Ornate Wooden Bridge",
+				"flavor": "Connecting Hearthlings."
+		    },
+			"cids_sword": {
+				"description": "A Sword, as great as Cid.",
+				"display_name": "Cids Sword",
+				"flavor": "Great man, Greatsword."
+			},
+			"fire_bowl": {
+				"description": "A greater source of light.",
+				"display_name": "Firebowl",
+				"flavor": "To brighten up your nights."
+			},
+			"palisade": {
+				"description": "Low-Tech Town protection.",
+				"display_name": "Palisade",
+				"flavor": "To keep 'em out."
+		  },
+			"parapet": {
+				"description": "Or just call it railing.",
+				"display_name": "Parapet",
+				"flavor": "Don't worry to fall anymore."
+			},
+			"trough": {
+				"description": "A little less mess.",
+				"display_name": "Trough",
+				"flavor": "Is it ever full?"
+			}
+		},
+		"equipment": {
+			"ancile": {
+				"description": "The shield of gods.",
+				"display_name": "Ancile",
+				"flavor": "'So, crafting this will make me divine, right?' - justly unknown"
+			},
+			"entling_armor": {
+				"description": "Hopefully no one will try to chop you down.",
+				"display_name": "Entling Armor",
+				"flavor": "No bad joke for this one. It's simply cool."
+			},
+			"entling_helmet": {
+				"description": "Smells mossy.",
+				"display_name": "Entling Helmet",
+				"flavor": "'Behead or be a head?' - Willson Shiverlance"
+			},
+			"stonegolem_armor": {
+				"description": "Like a second, very very hard, skin.",
+				"display_name": "Stonegolem Armor",
+				"flavor": "You've earned it."
+			},
+			"stonegolem_helmet": {
+				"description": "More of a head then a hat.",
+				"display_name": "Stonegolem Helmet",
+				"flavor": "Out of heart-stone"
+			}
+		},
+		"resources": {
+			"book": {
+				"description": "Studious!",
+				"display_name": "Book",
+				"flavor": "'They all look the same to me.' - Gawin the Librarian"
+		    },
+			"chain": {
+				"description": "Better than a rope.",
+				"display_name": "Chain",
+				"flavor": "Not for wearing."
+		    },
+			"living_stone": {
+				"description": "The heart of a golem.",
+				"display_name": "Living Stone"
+			},
+			"living_wood": {
+				"description": "A loggerhead for logheads. Wait, what?",
+				"display_name": "Living Wood"
+			},
+			"paper": {
+				"description": "Write on it.",
+				"display_name": "Paper",
+				"flavor": "Who writes the texts?"
+		    },
+			"rope": {
+				"description": "Somewhere between thread and chain.",
+				"display_name": "Rope",
+				"flavor": "Lemon Lime On time Singing 1, 2..."
+		    }
+		}
+    }
+}

@@ -1,0 +1,165 @@
+{
+	"data": {
+		"gm": {
+			"campaigns": {
+				"bug_campaign": {
+					"bug": {
+						"sighted_bulletin": {
+							"title": "愤怒的傀儡虫来烦你啦！"
+						}
+					},
+					"big_bug": {
+						"sighted_bulletin": {
+							"title": "巨大的傀儡虫来纠缠你啦！"
+						}
+					}
+				}
+			}
+		}
+	},
+	"entities": {
+		"angry": {
+			"golem_bug": {
+				"display_name": "愤怒的傀儡虫",
+				"description": "当它看见枪塔这类玩意时就会异常愤怒"
+			},
+			"golem_big_bug": {
+				"display_name": "巨大的傀儡虫",
+				"description": "一个愤怒的害虫"
+			}
+		},
+		"gizmos": {
+			"gun_blaster": {
+				"gun_blaster_ghost": {
+					"display_name": "爆破枪塔",
+					"description": "对哥布林和野兽的多目标打击"
+				}
+			},
+			"gun_zapper": {
+				"gun_zapper_ghost": {
+					"display_name": "猎魔枪塔",
+					"description": "对兽人，死灵和泰坦的多目标打击"
+				}
+			},
+			"gun_super": {
+				"gun_super_ghost": {
+					"display_name": "超级枪塔",
+					"description": "全目标（？）打击装置"
+				}
+			},
+			"small_turret": {
+				"small_turret_ghost": {
+					"display_name": "自动枪塔",
+					"description": "小型的自动火力防御装置"
+				}
+			}
+		},
+		"refined": {
+			"golem_blocks": {
+				"display_name": "傀儡零件",
+				"description": "制作自动傀儡所必须的零件"
+			}
+		},
+		"monsters": {
+			"golems": {
+				"golem_building_automod": {
+					"display_name": "建造傀儡",
+					"description": "自动建造傀儡"
+				},
+				"golem_harvesting_automod": {
+					"display_name": "收割傀儡",
+					"description": "自动收割傀儡"
+				},
+				"golem_mining_automod": {
+					"display_name": "挖掘傀儡",
+					"description": "自动挖掘傀儡"
+				},
+				"golem_restocking_automod": {
+					"display_name": "傀儡虫儿",
+					"description": "自动搬运傀儡"
+				}
+			}
+		}
+	},
+	"jobs": {
+		"builder": {
+			"builder_description": {
+				"display_name": "建造者",
+				"description": " 建造者执行基本任务，如建造建筑物和放置物品",
+				"requirements": "放置于地，而后自动打工",
+				"level_0_data": {
+					"title": "建造者"
+				}
+			}
+		},
+		"mason": {
+			"mason_description": {
+				"level_1_data": {
+					"perk_001_name": "枪托",
+					"perk_001_description": "允许放置30个枪塔（崛起之都或北方联盟）"
+				}
+			},
+			"recipes": {
+				"categories": {
+					"golems_guns": "傀儡和枪塔"
+				},
+				"golem_blocks_recipe": {
+					"recipe_name": "傀儡零件",
+					"description": "用于制作自动傀儡的特制零件",
+					"flavor": ""
+				},
+				"golem_restocking_recipe": {
+					"recipe_name": "傀儡虫儿"
+				},
+				"golem_mining_recipe": {
+					"recipe_name": "挖掘傀儡",
+					"flavor": "此镐之坚，可碎山石"
+				},
+				"golem_harvesting_recipe": {
+					"recipe_name": "自动收割傀儡"
+				},
+				"golem_building_recipe": {
+					"recipe_name": "建造傀儡",
+					"description": "执行建造任务",
+					"flavor": "它们可以整天干活，但是当它们卡住的时候你需要帮它们下来，另外它们也挖不了地基"
+				},
+				"small_turret_recipe": {
+					"recipe_name": "自动枪塔",
+					"description": "从较远的距离射击敌人",
+					"flavor": "单体伤害"
+				},
+				"gun_blaster_recipe": {
+					"recipe_name": "爆破枪塔",
+					"description": "爆炸会伤害到周围的哥布林和野兽",
+					"flavor": "多目标伤害，缓慢射击"
+				},
+				"gun_zapper_recipe": {
+					"recipe_name": "猎魔枪塔",
+					"description": "狩猎周围的兽人，死灵以及泰坦",
+					"flavor": "多目标伤害，缓慢射击"
+				},
+				"gun_super_recipe": {
+					"recipe_name": "超级枪塔",
+					"description": "对所有被猎魔，爆破枪塔所攻击到的目标开火",
+					"flavor": "多目标伤害，缓慢射击"
+				}
+			}
+		},
+		"potter": {
+			"potter_description": {
+				"level_1_data": {
+					"perk_001_name": "枪托",
+					"perk_001_description": "允许放置30个枪塔（瑞雅之裔）"
+				}
+			}
+		},
+		"shaman": {
+			"shaman_description": {
+				"level_1_data": {
+					"perk_001_name": "枪托",
+					"perk_001_description": "允许放置30个枪塔（流萤）"
+				}
+			}
+		}
+	}
+}

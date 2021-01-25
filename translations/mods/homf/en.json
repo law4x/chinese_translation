@@ -1,0 +1,29 @@
+{
+   "ui": {
+      "customize_hearthling": {
+         "title": "Hearthling Customizer"
+      },
+      "data": {
+         "tooltips": {
+            "nextButton": {
+               "description": "Choose the next one in the list."
+            },
+            "previousButton": {
+               "description": "Choose the previous one in the list."
+            },
+            "maleButton": {
+               "description": "Become male, will also randomize all models and colors."
+            },
+            "femaleButton": {
+               "description": "Become female, will also randomize all models and colors."
+            },
+            "randomButton": {
+               "description": "Randomize all parts that aren't locked down."
+            },
+            "lock": {
+               "description": "Lock this part down for the randomizer to ignore it."
+            }
+         }
+      }
+   }
+}

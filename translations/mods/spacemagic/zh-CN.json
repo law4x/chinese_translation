@@ -1,0 +1,642 @@
+{
+	"data": {
+		"gm": {
+			"campaigns": {
+				"rift_monsters": {
+					"wolf": {
+						"sighted_bulletin": {
+							"title": "一只黑暗的野兽正从深渊中入侵！"
+						}
+					},
+					"zilla": {
+						"sighted_bulletin": {
+							"title": "一只黑暗的妖蛆正从深渊中入侵！"
+						}
+					}
+				},
+				"trader": {
+					"arcs": {
+						"encounters": {
+							"tier_1_shops": {
+								"wizard_shop": {
+									"shop_info": {
+										"name": "克洛诺·威斯普巫师店",
+										"title": "克洛诺·威斯普带着魔法物品来了"
+									}
+								}
+							},
+							"tier_2_shops": {
+								"wizard_shop": {
+									"shop_info": {
+										"name": "克洛诺·威斯普巫师店",
+										"title": "克洛诺·威斯普带着更多的魔法物品来这里出售"
+									}
+								}
+							},
+							"tier_3_shops": {
+								"wizard_shop": {
+									"shop_info": {
+										"name": "克洛诺·威斯普的魔法造物",
+										"title": "克洛诺·威斯普在附近带着最稀有的魔法物品冒险"
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"buffs": {
+			"mind_potion": {
+				"mind_potion_buff": {
+					"display_name": "心智药水（六个核桃）",
+					"description": "强化智商一段时间"
+				}
+			},
+			"weather": {
+				"combo_weather_resist_buff": {
+					"display_name": "耐候电阻（喵喵喵？）",
+					"description": "穿着一套能抵抗环境温度的神奇服装。"
+				}
+			}
+		}
+	},
+	"entities": {
+		"consumables": {
+			"cosmic_heal_potion": {
+				"display_name": "大回复药",
+				"description": "全体回复100点生命值"
+			},
+			"mind_potion": {
+				"display_name": "心智药水（六个核桃）",
+				"description": "暂时增强智商"
+			}
+		},
+		"decoration": {
+			"wooden_sign_timewizard": {
+				"wooden_sign_timewizard_ghost": {
+					"display_name": "时间巫师标牌",
+					"description": "一个有着时间巫师标志的牌子"
+				}
+			},
+			"star_sentry": {
+				"star_sentry_ghost": {
+					"display_name": "星哨",
+					"description": "持续伤害附近的敌人"
+				}
+			},
+			"timestone_statue": {
+				"timestone_statue_ghost": {
+					"display_name": "时之石雕像",
+					"description": "一种装饰性的珀石雕像"
+				}
+			}
+		},
+		"refined": {
+			"space_potion": {
+				"display_name": "空间之水",
+				"description": "夜空的昏暗液体精华"
+			},
+			"time_potion": {
+				"display_name": "时间之水",
+				"description": "浓缩时间的明亮液体精华"
+			},
+			"star_steel": {
+				"display_name": "星钢",
+				"description": "增强金属，闪亮，强韧"
+			}
+		},
+		"armor": {
+			"solar_eclipse_gear": {
+				"display_name": "日食铠甲",
+				"description": "一套阴暗的盔甲，从无到有。",
+				"solar_eclipse_gear_iconic": {
+					"display_name": "日食铠甲",
+					"description": "强化暗能量铠甲"
+				}
+			},
+			"lunar_eclipse_robe": {
+				"display_name": "月食长袍",
+				"description": "一套阴暗的护甲，从无到有。",
+				"lunar_eclipse_robe_iconic": {
+					"display_name": "月食长袍",
+					"description": "强化暗能量护甲"
+				}
+			},
+			"sunmage_gear": {
+				"display_name": "曜日铠甲",
+				"description": "有着魔法增幅的传统装备",
+				"sunmage_gear_iconic": {
+					"display_name": "曜日铠甲",
+					"description": "保护免受伤害和大量热能的能力。"
+				}
+			},
+			"moonmage_robe": {
+				"display_name": "皎月长袍",
+				"description": "有着魔法增幅的传统装备",
+				"moonmage_robe_iconic": {
+					"display_name": "皎月长袍",
+					"description": "保护免受伤害和暗能量的能力。"
+				}
+			}
+		},
+		"weapons": {
+			"sunmage_sword": {
+				"display_name": "烈日长剑",
+				"description": "随光舞动，它有一种耀眼的温暖。",
+				"sunmage_sword_iconic": {
+					"display_name": "烈日长剑",
+					"description": "上古造物，轻易斩断一切。"
+				}
+			},
+			"star_sword": {
+				"display_name": "星剑",
+				"description": "绿星之剑，具有减速能力。",
+				"star_sword_iconic": {
+					"display_name": "星剑",
+					"description": "绿星之力，偶尔减速时间。"
+				}
+			},
+			"moonmage_staff": {
+				"display_name": "暗月法杖",
+				"description": "新月形魔法发射器，成就于黑夜。",
+				"moonmage_staff_iconic": {
+					"display_name": "暗月法杖",
+					"description": "深色的木制月神杖"
+				}
+			},
+			"star_staff": {
+				"display_name": "星杖",
+				"description": "绿星暗杖，有额外伤害的可能性",
+				"star_staff_iconic": {
+					"display_name": "星杖",
+					"description": "绿星之力，偶尔增加伤害。"
+				}
+			},
+			"sun_shot": {
+				"display_name": "曜日冲击",
+				"description": "燃烧的太阳粒子"
+			},
+			"moon_shot": {
+				"display_name": "皎月冲击",
+				"description": "这块岩石是月球的一部分。"
+			},
+			"star_shot": {
+				"display_name": "星耀冲击",
+				"description": "月之粉尘，群星相随。"
+			}
+		}
+	},
+	"jobs": {
+		"timewizard": {
+			"timewizard_description": {
+				"display_name": "时间巫师",
+				"description": "时间巫师在增强物品和属性时操纵时间和空间。",
+				"requirements": "由草药师或萨满（？）制作。",
+				"level_1_data": {
+					"perk_000_name": "复制",
+					"perk_000_description": "时间巫师可以从过去或未来提取资源。"
+				},
+				"level_2_data": {
+					"perk_000_name": "制药",
+					"perk_000_description": "时间巫师使用天然植物和神秘的艺术制作药剂。"
+				},
+				"level_3_data": {
+					"perk_000_name": "加速光环",
+					"perk_000_description": "时间巫师能加速周围的炉民。天符创造解锁（喵喵喵？）。"
+				},
+				"level_4_data": {
+					"perk_000_name": "额外复制",
+					"perk_000_description": "时间巫师的复制能力拓展到资源堆"
+				},
+				"level_5_data": {
+					"perk_000_name": "五色气运",
+					"perk_000_description": "一个罕见的祝福给予时间巫师周围的一切增益属性。"
+				},
+				"level_6_data": {
+					"perk_000_name": "珀石的智慧",
+					"perk_000_description": "时间线的操纵赋予了无名的造物和星体。",
+					"title": "星际时间巫师"
+				}
+			},
+			"timewizard_outfit": {
+				"display_name": "时间巫师长袍",
+				"description": "一件浅白色和锡色的长袍，有自然的绿色亮点，还有一顶绿色的巫师帽。"
+			},
+			"timewizard_staff": {
+				"display_name": "时间巫师手杖",
+				"description": "传递巫师意愿的杖。",
+				"timewizard_staff_iconic": {
+					"display_name": "时间巫师手杖",
+					"description": "传递巫师意愿的杖。"
+				},
+				"timewizard_staff_talisman": {
+					"display_name": "时间巫师手杖",
+					"description": "转职为时间巫师的必需品。"
+				}
+			},
+			"timewizard_buffs": {
+				"hasty_worker_buff": {
+					"display_name": "高效工人光环",
+					"description": "时间巫师加快运动"
+				},
+				"hasty_worker_effect_buff": {
+					"display_name": "加速工人",
+					"description": "时间巫师加速周围炉民"
+				},
+				"lucky_time_buff": {
+					"display_name": "幸运光环",
+					"description": "时间巫师聚集气运"
+				},
+				"lucky_time_effect_buff": {
+					"display_name": "幸运时刻",
+					"description": "时间巫师的出现增强了诸多属性"
+				},
+				"heavy_slow": {
+					"display_name": "时间减速",
+					"description": "时间巫师的棒击减慢时间"
+				}
+			},
+			"timewizard_workbench": {
+				"timewizard_workbench_ghost": {
+					"display_name": "时间巫师制作碑",
+					"description": "神奇的手工长凳。"
+				}
+			},
+			"recipes": {
+				"timewizard_workbench_recipe": {
+					"recipe_name": "时间巫师制作碑",
+					"description": "允许时间巫师创造新物品。",
+					"flavor": "这是一个天然的神秘树桩。"
+				},
+				"sunmage_shield_recipe": {
+					"recipe_name": "烈日之盾",
+					"description": "炉民转职为烈日法师的必需品",
+					"flavor": "就像角落里的太阳"
+				},
+				"moonmage_guard_recipe": {
+					"recipe_name": "暗月之卫",
+					"description": "炉民转职为暗月法师的必需品",
+					"flavor": "就像角落里的月亮"
+				},
+				"geomancer_staff_recipe": {
+					"recipe_name": "地媒师手杖",
+					"description": "炉民转职为地媒师的必需品",
+					"flavor": "哦豁，这是来自古代种族吗？"
+				},
+				"sunmage_sword_recipe": {
+					"recipe_name": "烈日长剑",
+					"description": "一把光耀的天剑",
+					"flavor": "升起，闪耀"
+				},
+				"sunmage_sword_recipe_a": {
+					"recipe_name": "曜日长剑",
+					"flavor": "用金子做的，当你找不到钢剑的时候。"
+				},
+				"star_sword_recipe": {
+					"recipe_name": "星剑",
+					"description": "一种魔法剑，对抗敌人时偶尔减缓时间",
+					"flavor": "绿星附魔的传奇武器"
+				},
+				"moonmage_staff_recipe": {
+					"recipe_name": "暗月法杖",
+					"description": "充满黑暗和困倦触感的杖。",
+					"flavor": "夜深人静，睡个好觉。"
+				},
+				"moonmage_staff_recipe_a": {
+					"recipe_name": "皎月法杖",
+					"flavor": "你有金片对吧？但你可能没有牧羊杖。"
+				},
+				"star_staff_recipe": {
+					"recipe_name": "星杖",
+					"description": "有时给目标增加额外伤害的魔法杖。",
+					"flavor": "绿星附魔的传奇武器"
+				},
+				"solar_eclipse_gear_recipe": {
+					"recipe_name": "日食铠甲",
+					"description": "很少有时间能制造出这种阴暗的太阳盔甲。",
+					"flavor": "这里的事物开始变得灰暗"
+				},
+				"lunar_eclipse_robe_recipe": {
+					"recipe_name": "月食长袍",
+					"description": "很少有时间能制造出这种阴暗的月亮盔甲。",
+					"flavor": "令人不安，不安的想法出现了。"
+				},
+				"sunmage_gear_recipe": {
+					"recipe_name": "曜日铠甲",
+					"description": "有魔法增强的原始装备。",
+					"flavor": "当你想拥有你原来的外表。"
+				},
+				"moonmage_robe_recipe": {
+					"recipe_name": "皎月长袍",
+					"description": "有魔法增强的原始装备。",
+					"flavor": "当你想拥有你原来的外表。"
+				},
+				"wood_blocks_recipe": {
+					"recipe_name": "原木 (x3)",
+					"description": "通过时空复制",
+					"flavor": "但它看着总像橡树"
+				},
+				"clay_blocks_recipe": {
+					"recipe_name": "粘土 (x3)",
+					"description": "通过时空复制",
+					"flavor": "玩泥巴很有趣"
+				},
+				"stone_blocks_recipe": {
+					"recipe_name": "石头 (x3)",
+					"description": "通过时空复制",
+					"flavor": "没错，它和石头一样硬"
+				},
+				"gold_flakes_recipe": {
+					"recipe_name": "金片 (x3)",
+					"description": "在时空中神奇地成倍增长。",
+					"flavor": "珍贵闪亮的资源"
+				},
+				"log_pile_recipe": {
+					"flavor": "在收获的时候，得到比制造原木堆所需的更多的木材。"
+				},
+				"stone_pile_recipe": {
+					"flavor": "在收获的时候，得到比制造石头堆所需的更多的石材。"
+				},
+				"clay_pile_recipe": {
+					"flavor": "在收获的时候，得到比制造粘土堆所需的更多的粘土。"
+				},
+				"clay_pile_recipe_ace": {
+					"recipe_name": "粘土堆 (x2)",
+					"description": "在时空中神奇地成倍增长。",
+					"flavor": "用粘土做一堆，真的会多出一堆！"
+				},
+				"log_pile_recipe_ace": {
+					"recipe_name": "原木堆 (x2)",
+					"description": "在时空中神奇地成倍增长。",
+					"flavor": "用原木做一堆，真的会多出一堆！"
+				},
+				"stone_pile_recipe_ace": {
+					"recipe_name": "石头堆 (x2)",
+					"description": "在时空中神奇地成倍增长。",
+					"flavor": "用石头做一堆，真的会多出一堆！"
+				},
+				"hard_seeds_recipe": {
+					"recipe_name": "坚硬的种子 (x4)",
+					"description": "种子的混合物会产生额外的量。",
+					"flavor": "当你需要更多坚硬的种子时，它们会显示为坚硬的橡树种子。"
+				},
+				"hearthbud_blocks_recipe": {
+					"recipe_name": "石炉精华 (x3)",
+					"description": "石炉的力量集中于地红蕾",
+					"flavor": "我喜欢石炉日"
+				},
+				"hearthbud_seeds_recipe": {
+					"recipe_name": "地红蕾种子",
+					"description": "结合资源可以产生具有神奇特性的种子。",
+					"flavor": "这一切要从（一只蝙蝠）......"
+				},
+				"time_potion_recipe": {
+					"recipe_name": "时间之水",
+					"description": "浓缩时间的明亮液体精华",
+					"flavor": "喝下去，返老还童"
+				},
+				"space_potion_recipe": {
+					"recipe_name": "空间之水",
+					"description": "夜空的昏暗液体精华",
+					"flavor": "在宇宙的黑暗深处，有很多东西。"
+				},
+				"cosmic_heal_potion_recipe": {
+					"description": "治疗镇上所有人的紧急药剂。",
+					"recipe_name": "大回复药",
+					"flavor": "制作这种神奇的药水会用一些财富换取健康。"
+				},
+				"mind_potion_recipe": {
+					"description": "这种药水会使你的城镇居民在短时间内变得更聪明。",
+					"recipe_name": "心智药水（六个核桃）",
+					"flavor": "智商的提升会让你的暗月法师攻击更强大，炉民会更聪明。"
+				},
+				"star_steel_recipe": {
+					"description": "附魔金属锭，轻巧坚硬。",
+					"recipe_name": "星钢",
+					"flavor": "这颗绿星的恒星金属丰度得到了改善。"
+				},
+				"wooden_sign_timewizard_recipe": {
+					"recipe_name": "时间巫师标牌",
+					"description": "一个有着时间巫师标志的牌子",
+					"flavor": "在天空中看到的星星是数百万年前的样子。"
+				},
+				"star_sentry_recipe": {
+					"recipe_name": "星哨",
+					"description": "持续伤害附近的敌人",
+					"flavor": "用守护星保护你的城镇。"
+				},
+				"timestone_statue_recipe": {
+					"recipe_name": "时之石雕像",
+					"description": "一种装饰性的珀石雕像",
+					"flavor": "珀石族教会时间巫师怎样做成这种特殊的恩赐"
+				},
+				"workbenches_name": "工作台、星型和装饰",
+				"tools_name": "工具和装备",
+				"weapons_name": "武器",
+				"potions_name": "魔药和魔法材料",
+				"resources_name": "资源"
+			}
+		},
+		"herbalist": {
+			"recipes": {
+				"timewizard_staff_recipe": {
+					"recipe_name": "时间巫师手杖",
+					"description": "转职为时间巫师的必需品",
+					"flavor": "有时它会闪烁着消失"
+				}
+			}
+		},
+		"sunmage": {
+			"sunmage_description": {
+				"display_name": "烈日法师",
+				"description": "烈日法师通过近战武器释放出强烈的光和热的愤怒。",
+				"requirements": "由时间巫师制造",
+				"level_1_data": {
+					"perk_000_name": "烈日之力",
+					"perk_001_name": "曜日冲击",
+					"perk_000_description": "身躯被巨大的能量增强",
+					"perk_001_description": "一个燃烧的能量球射向前方。"
+				},
+				"level_2_data": {
+					"perk_000_name": "光晕充能",
+					"perk_001_name": "光晕吸引",
+					"perk_000_description": "周期性地晒太阳可以恢复生命，增加韧性。",
+					"perk_001_description": "敌人在看到烈日法师充能时被激怒。"
+				},
+				"level_3_data": {
+					"perk_000_name": "光速",
+					"perk_000_description": "太阳风周期性地给予巨大的速度。"
+				},
+				"level_4_data": {
+					"perk_000_name": "太阳耀斑",
+					"perk_000_description": "一次喷发被带出，并以压碎的力量落回地面。"
+				},
+				"level_5_data": {
+					"perk_000_name": "新星灼烧",
+					"perk_000_description": "辐射热能剧烈地向外旋转。"
+				},
+				"level_6_data": {
+					"perk_000_name": "激光惩戒",
+					"perk_000_description": "一道直接的天光毁灭了附近的敌人。"
+				}
+			},
+			"sunmage_buffs": {
+				"sun_strength": {
+					"display_name": "烈日之力",
+					"description": "体力+2"
+				},
+				"corona_charge": {
+					"display_name": "光晕充能",
+					"description": "充能在护甲和生命上施加buff"
+				},
+				"corona_effect": {
+					"display_name": "光晕充能完毕",
+					"description": "护甲，肌肉和回复增强"
+				},
+				"corona_charge_effect": {
+					"display_name": "光晕充能",
+					"description": "烈日法师"
+				},
+				"light_speed": {
+					"display_name": "光速",
+					"description": "受到太阳风的推动"
+				},
+				"light_speed_effect": {
+					"display_name": "身影如光",
+					"description": "速度大幅增加"
+				},
+				"solar_speed_effect": {
+					"display_name": "烈日急速",
+					"description": "充能烈日法师速度提升"
+				},
+				"heavy_slows": {
+					"display_name": "时间减速",
+					"description": "星剑降低了速度"
+				}
+			},
+			"sunmage_outfit": {
+				"display_name": "闪耀烈日铠甲",
+				"description": "闪闪发光的护甲蕴含着巨大的魔法能量"
+			},
+			"sunmage_circlet": {
+				"display_name": "烈日头环",
+				"description": "古代巨人戴的金戒指"
+			},
+			"sunmage_shield": {
+				"display_name": "烈日之盾",
+				"description": "光辉的象征太阳的脸庞",
+				"sunmage_shield_iconic": {
+					"display_name": "烈日之盾",
+					"description": "光辉的象征太阳的脸庞"
+				},
+				"sunmage_shield_talisman": {
+					"display_name": "烈日之盾",
+					"description": "炉民转职为烈日法师的必需品"
+				}
+			},
+			"sunmage_spear": {
+				"display_name": "烈日长矛",
+				"description": "刀刃平衡而锋利，完美地反射光线。",
+				"sunmage_spear_iconic": {
+					"display_name": "烈日长矛",
+					"description": "火红的橙色刺穿武器。"
+				}
+			}
+		},
+		"na_moonmage": {
+			"moonmage_description": {
+				"level_1_data": {
+					"hunting_perk_name": "狩猎",
+					"hunting_perk_description": "北方联盟的暗月法师天生擅长追踪动物，可以猎取动物以获取食物和其他资源。"
+				}
+			}
+		},
+		"moonmage": {
+			"moonmage_description": {
+				"display_name": "暗月法师",
+				"description": "暗月法师投掷月亮岩石块，用黑暗的恐惧使敌人虚弱。",
+				"requirements": "由时间巫师制造",
+				"level_1_data": {
+					"perk_000_name": "月陨投掷",
+					"perk_000_description": "月亮的岩石是由魔杖变出的。"
+				},
+				"level_2_data": {
+					"perk_000_name": "月怒",
+					"perk_000_description": "敌人获得肌肉力量，但失去护甲效果。"
+				},
+				"level_3_data": {
+					"perk_000_name": "夜恐",
+					"perk_000_description": "暗月法师投掷一个可怕的黑暗攻击。",
+					"perk_001_name": "暗夜三联体",
+					"perk_001_description": "三合一的触角似乎使敌人气馁"
+				},
+				"level_4_data": {
+					"perk_000_name": "寒雾",
+					"perk_000_description": "夜间的冷雾使敌人的行动减慢。"
+				},
+				"level_5_data": {
+					"perk_000_name": "潮起",
+					"perk_000_description": "在孤独和专注中，暗月法师被赋予了更高的专注力。"
+				},
+				"level_6_data": {
+					"perk_000_name": "新月",
+					"perk_000_description": "增加的力量允许连续的魔法爆炸。"
+				}
+			},
+			"moonmage_buffs": {
+				"lunar_rage": {
+					"display_name": "月怒",
+					"description": "肌肉增强，护甲削弱"
+				},
+				"night_terror": {
+					"display_name": "夜恐",
+					"description": "勇气和威胁减少"
+				},
+				"chilly_fog": {
+					"display_name": "寒雾",
+					"description": "速度大幅降低"
+				},
+				"rising_tide": {
+					"display_name": "潮起",
+					"description": "智商+2"
+				},
+				"star_hit": {
+					"display_name": "星击",
+					"description": "被星杖所伤"
+				}
+			},
+			"moonmage_outfit": {
+				"display_name": "银光暗月长袍",
+				"description": "由银色丝绸和黑暗空间精华制成，使穿着者与隐于黑夜。"
+			},
+			"moonmage_guard": {
+				"display_name": "暗月之卫",
+				"description": "一种刻有月亮正面的护臂，具有迷人的光环。",
+				"moonmage_guard_iconic": {
+					"display_name": "暗月之卫",
+					"description": "一种刻有月亮正面的护臂，具有迷人的光环。"
+				},
+				"moonmage_guard_talisman": {
+					"display_name": "暗月之卫",
+					"description": "炉民转职为暗月法师的必需品"
+				}
+			},
+			"moonmage_wand": {
+				"display_name": "暗月权杖",
+				"description": "深色的木头，顶端有一对紫色的新月。",
+				"moonmage_wand_iconic": {
+					"display_name": "暗月权杖",
+					"description": "深紫色的魔法权杖"
+				}
+			}
+		}
+	},
+	"ui": {
+		"timewizard": {
+			"display_name": "时间巫师工艺菜单",
+			"description": "操纵资源，创造神秘的工具。",
+			"requirements": "需要一名时间巫师"
+		}
+	}
+}

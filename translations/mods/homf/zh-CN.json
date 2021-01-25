@@ -1,0 +1,29 @@
+{
+	"ui": {
+		"customize_hearthling": {
+			"title": "炉民自定义"
+		},
+		"data": {
+			"tooltips": {
+				"nextButton": {
+					"description": "选择列表中的下一个."
+				},
+				"previousButton": {
+					"description": "在列表中选择上一个."
+				},
+				"maleButton": {
+					"description": "成为男性,也将随机化所有模型和颜色."
+				},
+				"femaleButton": {
+					"description": "成为女性,也会随机化所有的模特和颜色."
+				},
+				"randomButton": {
+					"description": "随机化所有未锁定的部分."
+				},
+				"lock": {
+					"description": "锁定此部分以使随机忽略它."
+				}
+			}
+		}
+	}
+}

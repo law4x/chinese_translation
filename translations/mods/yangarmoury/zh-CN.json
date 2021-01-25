@@ -1,0 +1,93 @@
+{
+   "jobs": {
+      "weaver": {
+         "recipes" : {
+            "gladiator_light_recipe" : {
+               "recipe_name" : "角斗士战甲",
+               "description" : "一件坚固轻便的皮甲",
+               "flavor" : "欢呼吧！"
+            }
+         }
+      },
+      "blacksmith" : {
+         "recipes": {
+            "malevo_lance_recipe" : {
+               "recipe_name" : "破邪之枪",
+               "description" : "一把传说中打破黑暗的长枪",
+               "flavor" : "噢，好重！"
+            },
+            "hylian_shield_recipe" : {
+               "recipe_name" : "海拉尔之盾",
+               "description" : "这个巨大厚重的盾牌就跟那些海拉尔骑士用的盾牌一样",
+               "flavor" : "用最上等的金属锻造而成，这个盾牌将永远保护持用者。"
+            },
+            "mastersword_recipe" : {
+               "recipe_name" : "王者之剑",
+               "description" : "一把非常强大的剑",
+               "flavor" : "王者之剑是一把连恶魔都惧怕的剑...而且只有配有英雄称号的人才能够将它拔出来..."
+            },
+            "ice_bow_recipe" : {
+               "recipe_name" : "冰结长弓",
+               "description" : "用冰打造而成的弓",
+               "flavor" : "你问怎么用铁和一些药草做出一把冰结长弓？秘密。"
+            },
+            "gravis_sword_recipe" : {
+               "recipe_name" : "重剑",
+               "description" : "一把非常大的双手剑",
+               "flavor" : "用黑钢打造而成，是一般长剑的两倍大。这是一把你所能打造最具杀伤力的双手剑。唯一的缺点是，它的重量会让你的攻击速度很慢。"
+            }
+         }
+      },
+      "carpenter" : {
+         "recipes" : {
+            "longbow_recipe" : {
+               "recipe_name" : "长弓",
+               "description" : "拉弓需要更长的时间，但是提升了射程与攻击力",
+               "flavor" : "现在，拿走我的弓吧！"
+            }
+         }
+      }
+   },
+   "entities": {
+      "armor" : {
+         "gladiator_light": {
+            "description" : "一件坚固轻便的皮甲",
+            "display_name": "角斗士战甲"
+         },
+         "hylian_shield": {
+            "description" : "这个巨大厚重的盾牌就跟那些海拉尔骑士用的盾牌一样",
+            "display_name": "海拉尔之盾"
+         }
+      },
+      "weapons" : {
+         "malevo_lance": {
+            "description" : "一把传说中打破黑暗的长枪",
+            "display_name": "破邪之枪"
+         },
+         "mastersword" : {
+            "description" : "一把非常强大的剑",
+            "display_name" : "王者之剑"
+         },
+         "ice_bow" : {
+            "description" : "用冰打造而成的弓",
+            "display_name" : "冰结长弓"
+         },
+         "gravis_sword" : {
+            "description" : "一把非常大的双手剑",
+            "display_name" : "重剑"
+         },
+         "arrow_ice" : {
+            "description" : "用冰做成的箭",
+            "display_name" : "冰箭"
+         },
+         "fire_arrow_ice" : {
+            "description" : "冰箭竟然可以被点燃！？",
+            "display_name" : "燃烧冰箭"
+         },
+         "longbow" : {
+            "description" : "坚固而稳重，已经准备好投入战斗了",
+            "display_name" : "长弓"
+         }
+      }
+   }
+}

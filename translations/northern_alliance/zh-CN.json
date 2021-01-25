@@ -1,0 +1,934 @@
+{
+   "kingdom": {
+      "kingdom_name": "北方联盟",
+      "quote": "我的先祖们追随这颗星已有上千千个轮回矣.",
+      "long_description": "勇敢而大胆, 北方的男男女女们永远憧憬着在未开发的地域见证每个清晨. 带上指南针, 拿起手斧, 顽强的适应性便是他们的骄傲.",
+      "post_selection_description": ", 一群坚韧的探索者.",
+      "initial_town_name": "[str(town_number)]号航队"
+   },
+   "data": {
+      "northern_alliance_population": {
+         "display_name": "北方联盟"
+      },
+      "saved_objects": {
+         "building_templates_index": {
+            "template_tabs": {
+               "northern_alliance": {
+                  "display_name": "联盟",
+                  "categories": {
+                     "outpost": "探险队模板",
+                     "settlement": "要塞模板"
+                  }
+               }
+            }
+         },
+         "building_templates": {
+            "pottery_studio": {
+               "display_name": "陶艺作坊"
+            },
+            "weavers_hut": {
+               "display_name": "纺织小屋"
+            }
+         }
+      },
+      "buffs": {
+         "valor_town_bonus_strength_buff": {
+            "display_name": "茜芙英灵",
+            "description": "体力属性值+2."
+         }
+      },
+      "gm": {
+         "campaigns": {
+            "hunting": {
+               "wild_game": "野外的狩猎游戏开始了!",
+               "hungry_caribou_raid": "一群驯鹿朝着你的农作物跑去了!",
+               "hungry_deer_raid": "一群鹿朝着你的农作物跑去了!",
+               "hungry_racoon_raid": "一窝浣熊朝着你的农作物跑去了!",
+               "hungry_rabbit_raid": "一窝兔子朝着你的农作物跑去了!"
+            },
+            "trader": {
+               "arcs": {
+                  "encounters": {
+                     "tier_1_shops": {
+                        "food_shop": {
+                           "shop_info": {
+                              "name": "盖尔德·瑞恩霍姆的什锦食品店",
+                              "title": "盖尔德·瑞恩霍姆把食品车推到了镇上"
+                           }
+                        },
+                        "woodcutter_shop": {
+                           "shop_info": {
+                              "name": "奥格洛德·海兰德的木雕商店",
+                              "title": "奥格洛德·海兰德来到镇上卖东西了"
+                           }
+                        },
+                        "stonecutter_shop": {
+                           "shop_info": {
+                              "name": "比约恩·斯威福斯特的石雕商店",
+                              "title": "比约恩·斯威福斯特来到镇上卖东西了"
+                           }
+                        },
+                        "tannery_shop": {
+                           "shop_info": {
+                              "name": "葛雷婷·芙蕾的皮革与毛皮补给店",
+                              "title": "一位身着皮草的生存者带着她的商品驻足于此"
+                           }
+                        }
+                     },
+                     "tier_2_shops": {
+                        "door_shop": {
+                           "shop_info": {
+                              "name": "涅科尔·欧肯弗罗斯的大门商店",
+                              "title": "涅科尔·欧肯弗罗斯来到镇上出售大门了"
+                           }
+                        },
+                        "container_shop": {
+                           "shop_info": {
+                              "name": "欧浮塔·海姆伯格的容器商店",
+                              "title": "欧浮塔·海姆伯格带着一车的容器来到了镇上"
+                           }
+                        }
+                     }
+                  }
+               }
+            },
+            "town_progression": {
+               "banner_upgrade": {
+                  "title": "据点落户",
+                  "dialog_title": "据点落户!",
+                  "tier_title": "据点",
+                  "reward_message": "由公民们的一致同意, 我们宣布:",
+                  "reward_message_ctd": "该据点有意力争成为一个与自然合为一体的地方."
+               },
+               "town_founding_explanation": {
+                  "dialog_tree_info": {
+                     "dialog_nodes": {
+                        "read_letter3": {
+                           "bulletin_message": {
+                              "00": "她的语气仿佛是在背诵一段已经说了上千遍的台词. \"瓦伦创造了联盟, 让我们有福同享, 有难同当, 共同探寻世界的边界. 我们北方联盟将来会成为与石炉的轮回和明星共存的民族.\"<p>接着她歪头问道. \"你们的据点想要实践哪一种思想?\"</p> "
+                           },
+                           "bulletin_title": "诺妮亚·奥拉克逊",
+                           "dialog_title": "诺妮亚·奥拉克逊",
+                           "choice_000": "我们选..."
+                        },
+                        "open_letter": {
+                           "bulletin_message": {
+                              "00": "一个女人站在营地外面. 她身着书阁的斥候所穿的服装, 尽管上面的蓝色已被长途的跋涉冲淡. <br><br><p align='right'><font size=-6 color='#cccccc'>没人察觉到她何时到来, 但很明显她已经观察我们有一会了.</font></p>"
+                           },
+                           "bulletin_title": "看到了一个人影",
+                           "dialog_title": "一位苦行的斥候",
+                           "choice_000": "欢迎你, 旅行者.",
+                           "choice_001": "[跳过] 我们知道要什么旗帜."
+                        },
+                        "read_letter": {
+                           "bulletin_message": {
+                              "00": "\"诺妮亚\" 她指着自己说道. 她的声音沙哑. 仿佛为了解释, 她卷下自己的领口, 露出几道杂乱的旧疤. 她展示了下自己的刀. \"我, 斥候.\" 然后拍拍自己斗篷上星形的胸针. \"瓦伦书阁的人.\" "
+                           },
+                           "bulletin_title": "诺妮亚·奥拉克逊",
+                           "dialog_title": "诺妮亚·奥拉克逊",
+                           "choice_000": "啊."
+                        },
+                        "read_letter2": {
+                           "bulletin_message": {
+                              "00": "她尽量用手, 眼还有那嗓音做着解释: \"我很高兴你们来此地学习, 定居. 既然我已经看到了, 我也会和家乡的学者们共同分享你们探究到的成果和你们的故事.\" <p>她走到旗帜旁, 触摸着空白的旗帜. \"不过, 首先, 你们得选一个标志. 此次旅途, 在这无涯的学海中你们可有何预见?\"</p>"
+                           },
+                           "bulletin_title": "女士的肢体动作很是丰富",
+                           "dialog_title": "女士的肢体动作很是丰富",
+                           "choice_000": "旗帜... Hmm..."
+                        }
+                     }
+                  }
+               },
+               "bird_departs": {
+                  "dialog_tree_info": {
+                     "dialog_nodes": {
+                        "msg1": {
+                           "bulletin_message": {
+                              "00": "诺妮亚站在火盆旁. 她在桦树皮上工整地写下了小镇的名字, 还有周边环境的简介. 然后将它付之一炬, 桦皮被燃烧得更加苍白.<p>\"[str(i18n_data.town_name)]\" 她吟诵着. \"愿瓦伦智谋与天上明星的慧眼, 共同见证这片记录载入书阁.\" </p>"
+                           },
+                           "bulletin_title": "诺妮亚站了起来",
+                           "dialog_title": "火星劈啪作响",
+                           "choice_000": "这... 有用?"
+                        },
+                        "msg2": {
+                           "bulletin_title": "她眼角露出微笑",
+                           "dialog_title": "她眼角露出微笑",
+                           "choice_000": "披星远行.",
+                           "bulletin_message": {
+                              "00": "\"有意者, 必会聆听.\" 她鞠了个躬, 而后消失在了荒野之中. \"再见,\" 她挥着手. \"我会回来看你们的故事的.\" "
+                           }
+                        }
+                     }
+                  }
+               },
+               "town_founding_food_donation": {
+                  "donation_dialog_info": {
+                     "dialog_nodes": {
+                        "simple_message": {
+                           "bulletin_message": {
+                              "00": "\"谢谢,\" 诺妮亚小声说道, 从她的姿势中, 很明显她想说 \"感谢你们的到来和友好.\" <p>她在旗帜旁放了个小袋子. 袋子外面画的, 是离这儿最近的大城市的象征, 只要几天的路程. \"若把民族比做星宿, 我们的城镇便是其中的明星,\" 她说道. \"给你们, 他们送的, 以便哪一天, 你也可以加入他们.\"</p><p>袋子里有:</p>"
+                           },
+                           "bulletin_title": "一份礼物",
+                           "dialog_title": "诺妮亚拿出一个小袋子",
+                           "choice_000": "好吃!"
+                        }
+                     }
+                  }
+               },
+               "hearth_foreshadow_dialog": {
+                  "dialog_tree_info": {
+                     "dialog_nodes": {
+                        "msg4": {
+                           "bulletin_message": {
+                              "00": "\"你们村落将拾获什么智慧呢, 是否会愿望将其播撒给其她人民? 是否会分享财富? 能否筑得起抵挡住严寒的堡垒? 能否在知道自己有朝一日亦会成为猎物之时仍然保持决心呢?\"<br><br>她歪着头. \"我期待看到你们的智慧. 同时… 小礼一份, 提醒你们春天不会遥远.\" 她在旗帜旁放了个小袋子. "
+                           },
+                           "bulletin_title": "诺妮亚指向石炉",
+                           "dialog_title": "诺妮亚指向石炉",
+                           "choice_000": "光铃花种子! 谢谢!"
+                        },
+                        "msg2": {
+                           "bulletin_message": {
+                              "00": "诺妮亚在营地边比划着, 微笑着表示赞许. \"我又来把你们的故事交付书阁了,\" 她暗示道. 随后坐在火堆边, 又掏出一片桦树皮, 等待着."
+                           },
+                           "bulletin_title": "诺妮亚·奥拉克逊",
+                           "dialog_title": "诺妮亚·奥拉克逊",
+                           "choice_000": "好吧, 你上次走了以后..."
+                        },
+                        "msg3": {
+                           "bulletin_message": {
+                              "00": "诺妮亚一丝不苟地把每个人的冒险用符文石记到桦皮上, 随后将其付之一炬. \"你们的星光正在逐渐变得闪耀. 不用过多久, 你们的石炉也会让众人慕名而来, 终有一天, 它也会成为我们民族的星宿中的一颗明星.\"  "
+                           },
+                           "bulletin_title": "诺妮亚伫立着",
+                           "dialog_title": "诺妮亚伫立着",
+                           "choice_000": "是时候了吗?"
+                        },
+                        "msg1": {
+                           "bulletin_message": {
+                              "00": " 诺妮亚又出现在了营地边上. <br><br><p align='right'><font size=-6 color='#cccccc'>她到底在那站了多久, 看了多久了?</font></p>"
+                           },
+                           "bulletin_title": "诺妮亚回来了 ",
+                           "dialog_title": "还是那个哲学家斥候",
+                           "choice_000": "你回来了啊!"
+                        }
+                     }
+                  }
+               },
+               "hearth_choice_explanation": {
+                  "dialog_tree_info": {
+                     "dialog_nodes": {
+                        "makers": {
+                           "bulletin_message": {
+                              "00": "\"造物之石炉是给那些相信'家是学习与创作的地方'的人的, 而对于人们造出来的事物, 最佳的处理方式便是交易, 好让彼此都享有智慧.\" "
+                           },
+                           "bulletin_title": "学在躬行 ",
+                           "dialog_title": "学在躬行 ",
+                           "choice_000": "智慧在于创造."
+                        },
+                        "final": {
+                           "bulletin_message": {
+                              "00": "诺妮亚总结道: \"欢愉, 造物和荣誉, 你们的选择会照亮所有追随者的前进方向. 愿瓦伦的智谋将与你同在, 菲蒽, 努特和茜芙将守护你们的未来…\" "
+                           },
+                           "bulletin_title": "一个抉择",
+                           "dialog_title": "一个抉择",
+                           "choice_000": "我们选..."
+                        },
+                        "intro2": {
+                           "bulletin_message": {
+                              "00": "她拍了拍自己的胸针. \"书阁在上, 对你的进展甚是满意.\" 然后弯下腰, 抚摸着你们石炉上的石头. \"现在是时候选择能代表你们村落的信标了.\" "
+                           },
+                           "bulletin_title": "诺妮亚·奥拉克逊",
+                           "dialog_title": "诺妮亚·奥拉克逊",
+                           "choice_000": "按照传统."
+                        },
+                        "cheer": {
+                           "bulletin_message": {
+                              "00": "\"瓦伦教诲我们说, 家是抵挡自然元素侵蚀的屏障; 是寻觅救济友谊的地方. 欢愉之石炉集结了一批有梦想的人, 他们想让自己的温暖永远不会被暴风雪所驱散.\" "
+                           },
+                           "bulletin_title": "雪中之炭 ",
+                           "dialog_title": "雪中之炭 ",
+                           "choice_000": "团结便是力量."
+                        },
+                        "intro3": {
+                           "bulletin_message": {
+                              "00": "她的声音变得低沉了: \"导师希德视石炉为人间的明星, 点亮我们对世界的认知. 自我们摒弃凤凰开始, 它们便在石炉的轮回中熠熠生辉, 将这片土地变为了乐土.\" <br><br>她等待着肯定的回答."
+                           },
+                           "bulletin_title": " 诺妮亚·奥拉克逊",
+                           "dialog_title": " 诺妮亚·奥拉克逊",
+                           "choice_000": "智慧引导着我们."
+                        },
+                        "glory": {
+                           "bulletin_message": {
+                              "00": "\"最后, 荣誉之石炉警示我们要在最遥远的地方生存, 必须极体能和头脑之所长, 因为稍有不慎便会坠入无尽的严寒.\"  "
+                           },
+                           "bulletin_title": "四处行猎",
+                           "dialog_title": "四处行猎",
+                           "choice_000": "冬日中的坚韧."
+                        },
+                        "intro": {
+                           "bulletin_message": {
+                              "00": "诺妮亚出现在营地的边上, 笑着, 展开双臂好似要拥抱一切新建起来的东西. \"明星保佑着知识,\"她低语道. \"我可以听听你们的故事吗?\" "
+                           },
+                           "bulletin_title": "诺妮亚又回来了",
+                           "dialog_title": "又到了讲故事时间",
+                           "choice_000": "好的开始吧.",
+                           "choice_001": "[跳过] 我们知道要什么石炉."
+                        }
+                     }
+                  }
+               },
+               "hearth_upgrade": {
+                  "title": "Settlement Established",
+                  "dialog_title": "村落定居!",
+                  "tier_title": "村落",
+                  "reward_message": "由公民们的一致同意, 我们宣布:",
+                  "reward_message_ctd": "该村落有意证明其富足与匠心无可匹敌."
+               },
+               "shrine_choice_explanation": {
+                  "dialog_tree_info": {
+                     "dialog_nodes": {
+                        "clergy": {
+                           "bulletin_message": {
+                              "00": "诺妮亚又沉浸到了吟诗的语气中: \"牡鹿菲蒽, 四蹄可踏出夏日: 以昌盛祝福城镇, 赋予你们与自然轮回和谐相处的智慧.\" <br><i>(落成夏意之圣洗会给镇民的智力, 体力和精神三种属性数值都加1点.)</i>"
+                           },
+                           "bulletin_title": "夏意之圣洗",
+                           "dialog_title": "夏意之圣洗",
+                           "choice_000": "沐浴菲蒽的祝福."
+                        },
+                        "makers": {
+                           "bulletin_message": {
+                              "00": "诺妮亚继续说着: \"捷兔努特, 可转动财运的车轮: 以一时的财富祝福城镇, 赋予你们未雨绸缪的先见之明以备命运的反转. <br><i>(落成财富之圣洗可获得制作师匠品质的家具装饰的能力, 价值远高于卓越品质.) </i>"
+                           },
+                           "bulletin_title": "财富之圣洗",
+                           "dialog_title": "财富之圣洗",
+                           "choice_000": "领会努特的狡黠."
+                        },
+                        "summary": {
+                           "bulletin_message": {
+                              "00": "\"在瓦伦的智慧和书阁的引领下, 是时候向星宿请求最适合你们的力量了, 星宿的协助可以让其智慧引领我们.\" 她拿出三卷卷轴, 分给围在她周围的炉民们. \"行之有慎, 让灵魂听见你行动中的智慧.\" "
+                           },
+                           "bulletin_title": "诺妮亚总结道: ",
+                           "dialog_title": "诺妮亚总结道: ",
+                           "choice_000": "感谢."
+                        },
+                        "military": {
+                           "bulletin_message": {
+                              "00": "诺妮亚最后说道: \"还有战狼茜芙, 它追猎的喘息可蒸发严冬: 以韧性祝福城镇, 让我们有力抵抗寒冷, 并在苦难过去之时迎接我们.\"<br><i>(落成流火之圣洗可以在战斗中额外提升力量, 并给体力属性加上2点.)</i> "
+                           },
+                           "bulletin_title": "流火之圣洗",
+                           "dialog_title": "流火之圣洗",
+                           "choice_000": "接受茜芙的恩泽."
+                        },
+                        "intro": {
+                           "bulletin_message": {
+                              "00": "诺妮亚笑着摇头. \"你们还希望天上的星星亲自下来拜访不成? 它们是灵魂, 不是野兽. 它们是瓦伦的寓言, 寓于天上星空, 好让我们永远铭记她的教诲.\""
+                           },
+                           "bulletin_title": "诺妮亚又出现了一次",
+                           "dialog_title": "诺妮亚一个人回来了",
+                           "choice_000": "我听闻了你们的故事..."
+                        },
+                        "intro2": {
+                           "bulletin_title": "诺妮亚看向石炉",
+                           "dialog_title": "诺妮亚看向石炉",
+                           "choice_000": "给我们说说.",
+                           "choice_001": "[跳过] 我们有决定了.",
+                           "bulletin_message": {
+                              "00": "\"是时候建造一座圣洗池了, 向你们依靠的灵魂寻求支持. 而后我便会把你们村落作为北方联盟里一颗闪耀的明星记录下来, 你们的故事也会在我们民族的书阁中永远保存. 你们有决定了吗?\" "
+                           }
+                        }
+                     }
+                  }
+               },
+               "unlock_shrine_recipes": {
+                  "bulletin_title": "石匠圣洗配方解锁!"
+               },
+               "shrine_quest_valor": {
+                  "title": "城镇任务: 流火之圣洗",
+                  "dialog_title": "城镇等级任务: 流火之圣洗"
+               },
+               "shrine_quest_guildmaster": {
+                  "title": "城镇任务: 财富之圣洗",
+                  "dialog_title": "城镇等级任务: 财富之圣洗"
+               },
+               "shrine_quest_deity": {
+                  "title": "城镇任务: 夏意之圣洗",
+                  "dialog_title": "城镇等级任务: 夏意之圣洗"
+               },
+               "shrine_upgrade": {
+                  "title": "城镇建立",
+                  "dialog_title": "达成城镇规模!",
+                  "tier_title": "城镇",
+                  "reward_message": "在英灵的指引下, 我们承认:",
+                  "reward_message_ctd": "为表彰对世界的不断探知. 该镇现合法拥有:"
+               },
+               "shrine_upgrade_valor": {
+                  "recipe_bulletins": {
+                     "recipe_unlock_mason": "石匠获得了新的容器配方!",
+                     "recipe_unlock_weaver": "纺织工获得了新的狼皮配方!"
+                  },
+                  "achievements": {
+                     "001": "石匠容器配方",
+                     "000": "体力 +2",
+                     "002": "纺织工狼皮配方"
+                  },
+                  "reward_message_ctd": "为表彰战斗中的英勇无畏. 该镇现合法拥有:"
+               },
+               "shrine_upgrade_guildmaster": {
+                  "recipe_bulletins": {
+                     "recipe_unlock_blacksmith": "铁匠获得了新的家具配方!",
+                     "recipe_unlock_mason": "石匠获得了新的雕像配方!"
+                  },
+                  "achievements": {
+                     "001": "石匠灵兔雕塑配方",
+                     "002": "铁匠家具配方"
+                  },
+                  "reward_message_ctd": "为表彰对世界的不断探知. 该镇现合法拥有:"
+               },
+               "shrine_upgrade_deity": {
+                  "recipe_bulletins": {
+                     "recipe_unlock_mason": "石匠获得了新的花箱配方!",
+                     "recipe_unlock_weaver": "纺织工获得了新的装饰品配方!"
+                  },
+                  "achievements": {
+                     "001": "石匠花箱配方",
+                     "002": "纺织工装饰品配方"
+                  }
+               },
+               "valor_dialog_1": {
+                  "dialog_tree_info": {
+                     "dialog_nodes": {
+                        "msg2": {
+                           "bulletin_message": {
+                              "00": "诺妮亚以猎人的姿态蹲伏下来, 呲了呲牙. 狼也呲了呲它的獠牙. 然后仿佛说好的一样, 他们都收起了表情, 露出了自己的喉咙. 诺妮亚的手摸着狼的脖子, 狼也嗅着她的伤疤. "
+                           },
+                           "bulletin_title": "茜芙, 追猎之灵",
+                           "dialog_title": "茜芙, 追猎之灵",
+                           "choice_000": "这是… 茜芙?"
+                        },
+                        "msg3": {
+                           "bulletin_message": {
+                              "00": "狼缓缓地抬起头而周围的人都放下了手头的事, 惊艳于眼前的场景: 他们感到脸上拂过一阵, 好似是风, 又像是光, 宛如穿过一片寒冷的平原, 他们仿佛能感知到猎物的存在. 每一个安度今晚或惨遭淘汰的猎人, 他们的身体都终将尘归尘, 土归土. 这一切简单到让人毛骨悚然. 今晚, 每人都明白自己所扮演的角色. 而后, 狼消失了.  "
+                           },
+                           "bulletin_title": "茜芙, 追猎之灵",
+                           "dialog_title": "茜芙, 追猎之灵",
+                           "choice_000": "谢谢, 茜芙."
+                        },
+                        "msg1": {
+                           "bulletin_message": {
+                              "00": "一声低吼在营火四周回响. 石炉里有两粒火星跳动着, 随即形成了一匹狼, 和冬天一样雪白, 双眼却闪耀着金光.  "
+                           },
+                           "bulletin_title": "流火之狼",
+                           "dialog_title": "一条双眼如同琥珀的狼",
+                           "choice_000": "你的心扑通扑通地跳."
+                        }
+                     }
+                  }
+               },
+               "guild_dialog_1": {
+                  "dialog_tree_info": {
+                     "dialog_nodes": {
+                        "msg2": {
+                           "bulletin_message": {
+                              "00": "诺妮亚在兔子面前跪了下来, 双手捧作杯状让它跳进去. 她缓缓地走进落成典礼. 兔子的耳朵灵活地转动着, 一起参加了这场典礼. "
+                           },
+                           "bulletin_title": "努特, 财运之灵",
+                           "dialog_title": "努特, 财运之灵",
+                           "choice_000": "这是… 努特?"
+                        },
+                        "msg3": {
+                           "bulletin_message": {
+                              "00": "兔子转而闻了闻篝火, 火星明灭间, 人们看到了一些幻影: 硕大的地图上点点小镇闪耀着光芒, 十个, 上百个, 上千个故事, 各尽所知. 幻影中精巧的工艺品随风飘散, 把创造者和研究再造者紧紧地连在了一起. 然后小东西从诺妮亚的头上跳了下来, 蹦入了人群中去. "
+                           },
+                           "bulletin_title": "努特, 财运之灵",
+                           "dialog_title": "努特, 财运之灵",
+                           "choice_000": "谢谢, 努特."
+                        },
+                        "msg1": {
+                           "bulletin_message": {
+                              "00": "在新雕像的角落后面, 出现了一只兔子. 紫色的暗影如斗篷般围绕着它. 她的耳朵是星系间天空的颜色, 而它的双眼却如雪地上的阳光般富有穿透力. "
+                           },
+                           "bulletin_title": "诡秘兔子",
+                           "dialog_title": "一只毛色如同暗夜的兔子",
+                           "choice_000": "你惊呆了."
+                        }
+                     }
+                  }
+               },
+               "deity_dialog_1": {
+                  "dialog_tree_info": {
+                     "dialog_nodes": {
+                        "msg2": {
+                           "bulletin_message": {
+                              "00": "诺妮亚弓着腰慢慢走近了牡鹿, 她的身子弯得如此之低, 以至于头发都散到地上了, 她引导着它走向石炉. 音乐也似乎让它走近. "
+                           },
+                           "bulletin_title": " 菲蒽, 夏意之灵",
+                           "dialog_title": " 菲蒽, 夏意之灵",
+                           "choice_000": "这是... 菲蒽?"
+                        },
+                        "msg3": {
+                           "bulletin_message": {
+                              "00": "牡鹿转过了身, 光芒闪过周围每一个站着的人. 他们感到自己充满了力量: 更强健, 更聪颖, 更勇敢了. 然后它面朝炉火, 随风而逝, 与这庆典融为一体, 正如这个小镇一样, 已经和联盟脉脉相通了. "
+                           },
+                           "bulletin_title": "菲蒽, 夏意之灵",
+                           "dialog_title": "菲蒽, 夏意之灵",
+                           "choice_000": "谢谢, 菲蒽."
+                        },
+                        "msg1": {
+                           "bulletin_message": {
+                              "00": "庆典外面, 有个东西从树影中走来. 看起来是一头健美的雄鹿, 但它的角在月光下如宝石般发出微光, 升上的斑点也像小星星一样闪亮. 脖子周围的花环也泛出点点光芒. "
+                           },
+                           "bulletin_title": "微光牡鹿",
+                           "dialog_title": "一头披着星光的牡鹿",
+                           "choice_000": "你双眼紧紧地盯着它."
+                        }
+                     }
+                  }
+               },
+               "post_shrine_dialog": {
+                  "dialog_tree_info": {
+                     "dialog_nodes": {
+                        "msg2": {
+                           "bulletin_message": {
+                              "00": "诺妮亚打量着圣洗池. \"你们接下去的追求的学问是什么? 其她的圣洗池放在这个边上也会很好看的, 只不过它们不会有召唤星宿的能力了.\" 她笑着. \"但你们小镇有资格把它们都摆出来, 不是吗?\"  "
+                           },
+                           "bulletin_title": "诺妮亚·奥拉克逊, 贤者斥候",
+                           "dialog_title": "诺妮亚·奥拉克逊, 贤者斥候",
+                           "choice_000": "当然."
+                        },
+                        "msg3": {
+                           "bulletin_message": {
+                              "00": "诺妮亚抚着胸. \"你们暖到我了.\" 她后退一步, 张开双臂示意离别. 她的眼睛亮晶晶的, 瓦伦的斥候不在文明世界中久留, 他们永远都在旅途中, 他们要去往比这里更为凶险和荒芜的地区.<br><br>\"如瓦伦所言, 佳时需珍重, 风云有不测.\" "
+                           },
+                           "bulletin_title": "诺妮亚·奥拉克逊, 贤者斥候",
+                           "dialog_title": "诺妮亚·奥拉克逊, 贤者斥候",
+                           "choice_000": "再见, 诺妮亚! 星光指引着你!"
+                        },
+                        "msg1": {
+                           "bulletin_message": {
+                              "00": "诺妮亚一直在看着, 直到酒阑灯炧. \"干得不错,\" 她低语. \"你们的城镇资格已经正式载入书阁的史册中了, 灵魂的恩惠也正式融入到你们前进的脚步中了.\" "
+                           },
+                           "bulletin_title": "诺妮亚要走了",
+                           "dialog_title": "诺妮亚·奥拉克逊, 贤者斥候",
+                           "choice_000": "瓦伦保佑你."
+                        }
+                     }
+                  }
+               },
+               "reembark_dialog": {
+                  "dialog_tree_info": {
+                     "dialog_nodes": {
+                        "msg1": {
+                           "bulletin_message": {
+                              "00": "诺妮亚最后一次出现时, 手里拿着一面金色的旗帜. 是和镇上这一面成对的, 那已经是好久好久以前的事情了. 她歪着头在地平线的尽头示意着. 她无需言语. 石炉聆听着. </p><p><font size=-1><i>再次出发可以让你选择三位炉民, 并准备十件物品, 带上所有已解锁的配方来建立一个新的城镇.</i></font></p>"
+                           },
+                           "bulletin_title": "又是诺妮亚",
+                           "dialog_title": "最后件事",
+                           "choice_000": "激动!"
+                        }
+                     }
+                  }
+               },
+               "shrine_choice": {
+                  "guildmaster": {
+                     "description": "<i>该镇将以勤劳的工匠为傲, 加工利用任何能获得的资源.</i><ul><li>可解锁师匠品质的物品</li></ul>"
+                  },
+                  "deity": {
+                     "description": "<i>该镇将与那些仍然被寒冬所困之人分享一片乐土.</i><ul><li>给所有镇民的智力, 体能和精神三项基础属性各+1</li></ul>"
+                  },
+                  "valor": {
+                     "description": "<i>该镇将以杀敌为荣, 来者不拒. </i><ul><li>给所有镇民的体能属性+2</li></ul>"
+                  }
+               },
+               "shrine_foreshadow_dialog": {
+                  "dialog_tree_info": {
+                     "dialog_nodes": {
+                        "msg1": {
+                           "bulletin_title": "诺妮亚解释着",
+                           "dialog_title": "斥候都是很安静的!",
+                           "choice_000": "很高兴又见到你.",
+                           "bulletin_message": {
+                              "00": "她歪着头笑了笑. \"惊喜吗?\" 是她的表情似乎想表露的. 她用两只手指模仿着一个人踮着脚尖走过草丛的样子. 披风的颜色似乎与她周围天空的颜色融为一体了."
+                           }
+                        },
+                        "msg2": {
+                           "bulletin_title": "诺妮亚欣赏着小镇 ",
+                           "dialog_title": "诺妮亚欣赏着小镇 ",
+                           "choice_000": "我们发展了很多, 自从...",
+                           "bulletin_message": {
+                              "00": "她看着新加的装饰, 满意地点着头. 斗篷飘起, 很明显能看出沿着她脖子一圈的疤痕, 是狼嘴的形状. 只是今天, 疤痕似乎有些红肿. <br><br>她坐在火堆旁, 拿出桦皮炭笔. 点头示意了下, 便让那些坐在她旁边的人讲述自己的经历. "
+                           }
+                        },
+                        "msg3": {
+                           "bulletin_title": "诺妮亚写啊写",
+                           "dialog_title": "诺妮亚写啊写",
+                           "choice_000": "瓦伦寓言中的猛兽?",
+                           "bulletin_message": {
+                              "00": "诺妮亚写完并烧掉后, 若有所思. 最后, 她点了点头, 从她的小袋子里, 掏出, 三块光滑的石头.<br><br>每块都划有一个熟悉的标记: 一块是牡鹿菲蒽的星宿, 丰收和夏意的代表. 一块是猎狼茜芙的星宿, 狩猎与轮回的守卫. 最后一块是捷兔努特的三颗小星, 财富的转轮者. "
+                           }
+                        },
+                        "msg4": {
+                           "bulletin_title": "诺妮亚跪着",
+                           "dialog_title": "诺妮亚跪着",
+                           "choice_000": "我们会准备好的.",
+                           "bulletin_message": {
+                              "00": "然后, 她把石头放在火旁, 低头祷告. \"是时候了,\" 她低语道. \"下次我回来, 我会带上灵魂我们会共同为圣洗池请求祝福.\" "
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      }
+   },
+   "entities": {
+      "gizmos": {
+         "na_camp_standard": {
+            "na_camp_standard_ghost": {
+               "display_name": "营地标准",
+               "description": "回家的标志"
+            }
+         },
+         "na_town_banner_guardian": {
+            "na_town_banner_guardian_ghost": {
+               "display_name": "机灵旗帜",
+               "description": "回家的标志.",
+               "town_bonus_description": "<i>该据点会成为忙碌的交易点.</i><ul><li>道路给初始行走速度提供3倍加成</li><li>物品售价提高50%</li><li>贸易者会带来两倍的金币的物品</li></ul>"
+            },
+            "na_town_banner_guardian_token": {
+               "display_name": "机灵小旗帜",
+               "description": "来自机灵旗帜的一角, 继承着它的祝福."
+            }
+         },
+         "na_town_banner_might": {
+            "na_town_banner_might_ghost": {
+               "display_name": "力量旗帜",
+               "description": "家的标志",
+               "town_bonus_description": "<i>该据点会在土屑矿渣中茁壮成长.</i><ul><li>挖掘所得矿, 石, 土的量增加50%</li><li>炉民不再介意狭窄环境</li></ul>"
+            },
+            "na_town_banner_might_token": {
+               "display_name": "力量小旗帜",
+               "description": "来自力量旗帜的一角, 继承着它的祝福."
+            }
+         },
+         "na_town_banner_nature": {
+            "na_town_banner_nature_ghost": {
+               "display_name": "蓬勃旗帜",
+               "description": "家的标志",
+               "town_bonus_description": "<i>该据点会与大自然和谐统一.</i><ul><li>树木产出木材增加25%</li><li>植物作物生长均提速25%</li><li>植物美丽值翻倍</li></ul>"
+            },
+            "na_town_banner_nature_token": {
+               "display_name": "蓬勃小旗帜",
+               "description": "来自蓬勃旗帜的一角, 继承着它的祝福."
+            }
+         }
+      },
+      "decoration": {
+         "hearth_wolf": {
+            "hearth_wolf": {
+               "display_name": "造物之石炉",
+               "description": "证明你的匠人已经对这片地方了如指掌, 足以产出能给不了解的大多数人传递知识的作品"
+            }
+         },
+         "hearth_magma": {
+            "hearth_magma": {
+               "display_name": "荣誉之石炉",
+               "description": "证明你的军事力量并时刻准备着面对不速之客."
+            }
+         },
+         "hearth_ice": {
+            "hearth_ice": {
+               "display_name": "欢愉之石炉",
+               "description": "提供温暖, 光明, 舒适, 和每日随机buff"
+            }
+         },
+         "shrine_wolf": {
+            "shrine_wolf": {
+               "display_name": "流火之圣洗",
+               "description": "供奉茜芙, 追猎之灵"
+            }
+         },
+         "shrine_stag": {
+            "shrine_stag": {
+               "display_name": "夏意之圣洗",
+               "description": "供奉菲蒽, 大地之灵"
+            }
+         },
+         "shrine_hare": {
+            "shrine_hare": {
+               "display_name": "财富之圣洗",
+               "description": "供奉努特, 命运之灵"
+            }
+         },
+         "banner_wall_small_stag": {
+            "banner_wall_small_stag_ghost": {
+               "display_name": "仙鹿小旗帜",
+               "description": "用这面旗帜展示你们对菲蒽的信仰."
+            }
+         },
+         "banner_wall_big_stag": {
+            "banner_wall_big_stag_ghost": {
+               "display_name": "仙鹿长旗帜",
+               "description": "用这面旗帜展示你们对菲蒽的信仰."
+            }
+         },
+         "window_box_stone_snow_poppy": {
+            "window_box_stone_snow_poppy_ghost": {
+               "display_name": "雪罂花箱",
+               "description": "可爱花朵的干净家园."
+            }
+         },
+         "rug_moss": {
+            "rug_moss_ghost": {
+               "display_name": "苔绒地毯",
+               "description": "用植物做的地毯, 纪念菲蒽."
+            }
+         },
+         "wall_mounted_candle": {
+            "wall_mounted_candle_ghost": {
+               "display_name": "金框烛饰",
+               "description": "一种装饰, 赞美努特的荣光."
+            }
+         },
+         "rug_pelt_wolf": {
+            "rug_pelt_wolf_ghost": {
+               "display_name": "狼皮毯",
+               "description": "赞美茜芙, 杀戮之后没有丢弃."
+            }
+         },
+         "wall_mounted_paw": {
+            "wall_mounted_paw_ghost": {
+               "display_name": "茜芙之爪",
+               "description": "猎人的标志, 无声无息.. 一击毙命."
+            }
+         },
+         "wall_mounted_antlers": {
+            "wall_mounted_antlers_ghost": {
+               "display_name": "鹿茸墙饰",
+               "description": "菲蒽的伙伴用角祝福着我们的厅堂."
+            }
+         },
+         "statue_hare": {
+            "statue_hare_ghost": {
+               "display_name": "努特雕塑",
+               "description": "努特的造型, 就像古老故事中说的那样."
+            }
+         },
+         "window_box_stone_violet": {
+            "window_box_stone_violet_ghost": {
+               "display_name": "紫罗兰花箱",
+               "description": "可爱花朵的干净家园."
+            }
+         }
+      },
+      "npc": {
+         "herald": {
+            "female": {
+               "herald_siv": {
+                  "display_name": "茜芙",
+                  "description": "追猎之灵"
+               },
+               "herald_ronia": {
+                  "display_name": "诺妮亚·奥拉克逊",
+                  "description": "书阁的斥候"
+               }
+            },
+            "male": {
+               "herald_knut": {
+                  "display_name": "努特",
+                  "description": "命运之灵"
+               },
+               "herald_firnn": {
+                  "display_name": "菲蒽",
+                  "description": "草木之灵"
+               }
+            }
+         }
+      },
+      "furniture": {
+         "chair_golden": {
+            "chair_golden_ghost": {
+               "display_name": "金椅",
+               "description": "努特的王座, 但他知道分享."
+            }
+         },
+         "table_stone_gold": {
+            "table_stone_gold_ghost": {
+               "display_name": "环金石桌",
+               "description": "这是努特很愿意躲在它下面吃东西的桌子."
+            }
+         }
+      },
+      "container": {
+         "input_shelf_wall_stone_gold": {
+            "input_shelf_wall_stone_gold_ghost": {
+               "display_name": "黄金壁挂补给架",
+               "description": "配得上努特的荣光的架子."
+            }
+         },
+         "input_bin_stone_wolf": {
+            "input_bin_stone_wolf_ghost": {
+               "display_name": "茜芙的石碗",
+               "description": "一种补给容器, 正如茜芙为我们的肚子提供补给."
+            }
+         },
+         "output_box_stone_wolf": {
+            "output_box_stone_wolf_ghost": {
+               "display_name": "茜芙工作展示架",
+               "description": "临时储物架, 正如茜芙狩猎前的准备."
+            }
+         },
+         "chest_stone_wolf": {
+            "chest_stone_wolf_ghost": {
+               "display_name": "茜芙石箱",
+               "description": "可容纳128件物品, 正如茜芙为寒冬存储粮食."
+            }
+         }
+      },
+      "weapons": {
+         "spear_horn": {
+            "spear_horn_iconic": {
+               "display_name": "鹿茸矛",
+               "description": "给穿戴者注入菲蒽的治愈能量, 能让他们的伤口更快愈合."
+            }
+         }
+      },
+      "armor": {
+         "shield_hare": {
+            "display_name": "兔毛盾",
+            "description": "给穿戴者注入努特的治愈能量, 能让他们的战斗更持久."
+         },
+         "helmet_wolf": {
+            "helmet_wolf_iconic": {
+               "display_name": "狼头盔",
+               "description": "带有茜芙的祝福, 来保卫我们的大家庭."
+            },
+            "display_name": "狼头盔",
+            "description": "给穿戴者注入茜芙的治愈能量, 能让他们的睡眠时间减少."
+         }
+      }
+   },
+   "jobs": {
+      "mason": {
+         "recipes": {
+            "shrine_stag": {
+               "recipe_name": "夏意之圣洗",
+               "description": "供奉菲蒽, 草木之灵"
+            },
+            "shrine_hare": {
+               "description": "供奉努特, 命运之灵",
+               "recipe_name": "财富之圣洗"
+            },
+            "shrine_wolf": {
+               "description": "供奉茜芙, 追猎之灵",
+               "recipe_name": "流火之圣洗"
+            },
+            "crude_weaver_spindle_recipe": {
+               "recipe_name": "粗糙纺锤"
+            },
+            "stone_sword_recipe": {
+               "recipe_name": "石制训练剑"
+            },
+            "window_box_stone_snow_poppy_recipe": {
+               "description": "种满雪罂花的花箱, 用来挂在窗户下面的.",
+               "recipe_name": "雪罂窗台花箱",
+               "flavor": "一朵雪罂总能点亮北极昏暗的清晨."
+            },
+            "statue_hare": {
+               "description": "用来赞美努特, 命运的转轮者.",
+               "recipe_name": "努特雕塑"
+            },
+            "chair_golden": {
+               "description": "努特的王座, 但他知道分享.",
+               "recipe_name": "金椅"
+            },
+            "wall_mounted_antlers_recipe": {
+               "description": "菲蒽的伙伴用角祝福着我们的厅堂.",
+               "recipe_name": "鹿茸墙饰"
+            },
+            "wall_mounted_paw_recipe": {
+               "description": "猎人的标志, 无声无息.. 一击毙命.",
+               "recipe_name": "茜芙之爪"
+            },
+            "output_box_stone_wolf_recipe": {
+               "description": "临时储物架, 正如茜芙狩猎前的准备.",
+               "recipe_name": "茜芙工作展示架"
+            },
+            "input_bin_stone_wolf_recipe": {
+               "description": "一种补给容器, 正如茜芙为我们的肚子提供补给.",
+               "recipe_name": "茜芙的石碗"
+            },
+            "chest_stone_wolf_recipe": {
+               "description": "可容纳128件物品, 正如茜芙为寒冬存储粮食.",
+               "recipe_name": "茜芙石箱"
+            }
+         }
+      },
+      "weaver": {
+         "recipes": {
+            "banner_wall_big_stag_recipe": {
+               "description": "用这面旗帜展示你们对菲蒽的信仰.",
+               "recipe_name": "仙鹿长旗帜",
+               "flavor": "也是自然爱好者的标志."
+            },
+            "banner_wall_small_stag_recipe": {
+               "description": "用这面旗帜展示你们对菲蒽的信仰.",
+               "recipe_name": "仙鹿短旗帜",
+               "flavor": "也是自然爱好者的标志."
+            },
+            "rug_moss_recipe": {
+               "description": "用植物做的地毯, 纪念菲恩.",
+               "recipe_name": "苔绒地毯"
+            },
+            "rug_pelt_wolf_recipe": {
+               "description": "赞美茜芙, 杀戮之后没有丢弃.",
+               "recipe_name": "狼皮毯"
+            },
+            "spear_horn_recipe": {
+               "description": "给穿戴者注入菲蒽的治愈能量, 能让他们的伤口更快愈合.",
+               "recipe_name": "鹿茸矛",
+               "flavor": "带有菲蒽的祝福, 来保卫我们的大家庭."
+            },
+            "helmet_wolf_recipe": {
+               "description": "给穿戴者注入茜芙的治愈能量, 能让他们的睡眠时间减少.",
+               "recipe_name": "狼头盔",
+               "flavor": "带有茜芙的祝福, 来保卫我们的大家庭."
+            },
+            "shield_hare_recipe": {
+               "description": "给穿戴者注入努特的治愈能量, 能让他们的战斗更持久.",
+               "recipe_name": "兔毛盾",
+               "flavor": "带有努特的祝福, 来保卫我们的大家庭."
+            }
+         }
+      },
+      "blacksmith": {
+         "recipes": {
+            "chair_golden": {
+               "description": "努特的王座, 但他知道分享.",
+               "recipe_name": "金椅"
+            },
+            "input_shelf_wall_stone_gold": {
+               "description": "和看起来一样有用的补给储存架.",
+               "recipe_name": "黄金壁挂补给架"
+            },
+            "table_stone_gold": {
+               "description": "这是努特很愿意躲在它下面吃东西的桌子.",
+               "recipe_name": "环金石桌"
+            },
+            "wall_mounted_candle": {
+               "description": "一种装饰, 赞美努特的荣光.",
+               "recipe_name": "金框烛饰"
+            }
+         }
+      }
+   },
+   "loadouts": {
+      "hunting_party": {
+         "display_name": "狩猎派对",
+         "description": "这里到处都有动物. 美味, 好吃的动物. 弓箭手可以猎杀它们, 然后让厨师把它们烹成佳肴.",
+         "tooltip": "狩猎不是稳定可靠的食物来源, 但弓箭手可以发挥职业优势, 巡逻的同时打打零工."
+      }
+   },
+   "kingdoms": {
+      "northern_alliance": "北方联盟"
+   }
+}

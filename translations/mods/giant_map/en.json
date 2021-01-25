@@ -1,0 +1,36 @@
+{
+	"ui": {
+		"shell": {
+			"select_settlement": {
+				"open_map_options":"Custom World Options",
+				"world_size": {
+					"display":"World Size:",
+					"small": "Small",
+					"normal": "Normal",
+					"large": "Large"
+				},
+				"rivers": {
+					"display":"Rivers:",
+					"quantity": "Max quantity:",
+					"locations": {
+						"display":"Locations:",
+						"plains":"Plains",
+						"foothills":"Foothills",
+						"mountains":"Mountains"
+					},
+					"sizes": {
+						"display":"Sizes:",
+						"narrow":"Narrow",
+						"wide":"Wide"
+					}
+				},
+				"lakes": "Lakes:",
+				"dirt_holes": "Dirt Holes:",
+				"enabled": "Enabled",
+				"apply_map_options": "Apply",
+				"default_map_options": "Defaults",
+				"cancel_map_options": "Cancel",
+			}
+		}
+	}
+}

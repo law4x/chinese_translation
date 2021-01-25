@@ -1,0 +1,10 @@
+{
+   "entities": {
+      "floating_box": {
+         "floating_box_ghost": {
+            "display_name": "浮动箱子",
+            "description": "一个可以浮在水上的箱子."
+         }
+      }
+   }
+}

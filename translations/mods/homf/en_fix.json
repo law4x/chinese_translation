@@ -1,0 +1,50 @@
+{
+   "ui": {
+      "shell": {
+         "select_roster": {
+            "eye_color": "Eye Color",
+            "eyebrows": "Eyebrows",
+            "head_hair": "Hair Style",
+
+            "black": "Black",
+            "brown": "Brown",
+            "red": "Red",
+            "sandy": "Sandy",
+            "blonde": "Blonde",
+            "platinum": "Platinum",
+            "white": "White",
+            "brown_1": "Brown 1",
+            "brown_2": "Brown 2",
+            "aqua": "Aqua",
+            "blue": "Blue",
+            "blurple": "Blurple",
+            "green": "Green",
+            "hazel": "Hazel",
+            "magenta": "Magenta",
+            "yellow": "Yellow",
+            "[none]": "None",
+            "chops": "Chops",
+            "beard": "Beard",
+            "beard_chin": "Chin Beard",
+            "beard_epic": "Epic Beard",
+            "straight_eyebrows": "Straight Eyebrows",
+            "male_hair_1": "Male Hair 1",
+            "male_hair_2": "Male Hair 2",
+            "male_hair_3": "Male Hair 3",
+            "male_hair_4": "Male Hair 4",
+            "male_hair_old_1": "Male Old Hair 1",
+            "male_hair_old_2": "Male Old Hair 2",
+            "male_head_bald_1": "Male Bald 1",
+            "male_head_bald_2": "Male Bald 2",
+            "female_hair_1": "Female Hair 1",
+            "female_hair_2": "Female Hair 2",
+            "female_hair_3": "Female Hair 3",
+            "female_hair_4": "Female Hair 4",
+            "female_hair_5": "Female Hair 5",
+            "female_hair_6": "Female Hair 6",
+            "female_hair_7": "Female Hair 7",
+            "female_hair_8": "Female Hair 8"
+         }
+      }
+   }
+}

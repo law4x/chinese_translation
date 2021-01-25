@@ -1,0 +1,36 @@
+{
+	"ui": {
+		"shell": {
+			"select_settlement": {
+				"open_map_options":"自定义世界设置",
+				"world_size": {
+					"display":"世界尺寸:",
+					"small": "小型",
+					"normal": "普通",
+					"large": "大型"
+				},
+				"rivers": {
+					"display":"河流:",
+					"quantity": "最大数量:",
+					"locations": {
+						"display":"位置:",
+						"plains":"平原",
+						"foothills":"山岭",
+						"mountains":"山脉"
+					},
+					"sizes": {
+						"display":"尺寸:",
+						"narrow":"狭窄",
+						"wide":"宽阔"
+					}
+				},
+				"lakes": "湖泊:",
+				"dirt_holes": "泥坑:",
+				"enabled": "开启",
+				"apply_map_options": "应用",
+				"default_map_options": "默认",
+				"cancel_map_options": "取消",
+			}
+		}
+	}
+}

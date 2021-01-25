@@ -1,0 +1,27 @@
+{
+   "turrets": {
+      "balista_turret": {
+         "balista_turret": {
+            "display_name" : "弩炮塔",
+            "description" : "A Heavy and longed ranged Ballista with slow but powerfull shots"
+         }
+      },
+      "consumable": {
+         "balista_bolt": {
+            "balista_bolt": {
+               "display_name" : "弩炮X3",
+               "description" : "三个重型弩炮,用于弩炮塔",
+               "shot_description" : "它来了!",
+               "shot_name" : "弩炮"
+            }
+         }
+      },
+       "recipes": {
+         "balista_turret": {
+           "balista_turret_recipe": {
+               "flavor_text" : "这是一个弩炮,它的弩臂用青铜板加强,并用马毛做弓弦"
+            }
+         }
+      }
+   }
+}

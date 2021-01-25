@@ -1,0 +1,595 @@
+{
+  "kingdom": {
+	    "kingdom_name": "Norselings",
+	    "quote": "Grim in battle and joyeous in celebration: all challenges are the All-father's instruction.",
+	    "long_description": "The Norslingr of the frozen north are strong, humble, and determined, facing both beer and battle with the same reckless enthusiasm",
+	    "post_selection_description": ", a society of sturdy adventurers.",
+	    "initial_town_name": "Caravan [str(town_number)]"
+  },
+  "entities": {
+	    "construction": {
+	      "palisade_wall": {
+	        "palisade_wall_ghost": {
+	          "display_name": "Camp Banner",
+	          "description": "How you know you've come home"
+	        }
+	      }
+	    },
+	    "monsters": {
+	      "draugr": {
+	        "draugr": {
+	          "display_name": "[str(self.stonehearth:unit_info.custom_name)]",
+	          "description": "Barrow spawn"
+	        },
+	        "draugr_hut": {
+	          "display_name": "draugr Tent",
+	          "description": "Made from coarsely chopped wooden boards"
+	        },
+	        "draugr_large_totem": {
+	          "display_name": "Large totem"
+	        },
+	        "draugr_small_totem": {
+	          "display_name": "Small totem"
+	        },
+	        "draugr_soldier": {
+	          "display_name": "draugr Soldier",
+	          "description": "Gobble, gobble, gobble..."
+	        },
+	        "draugr_throne": {
+	          "display_name": "draugr Throne",
+	          "description": "Made of wood, bone, and ego"
+	        }
+	      }
+	    },
+	    "gizmos": {
+	      "norseling_camp_standard": {
+	        "norseling_camp_standard_ghost": {
+	          "display_name": "Camp Banner",
+	          "description": "How you know you've come home"
+	        }
+	      }
+	    },
+	    "clothing": {
+
+	        "fine_cloak": {
+	          "display_name": "A Fine Cloak",
+	          "description": "A pleasing example of the weavers art",
+	          "fine_cloak_iconic": {
+	          	"display_name": "A Fine Cloak",
+	          	"description": "A pleasing example of the weavers art"
+	        		}
+	        	},
+	        "basic_cloak": {
+	          "display_name": "A Simple Cloak",
+	          "description": "A functional covering, nothing more",
+	          "basic_cloak_iconic": {
+	          	"display_name": "A Simple Cloak",
+	          	"description": "A functional covering, nothing more"
+	        		}
+	        	},
+	        "stealthy_cloak": {
+	          "display_name": "A Dark Cloak",
+	          "description": "Become one with the shadows, almost",
+	          "stealthy_cloak_iconic": {
+	          	"display_name": "A Dark Cloak",
+	          	"description": "Become one with the shadows, almost"
+	        		}
+	        	},
+	        "tought_cloak": {
+	          "display_name": "A Rugged Travelling Cloak",
+	          "description": "Like a second hide",
+	          "tought_cloak_iconic": {
+	          	"display_name": "A Rugged Travelling Cloak",
+	          	"description": "Like a second hide"
+	        		}
+	        	},
+	        "warm_cloak": {
+	          "display_name": "A Warm Cloak",
+	          "description": "Snug... dare I say cozy?",
+	          "warm_cloak_iconic": {
+	          	"display_name": "A Warm Cloak",
+	          	"description": "Snug... dare I say cozy?"
+	        		}
+	        	} 
+	    },
+	    "armor": {
+	      "basic_norseling_shield": {
+	        "display_name": "Basic Norseling Shield",
+	        "description": "Battle-board",
+	        "flavor": "Odin's penny",
+	        "norseling_shield_iconic": {
+	          "display_name": "Basic Norseling Shield",
+	          "description": "Odin's penny."
+	        }
+	      },
+	      "strong_norseling_shield": {
+	        "display_name": "Strong Norseling Shield",
+	        "description": "Check-sword",
+	        "flavor": "Reinforced to take a beating",
+	        "norseling_shield_iconic": {
+	          "display_name": "Strong Norseling Shield",
+	          "description": "Reinforced to take a beating"
+	        }
+	      },
+	      "fancy_norseling_shield": {
+	        "display_name": "Fancy Norseling Shield",
+	        "description": "Battle-board",
+	        "flavor": "Covered in designs to inspire and awe",
+	        "norseling_shield_iconic": {
+	          "display_name": "Fancy Norseling Shield",
+	          "description": "Covered in designs to inspire and awe"
+	        }
+	      },
+	      "norseling_helmet": {
+	        "display_name": "Basic Norseling Helmet",
+	        "description": "An iron hat",
+	        "flavor": "turn-sword and head-house",
+	        "norseling_helmet_iconic": {
+	          "display_name": "Basic Norseling Helmet",
+	          "description": "An iron hat."
+	        }
+	      },
+	      "fine_norseling_helmet": {
+	        "display_name": "Fine Norseling Helmet",
+	        "description": "An Fancy steel hat",
+	        "flavor": "turn-sword and head-house",
+	        "fine_norseling_helmet_iconic": {
+	          "display_name": "Basic Norseling Helmet",
+	          "description": "An iron hat."
+	        }
+	      },
+	      "full_norseling_helmet": {
+	        "display_name": "Norseling Full Helmet",
+	        "description": "The full noggin protection solution",
+	        "flavor": "As worn by Harry Hard-head hero of hurdall",
+	        "full_norseling_helmet_iconic": {
+	          "display_name": "Norseling Full Helmet",
+	          "description": "As worn by Harry Hard-head hero of hurdall"
+	        }
+	      },
+	      "leather_cap": {
+	        "display_name": "Leather Cap",
+	        "description": "It might turn a blade... maybe",
+	        "flavor": "It should be worn at a rakish angle for optimum effect",
+	        "leather_cap_iconic": {
+	          "display_name": "Leather Cap",
+	          "description": "Tops off a leather outfit quite nicely"
+	        }
+	      },
+	      "barrow_shield": {
+	        "display_name": "Barrow shield",
+	        "description": "A broken relic from a bygone age",
+	        "barrow_shield_iconic": {
+	          "display_name": "Barrow shield",
+	          "description": "A battered sword-haven"
+	        }
+	      }
+	    },
+	    "decoration": {
+	      "norseling_wall_shield": {
+	        "display_name": "Wall Hanging Shield",
+	        "description": "Battle-board and check-sword",
+	        "flavor": "Odin's penny",
+	        "norseling_wall_shield_iconic": {
+	          "display_name": "Basic Norseling Shield",
+	          "description": "Odin's penny."
+	        },
+	        "norseling_wall_shield_ghost": {
+	          "display_name": "Norse Wall Whield",
+	          "description": "Warm the room with memories of past glory."
+	        }
+	      },
+	      "small_runestone": {
+	        "display_name": "Small runestone",
+	        "description": "Heroic deeds cut in stone",
+	        "small_runestone_iconic": {
+	          "display_name": "Small Runestone",
+	          "description": "Heroic deeds cut in stone"
+	        },
+	        "small_runestone_ghost": {
+	          "display_name": "Small runestone",
+	          "description": "Heroic deeds cut in stone"
+	        }
+	      },
+	      "roasting_pit": {
+	        "display_name": "Roasting pit",
+	        "description": "Muspelheim's gift",
+	        "roasting_pit_iconic": {
+	          "display_name": "Roasting Pit",
+	          "description": "Muspelheim's gift"
+	        },
+	        "roasting_pit_ghost": {
+	          "display_name": "Roasting Pit",
+	          "description": "Muspelheim's gift"
+	        }
+	      },
+	      "large_runestone": {
+	        "display_name": "Large runestone",
+	        "description": "Memories fading in stone",
+	        "large_runestone_iconic": {
+	          "display_name": "Large runestone",
+	          "description": "Memories fading in stone"
+	        },
+	        "large_runestone_ghost": {
+	          "display_name": "Large runestone",
+	          "description": "Memories fading in stone"
+	        }
+	      }
+	    },
+	    "weapons": {
+	      "basic_norseling_sword": {
+	        "display_name": "Basic Norseling Sword",
+	        "description": "The key to Valhalla!",
+	        "flavor": "The key to Valhalla.",
+	        "basic_norseling_sword_iconic": {
+	          "display_name": "Basic Norseling Sword",
+	          "description": "Chipped & shabby but effective."
+	        }
+	      },
+	      "fine_norseling_sword": {
+	        "display_name": "Fine Norseling Sword",
+	        "description": "A blade worthy of a jarl.",
+	        "flavor": "Great swords have great names, name yours today!",
+	        "fine_norseling_sword_iconic": {
+	          "display_name": "Norseling Sword",
+	          "description": "Pointy. Shiny."
+	        }
+	      },
+	      "hunting_spear": {
+	        "display_name": "Hunting Spear",
+	        "description": "Promotes a hearthling to Spearman",
+	        "flavor": "Walkingstick and weapon.",
+	        "hunting_spear_iconic": {
+	          "display_name": "Hunting Spear",
+	          "description": "Promotes a hearthling to Spearman"
+	        }
+	      },
+	      "barrow_sword": {
+	        "display_name": "Barrow Sword",
+	        "description": "A broken relic from a bygone age",
+	        "barrow_sword_iconic": {
+	          "display_name": "Barrow Sword",
+	          "description": "Pointy. Shiny."
+	        }
+	      }
+	    }, 
+	    "trees": {
+	        "dark_pine": {
+	        "small_dark_pine_tree": {
+	             "display_name": "Small Pine Tree",
+	             "description": "Now that won't challenge Yggdrasil any time soon.."
+	               },
+
+			   "medium_dark_pine_tree": {
+	             "display_name": "Medium Pine Tree",
+	             "description": "..It's a pine."
+	               },
+	           
+			   "large_dark_pine_tree": {
+	             "display_name": "Large Pine Tree",
+	             "description": "Quite a large pine, I'd say."
+
+			      },
+	           
+			   "ancient_dark_pine_tree": {
+	             "display_name" : "Ancient Pine Tree",
+	             "description"  : "This pine looks ancient.. is that a squirrel in its branches!"
+	            }
+		     }
+	    }, 
+	    "terrain": {
+	        "cloud_maker": {
+	             "display_name": "Dull rock",
+	             "description": "Just a rock, nothing to see here!... Move along!"
+		     }
+	      },
+  },
+  "jobs": {
+	    "carpenter": {
+	      "recipes": {
+	        "basic_norseling_sword_recipe": {
+	          "description": "Promotes a Spearman to a Warrior",
+	          "recipe_name": "Basic Norseling Sword",
+	          "flavor": "The key to Valhalla."
+	        },
+	        "fine_norseling_sword_recipe": {
+	          "description": "A sword fit for a Jarl",
+	          "recipe_name": "Fine Norseling Sword",
+	          "flavor": "Great swords have great names, name yours today!"
+	        },
+	        "basic_norseling_shield_recipe": {
+	          "description": "Battle-board",
+	          "recipe_name": "Basic Norseling Shield",
+	          "flavor": "The shame of swords and preserver of fortune!"
+	        },
+	        "strong_norseling_shield_recipe": {
+	          "description": "Check-sword",
+	          "recipe_name": "Strong Norseling Shield",
+	          "flavor": "Reinforced to take a beating"
+	        },
+	        "fancy_norseling_shield_recipe": {
+	          "description": "Battle-board and check-sword",
+	          "recipe_name": "Fancy Norseling Shield",
+	          "flavor": "Covered in designs to inspire and awe "
+	        },
+	        "norseling_wall_shield_recipe": {
+	          "description": "The shame of swords and preserver of fortune!",
+	          "recipe_name": "Wall Hanging Shield",
+	          "flavor": "A marshall wall-hanging. To inspire reckless courage."
+	        },
+	        "palisade_wall_recipe": {
+	          "description": "Stout logs provide peace of mind.",
+	          "recipe_name": "Palisade Wall",
+	          "flavor": "A firm bulwark against any attack."
+	        },
+	        "hunting_spear_recipe": {
+	          "description": "Promotes a hearthling to Spearman",
+	          "recipe_name": "Hunting Spear",
+	          "flavor": "Walkingstick and weapon."
+	        }
+	      }
+	    },
+	    "blacksmith": {
+	      "recipes": {
+	      "norseling_helmet": {
+	        "display_name": "Basic Norseling Helmet",
+	        "description": "An iron hat",
+	        "flavor": "turn-sword and head-house",
+	        "norseling_helmet_iconic": {
+	          "display_name": "Basic Norseling Helmet",
+	          "description": "An iron hat."
+	        }
+	      },
+	      "fine_norseling_helmet": {
+	        "display_name": "Fine Norseling Helmet",
+	        "description": "An Fancy steel hat",
+	        "flavor": "turn-sword and head-house",
+	        "fine_norseling_helmet_iconic": {
+	          "display_name": "Basic Norseling Helmet",
+	          "description": "An iron hat."
+	        }
+	      },
+	      "full_norseling_helmet": {
+	        "display_name": "Norseling Full Helmet",
+	        "description": "The full noggin protection solution",
+	        "flavor": "As worn by Harry Hard-head hero of hurdall",
+	        "full_norseling_helmet_iconic": {
+	          "display_name": "Norseling Full Helmet",
+	          "description": "As worn by Harry Hard-head hero of hurdall"
+	        }
+	      }
+	      }
+	    },
+	    "weaver": {
+	      "recipes": {
+	        "leather_cap_recipe": {
+	          "description": "A  fetching leather cap",
+	          "recipe_name": "Leather Cap",
+	          "flavor": "Tops off a leather outfit quite nicely"
+	        }
+	      }
+	    },
+	    "spearman": {
+		      "spearman_description": {
+		        "display_name": "Spearman",
+		        "description": "The spearman is a melee fighter. A good choice for the backbone of your town's defense.",
+		        "requirements": "Crafted by Carpenter",
+		        "level_4_data": {
+		          "perk_000_name": "Damage Up 40%",
+		          "perk_000_description": "The spearman is now practiced at optimizing the effect of each blow."
+		        },
+		        "level_1_data": {
+		          "perk_000_name": "Damage Up 20%",
+		          "perk_000_description": "The spearman knows that all combats may have mortal consequences, and attacks with renewed determination."
+		        },
+		        "level_3_data": {
+		          "perk_000_name": "Power Spike",
+		          "perk_000_description": "This powerful, overhead swing deals double damage."
+		        },
+		        "level_6_data": {
+		          "perk_000_name": "Damage Up 60%",
+		          "perk_000_description": "Maxiumum damage!"
+		        },
+		        "level_2_data": {
+		          "perk_000_name": "First Responder",
+		          "perk_000_description": "The spearman charges into battle with speed"
+		        },
+		        "level_5_data": {
+		          "perk_000_name": "Cleave",
+		          "perk_000_description": "A slashing strike that deals damage to up to 4 enemies around the spearman's target"
+		        }
+		      },
+		      "spearman_buffs": {
+		        "damage_1_buff": {
+		          "description": "At Level 1, the spearman attacks with increased ferocity",
+		          "display_name": "Damage +20%"
+		        },
+		        "damage_2_buff": {
+		          "description": "The spearman attacks with increased ferocity",
+		          "display_name": "Damage +40%"
+		        },
+		        "damage_3_buff": {
+		          "description": "At Level 6, the spearman's attacks are unstoppable!",
+		          "display_name": "Damage +60%"
+		        },
+		        "speed_buff": {
+		          "display_name": "First Responder",
+		          "description": "The spearman moves faster"
+		        }
+		      },
+		      "spearman_outfit": {
+		        "display_name": "Military Uniform",
+		        "description": "Standard issue gear for all soldiers"
+		      }
+	    },
+	    "warrior": {
+		      "warrior_outfit": {
+		        "display_name": "warrior's Armor",
+		        "description": "Metal armor worn by a warrior"
+		      },
+		      "warrior_description": {
+		        "display_name": "warrior",
+		        "description": "A defensive combatant focused on protecting allies from harm.",
+		        "requirements": "Crafted by Blacksmith",
+		        "level_1_data": {
+		          "perk_000_name": "Fortify",
+		          "perk_001_name": "Damage Reduction Rank 1",
+		          "perk_000_description": "Increases Stamina, Courage, and draws attention from monsters",
+		          "perk_001_description": "The warrior gains an additional 10% defense from equipment"
+		        },
+		        "level_4_data": {
+		          "perk_000_name": "Damage Reduction Rank 2",
+		          "perk_000_description": "The warrior gains an additional 20% armor from equipment"
+		        },
+		        "level_3_data": {
+		          "perk_000_name": "Fortify (Rank 2)",
+		          "perk_000_description": "Stamina and Courage increased greatly"
+		        },
+		        "level_5_data": {
+		          "perk_000_name": "Inspiring Presence",
+		          "perk_000_description": "The warrior boosts courage of everyone around"
+		        },
+		        "level_2_data": {
+		          "perk_000_name": "Shout",
+		          "perk_000_description": "The warrior intimidates the opponent, drawing the attention of nearby enemies."
+		        },
+		        "level_6_data": {
+		          "perk_000_name": "Hero's Horn",
+		          "perk_000_description": "The warrior sounds a horn of combat, drawing the attention enemies both near and far"
+		        }
+		      },
+		      "warrior_buffs": {
+		        "defense_1_buff": {
+		          "display_name": "Defense Up 10%",
+		          "description": "Defense gained from equipment increased by 10%"
+		        },
+		        "defense_2_buff": {
+		          "display_name": "Defense Up 20%",
+		          "description": "Defense gained from equipment increased by 20%"
+		        },
+		        "health_1_buff": {
+		          "display_name": "Fortify",
+		          "description": "The warrior becomes more menacing to enemies, drawing their attention in combat. They also get a health and stamina bonus to keep up."
+		        },
+		        "health_2_buff": {
+		          "display_name": "Fortify (Rank 2)",
+		          "description": "More fast, more furious"
+		        },
+		        "courage_aura_buff": {
+		          "display_name": "Inspiring Presence",
+		          "description": "The warrior increases courage of everyone around"
+		        },
+		        "courage_aura_effect_buff": {
+		          "display_name": "Inspired",
+		          "description": "Courage increased from the presence of a warrior."
+		        }
+		      },
+		      "warrior_helm": {
+		        "display_name": "warrior's Helm",
+		        "description": "Iron headgear standard issue for all warriors"
+		      }
+	    },
+	    "huscarl": {
+	      "huscarl_outfit": {
+	        "display_name": "huscarl's Armor",
+	        "description": "Metal armor worn by a huscarl"
+	      },
+	      "huscarl_description": {
+	        "display_name": "huscarl",
+	        "description": "A defensive combatant focused on protecting allies from harm.",
+	        "requirements": "Crafted by Blacksmith",
+	        "level_1_data": {
+	          "perk_000_name": "Fortify",
+	          "perk_001_name": "Damage Reduction Rank 1",
+	          "perk_000_description": "Increases Stamina, Courage, and draws attention from monsters",
+	          "perk_001_description": "The huscarl gains an additional 10% defense from equipment"
+	        },
+	        "level_4_data": {
+	          "perk_000_name": "Damage Reduction Rank 2",
+	          "perk_000_description": "The huscarl gains an additional 20% armor from equipment"
+	        },
+	        "level_3_data": {
+	          "perk_000_name": "Fortify (Rank 2)",
+	          "perk_000_description": "Stamina and Courage increased greatly"
+	        },
+	        "level_5_data": {
+	          "perk_000_name": "Inspiring Presence",
+	          "perk_000_description": "The huscarl boosts courage of everyone around"
+	        },
+	        "level_2_data": {
+	          "perk_000_name": "Shout",
+	          "perk_000_description": "The huscarl intimidates the opponent, drawing the attention of nearby enemies."
+	        },
+	        "level_6_data": {
+	          "perk_000_name": "Hero's Horn",
+	          "perk_000_description": "The huscarl sounds a horn of combat, drawing the attention enemies both near and far"
+	        }
+	      },
+	      "huscarl_buffs": {
+	        "defense_1_buff": {
+	          "display_name": "Defense Up 10%",
+	          "description": "Defense gained from equipment increased by 10%"
+	        },
+	        "defense_2_buff": {
+	          "display_name": "Defense Up 20%",
+	          "description": "Defense gained from equipment increased by 20%"
+	        },
+	        "health_1_buff": {
+	          "display_name": "Fortify",
+	          "description": "The huscarl becomes more menacing to enemies, drawing their attention in combat. They also get a health and stamina bonus to keep up."
+	        },
+	        "health_2_buff": {
+	          "display_name": "Fortify (Rank 2)",
+	          "description": "More fast, more furious"
+	        },
+	        "courage_aura_buff": {
+	          "display_name": "Inspiring Presence",
+	          "description": "The huscarl increases courage of everyone around"
+	        },
+	        "courage_aura_effect_buff": {
+	          "display_name": "Inspired",
+	          "description": "Courage increased from the presence of a huscarl."
+	        }
+	      },
+	      "huscarl_helm": {
+	        "display_name": "huscarl's Helm",
+	        "description": "Iron headgear standard issue for all huscarls"
+	      }
+	    }
+  },
+  "data": {
+      "norseling_population": {
+         "display_name": "Norselings"
+      },
+      "biome": {
+         "norsehearth": {
+            "display_name": "Taiga",
+            "description": "The mist wreathed forest of the north.",
+            "random_location_names": {
+               "000": "Myrkmunr",
+               "001": "Hrimvang",
+               "002": "Vanlaus"
+            }
+         }
+      },
+      "saved_objects": {
+         "building_templates_index": {
+            "template_tabs": {
+               "Norselings": {
+                  "display_name": "Norselings",
+                  "categories": {
+                     "outpost": "Outpost Templates",
+                     "settlement": "Settlement Templates"
+                  }
+               }
+            }
+         },
+         "building_templates": {
+            "small_norse_nut": {
+               "display_name": "Small Norse Hut"
+            }
+         }
+      }
+  }
+
+}

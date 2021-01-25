@@ -1,0 +1,2430 @@
+{
+   "ui": {
+      "filters": {
+         "molten_glass": {
+            "display_name": "Molten Glass"
+         },
+         "hot_glass_sheets": {
+            "display_name": "Hot Glass Sheets"
+         },
+         "hot_glassware": {
+            "display_name": "Hot Glassware"
+         },
+         "ashes": {
+            "display_name": "Ashes"
+         },
+         "mineral_products": {
+            "display_name": "Minerals"
+         },
+         "tooltip_refined_resources": "Refined Resources"
+      }
+   },
+   "jobs": {
+      "glassmith": {
+         "glassmith_furnace": {
+            "display_name": "Glass Furnace & Marver",
+            "description": "Here the Glassmith can melt glass and start their production.",
+            "recipe_name": "Glass Furnace & Marver",
+            "recipe_description": "The primary workstation of a Glassmith, with a strong stone crucible and a marble table for marvering.",
+            "flavor": "That marble table top is so IN!"
+         },
+         "glassmith_bench": {
+            "display_name": "Glassmith's Bench",
+            "description": "All these tools are always at the Glassmith's disposal.",
+            "recipe_name": "Glassmith's Bench",
+            "recipe_description": "An important workstation, the bench is required for assembling many items and for free-blowing.",
+            "flavor": ""
+         },
+         "glassmith_glory_hole": {
+            "display_name": "Glory Hole Furnace",
+            "description": "Not too hot, not too cold, a gloriously perfect hole.",
+            "recipe_name": "Glory Hole Furnace",
+            "recipe_description": "A glory hole is important to preserve recently melted globs in working temperature.",
+            "flavor": "Glassworkers might have issues naming their furnaces..."
+         },
+         "glassmith_annealing_forge": {
+            "display_name": "Annealing Forge",
+            "description": "Used to let your glassware cool down properly.",
+            "recipe_name": "Annealing Forge",
+            "recipe_description": "The annealing forge is necessary to let your glassware slowly cool down without shattering.",
+            "flavor": ""
+         },
+         "perks": {
+            "l_1": {
+               "name": "Standard Catalog",
+               "desc": "The Glassmith is capable of working molten forest glass into molds and crown glass panes."
+            },
+            "l_2": {
+               "name": "Free-Blowing",
+               "desc": "The Glassmith has started mastering the art of freely working molten glass."
+            },
+            "l_3": {
+               "name": "Journeyman's Knowledge",
+               "desc": "When inspiration strikes, the Glassmith may now craft an especially Fine quality of item."
+            },
+            "l_3_2": {
+               "name": "Work Transparence",
+               "desc": "The Glassmith has refined the melting techniques and can now produce colorless glass!"
+            },
+            "l_4": {
+               "name": "Extended Catalog",
+               "desc": "The Glassmith has improved enough to start venturing into more complex and artistical ideas."
+            },
+            "l_4_2": {
+               "name": "Stained Glass",
+               "desc": "The Glassmith can now work with different minerals to create beautiful and bright glass colors!"
+            },
+            "l_5": {
+               "name": "Master's Insight",
+               "desc": "The Glassmith can now create items of Excellent quality, and will make Fine quality items more often."
+            },
+            "l_6": {
+               "name": "Dragon Glass",
+               "desc": "The Glassmith has mastered their craft and is now able to bend any glass to their will... even the mythical Obsidian."
+            }
+         },
+         "info": {
+            "display_name": "Glassmith",
+            "description": "The Glassmith can use fire and skill to turn nature's resources into beautiful, transparent glass to be used in construction, furniture and more.",
+            "requirements": "Crafted by Blacksmith",
+            "l6_title": "Grandmaster",
+            "equipment_section_name": "Equipment",
+            "craft_menu": {
+               "display_name": "Glassmith Craft Menu",
+               "description": "Melt glass and create valuable furniture and items.",
+               "required_job_text": "Requires a glassmith"
+            }
+         },
+         "recipes": {
+            "workbenches_name": "Workbenches",
+            "melting_name": "Crucible",
+            "green_forest_glass_melt": {
+               "recipe_name": "Melt Green Forest Glass",
+               "description": "Creates a gather of molten green forest glass to be worked and shaped as desired. Keep the molten glass globs inside a glory hole furnace so they won't cool down.",
+               "flavor": ""
+            },
+            "green_forest_raw_glass_melt": {
+               "recipe_name": "Reheat Green Forest Raw Glass",
+               "description": "Melts the solidified puddle to form another gather of molten green forest glass.",
+               "flavor": "Remember you can use a glory hole furnace to keep the globs hot!"
+            },
+            "green_forest_cullet_melt": {
+               "recipe_name": "Remelt Green Forest Cullet",
+               "description": "Melts a poorly cooled down piece of green forest glass to recyle it into another gather of molten glass.",
+               "flavor": "Use an annealing forge to properly cool down your glassware!"
+            },
+            "amber_forest_glass_melt": {
+               "recipe_name": "Melt Amber Forest Glass",
+               "description": "Creates a gather of molten amber forest glass to be worked and shaped as desired. Keep the molten glass globs inside a glory hole furnace so they won't cool down.",
+               "flavor": ""
+            },
+            "amber_forest_raw_glass_melt": {
+               "recipe_name": "Reheat Amber Forest Raw Glass",
+               "description": "Melts the solidified puddle to form another gather of molten amber forest glass.",
+               "flavor": "Remember you can use a glory hole furnace to keep the globs hot!"
+            },
+            "amber_forest_cullet_melt": {
+               "recipe_name": "Remelt Amber Forest Cullet",
+               "description": "Melts a poorly cooled down piece of amber forest glass to recyle it into another gather of molten glass.",
+               "flavor": "Use an annealing forge to properly cool down your glassware!"
+            },
+            "colorless_glass_melt": {
+               "recipe_name": "Melt Colorless Glass",
+               "description": "Creates a gather of molten colorless glass to be worked and shaped as desired. Keep the molten glass globs inside a glory hole furnace so they won't cool down.",
+               "flavor": ""
+            },
+            "colorless_raw_glass_melt": {
+               "recipe_name": "Reheat Colorless Raw Glass",
+               "description": "Melts the solidified puddle to form another gather of molten colorless glass.",
+               "flavor": "Remember you can use a glory hole furnace to keep the globs hot!"
+            },
+            "colorless_cullet_melt": {
+               "recipe_name": "Remelt Colorless Cullet",
+               "description": "Melts a poorly cooled down piece of colorless glass to recyle it into another gather of molten glass.",
+               "flavor": "Use an annealing forge to properly cool down your glassware!"
+            },
+            "material_refining_name": "Material Refining",
+            "obsidian_ingot_recipe": {
+               "recipe_name": "Meld Obsidian Ingot",
+               "description": "By masterfully combining Obsidian and Titanium the Glassmith can create an alloy usable by a Blacksmith.",
+               "flavor": "Arise as a legend."
+            },
+            "raw_obsidian_recipe": {
+               "recipe_name": "Meld Obsidian",
+               "description": "Merge together some shards of Obsidian to form a larger chunk.",
+               "flavor": "It is said somewhere that only the fire of a Dragon can melt this glass. Nonsense!"
+            },
+            "sheets_name": "Glass Sheets",
+            "green_forest_crown_glass": {
+               "recipe_name": "Green Forest Crown Glass",
+               "description": "By blowing a glass glob into a large bubble and then flattening it, several disk-shaped glass sheets can be created.",
+               "flavor": ""
+            },
+            "colorless_crown_glass": {
+               "recipe_name": "Colorless Crown Glass",
+               "description": "By blowing a glass glob into a large bubble and then flattening it, several disk-shaped glass sheets can be created.",
+               "flavor": ""
+            },
+            "amber_forest_crown_glass": {
+               "recipe_name": "Amber Forest Crown Glass",
+               "description": "By blowing a glass glob into a large bubble and then flattening it, several disk-shaped glass sheets can be created.",
+               "flavor": ""
+            },
+            "colorless1": "Colorless Glassware & Decorations",
+            "colorless2": "Colorless Glass, Windows",
+            "colorless3": "Colorless Glass, Doors & Furniture",
+            "green1": "Green Glassware & Decorations",
+            "green2": "Green Glass, Windows",
+            "green3": "Green Glass, Doors & Furniture",
+            "yellow1": "Yellow Glassware & Decorations",
+            "yellow2": "Yellow Glass, Windows",
+            "yellow3": "Yellow Glass, Doors & Furniture",
+            "brown1": "Brown Glassware & Decorations",
+            "brown2": "Brown Glass, Windows",
+            "brown3": "Brown Glass, Doors & Furniture",
+            "red1": "Red Glassware & Decorations",
+            "red2": "Red Glass, Windows",
+            "red3": "Red Glass, Doors & Furniture",
+            "blue1": "Blue Glassware & Decorations",
+            "blue2": "Blue Glass, Windows",
+            "blue3": "Blue Glass, Doors & Furniture",
+            "purple1": "Purple Glassware & Decorations",
+            "purple2": "Purple Glass, Windows",
+            "purple3": "Purple Glass, Doors & Furniture",
+            "bw1": "Black & White Glassware & Decorations",
+            "bw2": "Black & White Glass, Windows",
+            "bw3": "Black & White Glass, Doors & Furniture",
+            "stained1": "Stained Glass",
+            "stained2": "Stained Glass, Custom Design",
+            "stained_custom": {
+               "recipe_name": "Stained Glass Piece (x4)",
+               "colorless_description": "Craft four pieces of colorless stained glass panels for building customized windows or images.",
+               "colorless_flavor": "",
+               "bb_description": "Craft four pieces of bright blue stained glass panels for building customized windows or images.",
+               "bb_flavor": "",
+               "bg_description": "Craft four pieces of bright green stained glass panels for building customized windows or images.",
+               "bg_flavor": "",
+               "bk_description": "Craft four pieces of black stained glass panels for building customized windows or images.",
+               "bk_flavor": "",
+               "bn_description": "Craft four pieces of bright brown stained glass panels for building customized windows or images.",
+               "bn_flavor": "",
+               "bp_description": "Craft four pieces of bright purple stained glass panels for building customized windows or images.",
+               "bp_flavor": "",
+               "br_description": "Craft four pieces of bright red stained glass panels for building customized windows or images.",
+               "br_flavor": "",
+               "by_description": "Craft four pieces of bright yellow stained glass panels for building customized windows or images.",
+               "by_flavor": "",
+               "db_description": "Craft four pieces of deep blue stained glass panels for building customized windows or images.",
+               "db_flavor": "",
+               "dg_description": "Craft four pieces of deep green stained glass panels for building customized windows or images.",
+               "dg_flavor": "",
+               "dn_description": "Craft four pieces of deep brown stained glass panels for building customized windows or images.",
+               "dn_flavor": "",
+               "dp_description": "Craft four pieces of deep purple stained glass panels for building customized windows or images.",
+               "dp_flavor": "",
+               "dr_description": "Craft four pieces of bright red stained glass panels for building customized windows or images.",
+               "dr_flavor": "",
+               "dy_description": "Craft four pieces of deep yellow stained glass panels for building customized windows or images.",
+               "dy_flavor": "",
+               "fg_description": "Craft four pieces of green forest stained glass panels for building customized windows or images.",
+               "fg_flavor": "",
+               "fo_description": "Craft four pieces of amber forest stained glass panels for building customized windows or images.",
+               "fo_flavor": "",
+               "lb_description": "Craft four pieces of light blue stained glass panels for building customized windows or images.",
+               "lb_flavor": "",
+               "ln_description": "Craft four pieces of light brown stained glass panels for building customized windows or images.",
+               "ln_flavor": "",
+               "lp_description": "Craft four pieces of light purple stained glass panels for building customized windows or images.",
+               "lp_flavor": "",
+               "lr_description": "Craft four pieces of light red stained glass panels for building customized windows or images.",
+               "lr_flavor": "",
+               "wh_description": "Craft four pieces of white stained glass panels for building customized windows or images.",
+               "wh_flavor": ""
+            },
+            "window_wooden": {
+               "recipe_name": "Glass Wooden Window",
+               "cl_description": "Create a wooden window with colorless glass and an empty frame.",
+               "cl_flavor": "",
+               "fg_description": "Create a wooden window with green forest glass and an empty frame.",
+               "fg_flavor": "",
+               "fo_description": "Create a wooden window with amber forest glass and an empty frame.",
+               "fo_flavor": "",
+               "lb_description": "Create a wooden window with light blue glass and an empty frame.",
+               "lb_flavor": "",
+               "ln_description": "Create a wooden window with light brown glass and an empty frame.",
+               "ln_flavor": "",
+               "lp_description": "Create a wooden window with light purple glass and an empty frame.",
+               "lp_flavor": "",
+               "lr_description": "Create a wooden window with light red glass and an empty frame.",
+               "lr_flavor": "",
+               "bk_description": "Create a wooden window with black glass and an empty frame.",
+               "bk_flavor": "",
+               "wh_description": "Create a wooden window with white glass and an empty frame.",
+               "wh_flavor": "",
+               "st1_description": "Create a good looking wooden window with simple stained glass bits.",
+               "st1_flavor": "",
+               "st2_description": "Create a beautiful wooden window with diverse stained glass bits.",
+               "st2_flavor": ""
+            },
+            "crown_window_wooden": {
+               "recipe_name": "Crown Glass Wooden Window",
+               "cl_description": "Create a wooden window with colorless crown glass and an empty frame.",
+               "cl_flavor": "",
+               "fg_flavor": "",
+               "fg_description": "Create a wooden window with green forest crown glass and an empty frame.",
+               "fo_flavor": "",
+               "fo_description": "Create a wooden window with amber forest crown glass and an empty frame."
+            },
+            "window_wooden_tall": {
+               "cl_description": "Create a tall wooden window with colorless glass and an empty frame.",
+               "cl_flavor": "",
+               "bk_description": "Create a tall wooden window with black glass and an empty frame.",
+               "fg_description": "Create a tall wooden window with green forest glass and an empty frame.",
+               "fg_flavor": "",
+               "fo_description": "Create a tall wooden window with amber forest glass and an empty frame.",
+               "fo_flavor": "",
+               "lb_description": "Create a tall wooden window with light blue glass and an empty frame.",
+               "lb_flavor": "",
+               "ln_description": "Create a tall wooden window with light brown glass and an empty frame.",
+               "ln_flavor": "",
+               "lp_description": "Create a tall wooden window with light purple glass and an empty frame.",
+               "lp_flavor": "",
+               "lr_description": "Create a tall wooden window with light red glass and an empty frame.",
+               "lr_flavor": "",
+               "wh_description": "Create a tall wooden window with white glass and an empty frame.",
+               "wh_flavor": "",
+               "st1_description": "Create a good looking tall wooden window with simple stained glass bits.",
+               "st1_flavor": "",
+               "st2_description": "Create a beautiful tall wooden window with diverse stained glass bits.",
+               "st2_flavor": "A very modern window design created by Mondrian Burlyhands"
+            },
+            "crown_window_wooden_tall": {
+               "cl_description": "Create a tall wooden window with colorless crown glass and an empty frame.",
+               "cl_flavor": "",
+               "fg_description": "Create a tall wooden window with green forest crown glass and an empty frame.",
+               "fg_flavor": "",
+               "fo_description": "Create a tall wooden window with amber forest crown glass and an empty frame.",
+               "fo_flavor": ""
+            },
+            "window_wooden_diamond": {
+               "cl_flavor": "",
+               "cl_description": "Create a wooden diamond window with colorless glass and an empty frame.",
+               "fg_description": "Create a wooden diamond window with green forest glass and an empty frame.",
+               "fg_flavor": "",
+               "bk_description": "Create a wooden diamond window with black glass and an empty frame.",
+               "bk_flavor": "",
+               "fo_description": "Create a wooden diamond window with amber forest glass and an empty frame.",
+               "fo_flavor": "",
+               "lb_description": "Create a wooden diamond window with light blue glass and an empty frame.",
+               "lb_flavor": "",
+               "ln_description": "Create a wooden diamond window with light brown glass and an empty frame.",
+               "ln_flavor": "",
+               "lp_description": "Create a wooden diamond window with light purple glass and an empty frame.",
+               "lp_flavor": "",
+               "lr_description": "Create a wooden diamond window with light red glass and an empty frame.",
+               "lr_flavor": "",
+               "wh_description": "Create a wooden diamond window with white glass and an empty frame.",
+               "wh_flavor": ""
+            },
+            "window_wooden_wide": {
+               "cl_flavor": "",
+               "cl_description": "Create a wide wooden window with colorless glass and an empty frame.",
+               "bk_flavor": "",
+               "bk_description": "Create a wide wooden window with black glass and an empty frame.",
+               "fg_flavor": "",
+               "fg_description": "Create a wide wooden window with green forest glass and an empty frame.",
+               "fo_flavor": "",
+               "fo_description": "Create a wide wooden window with amber forest glass and an empty frame.",
+               "lb_flavor": "",
+               "lb_description": "Create a wide wooden window with light blue glass and an empty frame.",
+               "ln_flavor": "",
+               "ln_description": "Create a wide wooden window with light brown glass and an empty frame.",
+               "lp_flavor": "",
+               "lp_description": "Create a wide wooden window with light purple glass and an empty frame.",
+               "lr_flavor": "",
+               "lr_description": "Create a wide wooden window with light red glass and an empty frame.",
+               "wh_flavor": "",
+               "wh_description": "Create a wide wooden window with white glass and an empty frame.",
+               "st1_description": "Create a good looking wide wooden window with simple stained glass bits.",
+               "st1_flavor": "",
+               "st2_description": "Create a beautiful wide wooden window with diverse stained glass bits.",
+               "st2_flavor": ""
+            },
+            "crown_window_wooden_wide": {
+               "fg_flavor": "",
+               "fg_description": "Create a wide wooden window with green forest crown glass and an empty frame.",
+               "fo_description": "Create a wide wooden window with amber forest crown glass and an empty frame.",
+               "fo_flavor": "",
+               "cl_flavor": "",
+               "cl_description": "Create a wide wooden window with colorless crown glass and an empty frame."
+            },
+            "window_stone": {
+               "cl_description": "Create a stone window with colorless glass and an empty frame.",
+               "cl_flavor": "",
+               "bk_description": "Create a stone window with black glass and an empty frame.",
+               "bk_flavor": "",
+               "fg_description": "Create a stone window with green forest glass and an empty frame.",
+               "fg_flavor": "",
+               "fo_description": "Create a stone window with amber forest glass and an empty frame.",
+               "fo_flavor": "",
+               "lb_description": "Create a stone window with light blue glass and an empty frame.",
+               "lb_flavor": "",
+               "ln_description": "Create a stone window with light brown glass and an empty frame.",
+               "ln_flavor": "",
+               "lp_description": "Create a stone window with light purple glass and an empty frame.",
+               "lp_flavor": "",
+               "lr_description": "Create a stone window with light red glass and an empty frame.",
+               "lr_flavor": "",
+               "wh_description": "Create a stone window with white glass and an empty frame.",
+               "wh_flavor": "",
+               "st1_description": "Create a good looking stone window with simple stained glass bits.",
+               "st1_flavor": "",
+               "st2_description": "Create a beautiful stone window with diverse stained glass bits.",
+               "st2_flavor": "Often called 'The Chrome Window'"
+            },
+            "crown_window_stone": {
+               "cl_description": "Create a stone window with colorless crown glass and an empty frame.",
+               "cl_flavor": "",
+               "fo_flavor": "",
+               "fo_description": "Create a stone window with amber forest crown glass and an empty frame.",
+               "fg_description": "Create a stone window with green forest crown glass and an empty frame.",
+               "fg_flavor": ""
+            },
+            "window_stone_tall": {
+               "cl_description": "Create a tall stone window with colorless glass and an empty frame.",
+               "cl_flavor": "",
+               "bk_description": "Create a tall stone window with black glass and an empty frame.",
+               "bk_flavor": "",
+               "fg_description": "Create a tall stone window with green forest glass and an empty frame.",
+               "fg_flavor": "",
+               "fo_description": "Create a tall stone window with amber forest glass and an empty frame.",
+               "fo_flavor": "",
+               "lb_description": "Create a tall stone window with light blue glass and an empty frame.",
+               "lb_flavor": "",
+               "ln_description": "Create a tall stone window with light brown glass and an empty frame.",
+               "ln_flavor": "",
+               "lp_description": "Create a tall stone window with light purple glass and an empty frame.",
+               "lp_flavor": "",
+               "lr_description": "Create a tall stone window with light red glass and an empty frame.",
+               "lr_flavor": "",
+               "wh_description": "Create a tall stone window with white glass and an empty frame.",
+               "wh_flavor": "",
+               "st1_description": "Create a good looking tall stone window with simple stained glass bits.",
+               "st1_flavor": "",
+               "st2_description": "Create a beautiful tall stone window with diverse stained glass bits.",
+               "st2_flavor": ""
+            },
+            "crown_window_stone_tall": {
+               "cl_flavor": "",
+               "cl_description": "Create a tall stone window with colorless crown glass and an empty frame.",
+               "fg_description": "Create a tall stone window with green forest crown glass and an empty frame.",
+               "fg_flavor": "",
+               "fo_description": "Create a tall stone window with amber forest crown glass and an empty frame.",
+               "fo_flavor": ""
+            },
+            "window_stone_round": {
+               "cl_description": "Create a round stone window with colorless glass and an empty frame.",
+               "cl_flavor": "",
+               "bk_description": "Create a round stone window with black glass and an empty frame.",
+               "bk_flavor": "",
+               "fg_description": "Create a round stone window with green forest glass and an empty frame.",
+               "fg_flavor": "",
+               "fo_description": "Create a round stone window with amber forest glass and an empty frame.",
+               "fo_flavor": "",
+               "lb_description": "Create a round stone window with light blue glass and an empty frame.",
+               "lb_flavor": "",
+               "ln_description": "Create a round stone window with light brown glass and an empty frame.",
+               "ln_flavor": "",
+               "lp_description": "Create a round stone window with light purple glass and an empty frame.",
+               "lp_flavor": "",
+               "lr_description": "Create a round stone window with light red glass and an empty frame.",
+               "lr_flavor": "",
+               "wh_description": "Create a round stone window with white glass and an empty frame.",
+               "wh_flavor": ""
+            },
+            "window_stone_wide": {
+               "cl_description": "Create a wide stone window with colorless glass and an empty frame.",
+               "cl_flavor": "",
+               "bk_description": "Create a wide stone window with black glass and an empty frame.",
+               "bk_flavor": "",
+               "fg_description": "Create a wide stone window with green forest glass and an empty frame.",
+               "fg_flavor": "",
+               "fo_description": "Create a wide stone window with amber forest glass and an empty frame.",
+               "fo_flavor": "",
+               "lb_description": "Create a wide stone window with light blue glass and an empty frame.",
+               "lb_flavor": "",
+               "ln_description": "Create a wide stone window with light brown glass and an empty frame.",
+               "ln_flavor": "",
+               "lp_description": "Create a wide stone window with light purple glass and an empty frame.",
+               "lp_flavor": "",
+               "lr_description": "Create a wide stone window with light red glass and an empty frame.",
+               "lr_flavor": "",
+               "wh_description": "Create a wide stone window with white glass and an empty frame.",
+               "wh_flavor": "",
+               "st1_description": "Create a good looking wide stone window with simple stained glass bits.",
+               "st1_flavor": "",
+               "st2_description": "Create a beautiful wide stone window with diverse stained glass bits.",
+               "st2_flavor": ""
+            },
+            "crown_window_stone_wide": {
+               "cl_description": "Create a wide stone window with colorless crown glass and an empty frame.",
+               "cl_flavor": "",
+               "fo_description": "Create a wide stone window with amber forest crown glass and an empty frame.",
+               "fo_flavor": "",
+               "fg_flavor": "",
+               "fg_description": "Create a wide stone window with green forest crown glass and an empty frame."
+            },
+            "window_clay": {
+               "cl_description": "Create a clay window with colorless glass and an empty frame.",
+               "cl_flavor": "",
+               "bk_description": "Create a clay window with black glass and an empty frame.",
+               "bk_flavor": "",
+               "fg_description": "Create a clay window with green forest glass and an empty frame.",
+               "fg_flavor": "",
+               "fo_description": "Create a clay window with amber forest glass and an empty frame.",
+               "fo_flavor": "",
+               "lb_description": "Create a clay window with light blue glass and an empty frame.",
+               "lb_flavor": "",
+               "ln_description": "Create a clay window with light brown glass and an empty frame.",
+               "ln_flavor": "",
+               "lp_description": "Create a clay window with light purple glass and an empty frame.",
+               "lp_flavor": "",
+               "lr_description": "Create a clay window with light red glass and an empty frame.",
+               "lr_flavor": "",
+               "wh_description": "Create a clay window with white glass and an empty frame.",
+               "wh_flavor": "",
+               "st1_description": "Create a good looking clay window with simple stained glass bits.",
+               "st1_flavor": "",
+               "st2_description": "Create a beautiful clay window with diverse stained glass bits.",
+               "st2_flavor": ""
+            },
+            "crown_window_clay": {
+               "cl_description": "Create a clay window with colorless crown glass and a latticed frame.",
+               "cl_flavor": "",
+               "fg_description": "Create a clay window with green forest crown glass and a latticed frame.",
+               "fg_flavor": "",
+               "fo_description": "Create a clay window with amber forest crown glass and a latticed frame.",
+               "fo_flavor": ""
+            },
+            "window_clay_tall": {
+               "cl_description": "Create a tall clay window with colorless glass and an empty frame.",
+               "cl_flavor": "",
+               "bk_description": "Create a tall clay window with black glass and an empty frame.",
+               "bk_flavor": "",
+               "fg_description": "Create a tall clay window with green forest glass and an empty frame.",
+               "fg_flavor": "",
+               "fo_description": "Create a tall clay window with amber forest glass and an empty frame.",
+               "fo_flavor": "",
+               "lb_description": "Create a tall clay window with light blue glass and an empty frame.",
+               "lb_flavor": "",
+               "ln_description": "Create a tall clay window with light brown glass and an empty frame.",
+               "ln_flavor": "",
+               "lp_description": "Create a tall clay window with light purple glass and an empty frame.",
+               "lp_flavor": "",
+               "lr_description": "Create a tall clay window with light red glass and an empty frame.",
+               "lr_flavor": "",
+               "wh_description": "Create a tall clay window with white glass and an empty frame.",
+               "wh_flavor": "",
+               "st1_description": "Create a good looking tall clay window with simple stained glass bits.",
+               "st1_flavor": "",
+               "st2_description": "Create a beautiful tall clay window with diverse stained glass bits.",
+               "st2_flavor": ""
+            },
+            "crown_window_clay_tall": {
+               "cl_description": "Create a tall clay window with colorless crown glass and an empty frame.",
+               "cl_flavor": "",
+               "fg_description": "Create a tall clay window with green forest crown glass and an empty frame.",
+               "fg_flavor": "",
+               "fo_description": "Create a tall clay window with amber forest crown glass and an empty frame.",
+               "fo_flavor": ""
+            },
+            "window_clay_colored": {
+               "cl_description": "Create a colored clay window with colorless glass and an empty frame.",
+               "cl_flavor": "",
+               "fg_description": "Create a colored clay window with green forest glass and an empty frame.",
+               "fg_flavor": "",
+               "fo_description": "Create a colored clay window with amber forest glass and an empty frame.",
+               "fo_flavor": "",
+               "bk_description": "Create a colored clay window with black glass and an empty frame.",
+               "lb_description": "Create a colored clay window with light blue glass and an empty frame.",
+               "lb_flavor": "",
+               "bk_flavor": "",
+               "ln_description": "Create a colored clay window with light brown glass and an empty frame.",
+               "ln_flavor": "",
+               "lp_description": "Create a colored clay window with light purple glass and an empty frame.",
+               "lp_flavor": "",
+               "lr_description": "Create a colored clay window with light red glass and an empty frame.",
+               "lr_flavor": "",
+               "wh_description": "Create a colored clay window with white glass and an empty frame.",
+               "wh_flavor": ""
+            },
+            "crown_window_clay_colored": {
+               "cl_description": "Create a colored clay window with colorless crown glass and a latticed frame.",
+               "cl_flavor": "",
+               "fd_description": "Create a colored clay window with green forest crown glass and a latticed frame.",
+               "fd_flavor": "",
+               "fo_description": "Create a colored clay window with amber forest crown glass and a latticed frame.",
+               "fo_flavor": ""
+            },
+            "window_clay_tall_colored": {
+               "cl_description": "Create a tall colored clay window with colorless glass and an empty frame.",
+               "cl_flavor": "",
+               "fg_description": "Create a tall colored clay window with green forest glass and an empty frame.",
+               "fg_flavor": "",
+               "fo_description": "Create a tall colored clay window with amber forest glass and an empty frame.",
+               "fo_flavor": "",
+               "bk_description": "Create a tall colored clay window with black glass and an empty frame.",
+               "bk_flavor": "",
+               "lb_description": "Create a tall colored clay window with light blue glass and an empty frame.",
+               "lb_flavor": "",
+               "ln_description": "Create a tall colored clay window with light brown glass and an empty frame.",
+               "ln_flavor": "",
+               "lp_description": "Create a tall colored clay window with light purple glass and an empty frame.",
+               "lp_flavor": "",
+               "lr_description": "Create a tall colored clay window with light red glass and an empty frame.",
+               "lr_flavor": "",
+               "wh_description": "Create a tall colored clay window with white glass and an empty frame.",
+               "wh_flavor": ""
+            },
+            "crown_window_clay_tall_colored": {
+               "cl_description": "Create a tall colored clay window with colorless crown glass and an empty frame.",
+               "cl_flavor": "",
+               "fg_description": "Create a tall colored clay window with green forest crown glass and an empty frame.",
+               "fg_flavor": "",
+               "fo_description": "Create a tall colored clay window with amber forest crown glass and an empty frame.",
+               "fo_flavor": ""
+            },
+            "door_clay_blue": {
+               "cl_flavor": "",
+               "cl_description": "Create a blue clay door with a colorless crown glass window.",
+               "fg_description": "Create a blue clay door with a green forest glass window.",
+               "fg_flavor": "",
+               "bk_description": "Create a blue clay door with a black glass window.",
+               "bk_flavor": "",
+               "fo_description": "Create a blue clay door with an amber forest glass window.",
+               "fo_flavor": "",
+               "lb_description": "Create a blue clay door with a blue glass window.",
+               "lb_flavor": "",
+               "ln_description": "Create a blue clay door with a light brown glass window.",
+               "ln_flavor": "",
+               "lp_description": "Create a blue clay door with a light purple glass window.",
+               "lp_flavor": "",
+               "lr_description": "Create a blue clay door with a light red glass window.",
+               "lr_flavor": "",
+               "wh_description": "Create a blue clay door with a white glass window.",
+               "wh_flavor": ""
+            },
+            "door_clay_glass": {
+               "cl_description": "Create a latticed clay door with colorless glass.",
+               "cl_flavor": "",
+               "bk_description": "Create a latticed clay door with black glass.",
+               "bk_flavor": "",
+               "fg_description": "Create a latticed clay door with green forest glass.",
+               "fg_flavor": "",
+               "fo_description": "Create a latticed clay door with amber forest glass.",
+               "fo_flavor": "",
+               "lb_description": "Create a latticed clay door with light blue glass.",
+               "lb_flavor": "",
+               "ln_description": "Create a latticed clay door with light brown glass.",
+               "ln_flavor": "",
+               "lp_description": "Create a latticed clay door with light purple glass.",
+               "lp_flavor": "",
+               "lr_description": "Create a latticed clay door with light red glass.",
+               "lr_flavor": "",
+               "wh_description": "Create a latticed clay door with white glass.",
+               "wh_flavor": "",
+               "st_description": "Create a beautiful latticed clay door with stained glass bits.",
+               "st_flavor": ""
+            },
+            "door_clay_green": {
+               "cl_description": "Create a green clay door with a colorless glass window.",
+               "cl_flavor": "",
+               "fg_description": "Create a green clay door with a green forest crown glass window.",
+               "fg_flavor": "",
+               "bk_description": "Create a green clay door with a black glass window.",
+               "bk_flavor": "",
+               "fo_description": "Create a green clay door with an amber forest glass window.",
+               "fo_flavor": "",
+               "lb_description": "Create a green clay door with a light blue glass window.",
+               "lb_flavor": "",
+               "ln_description": "Create a green clay door with a light brown glass window.",
+               "ln_flavor": "",
+               "lp_description": "Create a green clay door with a light purple glass window.",
+               "lp_flavor": "",
+               "lr_description": "Create a green clay door with a light red glass window.",
+               "lr_flavor": "",
+               "wh_description": "Create a green clay door with a white glass window.",
+               "wh_flavor": ""
+            },
+            "door_clay_red": {
+               "cl_description": "Create a red clay door with a colorless glass window.",
+               "cl_flavor": "",
+               "fo_description": "Create a red clay door with an amber forest crown glass window.",
+               "fo_flavor": "",
+               "bk_description": "Create a red clay door with a black glass window.",
+               "bk_flavor": "",
+               "fg_description": "Create a red clay door with a green forest glass window.",
+               "fg_flavor": "",
+               "lb_description": "Create a red clay door with a light blue glass window.",
+               "lb_flavor": "",
+               "ln_description": "Create a red clay door with a light brown glass window.",
+               "ln_flavor": "",
+               "lp_description": "Create a red clay door with a light purple glass window.",
+               "lp_flavor": "",
+               "lr_description": "Create a red clay door with a light red glass window.",
+               "lr_flavor": "",
+               "wh_description": "Create a red clay door with a white glass window.",
+               "wh_flavor": ""
+            },
+            "door_wooden_2": {
+               "cl_description": "Create a reinforced wooden door with a colorless glass window.",
+               "cl_flavor": "",
+               "bk_description": "Create a reinforced wooden door with a black glass window.",
+               "bk_flavor": "",
+               "fg_description": "Create a reinforced wooden door with a green forest glass window.",
+               "fg_flavor": "",
+               "fo_description": "Create a reinforced wooden door with an amber forest glass window.",
+               "fo_flavor": "",
+               "lb_description": "Create a reinforced wooden door with a light blue glass window.",
+               "lb_flavor": "",
+               "ln_description": "Create a reinforced wooden door with a light brown glass window.",
+               "ln_flavor": "",
+               "lp_description": "Create a reinforced wooden door with a light purple glass window.",
+               "lp_flavor": "",
+               "lr_description": "Create a reinforced wooden door with a light red glass window.",
+               "lr_flavor": "",
+               "wh_description": "Create a reinforced wooden door with a white glass window.",
+               "wh_flavor": ""
+            },
+            "door_wooden_double": {
+               "cl_description": "Create a wooden double door with two colorless glass windows.",
+               "cl_flavor": "",
+               "bk_description": "Create a wooden double door with two black glass windows.",
+               "bk_flavor": "",
+               "fg_description": "Create a wooden double door with two green forest glass windows.",
+               "fg_flavor": "",
+               "fo_description": "Create a wooden double door with two amber forest glass windows.",
+               "fo_flavor": "",
+               "lb_description": "Create a wooden double door with two light blue glass windows.",
+               "lb_flavor": "",
+               "ln_description": "Create a wooden double door with two light brown glass windows.",
+               "ln_flavor": "",
+               "lp_description": "Create a wooden double door with two light purple glass windows.",
+               "lp_flavor": "",
+               "lr_description": "Create a wooden double door with two light red glass windows.",
+               "lr_flavor": "",
+               "wh_description": "Create a wooden double door with two white glass windows.",
+               "wh_flavor": ""
+            },
+            "door_wooden_glass_double": {
+               "cl_description": "Create a fancy wooden double door with long colorless glass panes.",
+               "cl_flavor": "",
+               "bk_description": "Create a fancy wooden double door with long black glass panes.",
+               "bk_flavor": "",
+               "fg_description": "Create a fancy wooden double door with long green forest glass panes.",
+               "fg_flavor": "",
+               "fo_description": "Create a fancy wooden double door with long amber forest glass panes.",
+               "fo_flavor": "",
+               "lb_description": "Create a fancy wooden double door with long light blue glass panes.",
+               "lb_flavor": "",
+               "ln_description": "Create a fancy wooden double door with long light brown glass panes.",
+               "ln_flavor": "",
+               "lp_description": "Create a fancy wooden double door with long light purple glass panes.",
+               "lp_flavor": "",
+               "lr_description": "Create a fancy wooden double door with long light red glass panes.",
+               "lr_flavor": "",
+               "wh_description": "Create a fancy wooden double door with long white glass panes.",
+               "wh_flavor": "",
+               "st_description": "Create a beautiful wooden double door with two stained glass windows.",
+               "st_flavor": ""
+            },
+            "door_wooden_glass": {
+               "cl_description": "Create a fancy wooden door with a long colorless glass pane.",
+               "cl_flavor": "",
+               "bk_description": "Create a fancy wooden door with a long black glass pane.",
+               "bk_flavor": "",
+               "fg_description": "Create a fancy wooden door with a long green forest glass pane.",
+               "fg_flavor": "",
+               "fo_description": "Create a fancy wooden door with a long amber forest glass pane.",
+               "fo_flavor": "",
+               "lb_description": "Create a fancy wooden door with a long light blue glass pane.",
+               "lb_flavor": "",
+               "ln_description": "Create a fancy wooden door with a long light brown glass pane.",
+               "ln_flavor": "",
+               "lp_description": "Create a fancy wooden door with a long light purple glass pane.",
+               "lp_flavor": "",
+               "lr_description": "Create a fancy wooden door with a long light red glass pane.",
+               "lr_flavor": "",
+               "wh_description": "Create a fancy wooden door with a long white glass pane.",
+               "wh_flavor": "",
+               "st_description": "Create a beautiful wooden door with a stained glass window.",
+               "st_flavor": ""
+            },
+            "door_wooden": {
+               "cl_description": "Create a flimsy wooden door with a colorless crown glass window.",
+               "cl_flavor": "",
+               "fg_description": "Create a flimsy wooden door with a green forest crown glass window.",
+               "fg_flavor": "",
+               "fo_description": "Create a flimsy wooden door with an amber forest crown glass window.",
+               "fo_flavor": ""
+            },
+            "table_one": {
+               "cl_description": "Create a wooden table with a colorless glass surface.",
+               "cl_flavor": "",
+               "bk_description": "Create a wooden table with a black glass surface.",
+               "bk_flavor": "",
+               "fg_description": "Create a wooden table with a green forest glass surface.",
+               "fg_flavor": "",
+               "fo_description": "Create a wooden table with an amber forest glass surface.",
+               "fo_flavor": "",
+               "lb_description": "Create a wooden table with a light blue glass surface.",
+               "lb_flavor": "",
+               "ln_description": "Create a wooden table with a light brown glass surface.",
+               "ln_flavor": "",
+               "lp_description": "Create a wooden table with a light purple glass surface.",
+               "lp_flavor": "",
+               "lr_description": "Create a wooden table with a light red glass surface.",
+               "lr_flavor": "",
+               "wh_description": "Create a wooden table with a white glass surface.",
+               "wh_flavor": ""
+            },
+            "table_clay": {
+               "cl_description": "Create a clay dining table with a colorless glass surface.",
+               "cl_flavor": "",
+               "bk_description": "Create a clay dining table with a black glass surface.",
+               "bk_flavor": "",
+               "fg_description": "Create a clay dining table with a green forest glass surface.",
+               "fg_flavor": "",
+               "fo_description": "Create a clay dining table with an amber forest glass surface.",
+               "fo_flavor": "",
+               "lb_description": "Create a clay dining table with a light blue glass surface.",
+               "lb_flavor": "",
+               "ln_description": "Create a clay dining table with a light brown glass surface.",
+               "ln_flavor": "",
+               "lp_description": "Create a clay dining table with a light purple glass surface.",
+               "lp_flavor": "",
+               "lr_description": "Create a clay dining table with a light red glass surface.",
+               "lr_flavor": "",
+               "wh_description": "Create a clay dining table with a white glass surface.",
+               "wh_flavor": ""
+            },
+            "table_dining": {
+               "cl_description": "Create a wooden dining table with a colorless glass surface.",
+               "cl_flavor": "",
+               "bk_description": "Create a wooden dining table with a black glass surface.",
+               "bk_flavor": "",
+               "fg_description": "Create a wooden dining table with a green forest glass surface.",
+               "fg_flavor": "",
+               "fo_description": "Create a wooden dining table with an amber forest glass surface.",
+               "fo_flavor": "",
+               "lb_description": "Create a wooden dining table with a light blue glass surface.",
+               "lb_flavor": "",
+               "ln_description": "Create a wooden dining table with a light brown glass surface.",
+               "ln_flavor": "",
+               "lp_description": "Create a wooden dining table with a light purple glass surface.",
+               "lp_flavor": "",
+               "lr_description": "Create a wooden dining table with a light red glass surface.",
+               "lr_flavor": "",
+               "wh_description": "Create a wooden dining table with a white glass surface.",
+               "wh_flavor": ""
+            },
+            "table_stone": {
+               "cl_description": "Create a stone dining table with a colorless glass surface.",
+               "cl_flavor": "",
+               "bk_description": "Create a stone dining table with a black glass surface.",
+               "bk_flavor": "",
+               "fg_description": "Create a stone dining table with a green forest glass surface.",
+               "fg_flavor": "",
+               "fo_description": "Create a stone dining table with an amber forest glass surface.",
+               "fo_flavor": "",
+               "lb_description": "Create a stone dining table with a light blue glass surface.",
+               "lb_flavor": "",
+               "ln_description": "Create a stone dining table with a light brown glass surface.",
+               "ln_flavor": "",
+               "lp_description": "Create a stone dining table with a light purple glass surface.",
+               "lp_flavor": "",
+               "lr_description": "Create a stone dining table with a light red glass surface.",
+               "lr_flavor": "",
+               "wh_description": "Create a stone dining table with a white glass surface.",
+               "wh_flavor": ""
+            },
+            "molded_pot_small": {
+               "cl_description": "Create a colorless glass small pot by blowing into a mold. ",
+               "cl_flavor": "",
+               "st_description": "Create a colorful canework small pot by melting stained glass rods and blowing into a mold.",
+               "st_flavor": "",
+               "bk_description": "Create a black glass small pot by blowing into a mold. ",
+               "bk_flavor": "",
+               "fg_description": "Create a green forest glass small pot by blowing into a mold. ",
+               "fg_flavor": "",
+               "fo_description": "Create amber forest glass small pot by blowing into a mold. ",
+               "fo_flavor": "",
+               "lb_description": "Create a light blue glass small pot by blowing into a mold. ",
+               "lb_flavor": "",
+               "ln_description": "Create a light brown glass small pot by blowing into a mold. ",
+               "ln_flavor": "",
+               "lp_description": "Create a light purple glass small pot by blowing into a mold. ",
+               "lp_flavor": "",
+               "lr_description": "Create a light red glass small pot by blowing into a mold. ",
+               "lr_flavor": "",
+               "wh_description": "Create a white glass small pot by blowing into a mold. ",
+               "wh_flavor": ""
+            },
+            "molded_cup": {
+               "cl_description": "Create a colorless glass cup by blowing into a mold. ",
+               "cl_flavor": "",
+               "st_description": "Create a colorful canework cup by melting stained glass rods and blowing into a mold.",
+               "st_flavor": "",
+               "bk_description": "Create a black glass cup by blowing into a mold. ",
+               "bk_flavor": "",
+               "fg_description": "Create a green forest glass cup by blowing into a mold. ",
+               "fg_flavor": "",
+               "fo_description": "Create an amber forest glass cup by blowing into a mold. ",
+               "fo_flavor": "",
+               "lb_description": "Create a light blue glass cup by blowing into a mold. ",
+               "lb_flavor": "",
+               "ln_description": "Create a light brown glass cup by blowing into a mold. ",
+               "ln_flavor": "",
+               "lp_description": "Create a light purple glass cup by blowing into a mold. ",
+               "lp_flavor": "",
+               "lr_description": "Create a light red glass cup by blowing into a mold. ",
+               "lr_flavor": "",
+               "wh_description": "Create a white glass cup by blowing into a mold. ",
+               "wh_flavor": ""
+            },
+            "goblet": {
+               "cl_description": "Create a colorless glass goblet.",
+               "cl_flavor": "",
+               "st_description": "Create a colorful murrine goblet by melting stained glass bits together.",
+               "st_flavor": "",
+               "bb_flavor": "",
+               "bb_description": "Create a bright blue glass goblet.",
+               "bg_description": "Create a bright green glass goblet.",
+               "bg_flavor": "",
+               "bk_description": "Create a black glass goblet.",
+               "bk_flavor": "",
+               "bn_description": "Create a bright brown glass goblet.",
+               "bn_flavor": "",
+               "bp_description": "Create a bright purple glass goblet.",
+               "bp_flavor": "",
+               "br_description": "Create a bright red glass goblet.",
+               "br_flavor": "",
+               "by_description": "Create a bright yellow glass goblet.",
+               "by_flavor": "",
+               "wh_description": "Create a white glass goblet.",
+               "wh_flavor": ""
+            },
+            "molded_pot": {
+               "cl_description": "Create a colorless glass pot by blowing into a mold. ",
+               "cl_flavor": "",
+               "st_description": "Create a colorful canework pot by melting stained glass rods and blowing into a mold.",
+               "st_flavor": "",
+               "bk_description": "Create a black glass pot by blowing into a mold. ",
+               "bk_flavor": "",
+               "fg_description": "Create a green forest glass pot by blowing into a mold. ",
+               "fg_flavor": "",
+               "fo_description": "Create an amber forest glass pot by blowing into a mold. ",
+               "fo_flavor": "",
+               "lb_description": "Create a light blue glass pot by blowing into a mold. ",
+               "lb_flavor": "",
+               "ln_description": "Create a light brown glass pot by blowing into a mold. ",
+               "ln_flavor": "",
+               "lp_description": "Create a light purple glass pot by blowing into a mold. ",
+               "lp_flavor": "",
+               "lr_description": "Create a light red glass pot by blowing into a mold. ",
+               "lr_flavor": "",
+               "wh_description": "Create a white glass pot by blowing into a mold. ",
+               "wh_flavor": ""
+            },
+            "molded_pot_tall": {
+               "cl_description": "Create a colorless glass tall pot by blowing into a mold. ",
+               "cl_flavor": "",
+               "st_description": "Create a colorful canework tall pot by melting stained glass rods and blowing into a mold.",
+               "st_flavor": "",
+               "bk_description": "Create a black glass tall pot by blowing into a mold. ",
+               "bk_flavor": "",
+               "fg_description": "Create a green forest glass tall pot by blowing into a mold. ",
+               "fg_flavor": "",
+               "fo_description": "Create an amber forest glass tall pot by blowing into a mold. ",
+               "fo_flavor": "",
+               "lb_description": "Create a light blue glass tall pot by blowing into a mold. ",
+               "lb_flavor": "",
+               "ln_description": "Create a light brown glass tall pot by blowing into a mold. ",
+               "ln_flavor": "",
+               "lp_description": "Create a light purple glass tall pot by blowing into a mold. ",
+               "lp_flavor": "",
+               "lr_description": "Create a light red glass tall pot by blowing into a mold. ",
+               "lr_flavor": "",
+               "wh_description": "Create a white glass tall pot by blowing into a mold. ",
+               "wh_flavor": ""
+            },
+            "pitcher": {
+               "cl_description": "Create a colorless glass pitcher.",
+               "cl_flavor": "",
+               "st_description": "Create a colorful murrine pitcher by melting stained glass bits together.",
+               "st_flavor": "",
+               "bb_description": "Create a bright blue glass pitcher.",
+               "bb_flavor": "",
+               "bg_description": "Create a bright green glass pitcher.",
+               "bg_flavor": "",
+               "bk_description": "Create a black glass pitcher.",
+               "bk_flavor": "",
+               "bn_description": "Create a bright brown glass pitcher.",
+               "bn_flavor": "",
+               "bp_description": "Create a bright purple glass pitcher.",
+               "bp_flavor": "",
+               "br_description": "Create a bright red glass pitcher.",
+               "br_flavor": "",
+               "by_description": "Create a bright yellow glass pitcher.",
+               "by_flavor": "",
+               "wh_description": "Create a white glass pitcher.",
+               "wh_flavor": ""
+            },
+            "pot_large": {
+               "cl_description": "Create a colorless large pot.",
+               "cl_flavor": "",
+               "st_description": "Create a colorful canework large pot by melting stained glass rods together.",
+               "st_flavor": "",
+               "bk_description": "Create a black glass large pot. ",
+               "bk_flavor": "",
+               "fg_description": "Create a green forest glass large pot.",
+               "fg_flavor": "",
+               "fo_description": "Create an amber forest glass large pot.",
+               "fo_flavor": "",
+               "lb_description": "Create a light blue glass large pot.",
+               "lb_flavor": "",
+               "ln_description": "Create a light brown glass large pot.",
+               "ln_flavor": "",
+               "lr_description": "Create a light red glass large pot. ",
+               "lr_flavor": "",
+               "wh_description": "Create a white glass large pot. ",
+               "wh_flavor": "",
+               "lp_description": "Create a light purple glass large pot.",
+               "lp_flavor": ""
+            },
+            "vase": {
+               "cl_description": "Create a colorless glass vase.",
+               "cl_flavor": "",
+               "st_description": "Create a colorful murrine vase by melting stained glass bits together.",
+               "st_flavor": "",
+               "bb_description": "Create a bright blue glass vase.",
+               "bb_flavor": "",
+               "bg_description": "Create a bright green glass vase.",
+               "bg_flavor": "",
+               "bk_description": "Create a black glass vase.",
+               "bk_flavor": "",
+               "bn_description": "Create a bright brown glass vase.",
+               "bn_flavor": "",
+               "bp_description": "Create a bright purple glass vase.",
+               "bp_flavor": "",
+               "br_description": "Create a bright red glass vase.",
+               "br_flavor": "",
+               "by_description": "Create a bright yellow glass vase.",
+               "by_flavor": "",
+               "wh_description": "Create a white glass vase.",
+               "wh_flavor": ""
+            },
+            "vase_tall": {
+               "cl_description": "Create a colorless glass tall vase.",
+               "cl_flavor": "",
+               "st_description": "Create a colorful murrine tall vase by melting stained glass bits together.",
+               "st_flavor": "",
+               "bb_description": "Create a bright blue glass tall vase.",
+               "bb_flavor": "",
+               "bg_description": "Create a bright green glass tall vase.",
+               "bg_flavor": "",
+               "bk_description": "Create a black glass tall vase.",
+               "bk_flavor": "",
+               "bn_description": "Create a bright brown glass tall vase.",
+               "bn_flavor": "",
+               "bp_description": "Create a bright purple glass tall vase.",
+               "bp_flavor": "",
+               "br_description": "Create a bright red glass tall vase.",
+               "br_flavor": "",
+               "by_description": "Create a bright yellow glass tall vase.",
+               "by_flavor": "",
+               "wh_description": "Create a white glass tall vase.",
+               "wh_flavor": ""
+            },
+            "molded_bottle_brew": {
+               "description": "Create a glass bottle ideal for brewing by blowing into a mold.",
+               "flavor": ""
+            },
+            "molded_bottle_wine": {
+               "description": "Create a glass bottle ideal for wines and ciders by blowing into a mold.",
+               "flavor": ""
+            },
+            "molded_jar": {
+               "description": "Create a glass jar ideal for conserving delicacies by blowing into a mold.",
+               "flavor": "Can be alternatively filled with dirt."
+            },
+            "molded_pot_small_flower2": {
+               "cl_description": "Chilly frostsnaps in a colorless glass small pot.",
+               "cl_flavor": "",
+               "fg_description": "Chilly frostsnaps in a green forest glass small pot.",
+               "fg_flavor": "",
+               "bk_description": "Chilly frostsnaps in a black glass small pot.",
+               "bk_flavor": "",
+               "fo_description": "Chilly frostsnaps in an amber forest glass small pot.",
+               "fo_flavor": "",
+               "lb_description": "Chilly frostsnaps in a light blue glass small pot.",
+               "lb_flavor": "",
+               "ln_description": "Chilly frostsnaps in a light brown glass small pot.",
+               "ln_flavor": "",
+               "lp_description": "Chilly frostsnaps in a light purple glass small pot.",
+               "lp_flavor": "",
+               "lr_description": "Chilly frostsnaps in a light red glass small pot.",
+               "lr_flavor": "",
+               "st_description": "Chilly frostsnaps in a canework colored glass small pot.",
+               "st_flavor": "",
+               "wh_description": "Chilly frostsnaps in a white glass small pot.",
+               "wh_flavor": ""
+            },
+            "molded_pot_flower1": {
+               "cl_description": "A pretty flowered cactus inside a colorless glass pot.",
+               "cl_flavor": "",
+               "fg_description": "A pretty flowered cactus inside a green forest glass pot.",
+               "fg_flavor": "",
+               "bk_description": "A pretty flowered cactus inside a black glass pot.",
+               "bk_flavor": "",
+               "fo_description": "A pretty flowered cactus inside an amber forest glass pot.",
+               "fo_flavor": "",
+               "lb_description": "A pretty flowered cactus inside a light blue glass pot.",
+               "lb_flavor": "",
+               "ln_description": "A pretty flowered cactus inside a light brown glass pot.",
+               "ln_flavor": "",
+               "lp_description": "A pretty flowered cactus inside a light purple glass pot.",
+               "lp_flavor": "",
+               "lr_description": "A pretty flowered cactus inside a light red glass pot.",
+               "lr_flavor": "",
+               "st_description": "A pretty flowered cactus inside a canework colored glass pot.",
+               "st_flavor": "",
+               "wh_description": "A pretty flowered cactus inside a white glass pot.",
+               "wh_flavor": ""
+            },
+            "molded_pot_small_flower1": {
+               "cl_description": "Delicate brightbells in a colorless glass small pot.",
+               "cl_flavor": "",
+               "fg_description": "Delicate brightbells in a green forest glass small pot.",
+               "fg_flavor": "",
+               "bk_description": "Delicate brightbells in a black glass small pot.",
+               "bk_flavor": "",
+               "fo_description": "Delicate brightbells in an amber forest glass small pot.",
+               "fo_flavor": "",
+               "lb_description": "Delicate brightbells in a light blue glass small pot.",
+               "lb_flavor": "",
+               "ln_description": "Delicate brightbells in a light brown glass small pot.",
+               "ln_flavor": "",
+               "lp_description": "Delicate brightbells in a light purple glass small pot.",
+               "lp_flavor": "",
+               "lr_description": "Delicate brightbells in a light red glass small pot.",
+               "lr_flavor": "",
+               "st_description": "Delicate brightbells in a canework colored glass small pot.",
+               "st_flavor": "",
+               "wh_description": "Delicate brightbells in a white glass small pot.",
+               "wh_flavor": ""
+            },
+            "molded_pot_tall_flower1": {
+               "cl_description": "A radiant sunflower in a colorless glass tall pot.",
+               "cl_flavor": "",
+               "bk_description": "A radiant sunflower in a black glass tall pot.",
+               "bk_flavor": "",
+               "fg_description": "A radiant sunflower in a green forest glass tall pot.",
+               "fg_flavor": "",
+               "fo_description": "A radiant sunflower in an amber forest glass tall pot.",
+               "fo_flavor": "",
+               "lb_description": "A radiant sunflower in a light blue glass tall pot.",
+               "lb_flavor": "",
+               "ln_description": "A radiant sunflower in a light brown glass tall pot.",
+               "ln_flavor": "",
+               "lp_description": "A radiant sunflower in a light purple glass tall pot.",
+               "lp_flavor": "",
+               "lr_description": "A radiant sunflower in a light red glass tall pot.",
+               "lr_flavor": "",
+               "st_description": "A radiant sunflower in a canework colored glass tall pot.",
+               "st_flavor": "",
+               "wh_description": "A radiant sunflower in a white glass tall pot.",
+               "wh_flavor": ""
+            },
+            "pot_large_flower1": {
+               "cl_description": "Lush cactus red tulips in a colorless glass large pot.",
+               "cl_flavor": "",
+               "bk_description": "Lush cactus red tulips in a black glass large pot.",
+               "bk_flavor": "",
+               "fg_description": "Lush cactus red tulips in a green forest glass large pot.",
+               "fg_flavor": "",
+               "fo_description": "Lush cactus red tulips in an amber forest glass large pot.",
+               "fo_flavor": "",
+               "lb_description": "Lush cactus red tulips in a light blue glass large pot.",
+               "lb_flavor": "",
+               "ln_description": "Lush cactus red tulips in a light brown glass large pot.",
+               "ln_flavor": "",
+               "lp_description": "Lush cactus red tulips in a light purple glass large pot.",
+               "lp_flavor": "",
+               "lr_description": "Lush cactus red tulips in a light red glass large pot.",
+               "lr_flavor": "",
+               "st_description": "Lush cactus red tulips in a canework colored glass large pot.",
+               "st_flavor": "",
+               "wh_description": "Lush cactus red tulips in a white glass large pot.",
+               "wh_flavor": ""
+            },
+            "pot_large_flower2": {
+               "cl_description": "Vibrant cactus blue tulips in a colorless glass large pot.",
+               "cl_flavor": "",
+               "bk_description": "Vibrant cactus blue tulips in a black glass large pot.",
+               "bk_flavor": "",
+               "fg_description": "Vibrant cactus blue tulips in a green forest glass large pot.",
+               "fg_flavor": "",
+               "fo_description": "Vibrant cactus blue tulips in an amber forest glass large pot.",
+               "fo_flavor": "",
+               "lb_description": "Vibrant cactus blue tulips in a light blue glass large pot.",
+               "lb_flavor": "",
+               "ln_description": "Vibrant cactus blue tulips in a light brown glass large pot.",
+               "ln_flavor": "",
+               "lp_description": "Vibrant cactus blue tulips in a light purple glass large pot.",
+               "lp_flavor": "",
+               "lr_description": "Vibrant cactus blue tulips in a light red glass large pot.",
+               "lr_flavor": "",
+               "st_description": "Vibrant cactus blue tulips in a canework colored glass large pot.",
+               "st_flavor": "",
+               "wh_description": "Vibrant cactus blue tulips in a white glass large pot.",
+               "wh_flavor": ""
+            },
+            "pot_large_flower3": {
+               "cl_description": "Shiny cactus yellow tulips in a colorless glass large pot.",
+               "cl_flavor": "",
+               "bk_description": "Shiny cactus yellow tulips in a black glass large pot.",
+               "bk_flavor": "",
+               "fg_description": "Shiny cactus yellow tulips in a green forest glass large pot.",
+               "fg_flavor": "",
+               "fo_description": "Shiny cactus yellow tulips in an amber forest glass large pot.",
+               "fo_flavor": "",
+               "lb_description": "Shiny cactus yellow tulips in a light blue glass large pot.",
+               "lb_flavor": "",
+               "ln_description": "Shiny cactus yellow tulips in a light brown glass large pot.",
+               "ln_flavor": "",
+               "lp_description": "Shiny cactus yellow tulips in a light purple glass large pot.",
+               "lp_flavor": "",
+               "lr_description": "Shiny cactus yellow tulips in a light red glass large pot.",
+               "lr_flavor": "",
+               "st_description": "Shiny cactus yellow tulips in a canework colored glass large pot.",
+               "st_flavor": "",
+               "wh_description": "Shiny cactus yellow tulips in a white glass large pot.",
+               "wh_flavor": ""
+            },
+            "vase_flower1": {
+               "cl_description": "Delicate brightbells in a colorless glass vase.",
+               "cl_flavor": "",
+               "bb_description": "Delicate brightbells in a bright blue glass vase.",
+               "bb_flavor": "Bright bright",
+               "bg_description": "Delicate brightbells in a bright green glass vase.",
+               "bg_flavor": "",
+               "bk_description": "Delicate brightbells in a black glass vase.",
+               "bk_flavor": "",
+               "bn_description": "Delicate brightbells in a bright brown glass vase.",
+               "bn_flavor": "",
+               "bp_description": "Delicate brightbells in a bright purple glass vase.",
+               "bp_flavor": "Bright bright",
+               "br_description": "Delicate brightbells in a bright red glass vase.",
+               "br_flavor": "",
+               "by_description": "Delicate brightbells in a bright yellow glass vase.",
+               "by_flavor": "Bright bright",
+               "st_description": "Delicate brightbells in a murrine glass vase.",
+               "st_flavor": "",
+               "wh_description": "Delicate brightbells in a white glass vase.",
+               "wh_flavor": ""
+            },
+            "vase_flower2": {
+               "cl_description": "Chilly frostsnaps in a colorless glass vase.",
+               "cl_flavor": "",
+               "bb_description": "Chilly frostsnaps in a bright blue glass vase.",
+               "bb_flavor": "",
+               "bg_description": "Chilly frostsnaps in a bright green glass vase.",
+               "bg_flavor": "",
+               "bk_description": "Chilly frostsnaps in a black glass vase.",
+               "bk_flavor": "",
+               "bn_description": "Chilly frostsnaps in a bright brown glass vase.",
+               "bn_flavor": "",
+               "bp_description": "Chilly frostsnaps in a bright purple glass vase.",
+               "bp_flavor": "",
+               "br_description": "Chilly frostsnaps in a bright red glass vase.",
+               "br_flavor": "",
+               "by_description": "Chilly frostsnaps in a bright yellow glass vase.",
+               "by_flavor": "",
+               "st_description": "Chilly frostsnaps in a murrine glass vase.",
+               "st_flavor": "",
+               "wh_description": "Chilly frostsnaps in a white glass vase.",
+               "wh_flavor": ""
+            },
+            "vase_tall_flower1": {
+               "cl_description": "A radiant sunflower in a colorless glass tall vase.",
+               "cl_flavor": "",
+               "bb_description": "A radiant sunflower in a bright blue glass tall vase.",
+               "bb_flavor": "",
+               "bg_description": "A radiant sunflower in a bright green glass tall vase.",
+               "bg_flavor": "",
+               "bk_description": "A radiant sunflower in a black glass tall vase.",
+               "bk_flavor": "",
+               "bn_description": "A radiant sunflower in a bright brown glass tall vase.",
+               "bn_flavor": "",
+               "bp_description": "A radiant sunflower in a bright purple glass tall vase.",
+               "bp_flavor": "",
+               "br_description": "A radiant sunflower in a bright red glass tall vase.",
+               "br_flavor": "",
+               "by_description": "A radiant sunflower in a bright yellow glass tall vase.",
+               "by_flavor": "",
+               "st_description": "A radiant sunflower in a murrine glass tall vase.",
+               "st_flavor": "",
+               "wh_description": "A radiant sunflower in a white glass tall vase.",
+               "wh_flavor": ""
+            }
+         }
+      }
+   },
+   "glassware": {
+      "display_name": "Glassware",
+      "molded_pot_small": {
+         "cl_display_name": "Colorless Molded Small Pot",
+         "description": "There's a thing about pots that makes you always want more pots.",
+         "st_display_name": "Canework Molded Small Pot",
+         "bk_display_name": "Black Molded Small Pot",
+         "fg_display_name": "Green Forest Molded Small Pot",
+         "fo_display_name": "Amber Forest Molded Small Pot",
+         "lb_display_name": "Light Blue Molded Small Pot",
+         "ln_display_name": "Pale Molded Small Pot",
+         "lp_display_name": "Violet Molded Small Pot",
+         "lr_display_name": "Pink Molded Small Pot",
+         "wh_display_name": "Opal Molded Small Pot"
+      },
+      "hot_description": "Pretty red hot shapes! Let it cool down on an annealing forge to prevent shattering...",
+      "goblet": {
+         "cl_display_name": "Colorless Goblet",
+         "description": "Noble drinks can't do with petty vessels.",
+         "st_display_name": "Murrine Goblet",
+         "bb_display_name": "Bright Blue Goblet",
+         "bg_display_name": "Emerald Green Goblet",
+         "bk_display_name": "Black Goblet",
+         "bn_display_name": "Tan Goblet",
+         "bp_display_name": "Bright Purple Goblet",
+         "br_display_name": "Ruby Red Goblet",
+         "by_display_name": "Bright Yellow Goblet",
+         "wh_display_name": "Opal Goblet"
+      },
+      "molded_cup": {
+         "cl_display_name": "Colorless Molded Cup",
+         "description": "A petty vessel.",
+         "st_display_name": "Canework Molded Cup",
+         "bk_display_name": "Black Molded Cup",
+         "fg_display_name": "Green Forest Molded Cup",
+         "fo_display_name": "Amber Forest Molded Cup",
+         "lb_display_name": "Light Blue Molded Cup",
+         "ln_display_name": "Pale Molded Cup",
+         "lp_display_name": "Violet Molded Cup",
+         "lr_display_name": "Pink Molded Cup",
+         "wh_display_name": "Opal Molded Cup"
+      },
+      "molded_pot": {
+         "cl_display_name": "Colorless Molded Pot",
+         "description": "The perfect pot.",
+         "st_display_name": "Canework Molded Pot",
+         "bk_display_name": "Black Molded Pot",
+         "fg_display_name": "Green Forest Molded Pot",
+         "fo_display_name": "Amber Forest Molded Pot",
+         "lb_display_name": "Light Blue Molded Pot",
+         "ln_display_name": "Pale Molded Pot",
+         "lp_display_name": "Violet Molded Pot",
+         "lr_display_name": "Pink Molded Pot",
+         "wh_display_name": "Opal Molded Pot"
+      },
+      "molded_pot_tall": {
+         "cl_display_name": "Colorless Molded Tall Pot",
+         "description": "Sometimes you wish you could stack pots.",
+         "st_display_name": "Canework Molded Tall Pot",
+         "bk_display_name": "Black Molded Tall Pot",
+         "fg_display_name": "Green Forest Molded Tall Pot",
+         "fo_display_name": "Amber Forest Molded Tall Pot",
+         "lb_display_name": "Light Blue Molded Tall Pot",
+         "ln_display_name": "Pale Molded Tall Pot",
+         "lp_display_name": "Violet Molded Tall Pot",
+         "lr_display_name": "Pink Molded Tall Pot",
+         "wh_display_name": "Opal Molded Tall Pot"
+      },
+      "pitcher": {
+         "cl_display_name": "Colorless Pitcher",
+         "description": "Pouring has never been fancier.",
+         "st_display_name": "Murrine Pitcher",
+         "bb_display_name": "Bright Blue Pitcher",
+         "bg_display_name": "Emerald Green Pitcher",
+         "bk_display_name": "Black Pitcher",
+         "bn_display_name": "Tan Pitcher",
+         "bp_display_name": "Bright Purple Pitcher",
+         "br_display_name": "Ruby Red Pitcher",
+         "by_display_name": "Bright Yellow Pitcher",
+         "wh_display_name": "Opal Pitcher"
+      },
+      "pot_large": {
+         "cl_display_name": "Colorless Large Pot",
+         "description": "Breaking glass will give you bad luck...",
+         "st_display_name": "Canework Large Pot",
+         "bk_display_name": "Black Large Pot",
+         "fg_display_name": "Green Forest Large Pot",
+         "fo_display_name": "Amber Forest Large Pot",
+         "lb_display_name": "Light Blue Large Pot",
+         "ln_display_name": "Pale Large Pot",
+         "lr_display_name": "Pink Large Pot",
+         "wh_display_name": "Opal Large Pot",
+         "lp_display_name": "Violet Large Pot"
+      },
+      "vase": {
+         "cl_display_name": "Colorless Vase",
+         "description": "The elegance is all about the curves.",
+         "st_display_name": "Murrine Vase",
+         "bb_display_name": "Bright Blue Vase",
+         "bg_display_name": "Emerald Green Vase",
+         "bk_display_name": "Black Vase",
+         "bn_display_name": "Tan Vase",
+         "bp_display_name": "Bright Purple Vase",
+         "br_display_name": "Ruby Red Vase",
+         "by_display_name": "Bright Yellow Vase",
+         "wh_display_name": "Opal Vase"
+      },
+      "vase_tall": {
+         "cl_display_name": "Colorless Tall Vase",
+         "description": "A masterwork in glassblowing.",
+         "st_display_name": "Murrine Tall Vase",
+         "bb_display_name": "Bright Blue Tall Vase",
+         "bg_display_name": "Emerald Green Tall Vase",
+         "bk_display_name": "Black Tall Vase",
+         "bn_display_name": "Tan Tall Vase",
+         "bp_display_name": "Bright Purple Tall Vase",
+         "br_display_name": "Ruby Red Tall Vase",
+         "by_display_name": "Bright Yellow Tall Vase",
+         "wh_display_name": "Opal Tall Vase"
+      },
+      "molded_bottle_brew": {
+         "display_name": "Brewer's Bottle",
+         "description": "Used to store and preserve different kinds of brewed beverages."
+      },
+      "molded_bottle_wine": {
+         "display_name": "Vitner's Bottle",
+         "description": "The ideal vessel for storage and preservation of beverages like fine wines."
+      },
+      "molded_jar": {
+         "display_name": "Glass Jar",
+         "description": "The ideal vessel for storing and maintaining preserves."
+      },
+      "molded_pot_small_flower2": {
+         "cl_display_name": "Frostsnap Colorless Molded Small Pot",
+         "fg_display_name": "Frostsnap Green Forest Molded Small Pot",
+         "bk_display_name": "Frostsnap Black Molded Small Pot",
+         "fo_display_name": "Frostsnap Amber Forest Molded Small Pot",
+         "lb_display_name": "Frostsnap Light Blue Molded Small Pot",
+         "ln_display_name": "Frostsnap Pale Molded Small Pot",
+         "lp_display_name": "Frostsnap Violet Molded Small Pot",
+         "lr_display_name": "Frostsnap Pink Molded Small Pot",
+         "st_display_name": "Frostsnap Canework Molded Small Pot",
+         "wh_display_name": "Frostsnap Opal Molded Small Pot"
+      },
+      "molded_pot_flower1": {
+         "cl_display_name": "Cactus Flower Colorless Molded Pot",
+         "fg_display_name": "Cactus Flower Green Forest Molded Pot",
+         "bk_display_name": "Cactus Flower Black Molded Pot",
+         "fo_display_name": "Cactus Flower Amber Forest Molded Pot",
+         "lb_display_name": "Cactus Flower Light Blue Molded Pot",
+         "ln_display_name": "Cactus Flower Pale Molded Pot",
+         "lp_display_name": "Cactus Flower Violet Molded Pot",
+         "lr_display_name": "Cactus Flower Pink Molded Pot",
+         "st_display_name": "Cactus Flower Canework Molded Pot",
+         "wh_display_name": "Cactus Flower Opal Molded Pot"
+      },
+      "molded_pot_small_flower1": {
+         "cl_display_name": "Brightbell Colorless Molded Small Pot",
+         "fg_display_name": "Brightbell Green Forest Molded Small Pot",
+         "bk_display_name": "Brightbell Black Molded Small Pot",
+         "fo_display_name": "Brightbell Amber Forest Molded Small Pot",
+         "lb_display_name": "Brightbell Light Blue Molded Small Pot",
+         "ln_display_name": "Brightbell Pale Molded Small Pot",
+         "lp_display_name": "Brightbell Violet Molded Small Pot",
+         "lr_display_name": "Brightbell Pink Molded Small Pot",
+         "st_display_name": "Brightbell Canework Molded Small Pot",
+         "wh_display_name": "Brightbell Opal Molded Small Pot"
+      },
+      "molded_pot_tall_flower1": {
+         "cl_display_name": "Sunflower Colorless Molded Tall Pot",
+         "bk_display_name": "Sunflower Black Molded Tall Pot",
+         "fg_display_name": "Sunflower Green Forest Molded Tall Pot",
+         "fo_display_name": "Sunflower Amber Forest Molded Tall Pot",
+         "lb_display_name": "Sunflower Light Blue Molded Tall Pot",
+         "ln_display_name": "Sunflower Pale Molded Tall Pot",
+         "lp_display_name": "Sunflower Violet Molded Tall Pot",
+         "lr_display_name": "Sunflower Pink Molded Tall Pot",
+         "st_display_name": "Sunflower Canework Molded Tall Pot",
+         "wh_display_name": "Sunflower Opal Molded Tall Pot"
+      },
+      "pot_large_flower1": {
+         "cl_display_name": "Red Tulip Colorless Large Pot",
+         "bk_display_name": "Red Tulip Black Large Pot",
+         "fg_display_name": "Red Tulip Green Forest Large Pot",
+         "fo_display_name": "Red Tulip Amber Forest Large Pot",
+         "lb_display_name": "Red Tulip Light Blue Large Pot",
+         "ln_display_name": "Red Tulip Pale Large Pot",
+         "lp_display_name": "Red Tulip Violet Large Pot",
+         "lr_display_name": "Red Tulip Pink Large Pot",
+         "st_display_name": "Red Tulip Canework Large Pot",
+         "wh_display_name": "Red Tulip Opal Large Pot"
+      },
+      "pot_large_flower2": {
+         "cl_display_name": "Blue Tulip Colorless Large Pot",
+         "bk_display_name": "Blue Tulip Black Large Pot",
+         "fg_display_name": "Blue Tulip Green Forest Large Pot",
+         "fo_display_name": "Blue Tulip Amber Forest Large Pot",
+         "lb_display_name": "Blue Tulip Light Blue Large Pot",
+         "ln_display_name": "Blue Tulip Pale Large Pot",
+         "lp_display_name": "Blue Tulip Violet Large Pot",
+         "lr_display_name": "Blue Tulip Pink Large Pot",
+         "st_display_name": "Blue Tulip Canework Large Pot",
+         "wh_display_name": "Blue Tulip Opal Large Pot"
+      },
+      "pot_large_flower3": {
+         "cl_display_name": "Yellow Tulip Colorless Large Pot",
+         "bk_display_name": "Yellow Tulip Black Large Pot",
+         "fg_display_name": "Yellow Tulip Green Forest Large Pot",
+         "fo_display_name": "Yellow Tulip Amber Forest Large Pot",
+         "lb_display_name": "Yellow Tulip Light Blue Large Pot",
+         "ln_display_name": "Yellow Tulip Pale Large Pot",
+         "lp_display_name": "Yellow Tulip Violet Large Pot",
+         "lr_display_name": "Yellow Tulip Pink Large Pot",
+         "st_display_name": "Yellow Tulip Canework Large Pot",
+         "wh_display_name": "Yellow Tulip Opal Large Pot"
+      },
+      "vase_flower1": {
+         "cl_display_name": "Brightbell Colorless Vase",
+         "bb_display_name": "Brightbell Bright Blue Vase",
+         "bg_display_name": "Brightbell Emerald Green Vase",
+         "bk_display_name": "Brightbell Black Vase",
+         "bn_display_name": "Brightbell Tan Vase",
+         "bp_display_name": "Brightbell Bright Purple Vase",
+         "br_display_name": "Brightbell Ruby Red Vase",
+         "by_display_name": "Brightbell Bright Yellow Vase",
+         "st_display_name": "Brightbell Murrine Vase",
+         "wh_display_name": "Brightbell Opal Vase"
+      },
+      "vase_flower2": {
+         "cl_display_name": "Frostsnap Colorless Vase",
+         "bb_display_name": "Frostsnap Bright Blue Vase",
+         "bg_display_name": "Frostsnap Emerald Green Vase",
+         "bk_display_name": "Frostsnap Black Vase",
+         "bn_display_name": "Frostsnap Tan Vase",
+         "bp_display_name": "Frostsnap Bright Purple Vase",
+         "br_display_name": "Frostsnap Ruby Red Vase",
+         "by_display_name": "Frostsnap Bright Yellow Vase",
+         "st_display_name": "Frostsnap Murrine Vase",
+         "wh_display_name": "Frostsnap Opal Vase"
+      },
+      "vase_tall_flower1": {
+         "cl_display_name": "Sunflower Colorless Tall Vase",
+         "bb_display_name": "Sunflower Bright Blue Tall Vase",
+         "bg_display_name": "Sunflower Emerald Green Tall Vase",
+         "bk_display_name": "Sunflower Black Tall Vase",
+         "bn_display_name": "Sunflower Tan Tall Vase",
+         "bp_display_name": "Sunflower Bright Purple Tall Vase",
+         "br_display_name": "Sunflower Ruby Red Tall Vase",
+         "by_display_name": "Sunflower Bright Yellow Tall Vase",
+         "st_display_name": "Sunflower Murrine Tall Vase",
+         "wh_display_name": "Sunflower Opal Tall Vase"
+      }
+   },
+   "items": {
+      "glassmith_outfit": {
+         "display_name": "Glassmith's Outfit",
+         "description": "The apron is recommended when dealing with sticky blobs of molten fluids."
+      },
+      "glassmith_blowpipe": {
+         "display_name": "Glassmith's Blowpipe",
+         "description": "Alongside the pontil, the two most basic tools of a glassblower."
+      }
+   },
+   "refined": {
+      "calcium_salts": {
+         "display_name": "Calcium Salts",
+         "description": "Common metallic salts often used in building and reactions like coloring glass."
+      },
+      "chromium_salts": {
+         "display_name": "Chromium Salts",
+         "description": "An uncommon metallic salt used for chemical reactions like coloring glass."
+      },
+      "cobalt_salts": {
+         "display_name": "Cobalt Salts",
+         "description": "A common metallic salt used for chemical reactions like coloring glass."
+      },
+      "copper_salts": {
+         "display_name": "Copper Salts",
+         "description": "A common metallic salt used for chemical reactions like coloring glass."
+      },
+      "iron_salts": {
+         "display_name": "Iron Salts",
+         "description": "A common metallic salt used for chemical reactions like coloring glass."
+      },
+      "manganese_salts": {
+         "display_name": "Manganese Salts",
+         "description": "A common metallic salt used for chemical reactions like coloring glass."
+      },
+      "nickel_salts": {
+         "display_name": "Nickel Salts",
+         "description": "A rare metallic salt often found in galena veins with silver."
+      },
+      "titanium_salts": {
+         "display_name": "Titanium Salts",
+         "description": "A rare metallic salt, Titanium is quite coveted for its endurance and beauty."
+      },
+      "tin_salts": {
+         "display_name": "Tin Salts",
+         "description": "A common metallic salt used for chemical reactions like coloring glass."
+      },
+      "minerals": {
+         "display_name": "Common Minerals",
+         "description": "Diverse minerals, like arsenic and sulfur, that might have various uses."
+      },
+      "silver_flakes": {
+         "display_name": "Silver Flakes",
+         "description": "Used to make pretty things - like coloring glass."
+      },
+      "ashes": {
+         "display_name": "Ashes"
+      },
+      "wood_ash": {
+         "display_name": "Wood Ash",
+         "description": "Wood ash obtained from burning charcoal."
+      },
+      "soda_ash": {
+         "display_name": "Soda Ash",
+         "description": "Salty ash obtained from burning certain types of herbs."
+      },
+      "obsidian_ingot": {
+         "display_name": "Obsidian Ingot",
+         "description": "An amazing obsidian-titanium alloy created by a Master Glassmith."
+      },
+      "molten_glass_globs": {
+         "display_name": "Molten Glass Glob",
+         "forest1_description": "Green Forest Glass. Very hot, it will cool down if left anywhere!",
+         "forest2_description": "Amber Forest Glass. Very hot, it will cool down if left anywhere!",
+         "colorless_description": "Colorless Glass. Very hot, it will cool down if left anywhere!"
+      },
+      "glass_sheets": {
+         "crown": {
+            "forest1_display_name": "Green Forest Crown Glass",
+            "forest1_description": "Circular sheets of light green glass.",
+            "forest2_display_name": "Amber Forest Crown Glass",
+            "forest2_description": "Circular sheets of light yellow glass.",
+            "colorless_display_name": "Colorless Crown Glass",
+            "colorless_description": "Circular sheets of colorless glass.",
+            "hot_description": "Still too hot to be used! Let it cool down on an annealing forge to prevent shattering..."
+         },
+         "bb_display_name": "Bright Blue Glass Sheet",
+         "bb_description": "A flat, beautiful and clear sheet of bright blue glass.",
+         "bg_display_name": "Emerald Glass Sheet",
+         "bg_description": "A flat, beautiful and clear sheet of bright green glass.",
+         "bk_display_name": "Black Glass Sheet",
+         "bk_description": "A beautiful and rare sheet of black glass.",
+         "bn_display_name": "Bright Brown Glass Sheet",
+         "bn_description": "A flat, beautiful and clear sheet of bright brown glass.",
+         "bp_display_name": "Bright Purple Glass Sheet",
+         "bp_description": "A flat, beautiful and clear sheet of bright purple glass.",
+         "br_display_name": "Ruby Glass Sheet",
+         "br_description": "A flat, beautiful and clear sheet of bright red glass.",
+         "by_display_name": "Bright Yellow Glass Sheet",
+         "by_description": "A flat, beautiful and clear sheet of bright yellow glass.",
+         "cl_display_name": "Colorless Glass Sheet",
+         "cl_description": "A flat, beautiful and clear sheet of colorless glass.",
+         "db_display_name": "Deep Blue Glass Sheet",
+         "db_description": "A flat, beautiful and clear sheet of deep blue glass.",
+         "dg_display_name": "Deep Green Glass Sheet",
+         "dg_description": "A flat, beautiful and clear sheet of deep green glass.",
+         "dn_display_name": "Deep Brown Glass Sheet",
+         "dn_description": "A flat, beautiful and clear sheet of deep brown glass.",
+         "dp_display_name": "Deep Purple Glass Sheet",
+         "dp_description": "A flat, beautiful and clear sheet of deep purple glass.",
+         "dr_display_name": "Deep Red Glass Sheet",
+         "dr_description": "A flat, beautiful and clear sheet of deep red glass.",
+         "dy_display_name": "Deep Yellow Glass Sheet",
+         "dy_description": "A flat, beautiful and clear sheet of deep yellow glass.",
+         "fg_display_name": "Green Forest Glass Sheet",
+         "fg_description": "A flat, beautiful and clear sheet of green forest glass.",
+         "fo_display_name": "Amber Forest Glass Sheet",
+         "fo_description": "A flat, beautiful and clear sheet of amber forest glass.",
+         "lb_display_name": "Light Blue Glass Sheet",
+         "lb_description": "A flat, beautiful and clear sheet of light blue glass.",
+         "ln_display_name": "Pale Glass Sheet",
+         "ln_description": "A flat, beautiful and clear sheet of light brown glass.",
+         "lp_display_name": "Violet Glass Sheet",
+         "lp_description": "A flat, beautiful and clear sheet of light purple glass.",
+         "lr_display_name": "Pink Glass Sheet",
+         "lr_description": "A flat, beautiful and clear sheet of light red glass.",
+         "wh_display_name": "Opal Glass Sheet",
+         "wh_description": "A beautiful and rare translucent sheet of white glass.",
+         "hot_description": "Still too hot to be used! Let it cool down on an annealing forge to prevent shattering...",
+         "bb_flavor": "",
+         "bg_flavor": "",
+         "bk_flavor": "Black is the new black",
+         "bn_flavor": "",
+         "bp_flavor": "",
+         "br_flavor": "Very regal, much royal. Wow.",
+         "by_flavor": "",
+         "cl_flavor": "",
+         "db_flavor": "",
+         "dg_flavor": "",
+         "dn_flavor": "",
+         "dp_flavor": "Smooooke on the water!",
+         "dr_flavor": "",
+         "dy_flavor": "",
+         "fg_flavor": "",
+         "fo_flavor": "",
+         "lb_flavor": "",
+         "ln_flavor": "",
+         "lp_flavor": "",
+         "lr_flavor": "Your new obsession",
+         "wh_flavor": "Looks like milk",
+         "sb_recipe_name": "Simple Stained Glass Bits (x3)",
+         "sb_description": "A simple assortment of stained glass pieces.",
+         "sb_flavor": "",
+         "sd_recipe_name": "Diverse Stained Glass Bits (x3)",
+         "sd_description": "A diverse and colorful collection of stained glass pieces.",
+         "sd_flavor": "",
+         "sb_display_name": "Simple Stained Glass Bits",
+         "sd_display_name": "Diverse Stained Glass Bits",
+         "sp_display_name": "Plentiful Stained Glass Bits",
+         "sp_description": "A big, colorful and shiny assortment of stained glass bits of all colors!",
+         "sp_recipe_name": "Plentiful Stained Glass Bits (x3)",
+         "sp_flavor": "Even MOAR colors!"
+      },
+      "raw_glass": {
+         "display_name": "Raw Glass",
+         "forest1_description": "A formless piece of green forest glass. Can be melted again.",
+         "forest2_description": "A formless piece of amber forest glass. Can be melted again.",
+         "colorless_description": "A formless piece of colorless glass. Can be melted again."
+      },
+      "cullet": {
+         "display_name": "Cullet",
+         "forest1_description": "The shattered and deformed remains of a poorly cooled green forest glass piece.",
+         "forest2_description": "The shattered and deformed remains of a poorly cooled amber forest glass piece.",
+         "colorless_description": "The shattered and deformed remains of a poorly cooled colorless glass piece."
+      },
+      "glass_mold": {
+         "display_name": "Glass Mold",
+         "description": "A mold used for blowing glassware. It must be broken to release the piece after use."
+      }
+   },
+   "resources": {
+      "fine_sand": {
+         "display_name": "Fine Sand",
+         "description": "It’s coarse and rough and irritating and it gets everywhere.",
+         "category_name": "Sand"
+      },
+      "packed_sand": {
+         "display_name": "Packed Sand",
+         "description_iconic": "This pile of Packed Sand can be placed to be harvested for Fine Sand.",
+         "description_placed": "Use the 'Harvest' command to collect Fine Sand from this pile!"
+      },
+      "obsidian_shards": {
+         "display_name": "Obsidian Shards",
+         "description": "Very rare and valuable shards of ancient volcanic glass."
+      },
+      "raw_obsidian": {
+         "display_name": "Raw Obsidian",
+         "description": "A sizeable and highly valuable chunk of ancient volcanic glass."
+      }
+   },
+   "construction": {
+      "display_name": "Glass Building Parts",
+      "stained_custom": {
+         "display_name": "Stained Glass Piece",
+         "description": "A tiny glass panel for building larger images or windows."
+      },
+      "mason": {
+         "stone_window_frame": {
+            "display_name": "Stone Window Frame",
+            "description": "Ideal for sun baking pies."
+         },
+         "stone_window_frame_arch": {
+            "display_name": "Stone Arch Window Frame",
+            "description": "The fancier the building, the taller the windows."
+         },
+         "stone_window_frame_round": {
+            "display_name": "Stone Round Window Frame",
+            "description": "It's time for peeking!"
+         },
+         "stone_window_frame_tall": {
+            "display_name": "Stone Tall Window Frame",
+            "description": "It's like a little stone door."
+         },
+         "stone_window_frame_wide": {
+            "display_name": "Stone Wide Window Frame",
+            "description": "Let the sun come in!"
+         }
+      },
+      "window_wooden": {
+         "cl_display_name": "Colorless Wooden Window",
+         "description": "Perhaps glass does add a bit of privacy...",
+         "fg_display_name": "Green Forest Wooden Window",
+         "fo_display_name": "Amber Forest Wooden Window",
+         "lb_display_name": "Light Blue Wooden Window",
+         "ln_display_name": "Pale Wooden Window",
+         "lp_display_name": "Violet Wooden Window",
+         "lr_display_name": "Pink Wooden Window",
+         "bk_display_name": "Black Wooden Window",
+         "wh_display_name": "Opal Wooden Window",
+         "st1_display_name": "Stained Glass Wooden Window",
+         "st2_display_name": "Beautiful Stained Wooden Window",
+         "st1_description": "The world looks prettier through stained glass.",
+         "st2_description": "Shiny and colorful, impossible to not admire!"
+      },
+      "crown_window_wooden": {
+         "cl_display_name": "Colorless Crown Wooden Window",
+         "description": "A crown glass wooden window.",
+         "fg_display_name": "Green Forest Crown Wooden Window",
+         "fo_display_name": "Amber Forest Crown Wooden Window"
+      },
+      "window_wooden_tall": {
+         "cl_display_name": "Colorless Tall Wooden Window",
+         "description": "Square windows are not as fashionable anymore.",
+         "fg_display_name": "Green Forest Tall Wooden Window",
+         "fo_display_name": "Amber Forest Tall Wooden Window",
+         "lb_display_name": "Light Blue Tall Wooden Window",
+         "ln_display_name": "Pale Tall Wooden Window",
+         "lp_display_name": "Violet Tall Wooden Window",
+         "lr_display_name": "Pink Tall Wooden Window",
+         "bk_display_name": "Black Tall Wooden Window",
+         "wh_display_name": "Opal Tall Wooden Window",
+         "st1_display_name": "Stained Glass Tall Wooden Window",
+         "st2_display_name": "Beautiful Stained Tall Wooden Window"
+      },
+      "crown_window_wooden_tall": {
+         "cl_display_name": "Colorless Crown Tall Wooden Window",
+         "description": "A crown glass tall wooden window.",
+         "fg_display_name": "Green Forest Crown Tall Window",
+         "fo_display_name": "Amber Forest Crown Tall Window"
+      },
+      "window_wooden_diamond": {
+         "cl_display_name": "Colorless Diamond Wooden Window",
+         "description": "What is fancy can always be fancier.",
+         "fg_display_name": "Green Forest Diamond Wooden Window",
+         "bk_display_name": "Black Diamond Wooden Window",
+         "fo_display_name": "Amber Forest Diamond Wooden Window",
+         "lb_display_name": "Light Blue Diamond Wooden Window",
+         "ln_display_name": "Pale Diamond Wooden Window",
+         "lp_display_name": "Violet Diamond Wooden Window",
+         "lr_display_name": "Pink Diamond Wooden Window",
+         "wh_display_name": "Opal Diamond Wooden Window"
+      },
+      "window_wooden_wide": {
+         "cl_display_name": "Colorless Wide Wooden Window",
+         "description": "More people can peek through the same window.",
+         "bk_display_name": "Black Wide Wooden Window",
+         "fg_display_name": "Green Forest Wide Wooden Window",
+         "fo_display_name": "Amber Forest Wide Wooden Window",
+         "lb_display_name": "Light Blue Wiie Wooden Window",
+         "ln_display_name": "Pale Wide Wooden Window",
+         "lp_display_name": "Violet Wide Wooden Window",
+         "lr_display_name": "Pink Wide Wooden Window",
+         "wh_display_name": "Opal Wide Wooden Window",
+         "st1_display_name": "Stained Glass Wide Wooden Window",
+         "st2_display_name": "Beautiful Stained Wide Wooden Window"
+      },
+      "crown_window_wooden_wide": {
+         "fg_display_name": "Green Forest Crown Wide Window",
+         "fo_display_name": "Amber Forest Crown Wide Window",
+         "cl_display_name": "Colorless Crown Wide Wooden Window",
+         "description": "A wide crown glass window."
+      },
+      "window_stone": {
+         "cl_display_name": "Colorless Stone Window",
+         "description": "Keeps the cold away.",
+         "bk_display_name": "Black Stone Window",
+         "fg_display_name": "Green Forest Stone Window",
+         "fo_display_name": "Amber Forest Stone Window",
+         "lb_display_name": "Light Blue Stone Window",
+         "ln_display_name": "Pale Stone Window",
+         "lp_display_name": "Violet Stone Window",
+         "lr_display_name": "Pink Stone Window",
+         "wh_display_name": "Opal Stone Window",
+         "st1_display_name": "Stained Glass Stone Window",
+         "st2_display_name": "Beautiful Stained Stone Window",
+         "st1_description": "Feels slightly monastic...",
+         "st2_description": "Vivid and bright glass makes every environment better."
+      },
+      "crown_window_stone": {
+         "cl_display_name": "Colorless Crown Stone Window",
+         "fg_display_name": "Green Forest Crown Stone Window",
+         "fo_display_name": "Amber Forest Crown Stone Window",
+         "description": "Very middle ages."
+      },
+      "window_stone_tall": {
+         "cl_display_name": "Colorless Tall Stone Window",
+         "description": "Worthy of a princess' tower.",
+         "bk_display_name": "Black Tall Stone Window",
+         "fg_display_name": "Green Forest Tall Stone Window",
+         "fo_display_name": "Amber Forest Tall Stone Window",
+         "lb_display_name": "Light Blue Tall Stone Window",
+         "ln_display_name": "Pale Tall Stone Window",
+         "lp_display_name": "Violet Tall Stone Window",
+         "lr_display_name": "Pink Tall Stone Window",
+         "wh_display_name": "Opal Tall Stone Window",
+         "st1_display_name": "Stained Glass Tall Stone Window",
+         "st2_display_name": "Beautiful Stained Tall Stone Window"
+      },
+      "crown_window_stone_tall": {
+         "description": "A tall stone crown glass window.",
+         "cl_display_name": "Colorless Crown Tall Stone Window",
+         "fg_display_name": "Green Forest Crown Tall Stone Window",
+         "fo_display_name": "Amber Forest Crown Tall Stone Window"
+      },
+      "window_stone_round": {
+         "description": "Perfect for haunted houses.",
+         "cl_display_name": "Colorless Round Stone Window",
+         "bk_display_name": "Black Round Stone Window",
+         "fg_display_name": "Green Forest Round Stone Window",
+         "fo_display_name": "Amber Forest Round Stone Window",
+         "lb_display_name": "Light Blue Round Stone Window",
+         "ln_display_name": "Pale Round Stone Window",
+         "lp_display_name": "Violet Round Stone Window",
+         "lr_display_name": "Pink Round Stone Window",
+         "wh_display_name": "Opal Round Stone Window"
+      },
+      "window_stone_wide": {
+         "cl_display_name": "Colorless Wide Stone Window",
+         "description": "Twice as difficult to clean.",
+         "bk_display_name": "Black Wide Stone Window",
+         "fg_display_name": "Green Forest Wide Stone Window",
+         "fo_display_name": "Amber Forest Wide Stone Window",
+         "lb_display_name": "Light Blue Wide Stone Window",
+         "ln_display_name": "Pale Wide Stone Window",
+         "lp_display_name": "Violet Wide Stone Window",
+         "lr_display_name": "Pink Wide Stone Window",
+         "wh_display_name": "Opal Wide Stone Window",
+         "st1_display_name": "Stained Glass Wide Stone Window",
+         "st2_display_name": "Beautiful Stained Wide Stone Window"
+      },
+      "crown_window_stone_wide": {
+         "cl_display_name": "Colorless Crown Wide Stone Window",
+         "description": "A crown glass wide stone window.",
+         "fo_display_name": "Amber Forest Crown Wide Stone Window",
+         "fg_display_name": "Green Forest Crown Wide Stone Window"
+      },
+      "window_clay": {
+         "cl_display_name": "Colorless Clay Window",
+         "description": "It's all sand anyway.",
+         "bk_display_name": "Black Clay Window",
+         "fg_display_name": "Green Forest Clay Window",
+         "fo_display_name": "Amber Forest Clay Window",
+         "lb_display_name": "Light Blue Clay Window",
+         "ln_display_name": "Pale Clay Window",
+         "lp_display_name": "Violet Clay Window",
+         "lr_display_name": "Pink Clay Window",
+         "wh_display_name": "Opal Clay Window",
+         "st1_display_name": "Stained Glass Clay Window",
+         "st2_display_name": "Beautiful Stained Clay Window",
+         "st1_description": "The desert could use some colors...",
+         "st2_description": "Bright, beautiful colors to let the sun shine in."
+      },
+      "crown_window_clay": {
+         "cl_display_name": "Colorless Crown Clay Window",
+         "description": "A crown glass latticed clay window.",
+         "fg_display_name": "Green Forest Crown Clay Window",
+         "fo_display_name": "Amber Forest Crown Clay Window"
+      },
+      "window_clay_tall": {
+         "cl_display_name": "Colorless Tall Clay Window",
+         "description": "High enough to tell the ground from the sky.",
+         "bk_display_name": "Black Tall Clay Window",
+         "fg_display_name": "Green Forest Tall Clay Window",
+         "fo_display_name": "Amber Forest Tall Clay Window",
+         "lb_display_name": "Light Blue Tall Clay Window",
+         "ln_display_name": "Pale Tall Clay Window",
+         "lp_display_name": "Violet Tall Clay Window",
+         "lr_display_name": "Pink Tall Clay Window",
+         "wh_display_name": "Opal Tall Clay Window",
+         "st1_display_name": "Stained Glass Tall Clay Window",
+         "st2_display_name": "Beautiful Stained Tall Clay Window"
+      },
+      "crown_window_clay_tall": {
+         "cl_display_name": "Colorless Crown Tall Clay Window",
+         "fg_display_name": "Green Forest Crown Tall Clay Window",
+         "fo_display_name": "Amber Forest Crown Tall Clay Window",
+         "description": "A crown glass tall clay window."
+      },
+      "window_clay_colored": {
+         "cl_display_name": "Colorless Colored Clay Window",
+         "fg_display_name": "Green Forest Colored Clay Window",
+         "fo_display_name": "Amber Forest Colored Clay Window",
+         "description": "Making the desert more colorful.",
+         "bk_display_name": "Black Colored Clay Window",
+         "lb_display_name": "Light Blue Clay Window",
+         "ln_display_name": "Pale Colored Clay Window",
+         "lp_display_name": "Violet Colored Clay Window",
+         "lr_display_name": "Pink Colored Clay Window",
+         "wh_display_name": "Opal Colored Clay Window"
+      },
+      "crown_window_clay_colored": {
+         "description": "A crown glass latticed colored clay window.",
+         "cl_display_name": "Colorless Crown Colored Clay Window",
+         "fd_display_name": "Green Forest Crown Colored Clay Window",
+         "fo_display_name": "Amber Forest Crown Colored Clay Window"
+      },
+      "window_clay_tall_colored": {
+         "cl_display_name": "Colorless Tall Colored Clay Window",
+         "fg_display_name": "Green Forest Tall Colored Clay Window",
+         "fo_display_name": "Amber Forest Tall Colored Clay Window",
+         "description": "A beautiful glasswork to an already elegant window.",
+         "bk_display_name": "Black Tall Colored Clay Window",
+         "lb_display_name": "Light Blue Tall Colored Clay Window",
+         "ln_display_name": "Pale Tall Colored Clay Window",
+         "lp_display_name": "Violet Tall Colored Clay Window",
+         "lr_display_name": "Pink Tall Colored Clay Window",
+         "wh_display_name": "Opal Tall Colored Clay Window"
+      },
+      "crown_window_clay_tall_colored": {
+         "description": "A crown glass tall colored clay latticed window.",
+         "cl_display_name": "Colorless Crown Tall Colored Clay Window",
+         "fg_display_name": "Green Forest Crown Tall Colored Clay Window",
+         "fo_display_name": "Amber Forest Crown Tall Colored Clay Window"
+      },
+      "door_clay_blue": {
+         "cl_display_name": "Colorless Crown Blue Clay Door",
+         "description": "A touch of sky under the desert sun.",
+         "fg_display_name": "Green Forest Blue Clay Door",
+         "bk_display_name": "Black Blue Clay Door",
+         "fo_display_name": "Amber Forest Blue Clay Door",
+         "lb_display_name": "Light Blue Clay Door",
+         "ln_display_name": "Pale Blue Clay Door",
+         "lp_display_name": "Violet Blue Clay Door",
+         "lr_display_name": "Pink Blue Clay Door",
+         "wh_display_name": "Opal Blue Clay Door"
+      },
+      "door_clay_green": {
+         "cl_display_name": "Colorless Green Clay Door",
+         "description": "A true homage to the cacti.",
+         "fg_display_name": "Green Forest Crown Clay Door",
+         "bk_display_name": "Black Green Clay Door",
+         "fo_display_name": "Amber Forest Green Clay Door",
+         "lb_display_name": "Light Blue Green Clay Door",
+         "ln_display_name": "Pale Green Clay Door",
+         "lp_display_name": "Violet Green Clay Door",
+         "lr_display_name": "Pink Green Clay Door",
+         "wh_display_name": "Opal Green Clay Door"
+      },
+      "door_clay_red": {
+         "cl_display_name": "Colorless Red Clay Door",
+         "description": "A fine work for a fine home.",
+         "fo_display_name": "Amber Forest Crown Red Clay Door",
+         "bk_display_name": "Black Red Clay Door",
+         "fg_display_name": "Green Forest Red Clay Door",
+         "lb_display_name": "Light Blue Red Clay Door",
+         "ln_display_name": "Pale Red Clay Door",
+         "lp_display_name": "Violet Red Clay Door",
+         "lr_display_name": "Pink Red Clay Door",
+         "wh_display_name": "Opal Red Clay Door"
+      },
+      "door_clay_glass": {
+         "cl_display_name": "Colorless Glass & Clay Door",
+         "description": "A magnificent door for a fortunate hearthling!",
+         "bk_display_name": "Black Glass & Clay Door",
+         "fg_display_name": "Green Forest Glass & Clay Door",
+         "fo_display_name": "Amber Forest Glass & Clay Door",
+         "lb_display_name": "Light Blue Glass & Clay Door",
+         "ln_display_name": "Pale Glass & Clay Door",
+         "lp_display_name": "Violet Glass & Clay Door",
+         "lr_display_name": "Pink Glass & Clay Door",
+         "wh_display_name": "Opal Glass & Clay Door",
+         "st_display_name": "Stained Glass & Clay Door"
+      },
+      "door_wooden": {
+         "cl_display_name": "Colorless Crown Wooden Door",
+         "description": "Peek-able privacy.",
+         "fg_display_name": "Green Forest Crown Wooden Door",
+         "fo_display_name": "Amber Forest Crown Wooden Door"
+      },
+      "door_wooden_2": {
+         "cl_display_name": "Colorless Reinforced Wooden Door",
+         "description": "For when you're both afraid and curious.",
+         "bk_display_name": "Black Reinforced Wooden Door",
+         "fg_display_name": "Green Forest Reinforced Wooden Door",
+         "fo_display_name": "Amber Forest Reinforced Wooden Door",
+         "lb_display_name": "Light Blue Reinforced Wooden Door",
+         "ln_display_name": "Pale Reinforced Wooden Door",
+         "lp_display_name": "Violet Reinforced Wooden Door",
+         "lr_display_name": "Pink Reinforced Wooden Door",
+         "wh_display_name": "Opal Reinforced Wooden Door"
+      },
+      "door_wooden_double": {
+         "cl_display_name": "Colorless Wooden Double Door",
+         "description": "Allows up to two curious neighbors to peek inside.",
+         "bk_display_name": "Black Wooden Double Door",
+         "fg_display_name": "Green Forest Wooden Double Door",
+         "fo_display_name": "Amber Forest Wooden Double Door",
+         "lb_display_name": "Light Blue Wooden Double Door",
+         "ln_display_name": "Pale Wooden Double Door",
+         "lp_display_name": "Violet Wooden Double Door",
+         "lr_display_name": "Pink Wooden Double Door",
+         "wh_display_name": "Opal Wooden Double Door"
+      },
+      "door_wooden_glass": {
+         "cl_display_name": "Colorless Glass & Wooden Door",
+         "description": "Very modern style.",
+         "bk_display_name": "Black Glass & Wooden Door",
+         "fg_display_name": "Green Forest Glass & Wooden Door",
+         "fo_display_name": "Amber Forest Glass & Wooden Door",
+         "lb_display_name": "Light Blue Glass & Wooden Door",
+         "ln_display_name": "Pale Glass & Wooden Door",
+         "lp_display_name": "Violet Glass & Wooden Door",
+         "lr_display_name": "Pink Glass & Wooden Door",
+         "wh_display_name": "Opal Glass & Wooden Door",
+         "st_display_name": "Stained Glass & Wooden Door"
+      },
+      "door_wooden_glass_double": {
+         "cl_display_name": "Colorless Glass & Wooden Double Door",
+         "description": "The latest in door fashion!",
+         "bk_display_name": "Black Glass & Wooden Double Door",
+         "fg_display_name": "Green Forest Glass & Wooden Double Door",
+         "fo_display_name": "Amber Forest Glass & Wooden Double Door",
+         "lb_display_name": "Light Blue Glass & Wooden Double Door",
+         "ln_display_name": "Pale Glass & Wooden Double Door",
+         "lp_display_name": "Violet Glass & Wooden Double Door",
+         "lr_display_name": "Pink Glass & Wooden Double Door",
+         "wh_display_name": "Opal Glass &  Wooden Double Door",
+         "st_display_name": "Stained Glass & Wooden Double Door"
+      },
+      "window_stained_arch": {
+         "g1_display_name": "'The Work of Cid' Arch Window",
+         "g1_flavor": "In Cid we trust.",
+         "g1_description": "A stained glass masterwork worthy of the Ascendancy and all the followers of Cid.",
+         "g2_display_name": "'The Path of the Monkey' Arch Window",
+         "g2_description": "A true stained glass masterwork that will earn the praise of all Rayya's Children.",
+         "g2_flavor": "Monkey be with you, friend.",
+         "sp1_display_name": "'The Artisan Heart' Arch Window",
+         "sp1_description": "A beautiful stained glass piece that highlights the hardworking, gifted nature of your hearthlings and their crafts.",
+         "sp1_flavor": "",
+         "sp2_display_name": "'The Iron Fist' Arch Window",
+         "sp2_description": "An impressive stained glass panel that represents the bravery and military mighty of this people.",
+         "sp2_flavor": "",
+         "sp3_display_name": "'The Riches of the Land' Arch Window",
+         "sp3_description": "An awe-inspiring glasswork that depicts the cunning nature and all the riches of the land and its hearthlings.",
+         "sp3_flavor": ""
+      }
+   },
+   "recipes": {
+      "pack_sand": {
+         "recipe_name": "Pack Sand",
+         "description": "Compress sand to form tighter and easier to manage piles of packed sand. In this more convenient form, sand can be sold to traders.",
+         "flavor": ""
+      },
+      "glass_mold": {
+         "recipe_name": "Glass Mold",
+         "description": "Creates a mold that can be used by a glassmith to create simple glassware. It must be broken after it is used.",
+         "flavor": ""
+      },
+      "blacksmith": {
+         "refinement_name": "Material Refining",
+         "glassmith_blowpipe_recipe": {
+            "recipe_name": "Glassmith's Blowpipe",
+            "description": "Required to promote a hearthling into a Glassmith.",
+            "flavor": "It should probably be longer... for safety."
+         },
+         "burn_charcoal_recipe": {
+            "recipe_name": "Burn Charcoal",
+            "description": "Produces one lump of coal and two bits of Wood Ash.",
+            "flavor": ""
+         },
+         "burn_soda_herbs_recipe": {
+            "recipe_name": "Burn Salty Herbs",
+            "description": "Some herbs have unique properties and when burned they will yield a bit of Soda Ash.",
+            "flavor": "Mom says it's called Sodium Carbonate..."
+         }
+      },
+      "potter": {
+         "sand_extraction": {
+            "recipe_name": "Extract Sand from Clay",
+            "description": "There might be residual sand inside a pile of clay that the potter can recover with patience.",
+            "flavor": "Maybe if we crunch it enough?..."
+         }
+      },
+      "mason": {
+         "sand_extraction": {
+            "recipe_name": "Extract Sand from Stone",
+            "description": "There might be residual sand inside a hunk of stone that the mason can recover with patience.",
+            "flavor": ""
+         },
+         "copper_ore_refining": {
+            "recipe_name": "Refine Copper Ore",
+            "description": "By treating a chunk of copper ore you may acquire two bits of copper salt and some cobalt salt.",
+            "flavor": ""
+         },
+         "iron_ore_refining": {
+            "recipe_name": "Refine Iron Ore",
+            "description": "By treating a chunk of iron ore you may acquire two bits of iron salt and some manganese salt.",
+            "flavor": "'Make glass not war'"
+         },
+         "tin_ore_refining": {
+            "recipe_name": "Refine Tin Ore",
+            "description": "By treating a chunk of tin ore you may acquire two bits of tin salt and some minerals.",
+            "flavor": ""
+         },
+         "stone_refining": {
+            "recipe_name": "Prospect Stone",
+            "description": "By treating a chunk of stone you may recover some calcium salt and minerals.",
+            "flavor": ""
+         },
+         "silver_flakes_recipe": {
+            "recipe_name": "Silver Flakes",
+            "description": "Used to make pretty stuff - like glass!",
+            "flavor": "Less Shine, but Shine nonetheless!"
+         },
+         "silver_flakes_times_three_recipe": {
+            "recipe_name": "Silver Flakes (x3)",
+            "description": "Smash up a Silver Bar to get the Flakes back out of it!",
+            "flavor": "Right about the perfect amount of Shine!"
+         },
+         "window_frame": {
+            "recipe_name": "Stone Window Frame",
+            "description": "Create a small square stone window frame.",
+            "flavor": "Ideal for sun baking pies."
+         },
+         "window_frame_round": {
+            "recipe_name": "Stone Round Window Frame",
+            "description": "Create a small and round stone window frame.",
+            "flavor": "It's time for peeking!"
+         },
+         "window_frame_tall": {
+            "recipe_name": "Stone Tall Window Frame",
+            "description": "Create a large and tall stone window frame.",
+            "flavor": "It's like a little stone door."
+         },
+         "window_frame_wide": {
+            "recipe_name": "Stone Wide Window Frame",
+            "description": "Create a short but wide stone window frame.",
+            "flavor": "Let the sun come in!"
+         },
+         "window_frame_arch": {
+            "recipe_name": "Stone Arch Window Frame",
+            "description": "Create a majestic tall and wide stone window frame.",
+            "flavor": "The fancier the building, the taller the windows."
+         }
+      }
+   },
+   "obsidian_armory": {
+      "arrow": {
+         "display_name": "Obsidian Arrow",
+         "description": "An arrow with an obsidian tip."
+      },
+      "using_arrow": {
+         "display_name": "Using Obsidian Arrows",
+         "description": "Currently using obsidian arrows, which deals additional damage over time and slows down enemies. Click to swap between arrow types."
+      },
+      "quiver": {
+         "display_name": "Obsidian Quiver",
+         "description": "Powerful, obsidian-tipped arrows that can damage and slow foes over time.",
+         "flavor": ""
+      },
+      "archer_debuff": {
+         "display_name": "Touched by Obsidian",
+         "description": "Wounded by obsidian! Slowed down and taking damage every 3 minutes for 12 minutes."
+      },
+      "cleric_buff": {
+         "display_name": "Obsidian Circlet",
+         "description": "Increases Courage and Compassion by 15% and slightly increases speed."
+      },
+      "buckler": {
+         "display_name": "Obsidian Buckler",
+         "description": "Shiny when polished.",
+         "flavor": ""
+      },
+      "circlet": {
+         "display_name": "Obsidian Circlet",
+         "description": "A fancy glass tiara.",
+         "flavor": ""
+      },
+      "helm": {
+         "display_name": "Obsidian Helmet",
+         "description": "The best protection for your head.",
+         "flavor": ""
+      },
+      "helmet": {
+         "display_name": "Obsidian Chivalric Helmet",
+         "description": "It smells like legendary bravery.",
+         "flavor": "Simply glorious."
+      },
+      "mail": {
+         "display_name": "Obsidian Mail",
+         "description": "A full set of obsidian chainmail.",
+         "flavor": ""
+      },
+      "plate": {
+         "display_name": "Obsidian Plate",
+         "description": "A full set of obsidian plate armor and mail.",
+         "flavor": ""
+      },
+      "shield": {
+         "display_name": "Obsidian Shield",
+         "description": "Like a portable fortress.",
+         "flavor": ""
+      },
+      "knight_sword": {
+         "display_name": "Obsidian Sword",
+         "description": "A truly legendary knight's sidearm.",
+         "flavor": "For honor!"
+      },
+      "spear": {
+         "display_name": "Obsidian Short Spear",
+         "description": "A one-handed short spear with an obsidian tip.",
+         "flavor": "A cheap and efficient weapon"
+      },
+      "two_handed": {
+         "display_name": "Obsidian Claymore",
+         "description": "Big. Bad. Beautiful. A formidable weapon for formidable foes. (Two-handed)",
+         "flavor": "The apex of the Obsidian Armory"
+      }
+   },
+   "furniture": {
+      "table_clay": {
+         "cl_display_name": "Colorless Clay Dining Table",
+         "description": "There's something funny about being able to stare at your feet while eating.",
+         "bk_display_name": "Black Clay Dining Table",
+         "fg_display_name": "Green Forest Clay Dining Table",
+         "fo_display_name": "Amber Forest Clay Dining Table",
+         "lb_display_name": "Light Blue Clay Dining Table",
+         "ln_display_name": "Pale Clay Dining Table",
+         "lp_display_name": "Violet Clay Dining Table",
+         "lr_display_name": "Pink Clay Dining Table",
+         "wh_display_name": "Opal Clay Dining Table"
+      },
+      "table_dining": {
+         "cl_display_name": "Colorless Wooden Dining Table",
+         "description": "Easier to clean after big feasts.",
+         "bk_display_name": "Black Wooden Dining Table",
+         "fg_display_name": "Green Forest Wooden Dining Table",
+         "fo_display_name": "Amber Forest Wooden Dining Table",
+         "lb_display_name": "Light Blue Wooden Dining Table",
+         "ln_display_name": "Pale Wooden Dining Table",
+         "lp_display_name": "Violet Wooden Dining Table",
+         "lr_display_name": "Pink Wooden Dining Table",
+         "wh_display_name": "Opal Wooden Dining Table"
+      },
+      "table_one": {
+         "cl_display_name": "Colorless Wooden Table",
+         "description": "A simple yet nice glass table.",
+         "bk_display_name": "Black Wooden Table",
+         "fg_display_name": "Green Forest Wooden Table",
+         "fo_display_name": "Amber Forest Wooden Table",
+         "lb_display_name": "Light Blue Wooden Table",
+         "ln_display_name": "Pale Wooden Table",
+         "lp_display_name": "Violet Wooden Table",
+         "lr_display_name": "Pink Wooden Table",
+         "wh_display_name": "Opal Wooden Table"
+      },
+      "table_stone": {
+         "cl_display_name": "Colorless Stone Dining Table",
+         "description": "Some things are set on stone. In this case, it is glass.",
+         "bk_display_name": "Black Stone Dining Table",
+         "fg_display_name": "Green Forest Stone Dining Table",
+         "fo_display_name": "Amber Forest Stone Dining Table",
+         "lb_display_name": "Light Blue Stone Dining Table",
+         "ln_display_name": "Pale Stone Dining Table",
+         "lp_display_name": "Violet Stone Dining Table",
+         "lr_display_name": "Pink Stone Dining Table",
+         "wh_display_name": "Opal Stone Dining Table"
+      }
+   },
+   "entities": {
+      "decoration": {
+         "wooden_sign_glassmith": {
+            "display_name": "Glassmith's Wall-Mounted Sign",
+            "description": "A sign with the mark of the glassmith, to be placed on buildings.",
+            "flavor": "",
+            "placed_display_name": "Glassmith's Sign",
+            "placed_description": "A sign with the mark of the Glassmith."
+         }
+      }
+   },
+   "data": {
+      "filters": {
+         "specific_salts": "Specific Resources",
+         "everything": "All Salts & Flakes",
+         "all_type": "Everything"
+      }
+   },
+   "containers": {
+      "salt_storage": {
+         "wood_shelf": {
+            "display_name": "Wooden Salt Storage Shelf",
+            "description": "A sturdy wooden shelf with glass pots for mass storing metallic salts and flakes."
+         },
+         "stone_shelf": {
+            "display_name": "Stone Salt Storage Shelf",
+            "description": "A sturdy stone shelf with glass pots for mass storing metallic salts and flakes."
+         },
+         "clay_shelf": {
+            "display_name": "Clay Salt Storage Shelf",
+            "description": "A sturdy clay shelf with glass pots for mass storing metallic salts and flakes."
+         }
+      },
+      "pot_copper_salts": {
+         "display_name": "Pot of Copper Salts",
+         "ghost_description": "Harvest it for twenty units of Copper Salts.",
+         "iconic_description": "Place it so it can be harvested for Copper Salts."
+      },
+      "urn_minerals": {
+         "display_name": "Large Urn of Minerals",
+         "iconic_description": "Place it so it can be harvested for Minerals.",
+         "ghost_description": "Harvest it for more than thirty units of Minerals."
+      },
+      "pot_calcium_salts": {
+         "display_name": "Pot of Calcium Salts",
+         "iconic_description": "Place it so it can be harvested for Calcium Salts.",
+         "ghost_description": "Harvest it for twenty units of Calcium Salts."
+      },
+      "pot_chromium_salts": {
+         "display_name": "Pot of Chromium Salts",
+         "iconic_description": "Place it so it can be harvested for Chromium Salts.",
+         "ghost_description": "Harvest it for twenty units of Chromium Salts."
+      },
+      "pot_cobalt_salts": {
+         "display_name": "Pot of Cobalt Salts",
+         "iconic_description": "Place it so it can be harvested for Cobalt Salts.",
+         "ghost_description": "Harvest it for twenty units of Cobalt Salts."
+      },
+      "pot_iron_salts": {
+         "display_name": "Pot of Iron Salts",
+         "iconic_description": "Place it so it can be harvested for Iron Salts.",
+         "ghost_description": "Harvest it for twenty units of Iron Salts."
+      },
+      "pot_manganese_salts": {
+         "display_name": "Pot of Manganese Salts",
+         "iconic_description": "Place it so it can be harvested for Manganese Salts.",
+         "ghost_description": "Harvest it for twenty units of Manganese Salts."
+      },
+      "pot_nickel_salts": {
+         "display_name": "Pot of Nickel Salts",
+         "iconic_description": "Place it so it can be harvested for Nickel Salts.",
+         "ghost_description": "Harvest it for twenty units of Nickel Salts."
+      },
+      "pot_tin_salts": {
+         "display_name": "Pot of Tin Salts",
+         "iconic_description": "Place it so it can be harvested for Tin Salts.",
+         "ghost_description": "Harvest it for twenty units of Tin Salts."
+      },
+      "pot_titanium_salts": {
+         "display_name": "Pot of Titanium Salts",
+         "iconic_description": "Place it so it can be harvested for Titanium Salts.",
+         "ghost_description": "Harvest it for twenty units of Titanium Salts."
+      },
+      "urn_soda_ash": {
+         "display_name": "Large Urn of Soda Ash",
+         "ghost_description": "Harvest it for more than thirty units of Soda Ash.",
+         "iconic_description": "Place it so it can be harvested for Soda Ash."
+      },
+      "urn_wood_ash": {
+         "display_name": "Large Urn of Wood Ash",
+         "ghost_description": "Harvest it for more than thirty units of Wood Ash.",
+         "iconic_description": "Place it so it can be harvested for Wood Ash."
+      }
+   }
+}

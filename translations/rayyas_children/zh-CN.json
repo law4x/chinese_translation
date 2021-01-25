@@ -1,0 +1,1595 @@
+{
+   "kingdom": {
+      "kingdom_name": "瑞雅之裔",
+      "quote": "冥思, 冥思, 冥思: 自我的调和让万物脱离混沌, 获得生机.",
+      "long_description": "沙漠民族的人们早早地就学会了如何生存, 他们彼此需要, 并需要尽可能多的彼此. 现在, 来访者都发现他们是多么得好客, 而且还有能力接触世界各地的商品.",
+      "post_selection_description": ", 一群富有智慧, 精打细算的贸易者.",
+      "initial_town_name": "[str(town_number)]号商队"
+   },
+   "jobs": {
+      "potter": {
+         "potter_description": {
+            "requirements": "需要陶艺师的刀具"
+         },
+         "recipes": {
+            "mason_clay_chisel_recipe": {
+               "description": "用于将一位炉民转职成石匠的必需工具",
+               "recipe_name": "石匠的土凿子",
+               "flavor": "\"这东东可以让大石头变成小石头, 漂亮的石头, 有用的石头.\""
+            },
+            "trading_post_monument_recipe": {
+               "recipe_name": "贸易信标",
+               "description": "象征着一个知名的贸易站"
+            },
+            "monkey_shrine_monument_recipe": {
+               "description": "给圣猕与她创造的奇迹进贡的地方",
+               "recipe_name": "奥迹神龛"
+            },
+            "exotic_trade_monument_recipe": {
+               "description": "平安与守护此地的信标",
+               "recipe_name": "不灭之焰"
+            },
+            "herbalist_clay_staff_recipe": {
+               "flavor": "'园丁照顾花儿, 花儿也会体谅园丁' —— 扎尔, 草药大师"
+            },
+            "jar_green_recipe": {
+               "description": "装着小焰苗的绿玻璃罐",
+               "recipe_name": "绿色烛光玻璃罐"
+            },
+            "jar_red_recipe": {
+               "description": "装着小焰苗的红玻璃罐",
+               "recipe_name": "红色烛光玻璃罐"
+            },
+            "pot_oil_earthen_recipe": {
+               "description": "冒着焰苗的小陶壶",
+               "recipe_name": "陶制油壶"
+            },
+            "pot_oil_green_recipe": {
+               "description": "冒着焰苗的绿色小陶壶",
+               "recipe_name": "青釉油壶"
+            },
+            "pot_oil_halfgreen_recipe": {
+               "description": "冒着焰苗的半釉小陶壶",
+               "recipe_name": "半釉油壶"
+            },
+            "pot_sunflower_recipe": {
+               "description": "陶制小盆上面是朵美丽的花.",
+               "recipe_name": "向日葵盆栽"
+            },
+            "pot_fox_lily_recipe": {
+               "description": "陶制小盆上面是朵美丽的花.",
+               "recipe_name": "狐尾芦荟盆栽"
+            },
+            "pot_acacia_recipe": {
+               "description": "陶制小盆上面是棵小小的树.",
+               "recipe_name": "金合欢盆栽"
+            },
+            "urn_large_recipe": {
+               "description": "特大单就需要特大号的罐头!",
+               "recipe_name": "交易储货瓮"
+            },
+            "wall_hanging_sunflower_recipe": {
+               "description": "可以装饰墙壁的向日葵.",
+               "recipe_name": "墙花"
+            },
+            "wall_hanging_sunwreath_recipe": {
+               "description": "把收集来的向日葵都挂墙上.",
+               "recipe_name": "向日葵花环"
+            },
+            "wind_chime_recipe": {
+               "description": "视觉与听觉的极致享受.",
+               "recipe_name": "玻璃风铃"
+            },
+            "window_tall_latticed_recipe": {
+               "description": "雕花工艺挡住了大部分炎热的阳光, 看上去还不失美感!",
+               "recipe_name": "高镂窗"
+            },
+            "door_clay_latticed_recipe": {
+               "recipe_name": "粘土镂门",
+               "description": "雕花工艺挡住了大部分炎热的阳光, 看上去还不失美感!"
+            },
+            "chest_recipe": {
+               "description": "存放圣猕贡品与她奇迹的地方",
+               "recipe_name": "陶箱"
+            },
+            "lamp_gold_recipe": {
+               "description": "它的火焰在黑暗中给人温暖.",
+               "recipe_name": "金油灯"
+            },
+            "lamp_wall_gold_recipe": {
+               "description": "它的火焰在黑暗中给人温暖.",
+               "recipe_name": "壁挂金油灯"
+            },
+            "lightbox_recipe": {
+               "description": "光芒把图案洒向四周, 洒向天空.",
+               "recipe_name": "光明陶盒"
+            },
+            "monkey_recipe": {
+               "description": "供奉圣猕与她周围一起帮助的猴子们.",
+               "recipe_name": "圣猕陶塑"
+            },
+            "teapot_recipe": {
+               "description": "牢记勇敢的先驱者.",
+               "recipe_name": "精工茶套"
+            },
+            "wall_hanging_key_recipe": {
+               "description": "墙上装饰, 提醒人们不要忘记圣猕.",
+               "recipe_name": "圣猕之匙"
+            },
+            "banner_wall_big_recipe": {
+               "description": "用这面旗展示你们的骄傲.",
+               "recipe_name": "长墙旗"
+            },
+            "banner_wall_small_recipe": {
+               "description": "用这面旗展示你们的骄傲.",
+               "recipe_name": "宽墙旗"
+            },
+            "pedestal_firepit_recipe": {
+               "description": "温柔地冒着火光的碳",
+               "recipe_name": "火坛",
+               "flavor": "住在里面的是一小堆火"
+            },
+            "pedestal_floral_red_recipe": {
+               "description": "散发清香的花草展示坛",
+               "recipe_name": "红花坛",
+               "flavor": "沙漠干燥的风中也带有了花的香甜"
+            },
+            "pedestal_floral_coral_recipe": {
+               "description": "散发清香的花草展示坛",
+               "recipe_name": "珊瑚花坛",
+               "flavor": "沙漠干燥的风中也带有了花的香甜"
+            },
+            "pedestal_floral_blue_recipe": {
+               "description": "散发清香的花草展示坛",
+               "recipe_name": "蓝花坛",
+               "flavor": "沙漠干燥的风中也带有了花的香甜"
+            },
+            "kiln_upgrade_recipe": {
+               "description": "让你镇的陶艺室能体面地工作.",
+               "recipe_name": "高级窑炉"
+            },
+            "workbench_upgrade_recipe": {
+               "description": "为了注重美观的陶艺师门.",
+               "recipe_name": "高级陶轮",
+               "flavor": "作品的质量最高不会超出使用器具的质量 -- 坷垃, 陶艺大师"
+            },
+            "legendary_rc_face_recipe": {
+               "description": "龙栖巨盾的防御部件",
+               "recipe_name": "龙皮盾面",
+               "flavor": "反复的上釉与火炼使它如龙鳞般闪耀, 也如龙鳞般坚韧"
+            },
+            "legendary_rc_inlay_recipe": {
+               "description": "沙漠尖牙内发光的镀层",
+               "recipe_name": "闪耀嵌体",
+               "flavor": "应石炉的光芒而闪耀"
+            }
+         },
+         "potter_kiln_upgrade": {
+            "potter_kiln_upgrade_ghost": {
+               "display_name": "高级窑炉",
+               "description": "让你镇上的陶艺师能体面地工作."
+            }
+         },
+         "potter_workbench_upgrade": {
+            "potter_workbench_upgrade_ghost": {
+               "display_name": "高级陶轮",
+               "description": "为了注重美观的陶艺师门."
+            }
+         }
+      },
+      "herbalist": {
+         "herbalist_description": {
+            "requirements": "草药师的东西, 由陶艺师制作"
+         },
+         "recipes": {
+            "legendary_rc_cloth_recipe": {
+               "description": "猩红头环的传统材料",
+               "recipe_name": "日色布料",
+               "flavor": "浸透在阳光与草药中"
+            },
+            "legendary_rc_stave_recipe": {
+               "description": "习风之弓的肢体",
+               "recipe_name": "古木弓把",
+               "flavor": "用上了特制的树脂, 一支军队才能把它压坏"
+            }
+         }
+      },
+      "mason": {
+         "mason_description": {
+            "requirements": "需要二级的陶艺师和石匠的土凿子, 由陶艺师制作."
+         },
+         "recipes": {
+            "rc_giants_shield_recipe": {
+               "description": "沙漠里最令人骄傲的盾牌",
+               "recipe_name": "龙栖巨盾",
+               "flavor": "哪怕是面对再厉害的坏人和危险, 此盾不会破碎."
+            },
+            "legendary_rc_blade_recipe": {
+               "description": "沙漠尖牙的不破剑刃",
+               "recipe_name": "暴怒之骨",
+               "flavor": "锋利如风"
+            },
+            "legendary_rc_gem_recipe": {
+               "description": "灵魂的中心, 猩红头环的重要部件",
+               "recipe_name": "烈焰红宝石",
+               "flavor": "一颗引领治疗的红色明星"
+            }
+         }
+      },
+      "carpenter": {
+         "recipes": {
+            "rc_bow_valor_recipe": {
+               "description": "沙漠里最迅捷的弓",
+               "recipe_name": "习风之弓",
+               "flavor": "一把需要使用者有过硬技术的弓, 但与之对应的是暴风般席卷敌人的箭失"
+            }
+         }
+      },
+      "cook": {
+         "recipes": {
+            "golden_gourd_curry_recipe": {
+               "description": "熟的会能吃一点么?",
+               "recipe_name": "金葫芦咖喱",
+               "flavor": "TODO(~咩咩咩~)"
+            },
+            "flat_bread_recipe": {
+               "description": "玉米粉不经发酵制成的饼",
+               "recipe_name": "面包饼"
+            },
+            "meat_tagine_recipe": {
+               "description": "把肉和蔬菜放在一种陶锅里煨",
+               "recipe_name": "塔吉炖肉"
+            },
+            "vegetable_tagine_recipe": {
+               "description": "把蔬菜放在一种陶锅里煨",
+               "recipe_name": "蔬菜炖锅"
+            }
+         }
+      },
+      "blacksmith": {
+         "recipes": {
+            "wall_hanging_suncatcher_recipe": {
+               "description": "打磨出镜面的质感",
+               "recipe_name": "捕日镜",
+               "flavor": "它不一定能抓住太阳, 但可以把阳光直接反射进你的眼睛里, 嗷..."
+            },
+            "rc_two_handed_sword_valor_recipe": {
+               "description": "沙漠里最好的剑",
+               "recipe_name": "沙漠尖牙",
+               "flavor": "尺寸的把握是完美的, 正如持剑者对敌人的每一次挥斩"
+            },
+            "rc_circlet_valor_recipe": {
+               "description": "凤凰帝国最方的头环",
+               "recipe_name": "猩红头环",
+               "flavor": "把心里和灵魂中蕴藏的能量都运作治愈之光"
+            },
+            "legendary_rc_frame_recipe": {
+               "description": "龙栖巨盾的加固部件",
+               "recipe_name": "龙骨盾框",
+               "flavor": "巨龙的骨"
+            }
+         }
+      },
+      "weaver": {
+         "recipes": {
+            "outfit_worker_goldthread_recipe": {
+               "description": "时尚地提升了工人们的速度与效率",
+               "recipe_name": "精美工作服",
+               "flavor": "红色基本上永远不会过时"
+            },
+            "banner_gilded_blue_recipe": {
+               "description": "展示你作为充满异域风情的交易站的骄傲",
+               "recipe_name": "金边蓝旗",
+               "flavor": "在闪闪发光的金线与一根根丝线交错, 各种颜色瞬间贯穿了整个小镇."
+            },
+            "banner_gilded_coral_recipe": {
+               "description": "展示你作为充满异域风情的交易站的骄傲",
+               "recipe_name": "金边珊瑚旗",
+               "flavor": "在闪闪发光的金线与一根根丝线交错, 各种颜色瞬间贯穿了整个小镇."
+            },
+            "banner_gilded_red_recipe": {
+               "description": "展示你作为充满异域风情的交易站的骄傲",
+               "recipe_name": "金边红旗",
+               "flavor": "在闪闪发光的金线与一根根丝线交错, 各种颜色瞬间贯穿了整个小镇."
+            },
+            "banner_gilded_sage_recipe": {
+               "description": "展示你作为充满异域风情的交易站的骄傲",
+               "recipe_name": "金边灰绿旗",
+               "flavor": "在闪闪发光的金线与一根根丝线交错, 各种颜色瞬间贯穿了整个小镇."
+            },
+            "chair_gilded_blue_recipe": {
+               "description": "奢侈装饰衬垫的座位",
+               "recipe_name": "金边蓝坐垫",
+               "flavor": "这种坐垫不上去坐一下简直就是对它不敬!"
+            },
+            "chair_gilded_red_recipe": {
+               "description": "奢侈装饰衬垫的座位",
+               "recipe_name": "金边红坐垫",
+               "flavor": "这种坐垫不上去坐一下简直就是对它不敬!"
+            },
+            "chair_gilded_sage_recipe": {
+               "description": "奢侈装饰衬垫的座位",
+               "recipe_name": "金边灰绿坐垫",
+               "flavor": "这种坐垫不上去坐一下简直就是对它不敬!"
+            },
+            "chair_gilded_coral_recipe": {
+               "description": "奢侈装饰衬垫的座位",
+               "recipe_name": "金边珊瑚坐垫",
+               "flavor": "这种坐垫不上去坐一下简直就是对它不敬!"
+            },
+            "rug_gilded_blue_recipe": {
+               "description": "用染色的线和金线细致地纹出来的",
+               "recipe_name": "金边蓝地毯",
+               "flavor": "颜色燃料是用深山里挖出来的蓝石头磨制而成, 只有遥远而酷寒的北方才有石头出产"
+            },
+            "rug_gilded_red_recipe": {
+               "description": "用染色的线和金线细致地纹出来的",
+               "recipe_name": "金边红地毯",
+               "flavor": "这种柔软的, 偏紫的色调是来自一种莓子, 它生长在一座遥远王国周围的山林里"
+            },
+            "rug_gilded_coral_recipe": {
+               "description": "用染色的线和金线细致地纹出来的",
+               "recipe_name": "金边珊瑚地毯",
+               "flavor": "南方因日晒早已干枯的海床才会出产这种红中带橘, 充满活力气息的珊瑚."
+            },
+            "rug_gilded_sage_recipe": {
+               "description": "用染色的线和金线细致地纹出来的",
+               "recipe_name": "金边灰绿地毯",
+               "flavor": "要配出细致的绿色是吃技术的; 这种草药浆极易发生反应, 用它涂的图案处理不当一会就会变色"
+            },
+            "rc_legendary_circlet_recipe": {
+               "description": "沙漠里做好的医者才配戴有",
+               "recipe_name": "猩红头环",
+               "flavor": "把心里和灵魂中蕴藏的能量都运作治愈之光"
+            },
+            "legendary_rc_bowstring_recipe": {
+               "description": "把习风之弓两头系起来的弓弦",
+               "recipe_name": "闪耀弓弦",
+               "flavor": "如同火焰编成了丝"
+            }
+         }
+      }
+   },
+   "data": {
+      "rayyas_children_population": {
+         "display_name": "瑞雅之裔"
+      },
+      "gm": {
+         "campaigns": {
+            "trader": {
+               "iskender_caravan_1": {
+                  "shop_info": {
+                     "name": "伊斯坎德尔公司的贸易商队",
+                     "title": "伊斯坎德尔公司的贸易商队的回来了!"
+                  }
+               },
+               "iskender_caravan_2": {
+                  "shop_info": {
+                     "name": "伊斯坎德尔公司的贸易商队",
+                     "title": "伊斯坎德尔公司的贸易商队带着更多的货物回来了!"
+                  }
+               },
+               "iskender_caravan_3": {
+                  "shop_info": {
+                     "name": "伊斯坎德尔公司的贸易商队",
+                     "title": "伊斯坎德尔公司的贸易商队的回到了镇上!"
+                  }
+               },
+               "starting_food_donation": {
+                  "donation_dialog_info": {
+                     "dialog_nodes": {
+                        "simple_message": {
+                           "bulletin_message": {
+                              "000": "哈哈, 没有什么看到新据点更让人高兴的了! 有了你们的辛勤劳动, 这片荒凉之地也会很快充斥着富裕和繁荣的! 我们明天会带上所有库存再来. 哦对了,这些是给你作为原始资本的, 我们公司可是不远万里送过来的呢: ",
+                              "001": "圣猕保佑你, 我的朋友! 看到一小群人想要建立自己的贸易站时就会感觉很欣慰. 根据我们的合同, 明天我会带着仓库里所有的东西前来拜访的. 同时, 这里是公司提供你们启动资本:",
+                              "002": "伊斯坎德尔公司的员工一直想在漫漫长路中寻找歇脚点. 我们很高兴遇见了你们, 亲爱的朋友! 明天我们会带上库存再来拜访的, 先拿一点去吧, 启程的时候千万不要两手空空",
+                              "003": "全部准备好后就开始一个新的村落吧,嗯!我的朋友们, 沙漠欢迎所有孩子. 我们明天会回来检查你, 在这期间, 好好利用公司送给你们的这些补给品吧:",
+                              "004": "啊哈, 伊斯坎德尔新的潜在合作伙伴! 我们明天一定会带着所有库存前来拜访. 先来收下这些东西,算是我们做的投资, 看看到时候你有什么能换的."
+                           },
+                           "bulletin_title": "一位来自伊斯坎德尔公司的代理人途径此地",
+                           "dialog_title": "奈瑞椰·伊斯坎德尔",
+                           "choice_000": "非常感谢, 尊敬的长者!"
+                        }
+                     }
+                  }
+               },
+               "stonecutter_shop": {
+                  "shop_info": {
+                     "name": "佛斯克·沙慈的黏土工艺品商店",
+                     "title": "石匠大师的货车停靠在附近"
+                  }
+               },
+               "tannery_shop": {
+                  "shop_info": {
+                     "name": "凛的高级皮毛和地毯商店",
+                     "title": "一辆满载漂亮的动物商品的马车向小镇驶来"
+                  }
+               },
+               "woodcutter_shop": {
+                  "shop_info": {
+                     "name": "罗津的来自遥远西域的商品铺",
+                     "title": "一家来自异域的商铺停在了小镇上"
+                  }
+               },
+               "food_shop": {
+                  "shop_info": {
+                     "name": "农民洁穆的农业物资",
+                     "title": "农民洁穆的物资供给车开进了城镇里"
+                  }
+               },
+               "naryal_tier_2_dialog": {
+                  "dialog_tree_info": {
+                     "dialog_nodes": {
+                        "rewards": {
+                           "bulletin_message": {
+                              "000": "好吧, 包括你的小镇会得到一个官方认可的城镇头衔, 你们还会得到来自石炉各地的生意人还有旅行家的认可. 我们还会给你们提供在与其他瑞雅人贸易时收集到的建筑蓝图."
+                           },
+                           "bulletin_title": "奈瑞椰·伊斯坎德尔",
+                           "dialog_title": "奈瑞椰·伊斯坎德尔",
+                           "choice_000": "那好吧!"
+                        },
+                        "shrine_reqs": {
+                           "bulletin_message": {
+                              "000": "瑞伊娅教会, 以其传说而闻名, 现欲指派汝等村落, 规范道之憩处. 而正规起见, 你们须建造一个神龛, 以便指引歇脚的旅者, 疲劳的游子. 给他们为圣猕献上一份心意的机会, 以表对圣母会长瑞伊娅的敬意."
+                           },
+                           "bulletin_title": "奈瑞椰·伊斯坎德尔",
+                           "dialog_title": "奈瑞椰·伊斯坎德尔",
+                           "choice_000": "听起来不错!",
+                           "choice_001": "还有什么其它方法么?"
+                        },
+                        "details": {
+                           "bulletin_message": {
+                              "000": "啊, 终于问到了点子上了, 我相信我手里这个协议肯定是对我们大家都有好处的. 我们伊斯坎德尔经销机构的员工致力于打造最完备的石炉地图, 因此我们希望细致地标注出所有的知名据点或村落, 比如你们镇. 当然, 前提是你们得同意!"
+                           },
+                           "bulletin_title": "奈瑞椰·伊斯坎德尔",
+                           "dialog_title": "奈瑞椰·伊斯坎德尔",
+                           "choice_000": "那我能得到什么回报呢?"
+                        },
+                        "requirements": {
+                           "bulletin_message": {
+                              "000": "问得好! 请听我说下去. 首先, 你们想要自己的据点为人所知么? 我们可以把你们小镇在地图上标记出来, 并注明该镇以'贸易驿站', 或是'奥迹神龛', 又或是'异域商品'而闻名"
+                           },
+                           "bulletin_title": "奈瑞椰·伊斯坎德尔",
+                           "dialog_title": "奈瑞椰·伊斯坎德尔",
+                           "choice_000": "贸易驿站!",
+                           "choice_001": "奥迹神龛!",
+                           "choice_002": "异域商品!"
+                        },
+                        "repeat_reqs": {
+                           "bulletin_message": {
+                              "000": " 你们想要自己的据点为人所知么? 我们可以把你们小镇在地图上标记出来, 并注明该镇以'贸易驿站', 或是'奥迹神龛', 又或是'异域商品'而闻名"
+                           },
+                           "bulletin_title": "奈瑞椰·伊斯坎德尔",
+                           "dialog_title": "奈瑞椰·伊斯坎德尔",
+                           "choice_000": "贸易驿站!",
+                           "choice_001": "奥迹神龛!",
+                           "choice_002": "异域商品!"
+                        },
+                        "naryal_approaches": {
+                           "bulletin_message": {
+                              "000": "你们好呀, [str(i18n_data.town_name)] 的朋友们! 距上次前来拜访时隔已久. 看起来我们的启动资金发挥了很大的用处啊."
+                           },
+                           "bulletin_title": "伊斯坎德尔经销机构的代理人前来访问",
+                           "dialog_title": "奈瑞椰·伊斯坎德尔",
+                           "choice_000": "有何贵干?"
+                        },
+                        "exotic_goods_reqs": {
+                           "bulletin_message": {
+                              "000": "想要以异域风情的商品知名, 你们城镇须要与来自远方的访客交易, 以获得一系列用其他途径很难得到的东西."
+                           },
+                           "bulletin_title": "奈瑞椰·伊斯坎德尔",
+                           "dialog_title": "奈瑞椰·伊斯坎德尔",
+                           "choice_000": "听起来不错!",
+                           "choice_001": "还有什么其它方法么?"
+                        },
+                        "conclusion2": {
+                           "bulletin_message": {
+                              "000": "圣猕与你们同在, [str(i18n_data.town_name)]! 我会留下一只鸟, 以便你们随时召唤我前来查看你们的进度!"
+                           },
+                           "bulletin_title": "奈瑞椰·伊斯坎德尔",
+                           "dialog_title": "奈瑞椰·伊斯坎德尔",
+                           "choice_000": "再见!"
+                        },
+                        "map_of_hearth": {
+                           "bulletin_message": {
+                              "000": "为什么, 这是个多好的机会啊. 我们的绘图员正在为下一版'伊斯坎德尔石炉地图'的印刷做准备. 而我们伊斯坎德尔经销公司最有名的就是做生意, 第二让我们引以为傲的就是我们绘制的地图的实用性与精确性了. 所有世界各地的居住点, 道路, 我们都会细致入微地标到地图上."
+                           },
+                           "bulletin_title": "奈瑞椰·伊斯坎德尔",
+                           "dialog_title": "奈瑞椰·伊斯坎德尔"
+                        },
+                        "trading_post_reqs": {
+                           "bulletin_message": {
+                              "000": "为了让来访的客人知晓你们的声誉, 你们一定要允许贸易者和旅客在此地自由贸易. 我会告诉你陶艺师一个碑像制作方法; 造出来, 把它放在城镇的最中心, 它是权威和好客的象征."
+                           },
+                           "bulletin_title": "奈瑞椰·伊斯坎德尔",
+                           "dialog_title": "奈瑞椰·伊斯坎德尔",
+                           "choice_000": "听起来不错!",
+                           "choice_001": "还有什么其它方法么?"
+                        },
+                        "conclusion": {
+                           "bulletin_title": "奈瑞椰·伊斯坎德尔",
+                           "dialog_title": "奈瑞椰·伊斯坎德尔",
+                           "choice_000": "感谢你, 尊敬的长者!",
+                           "bulletin_message": {
+                              "000": "很好! 除了一座合适的碑像, 你们小镇还需要积攒一定的财富, 我把需求给你看, 以便你可以随时校对, 或者改变主意另走他路."
+                           }
+                        },
+                        "shrine_reqs_ctd": {
+                           "bulletin_message": {
+                              "000": "我会给你陶艺师一个神龛的制作方法, 这是她的神话中手艺最精湛的工匠流传下来的. 他们说其中的原材料只能从古老建筑或者敌人箱子中获取; 建造一个, 我会回来检查是否符合教会长老的规格要求."
+                           }
+                        },
+                        "exotic_goods_reqs_ctd": {
+                           "bulletin_message": {
+                              "000": "我会给你陶艺师一个碑的配方, 你可以从旅行的商人和贸易商队那里获得原材料来制作. 但要注意带着这些材料的商人可不怎么多.用这些材料制作一个碑像, 让大家知道你在搜集珍稀物品上的能力."
+                           }
+                        }
+                     }
+                  }
+               },
+               "unlock_exotic_trade_monument": {
+                  "bulletin_title": "陶艺师新配方解锁: 不灭之焰"
+               },
+               "unlock_monkey_shrine_monument": {
+                  "bulletin_title": "陶艺师新配方解锁: 奥迹神龛"
+               },
+               "unlock_trading_post_monument": {
+                  "bulletin_title": "陶艺师新配方解锁: 贸易信标"
+               },
+               "trading_post_tier_2_reached": {
+                  "title": "伊斯坎德尔代理人奈瑞椰回来了",
+                  "speaker_name": "奈瑞椰·伊斯坎德尔",
+                  "message": "祝贺, [str(i18n_data.town_name)]! 你们小镇已经被正式授予了城镇资格! 按照惯例, 我带来了一些建材和新的贸易协定.",
+                  "accept": "Woohoo!",
+                  "dialog_title": "城镇资格达成!",
+                  "tier_title": "城镇资格",
+                  "reward_message": "依照瑞雅之裔神圣的法令, 我们特此承认:",
+                  "reward_message_ctd": "因以其世界级的贸易市场而闻名遐迩, 该镇遂合法享有:",
+                  "tier_2_bldg_template": "二级建筑模板",
+                  "tier_2_shops": "二级商铺",
+                  "tier_2_BGM": "二级背景音乐"
+               },
+               "rayyas_children_town_tier_quest": {
+                  "title": "城镇资格需求",
+                  "dialog_title": "城镇资格需求",
+                  "text": "满足以下任一需求即可攒够成为合法城镇的所需声望",
+                  "summon_text": "召唤伊斯坎德尔"
+               },
+               "exotic_trade_tier_2_reached": {
+                  "reward_message_ctd": "因以对外交流与异域贸易见长. 该镇遂合法享有:"
+               },
+               "shrine_tier_2_reached": {
+                  "reward_message_ctd": "团结友好的氛围, 和标志性的神龛, 这一切都是为了感谢她所创造的神迹. 该镇遂合法享有:"
+               },
+               "arcs": {
+                  "encounters": {
+                     "tier_2_shops": {
+                        "bakery_shop": {
+                           "shop_info": {
+                              "name": "阿里佛·底格里的面包和炖菜商店",
+                              "title": "一位厨师推着车徐徐进入了小镇"
+                           }
+                        },
+                        "container_shop": {
+                           "shop_info": {
+                              "name": "艾丽娅·波可逊的储物棚屋",
+                              "title": "艾丽娅·波可逊带着一大堆储物箱来到了小镇"
+                           }
+                        },
+                        "door_shop": {
+                           "shop_info": {
+                              "name": "蕾蒂雅的异域门窗与木牌",
+                              "title": "蕾蒂雅带着异域的门窗和招牌来小镇上售卖"
+                           }
+                        },
+                        "farming_supplies_shop": {
+                           "shop_info": {
+                              "name": "农夫马卡比的农货物资商店",
+                              "title": "农夫马卡比推着车进入了小镇"
+                           }
+                        },
+                        "weapon_armor_shop": {
+                           "shop_info": {
+                              "name": "撒督的装备商店",
+                              "title": "一辆满载装备的马车缓缓靠近"
+                           }
+                        },
+                        "woodcutter_shop2": {
+                           "shop_info": {
+                              "name": "罗金的西域商品",
+                              "title": "罗金这次带来了更好的东西"
+                           }
+                        },
+                        "rugs_shop2": {
+                           "shop_info": {
+                              "name": "哈瓦德的精美布匹和服饰",
+                              "title": "哈瓦德带着特别珍贵的布料前来出售"
+                           }
+                        },
+                        "stonecutter_shop2": {
+                           "shop_info": {
+                              "name": "弗斯科·萨吉的抛光粘土制品",
+                              "title": "大师萨吉的货车推了过来, 满载着漂亮的货物"
+                           }
+                        }
+                     }
+                  }
+               }
+            },
+            "town_progression": {
+               "shrine_upgrade_valor": {
+                  "reward_message": "依据伊斯坎德尔贸易公司的决定, 我们承认:",
+                  "reward_message_ctd": "该镇因战斗中表现英勇, 战绩突出, 遂合法享有:",
+                  "achievements": {
+                     "001": "铁匠捕日镜配方",
+                     "002": "陶艺师花坛基座配方",
+                     "003": "纺织工旗帜, 地毯与坐垫配方"
+                  },
+                  "recipe_bulletins": {
+                     "recipe_unlock_blacksmith": "铁匠获得新的捕日镜配方!",
+                     "recipe_unlock_potter": "陶艺师获得新的花坛基座配方!",
+                     "recipe_unlock_weaver": "纺织工获得新的旗帜, 地毯与坐垫配方!",
+                     "recipe_unlock_weapons_1": "新的传说之剑配方 - 纺织工, 陶艺师和铁匠的配合之作!",
+                     "recipe_unlock_weapons_2": "新的传说之盾配方 - 铁匠, 木匠与石匠的配合之作!",
+                     "recipe_unlock_weapons_3": "新的传说之弓配方 - 工程师, 纺织工与木匠的配合之作!"
+                  }
+               },
+               "shrine_choice": {
+                  "guildmaster": {
+                     "name": "贸易信标",
+                     "description": "<i>这份城镇认定以高产, 富足和广阔的贸易联系而获得认可.</i><ul><li>允许制作师匠品质的物品</li><li>解锁家居装饰配方</li></ul>"
+                  },
+                  "deity": {
+                     "name": "奥迹神龛",
+                     "description": "<i>这份城镇认定源于对世界奥秘的求知与探索, 竭尽所能为她创造的奥迹所服务.</i><ul><li>祝福所有炉民, 给他们的智力, 体能, 和精神属性各加1点</li><li>解锁圣猕相关的装饰配方</li></ul>"
+                  },
+                  "valor": {
+                     "name": "不灭之焰",
+                     "description": "<i>这份城镇认定当用于不辞辛劳, 尽心尽力地保卫周围土地的太平.</i><ul><li>解锁传说武器配方</li><li>解锁异域装饰配方</li></ul>"
+                  }
+               },
+               "banner_upgrade_cunning": {
+                  "reward_message_ctd": "要向成为一个贸易据点而努力."
+               },
+               "banner_upgrade_strength": {
+                  "reward_message_ctd": "要向成为一个镇国安民的据点而努力."
+               },
+               "banner_upgrade_vitality": {
+                  "reward_message_ctd": "要向成为一个复苏周围生机的据点而努力."
+               },
+               "bird_departs": {
+                  "dialog_tree_info": {
+                     "dialog_nodes": {
+                        "msg1": {
+                           "bulletin_message": {
+                              "00": "填完据点建立表, 刚放进他们准备的肩包, 阿尔珂就跑回离这最近的伊斯坎德尔经销机构办公处了."
+                           },
+                           "bulletin_title": "狐狸离开了",
+                           "dialog_title": "狐狸离开了",
+                           "choice_000": "圣猕保佑你, 狐狸小朋友"
+                        }
+                     }
+                  }
+               },
+               "hearth_choice_explanation": {
+                  "dialog_tree_info": {
+                     "dialog_nodes": {
+                        "makers": {
+                           "bulletin_message": {
+                              "00": "而 <i>造物之石炉</i> 则不一样, 是给那些相信 '一个小镇的价值是建立在工作上' 的人的, 而衡量工作的标准当然就是金币."
+                           },
+                           "bulletin_title": "造物的证据",
+                           "dialog_title": "造物的证据",
+                           "choice_000": "听起来就很乐业"
+                        },
+                        "final": {
+                           "bulletin_message": {
+                              "00": "欢愉, 荣誉, 亦或是造物 - 完全由你决定. 想想看你们心中什么是最为重要, 然后追随指引开创未来吧!"
+                           },
+                           "bulletin_title": "抉择",
+                           "dialog_title": "一个抉择",
+                           "choice_000": "我们选..."
+                        },
+                        "intro2": {
+                           "bulletin_message": {
+                              "00": "如你所知, 自凤凰帝国以来, 石炉便是村落建立的基石.<p>若不是它们的光芒, 瑞亚之子的商队无法找到通向沙漠的道路, 我们的社会也早已分崩离析了. 石炉的种类也是一个据点的价值取向."
+                           },
+                           "bulletin_title": "奈瑞椰继续说道",
+                           "dialog_title": "奈瑞椰·伊斯坎德尔",
+                           "choice_000": "价值?"
+                        },
+                        "cheer": {
+                           "bulletin_message": {
+                              "00": "例如, <i>欢愉之石炉</i> 是给那些相信 '一个小镇的价值是建立在炉民幸福的基础上' 的人的."
+                           },
+                           "bulletin_title": "愉快的决定",
+                           "dialog_title": "愉快的决定",
+                           "choice_000": "听起来就很祥和"
+                        },
+                        "intro3": {},
+                        "glory": {
+                           "bulletin_message": {
+                              "00": "最后, <i>荣誉之石炉</i> 是给那些相信 '总有一天商谈不足以解决问题, 唯有武力才能保卫土地' 的人的."
+                           },
+                           "bulletin_title": "肝胆涂地的意义",
+                           "dialog_title": "肝胆涂地的意义",
+                           "choice_000": "听起来就很英雄主义"
+                        },
+                        "intro": {
+                           "bulletin_message": {
+                              "00": "你们好, 又见面了! 是时候更正式地来访问你们了, 虽然没带上东西不能和你们交易. 我们伊斯坎德尔贸易公司对你们据点发展很是满意啊, 并正式决定应该把你们会员等级提升到'村落'了.<p>但在这之前, 你们可以自行选择一座能代表你们的石炉.</p>"
+                           },
+                           "bulletin_title": "奈瑞椰走了过来, 没带上商队",
+                           "dialog_title": "正式访问",
+                           "choice_000": "谢谢!",
+                           "choice_001": "[跳过] 我们知道想要什么."
+                        }
+                     }
+                  }
+               },
+               "hearth_foreshadow_dialog": {
+                  "dialog_tree_info": {
+                     "dialog_nodes": {
+                        "msg1": {
+                           "bulletin_title": "狐狸回来了!",
+                           "dialog_title": "又一封信!",
+                           "bulletin_message": {
+                              "00": "信使狐回来了, 带着爱蜜莉雅·伊斯坎德尔的回信."
+                           },
+                           "choice_000": "拆信"
+                        },
+                        "msg4": {
+                           "bulletin_message": {
+                              "00": "相反, 我们希望你们在据点升级仪式上考虑下一步要怎么走. 尽管我们的大部分合作据点就喜欢以交易为特色, 我们认为对于瑞娅的孩子们来说其他选择也同样有价值, 当然决定权还是你们自己的.<p>圣猕保佑!<br>爱蜜莉雅·伊斯坎德尔<br>伊斯坎德尔贸易公司</p><br><font size=-1>附: 一份小礼, 祝你们好运 <font size=+2>✨</font></font>"
+                           },
+                           "bulletin_title": "亟待考虑",
+                           "dialog_title": "亟待考虑",
+                           "choice_000": "是金砂! 谢谢!"
+                        },
+                        "msg2": {
+                           "bulletin_message": {
+                              "00": "祝贺据点落户!<p>你们的据点现在正式登记在公司户口本上了, 我坚信你们这儿以后一定会成为我们在这片地区的主要联络点的!</p>"
+                           },
+                           "bulletin_title": "一封回信",
+                           "dialog_title": "一封回信",
+                           "choice_000": "信中继续写道"
+                        },
+                        "msg3": {
+                           "bulletin_message": {
+                              "00": "为了帮助你们打成这个伟大的目标, 我们会让贸易伙伴未来几天去你们那, 鼓励带上商队去[str(i18n_data.town_name)].</p>"
+                           },
+                           "bulletin_title": "互利共赢关系书",
+                           "dialog_title": "互利共赢的关系",
+                           "choice_000": "综上所述..."
+                        }
+                     }
+                  }
+               },
+               "guild_dialog_1": {
+                  "dialog_tree_info": {
+                     "dialog_nodes": {
+                        "msg2": {
+                           "bulletin_message": {
+                              "00": "当然了, 有我们撑腰, 谁都会知道当你说做的是'师匠'级的东西时, 它就是! 则就是钦定的, 不管怎样.<br/><br/>毫无疑问贸易者就会不远万里亲自来访. 很多贸易伙伴就出现了!"
+                           },
+                           "bulletin_title": "爱蒂亚接着说道",
+                           "dialog_title": "爱蒂亚·芮迪尔, 委员会主席",
+                           "choice_000": "我们尽力!"
+                        },
+                        "msg3": {
+                           "bulletin_message": {
+                              "00": "好了, 商业会晤到此为止 - 我要去找一位精力充沛的老年妇女之友跳支舞了!<br/><br/>啥? 你们真的没装嫩!"
+                           },
+                           "bulletin_title": "爱蒂亚继续说道",
+                           "dialog_title": "爱蒂亚·芮迪尔, 委员会主席",
+                           "choice_000": "玩的开心! 出...门小心?"
+                        },
+                        "msg1": {
+                           "bulletin_message": {
+                              "00": "<font size=-1 color='#cccccc'>(有钱人爱蒂亚, 自言自语着. 'Hmm... yes, 我觉得这能成, 肯定可以.')</font><br/><br/>哦! 孩子们, 你们选得很对, 签署成为了商务委员会贸易网上一部分, 我们也是十分高兴能有你们参加!"
+                           },
+                           "bulletin_title": "爱蒂亚·芮迪尔倚着, 打量着圣碑",
+                           "dialog_title": "爱蒂亚·芮迪尔, 委员会主席",
+                           "choice_000": "感谢, 主席!"
+                        }
+                     }
+                  }
+               },
+               "valor_dialog_1": {
+                  "dialog_tree_info": {
+                     "dialog_nodes": {
+                        "msg2": {
+                           "bulletin_message": {
+                              "00": "哈! 我觉得这很正确!<br/><br/>我们从追随瑞娅奥迹的人们藏起来的布满灰尘的古籍中搜刮到了一些武器设计图 - 我带来了几分复印件, 送给你们工匠, 让他们试试能不能把这里图纸上的零件拼到一起."
+                           },
+                           "bulletin_title": "伊麦瑞特接着说",
+                           "dialog_title": "伊麦瑞特·开福, 彩狗队",
+                           "choice_000": "肯定可以的!"
+                        },
+                        "msg3": {
+                           "bulletin_message": {
+                              "00": "毫无疑问!<br/><br/>好了, 走了一天, 也该填下肚子了! 祝贺你们啊!"
+                           },
+                           "bulletin_title": "伊麦瑞特接着说",
+                           "dialog_title": "伊麦瑞特·开福, 彩狗队",
+                           "choice_000": "感谢, 好好享受吧!"
+                        },
+                        "msg1": {
+                           "bulletin_message": {
+                              "00": "哇, 我赌五毛万里之外也能看到它! 不出多久哥布林们就会落荒而逃了!<br/><br/>我很高兴你们选择同我们签约 - 彩狗队成员还不是很多, 但因为想你们这样的小镇的加入, 我们也成长得很快!"
+                           },
+                           "bulletin_title": "伊麦瑞特大声地笑着",
+                           "dialog_title": "伊麦瑞特·开福, 彩狗队",
+                           "choice_000": "我们也曾始于毫末!"
+                        }
+                     }
+                  }
+               },
+               "deity_dialog_1": {
+                  "dialog_tree_info": {
+                     "dialog_nodes": {
+                        "msg2": {
+                           "bulletin_message": {
+                              "00": "自此以后, 这个受到祝福的圣碑便会给你们每个人撒下圣猕奥迹的一隅.<br/><br/>认真思索吧. 把对这个世界的求知欲带上, 当你们贸易, 探索, 或是接纳一位陌生人的时候, 时刻期待着了解更多关于这个复杂世界的只言片语."
+                           },
+                           "bulletin_title": "诺娜继续说道",
+                           "dialog_title": "诺娜·翠思特, 女祭司",
+                           "choice_000": "一定会的!"
+                        },
+                        "msg3": {
+                           "bulletin_message": {
+                              "00": "当然, 我们于庙宇中也会期待来自你们的消息. 只不过, 没有那么急切 - 现在, 该是吃吃喝喝的时候了, 一定要开心哦!"
+                           },
+                           "bulletin_title": "诺娜继续说道",
+                           "dialog_title": "诺娜·翠思特, 女祭司",
+                           "choice_000": "万岁!"
+                        },
+                        "msg1": {
+                           "bulletin_message": {
+                              "00": "圣猕保佑, 兄弟姐妹们. 这座圣碑真是精妙!<br/><br/>我尤其欣赏圣猕尾巴上挂的钥匙 - 是为开什么锁而准备的呢? 锁后面又藏着什么嘛? 诚然是个谜团!"
+                           },
+                           "bulletin_title": "诺娜满意地点着头",
+                           "dialog_title": "诺娜·翠思特, 女祭司",
+                           "choice_000": "谢谢你, 女祭司."
+                        }
+                     }
+                  }
+               },
+               "post_shrine_dialog": {
+                  "dialog_tree_info": {
+                     "dialog_nodes": {
+                        "msg1": {
+                           "bulletin_message": {
+                              "00": "厉害, 厉害! 你们真是把伊斯坎德尔的名号做响了!<br/><br/>感谢你们款待我和我的客人."
+                           },
+                           "bulletin_title": "爱蜜莉雅过来了, 喜形于色",
+                           "dialog_title": "爱蜜莉雅·伊斯坎德尔",
+                           "choice_000": "荣幸之至, 爱蜜莉雅!"
+                        },
+                        "msg2": {
+                           "bulletin_message": {
+                              "00": "顺带一提, 我们庆祝的这座圣碑是特别的 - 城镇的建立给它充入了特别的魔法力量.<br/><br/>再造其他的就只能做装饰了, 不会有这种闪亮的效果, 如果你知道我在说什么的话."
+                           },
+                           "bulletin_title": "爱蜜莉雅接着说道",
+                           "dialog_title": "爱蜜莉雅·伊斯坎德尔",
+                           "choice_000": "了解!"
+                        },
+                        "msg3": {
+                           "bulletin_message": {
+                              "00": "<p align='right'><font color='#E3D0AF'>(嘤! 嘤!)</font></p>好的, 好的, 阿尔珂, 我知道, 是时候该走了.<br/><br/>虽然想呆的时间长一点, 但还有其他, 没那么上进的商队需要我们帮助呢.<br/><br/>祝贺你们成功, 还有感谢你们没给我制造太多的书面工作."
+                           },
+                           "bulletin_title": "爱蜜莉雅接着说道",
+                           "dialog_title": "爱蜜莉雅·伊斯坎德尔",
+                           "choice_000": "再见! ...没问题吧?"
+                        }
+                     }
+                  }
+               },
+               "shrine_choice_explanation": {
+                  "dialog_tree_info": {
+                     "dialog_nodes": {
+                        "intro": {
+                           "bulletin_message": {
+                              "00": "你们好, [str(i18n_data.town_name)]!<p>我终于亲眼看到你们村落啦! 我还以为奈瑞椰的形容夸大其词了呢, 现在甚至感觉他形容地还不到位呢!<p>好吧, 我们来谈正事儿. 这是我上一封信里提到的几位有意的资助者. 打扰你们点时间, 听听他们自己介绍吧.</p>"
+                           },
+                           "bulletin_title": "爱蜜莉雅·伊斯坎德尔到来了!",
+                           "dialog_title": "爱蜜莉雅来了, 还带了客人!",
+                           "choice_000": "哦, 好的!",
+                           "choice_001": "[跳过] 我们已经有决定了!"
+                        },
+                        "clergy": {
+                           "bulletin_message": {
+                              "00": "圣猕保佑, 兄弟姐妹们! 我是诺娜·翠思特, 圣猕奥迹的女祭司. 祖母瑞娅留给我们一个任务, 去探索世界, 揭开一切秘密. 我们朝这个方向努力的一种方法便是资助像你们一样的远离瑞娅之裔国土的小镇."
+                           },
+                           "bulletin_title": "女祭司",
+                           "dialog_title": "女祭司",
+                           "choice_000": "圣猕保佑你, 姐妹"
+                        },
+                        "clergy_cont": {
+                           "bulletin_message": {
+                              "00": "作为我们资助的回报, 我们只要求受资助者建造一座奥迹神龛, 以长鸣警钟, 提醒人们这是个充满未知的世界, 充满着探索与学习的机遇. 一旦圣碑收到她的眷顾, 便会给你们的人加上魔法般的祝福, 独特而神秘地给与你们力量.<br><br><font size=-1><i>落成奥迹神龛可以给炉民的智力, 体能, 和精神属性各加1点!</i></font>"
+                           },
+                           "bulletin_title": "诺娜·翠思特",
+                           "dialog_title": "诺娜·翠思特",
+                           "choice_000": "真有趣!"
+                        },
+                        "makers": {
+                           "bulletin_message": {
+                              "00": "过来, 我的孩子! 我是爱蒂亚·芮迪尔, 商务委员会的主席, 也是你们这个才露尖角的小镇的仰慕者. 如此充满效率! 前景诱人! 在我任职的这么多年里已经拜访了许许多多这样的小镇了, 但对于好东西永远不会厌倦, 瑞娅之裔的孩子们在各个角落定居, 把我们贸易之路扩张到四面八方.<br><br><font size=-1><i>爱蒂亚从她的袖子里拿出一捧硬糖, 人人有份.</i></font>"
+                           },
+                           "bulletin_title": "商人",
+                           "dialog_title": "商人",
+                           "choice_000": "感谢!"
+                           },
+                        "makers_cont": {
+                           "bulletin_message": {
+                              "00": "如你所见, 商务委员会是瑞娅之裔城镇的主要资助方, 所以我知道你们看到我来一点都不惊讶. 我们希望商会有你们的加入 - 我们认为你们村有能力生产和出口瑞娅的部分最高档的物品, 也有能力保持我们一贯以来被人称道的精益求精的叫声.<br><br><font size=-1><i>落成贸易信标会解锁师匠品质的家具和装饰, 一种比卓越品质高到不知道哪里去的品质.</i></font>"
+                           },
+                           "bulletin_title": "爱蒂亚·芮迪尔",
+                           "dialog_title": "爱蒂亚·芮迪尔",
+                           "choice_000": "听起来好处很多!"
+                        },
+                        "military": {
+                           "bulletin_message": {
+                              "00": "嘿! 我是伊麦瑞特·开福! 你或许还没听说我我, 但我可是彩狗队的队长哦, 我们是一群有组织的年轻人, 致力于训练瑞娅之裔的人们自保的技巧, 让和平的生活方式能在这动荡的年代中得到保留, 不管面对的是哥布林急袭还是亡灵族出没. 我们现在正在招募村落加入!"
+                           },
+                           "bulletin_title": "年青人",
+                           "dialog_title": "年青人",
+                           "choice_000": "欢迎, 伊麦瑞特"
+                        },
+                        "military_cont": {
+                           "bulletin_message": {
+                              "00": "我们认为你们村已经有能力自保, 甚至可以保护一些邻居了, 我们想让你们造一座不灭之焰圣碑作为体现这片地区太平的信标, 作为回报我们会分享给你们一些最先进的武器装甲的蓝图.<br><br><font size=-1><i>落成不灭之焰圣碑可以解锁最高级的武器新配方.</i></font>"
+                           },
+                           "bulletin_title": "伊麦瑞特·开福",
+                           "dialog_title": "伊麦瑞特·开福",
+                           "choice_000": "我们会考虑的"
+                        },
+                        "summary": {
+                           "bulletin_message": {
+                              "00": "那么! 既然一个个已经都认识过来了, 我的对接工作也差不多结束了. 虽然不想影响你们的决定, 但我可以想你保证他们都很厉害, 可以充分挖掘你们小镇的潜力.<p>我接下去要把圣碑之类的计划和你们陶艺师谈谈.</p><p>很高兴能来拜访你们, 期待到时候落成典礼再见面哦!</p>"
+                           },
+                           "bulletin_title": "爱蜜莉雅总结道",
+                           "dialog_title": "爱蜜莉雅总结道",
+                           "choice_000": "听起来很棒!"
+                        }
+                     }
+                  }
+               },
+               "shrine_foreshadow_dialog": {
+                  "dialog_tree_info": {
+                     "dialog_nodes": {
+                        "msg4": {
+                           "bulletin_message": {
+                              "00": "我正在为亲自拜访而做准备工作, 到时我来了, 我还会带上几位对资助像你们一样的村落感兴趣的人. 他们都是德高望重的人, 别忘了准备最好的招待哦!<p>圣猕保佑!<br>爱蜜莉雅·伊斯坎德尔<br>伊斯坎德尔贸易公司</p>"
+                           },
+                           "bulletin_title": "一封信",
+                           "dialog_title": "一封信",
+                           "choice_000": "激动人心!"
+                        },
+                        "msg2": {
+                           "bulletin_message": {
+                              "00": "亲爱的[str(i18n_data.town_name)]镇民们,<p>我接到许多贸易伙伴的报告, 都快把你们吹上天了. 很高兴我们的投资这么快就有了回报!</p>"
+                           },
+                           "bulletin_title": "一封信",
+                           "dialog_title": "一封信",
+                           "choice_000": "出名了?"
+                        },
+                        "msg3": {
+                           "bulletin_message": {
+                              "00": "不知你们还记不记得我们协议中的内容, 我们给负责的任何据点提供的最后一项服务便是将他们对接给瑞娅之裔社会中有头有脸的人, 他们才有能力帮助你们跨越最后一道障碍成为一座小镇."
+                           },
+                           "bulletin_title": "一封信",
+                           "dialog_title": "一封信",
+                           "choice_000": "棒棒哒!"
+                        },
+                        "msg1": {
+                           "bulletin_message": {
+                              "00": "看起来爱蜜莉雅又要找我们了!"
+                           },
+                           "bulletin_title": "阿尔珂回来了!",
+                           "dialog_title": "又一封信!",
+                           "choice_000": "拆信"
+                        }
+                     }
+                  }
+               },
+               "shrine_quest_deity": {
+                  "title": "Township Quest: 奥迹神龛",
+                  "dialog_title": "Township Quest: 奥迹神龛"
+               },
+               "shrine_quest_guildmaster": {
+                  "title": "Township Quest: 贸易信标",
+                  "dialog_title": "Township Quest: 贸易信标"
+               },
+               "shrine_quest_valor": {
+                  "title": "Township Quest: 不灭之焰",
+                  "dialog_title": "Township Quest: 不灭之焰"
+               },
+               "shrine_upgrade_deity": {
+                  "title": "Township Established",
+                  "reward_message": "依据伊斯坎德尔贸易公司的决定, 我们承认:",
+                  "reward_message_ctd": "由于其对这个世界奥秘的无止境探索. 该镇现合法享有:",
+                  "achievements": {
+                     "001": "Potter Decorations",
+                     "002": "Blacksmith Lamps",
+                     "003": "Weaver Banners"
+                  },
+                  "recipe_bulletins": {
+                     "recipe_unlock_potter": "圣猕相关的陶艺师装饰品新配方!",
+                     "recipe_unlock_blacksmith": "铁匠路灯新配方!",
+                     "recipe_unlock_weaver": "纺织工旗帜新配方!"
+                  }
+               },
+               "shrine_upgrade_guildmaster": {
+                  "reward_message": "依据伊斯坎德尔贸易公司的决定, 我们承认:",
+                  "reward_message_ctd": "由于其精益求精的匠人精神与优秀的交易技巧. 该镇现合法享有:",
+                  "achievements": {
+                     "001": "陶艺师贸易罐头配方",
+                     "002": "陶艺师花瓣装饰",
+                     "003": "陶艺师装饰工作台"
+                  },
+                  "recipe_bulletins": {
+                     "recipe_unlock_potter": "解锁陶艺师罐头, 花瓣, 与工作台装饰新配方!"
+                  }
+               },
+               "town_founding_explanation": {
+                  "dialog_tree_info": {
+                     "dialog_nodes": {
+                        "read_letter3": {
+                           "bulletin_message": {
+                              "00": "决定好了, 就填上我给你们的表格然后让阿尔珂送回来. 记住在她走之前喂她点吃的. 她喜欢莓子, 不过刺梨也行.<br><p>圣猕保佑,<br>爱蜜莉雅·伊斯坎德尔,<br>伊斯坎德尔贸易公司</p>"
+                           },
+                           "bulletin_title": "信中继续写道",
+                           "dialog_title": "信中继续写道",
+                           "choice_000": "我们选..."
+                        },
+                        "open_letter": {
+                           "bulletin_message": {
+                              "00": "一只眼神坚定的耳廓狐跑了过来, 叼着一个小包包, 上面还粘着一封 <i>\"伊斯坎德尔商队官方邮件\"</i>. 她把包包丢在一边然后坐在地上, 满脸期待地望着你们."
+                           },
+                           "bulletin_title": "一只耳廓狐跑了过来",
+                           "dialog_title": "一只狐狸... 信使?",
+                           "choice_000": "打开背包",
+                           "choice_001": "[跳过] 我们知道要什么旗帜."
+                        },
+                        "read_letter": {
+                           "bulletin_message": {
+                              "00": "亲爱的商队[str(i18n_data.town_serial_number)],<p>感谢你们自愿在一个西边这么远的地方建立据点! 我们伊斯坎德尔贸易公司也很高兴被你们指定来协助定居.<p>书面申请一旦准备就绪, 由代理人奈瑞椰·伊斯坎德尔带领的官方商队就会开辟一条去你们据点的新道路.</p>"
+                           },
+                           "bulletin_title": "爱蜜莉雅·伊斯坎德尔的来信",
+                           "dialog_title": "爱蜜莉雅·伊斯坎德尔的来信",
+                           "choice_000": "然后..."
+                        },
+                        "read_letter2": {
+                           "bulletin_message": {
+                              "00": "首先, 要让你们的据点被登记到公司户口本上, 你们必须选个名字, 还有一个标准.<p>所谓标准便是告知瑞娅之裔全体成员的定居目的, 尽管我们已经发现其实最大作用还是骗骗自己的炉民.</p>"
+                           },
+                           "bulletin_title": "信中继续写道",
+                           "dialog_title": "信中继续写道",
+                           "choice_000": "标准吗... Hmm..."
+                        }
+                     }
+                  }
+               },
+               "town_founding_food_donation": {
+                  "donation_dialog_info": {
+                     "dialog_nodes": {
+                        "simple_message": {
+                           "bulletin_message": {
+                              "00": "很明显, 除信中所指, 阿尔珂的背包里还有一个满是金币的小背包, 贴着 <i>\"据点建立奖励\"</i>."
+                           },
+                           "bulletin_title": "阿尔珂的爪子指了指背包",
+                           "dialog_title": "包中包",
+                           "choice_000": "超实用!"
+                        }
+                     }
+                  }
+               },
+               "unlock_shrine_recipes": {
+                  "bulletin_title": "陶艺师圣碑配方解锁!"
+               },
+               "arcs": {
+                  "trigger": {
+                     "town_progression": {
+                        "encounters": {
+                           "reembark_dialog": {
+                              "dialog_tree_info": {
+                                 "dialog_nodes": {
+                                    "msg1": {
+                                       "bulletin_message": {
+                                          "00": "圣猕保佑, 我的朋友们! 虽然既定合同已经全部完成, 不过我们只想提醒一下伊斯坎德尔贸易公司总是欢迎回头客的!<p>实际上, 我们这次合作如此顺利, 如果你们想另立一个小镇的话, 我们很乐意赞助一个大商队帮你们把几位炉民送到目的地, 当然还有些许物品和一些记录. 准备好了就和我说吧!</p><p><font size=-1><i>再次出发需要你选择三位炉民, 并准备十件物品, 带上所有已解锁的配方来建立一个新的城镇..</i></font></p>"
+                                       },
+                                       "bulletin_title": "It's Naryal Again!",
+                                       "dialog_title": "One Last Thing",
+                                       "choice_000": "Good to know!"
+                                    }
+                                 }
+                              }
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      },
+      "saved_objects": {
+         "building_templates_index": {
+            "template_tabs": {
+               "rayyas_children": {
+                  "display_name": "瑞雅",
+                  "categories": {
+                     "outpost": "哨站模板",
+                     "settlement": "村镇模板"
+                  }
+               }
+            }
+         },
+         "building_templates": {
+            "pottery_studio": {
+               "display_name": "陶艺作坊"
+            },
+            "weavers_hut": {
+               "display_name": "纺织小屋"
+            },
+            "communal_kitchen": {
+               "display_name": "社区厨房"
+            },
+            "masons_workshop": {
+               "display_name": "石匠小筑"
+            },
+            "tier2": {
+               "desert_lodge": {
+                  "display_name": "沙漠宅第"
+               },
+               "little_red_hut": {
+                  "display_name": "一品红"
+               },
+               "rayyas_shadow": {
+                  "display_name": "瑞伊娅的圣影"
+               },
+               "red_clay_homes": {
+                  "display_name": "红砖大院"
+               },
+               "engineers_workshop": {
+                  "display_name": "工程师的院落"
+               }
+            },
+            "blacksmiths_workshop": {
+               "display_name": "打铁匠铺"
+            },
+            "herbalists_workshop": {
+               "display_name": "草药师的研究室"
+            }
+         }
+      }
+   },
+   "entities": {
+      "gizmos": {
+         "rc_camp_standard": {
+            "rc_camp_standard_ghost": {
+               "display_name": "营地旗帜",
+               "description": "你怎么知道你回到家了?"
+            }
+         },
+         "rc_town_banner_guardian": {
+            "rc_town_banner_guardian_ghost": {
+               "display_name": "机灵旗帜",
+               "description": "回家的标志"
+            },
+            "rc_town_banner_guardian_token_iconic": {
+               "display_name": "机灵小旗帜",
+               "description": "来自机灵旗帜的一角, 继承着它的祝福."
+            }
+         },
+         "rc_town_banner_nature": {
+            "rc_town_banner_nature_ghost": {
+               "display_name": "蓬勃旗帜",
+               "description": "回家的标志"
+            },
+            "rc_town_banner_nature_token_iconic": {
+               "display_name": "蓬勃小旗帜",
+               "description": "来自蓬勃旗帜的一角, 继承着它的祝福."
+            }
+         },
+         "rc_town_banner_might": {
+            "rc_town_banner_might_ghost": {
+               "display_name": "力量旗帜",
+               "description": "回家的标志"
+            },
+            "rc_town_banner_might_token_iconic": {
+               "display_name": "力量小旗帜",
+               "description": "来自力量旗帜的一角, 继承着它的祝福."
+            }
+         }
+      },
+      "decoration": {
+         "monkey_shrine_monument": {
+            "monkey_shrine_monument_ghost": {
+               "display_name": "奥迹神龛",
+               "description": "为圣猕和她创造的奥迹献上贡品"
+            },
+            "chest": {
+               "chest_ghost": {
+                  "display_name": "圣猕陶箱",
+                  "description": "存放献给圣猕与她创造的奥迹的贡品"
+               }
+            },
+            "monkey": {
+               "monkey_ghost": {
+                  "display_name": "圣猕陶塑",
+                  "description": "供奉圣猕与她周围一起帮助的猴子们."
+               }
+            },
+            "key": {
+               "key_ghost": {
+                  "display_name": "圣猕之匙",
+                  "description": "墙上装饰, 提醒人们不要忘记圣猕."
+               }
+            },
+            "lamp_gold": {
+               "lamp_gold_ghost": {
+                  "display_name": "金油灯",
+                  "description": "它的火焰在黑暗中给人温暖."
+               }
+            },
+            "lamp_wall_gold": {
+               "lamp_wall_gold_ghost": {
+                  "display_name": "壁挂金油灯",
+                  "description": "它的火焰在黑暗中给人温暖."
+               }
+            },
+            "window_tall_latticed": {
+               "window_tall_latticed_ghost": {
+                  "display_name": "高镂金窗",
+                  "description": "雕花工艺挡住了大部分炎热的阳光, 看上去还不失美感!!"
+               }
+            },
+            "door_clay_latticed": {
+               "door_clay_latticed_ghost": {
+                  "display_name": "镂金门",
+                  "description": "雕花工艺挡住了大部分炎热的阳光, 看上去还不失美感!!"
+               }
+            },
+            "teapot": {
+               "teapot_ghost": {
+                  "display_name": "精工茶套",
+                  "description": "牢记勇敢的先驱者."
+               }
+            },
+            "banner_wall_small": {
+               "banner_wall_small_ghost": {
+                  "display_name": "宽墙旗",
+                  "description": "用这面旗展示你们的骄傲."
+               }
+            },
+            "banner_wall_big": {
+               "banner_wall_big_ghost": {
+                  "display_name": "长墙旗",
+                  "description": "用这面旗展示你们的骄傲."
+               }
+            },
+            "lightbox": {
+               "lightbox_ghost": {
+                  "display_name": "光明陶盒",
+                  "description": "光芒把图案洒向四周, 洒向天空."
+               }
+            }
+         },
+         "exotic_trade_monument": {
+            "exotic_trade_monument_ghost": {
+               "display_name": "不灭之焰",
+               "description": "平安与守护此地的信标"
+            },
+            "banner_gilded_blue": {
+               "banner_gilded_blue_ghost": {
+                  "display_name": "金边蓝旗",
+                  "description": "展示你作为充满异域风情的交易站的骄傲"
+               }
+            },
+            "chair_gilded_blue": {
+               "chair_gilded_blue_ghost": {
+                  "display_name": "金边蓝坐垫",
+                  "description": "奢侈装饰衬垫的座位"
+               }
+            },
+            "pedestal_firepit": {
+               "pedestal_firepit_ghost": {
+                  "display_name": "陶制小火坛",
+                  "description": "温柔发光的煤炭"
+               }
+            },
+            "wall_hanging_suncatcher": {
+               "wall_hanging_suncatcher_ghost": {
+                  "display_name": "捕日镜",
+                  "description": "打磨出镜面的质感"
+               }
+            },
+            "outfit_worker_goldthread": {
+               "mixins": {
+                  "worker_outfit_goldthread_iconic": {
+                     "display_name": "精美工作服",
+                     "description": "时尚地提升了工人们的速度与效率"
+                  },
+                  "worker_outfit_goldthread": {
+                     "display_name": "精美工作服",
+                     "description": "时尚地提升了工人们的速度与效率"
+                  }
+               }
+            },
+            "rug_gilded_blue": {
+               "rug_gilded_blue_ghost": {
+                  "display_name": "金边蓝地毯",
+                  "description": "用染色的线和金线细致地纹出来的"
+               }
+            },
+            "chair_gilded_red": {
+               "chair_gilded_red_ghost": {
+                  "display_name": "金边红坐垫",
+                  "description": "奢侈装饰衬垫的座位"
+               }
+            },
+            "chair_gilded_coral": {
+               "chair_gilded_coral_ghost": {
+                  "display_name": "金边珊瑚坐垫",
+                  "description": "奢侈装饰衬垫的座位"
+               }
+            },
+            "chair_gilded_sage": {
+               "chair_gilded_sage_ghost": {
+                  "display_name": "金边灰绿坐垫",
+                  "description": "奢侈装饰衬垫的座位"
+               }
+            },
+            "banner_gilded_red": {
+               "banner_gilded_red_ghost": {
+                  "display_name": "金边红旗",
+                  "description": "展示你作为充满异域风情的交易站的骄傲"
+               }
+            },
+            "banner_gilded_coral": {
+               "banner_gilded_coral_ghost": {
+                  "display_name": "金边珊瑚旗",
+                  "description": "展示你作为充满异域风情的交易站的骄傲"
+               }
+            },
+            "banner_gilded_sage": {
+               "banner_gilded_sage_ghost": {
+                  "display_name": "金边灰绿旗",
+                  "description": "展示你作为充满异域风情的交易站的骄傲"
+               }
+            },
+            "pedestal_floral_blue": {
+               "pedestal_floral_blue_ghost": {
+                  "display_name": "蓝花坛",
+                  "description": "散发清香的花草展示坛"
+               }
+            },
+            "pedestal_floral_coral": {
+               "pedestal_floral_coral_ghost": {
+                  "display_name": "珊瑚花坛",
+                  "description": "散发清香的花草展示坛"
+               }
+            },
+            "pedestal_floral_red": {
+               "pedestal_floral_red_ghost": {
+                  "display_name": "红花坛",
+                  "description": "散发清香的花草展示坛"
+               }
+            },
+            "rug_gilded_red": {
+               "rug_gilded_red_ghost": {
+                  "display_name": "金边红地毯",
+                  "description": "用染色的线和金线细致地纹出来的"
+               }
+            },
+            "rug_gilded_coral": {
+               "rug_gilded_coral_ghost": {
+                  "display_name": "金边珊瑚地毯",
+                  "description": "用染色的线和金线细致地纹出来的"
+               }
+            },
+            "rug_gilded_sage": {
+               "rug_gilded_sage_ghost": {
+                  "display_name": "金边灰绿地毯",
+                  "description": "用染色的线和金线细致地纹出来的"
+               }
+            }
+         },
+         "trading_post_monument": {
+            "trading_post_monument_ghost": {
+               "display_name": "贸易信标",
+               "description": "它代表着你城镇的高产, 富有与广阔的贸易关系."
+            },
+            "urn_large": {
+               "urn_large_ghost": {
+                  "display_name": "交易储货瓮",
+                  "description": "特大单就需要特大号的罐头!"
+               }
+            },
+            "pot_oil_earthen": {
+               "pot_oil_earthen_ghost": {
+                  "display_name": "陶制油壶",
+                  "description": "冒着焰苗的小陶壶"
+               }
+            },
+            "pot_oil_green": {
+               "pot_oil_green_ghost": {
+                  "display_name": "青釉油壶",
+                  "description": "冒着焰苗的绿色小陶壶"
+               }
+            },
+            "pot_oil_halfgreen": {
+               "pot_oil_halfgreen_ghost": {
+                  "display_name": "半釉油壶",
+                  "description": "冒着焰苗的半釉小陶壶"
+               }
+            },
+            "pot_sunflower": {
+               "pot_sunflower_ghost": {
+                  "display_name": "向日葵盆栽",
+                  "description": "陶制小盆上面是朵美丽的花."
+               }
+            },
+            "wall_hanging_sunflower": {
+               "wall_hanging_sunflower_ghost": {
+                  "display_name": "墙花",
+                  "description": "可以装饰墙壁的向日葵."
+               }
+            },
+            "wall_hanging_sunwreath": {
+               "wall_hanging_sunwreath_ghost": {
+                  "display_name": "向日葵花环",
+                  "description": "把收集来的向日葵都挂墙上."
+               }
+            },
+            "pot_fox_lily": {
+               "pot_fox_lily_ghost": {
+                  "display_name": "狐尾芦荟盆栽",
+                  "description": "陶制小盆上面是朵美丽的花."
+               }
+            },
+            "jar_green": {
+               "jar_green_ghost": {
+                  "display_name": "绿色烛光玻璃罐",
+                  "description": "装着小焰苗的绿玻璃罐"
+               }
+            },
+            "jar_red": {
+               "jar_red_ghost": {
+                  "display_name": "红色烛光玻璃罐",
+                  "description": "装着小焰苗的红玻璃罐"
+               }
+            },
+            "pot_acacia": {
+               "pot_acacia_ghost": {
+                  "display_name": "金合欢盆栽",
+                  "description": "陶制小盆上面是棵小小的树."
+               }
+            },
+            "wind_chime": {
+               "wind_chime_ghost": {
+                  "display_name": "玻璃风铃",
+                  "description": "视觉与听觉的极致享受."
+               }
+            }
+         },
+         "hearth_box": {
+            "hearth_box_ghost": {
+               "display_name": "荣誉之石炉",
+               "description": "提供温暖, 光明, 舒适, 和挑战一波波亡灵的机会"
+            }
+         },
+         "hearth_lamp": {
+            "hearth_lamp_ghost": {
+               "display_name": "欢愉之石炉",
+               "description": "提供温暖, 光明, 舒适, 和每日随机buff"
+            }
+         },
+         "hearth_urn": {
+            "hearth_urn_ghost": {
+               "display_name": "造物之石炉",
+               "description": "提供温暖, 光明, 舒适, 并根据手头金币产出日息"
+            }
+         }
+      },
+      "npc": {
+         "herald": {
+            "female": {
+               "herald_female": {
+                  "display_name": "女使者 斯威夫特",
+                  "description": "<Unused>来自瑞娅之裔的使者."
+               },
+               "herald_adia": {
+                  "display_name": "爱蒂亚·芮迪尔",
+                  "description": "瑞娅之裔的公会会长."
+               },
+               "herald_爱蜜莉雅": {
+                  "display_name": "爱蜜莉雅·伊斯坎德尔",
+                  "description": "伊斯坎德尔贸易公司的头头."
+               }
+            },
+            "male": {
+               "herald_male": {
+                  "display_name": "男使者 霍利",
+                  "description": "<Unused>来自瑞娅之裔的使者."
+               },
+               "herald_naryal": {
+                  "display_name": "奈瑞椰·伊斯坎德尔",
+                  "description": "伊斯坎德尔贸易公司的代理人."
+               },
+               "herald_nona": {
+                  "display_name": "诺娜·翠思特",
+                  "description": "圣猕奥迹的女祭司."
+               },
+               "herald_emeret": {
+                  "display_name": "伊麦瑞特·开福",
+                  "description": "彩狗队队长."
+               },
+               "herald_arke": {
+                  "display_name": "阿尔珂",
+                  "description": "整个伊斯坎德尔最棒的信使."
+               }
+            }
+         }
+      },
+      "armor": {
+         "rc_legendary_circlet": {
+            "display_name": "猩红头环",
+            "description": "凤凰帝国最方的头环"
+         },
+         "rc_legendary_shield": {
+            "display_name": "龙栖巨盾",
+            "description": "凤凰帝国最引以为傲的盾牌"
+         }
+      },
+      "weapons": {
+         "rc_legendary_bow": {
+            "display_name": "习风之弓",
+            "description": "凤凰帝国最迅捷的弓"
+         },
+         "rc_legendary_sword": {
+            "display_name": "沙漠尖牙",
+            "description": "凤凰帝国最好的宝剑"
+         }
+      },
+      "refined": {
+         "legendary_rc_bowstring": {
+            "display_name": "闪耀弓弦",
+            "description": "把习风之弓两头系起来的弓弦"
+         },
+         "legendary_rc_stave": {
+            "display_name": "古木弓把",
+            "description": "习风之弓的肢体"
+         },
+         "legendary_rc_face": {
+            "display_name": "龙皮盾面",
+            "description": "龙栖巨盾的防御部件"
+         },
+         "legendary_rc_frame": {
+            "display_name": "龙骨盾框",
+            "description": "龙栖巨盾的加固部件"
+         },
+         "legendary_rc_gem": {
+            "display_name": "烈焰红宝石",
+            "description": "灵魂的中心, 猩红头环的重要部件"
+         },
+         "legendary_rc_blade": {
+            "display_name": "暴怒之骨",
+            "description": "沙漠尖牙的不破剑刃"
+         },
+         "legendary_rc_inlay": {
+            "display_name": "闪耀嵌体",
+            "description": "沙漠尖牙内发光的镀层"
+         },
+         "legendary_rc_cloth": {
+            "display_name": "日色布料",
+            "description": "猩红头环的传统材料"
+         }
+      }
+   },
+   "kingdoms": {
+      "rayyas_children": "瑞娅之裔"
+   }
+}

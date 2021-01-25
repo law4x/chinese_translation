@@ -1,0 +1,494 @@
+{ 
+   "jobs": {
+      "blacksmith": {
+        "recipe_category" : {
+            "anduril_shards"     : "安都瑞尔的断片",
+            "gondorian_armory"   : "钢铎护甲",
+            "gondorian_smelting" : "钢铎冶炼",
+            "gondorian_decor"    : "钢铎装饰",
+            "gondorian_weaponry" : "钢铎武器"
+        },
+         "recipes": {
+            "ringmail_coif_recipe": {
+               "description" : "由钢环制成的链甲头巾.",
+               "recipe_name" : "链甲头巾",
+               "flavor"      : "由钢环制成的链甲头巾"
+            },
+            "guardsmans_helmet_recipe": {
+               "description" : "钢制成的卫兵头盔.",
+               "recipe_name" : "钢铎卫兵头盔.",
+               "flavor"      : "全钢头盔"
+            },
+            "soldiers_helmet_recipe": {
+               "description" : "钢制成的士兵头盔, 以银作为点缀.",
+               "recipe_name" : "钢铎士兵头盔",
+               "flavor"      : "坚固的钢盔"
+            },
+            "sergeants_helmet_recipe": {
+               "description" : "一顶精致的, 内衬毛皮的钢盔, 还用了闪亮的银作顶饰.",
+               "recipe_name" : "钢铎中士头盔",
+               "flavor"      : "精巧的银饰钢盔."
+            },
+            "greatshield_recipe": {
+               "recipe_name" : "钢铎圣盾",
+               "description" : "战斗中的可靠伙伴.",
+               "flavor"      : "来自钢铎的大盾."
+            },
+            "gondor_towershield_recipe": {
+               "recipe_name" : "钢铎塔盾",
+               "description" : "战斗中的可靠伙伴.",
+               "flavor"      : "来自钢铎的重型塔盾."
+            },
+            "guardsmans_armor_recipe": {
+               "description" : "轻型的皮甲, 附有用链甲重新加固过的护颈来提供额外保护.",
+               "recipe_name" : "钢铎卫兵甲",
+               "flavor"      : "轻甲."
+            },
+            "gondor_platemail_recipe": {
+               "description" : "闪亮的铠甲, 上面是圣白树的图案.",
+               "recipe_name" : "钢铎铠甲",
+               "flavor"      : "全身铠甲."
+            },
+            "crown_of_elendil_recipe": {
+               "recipe_name" : "伊兰迪尔之冠.",
+               "description" : "冠高而洁白, 镶之以钻. 朱石之于其上, 为其次子, 曰安那瑞安."
+            },
+            "fountain_guard_helmet_recipe": {
+               "description" : "有精致羽饰的钢盔.",
+               "recipe_name" : "喷泉守卫头盔",
+               "flavor"      : "精致羽饰钢盔."
+            },
+            "fountain_guard_armor_recipe": {
+               "description" : "带有长袍披风的钢铠甲.",
+               "recipe_name" : "喷泉守卫铠甲",
+               "flavor"      : "全身铠甲."
+            },
+            "mithril_silver_flakes_times_two_recipe": {
+               "recipe_name": "秘银砂(x2)",
+               "description": "将一块秘银锭打成碎.",
+               "flavor": "秘银 -世上最稀有的金属!"
+            },
+            "mithril_silver_bar_recipe": {
+               "description" : "一块纯秘银.",
+               "recipe_name" : "秘银锭",
+               "flavor"      : "秘银 -世上最稀有的金属!"
+            },
+		    "silver_candelabra_tall_recipe": {
+               "recipe_name" : "高烛架",
+               "description" : "大礼堂里面才会见到的装饰, 这些枝状烛架明显不是那种'头脑简单'的人能驾驭的.",
+               "flavor"      : "很高的银烛架"
+            },
+            "silver_candelabra_recipe": {
+               "description": "用它来陶冶你的炉民吧!",
+               "recipe_name": "银烛架",
+               "flavor": "银烛架"
+            },
+            "longspear_recipe": {
+               "description" : "一种长柄类武器, 顶端有钢制的锋利薄刃.",
+               "recipe_name" : "长矛",
+               "flavor"      : "与敌人保持距离."
+            },			
+            "lance_spear_recipe": {
+               "description" : "一种长柄类武器, 顶端是钢制的尖刃.",
+               "recipe_name" : "冲锋骑枪",
+               "flavor"      : "与敌人保持距离."
+            },			
+            "longblade_recipe": {
+               "description" : "剑柄死死咬住的是一片十分匀称的双刃刀片!",
+               "recipe_name" : "长刃",
+               "flavor"      : "尝起来有点金属的味道.."
+            },
+            "greatblade_recipe": {
+               "description" : "又重又危险.",
+               "recipe_name" : "钢铎圣剑"
+            },
+            "glamdring_recipe" : {
+               "recipe_name" : "敌击剑格兰瑞",
+               "description" : "这下面有着比兽人更为原始和邪恶的东西",
+               "flavor"      : "黑暗笼罩的谜.."
+            },
+            "narsil_shard_01_recipe": {
+               "description" : "精美的圆头和握柄, 是曾经一口充满力量的宝剑的一部分.",
+               "recipe_name" : "纳西尔圣剑的第一截.",
+               "flavor"      : "重铸安都瑞尔所需的断片之一."
+            },
+            "narsil_shard_02_recipe": {
+               "description" : "曾经刀刃的中间部分. 但仍锋利, 透着寒光.",
+               "recipe_name" : "纳西尔圣剑的第二截.",
+               "flavor"      : "重铸安都瑞尔所需的断片之一."
+            },
+            "narsil_shard_03_recipe": {
+               "description" : "纳西尔之尖.",
+               "recipe_name" : "纳西尔圣剑的第三截.",
+               "flavor"      : "重铸安都瑞尔所需的断片之一."
+            },
+            "anduril_recipe": {
+               "description" : "一柄双持剑, 又名'西方之火'",
+               "recipe_name" : "安都瑞尔",
+               "flavor"      : "王者之剑!"
+            }
+         }
+      },	  
+      "carpenter": {
+        "recipe_category" : {
+            "gondorian_armory"    : "钢铎护甲",
+            "gondorian_furniture" : "钢铎式家具",
+            "gondorian_smelting"  : "钢铎冶炼",
+            "gondorian_decor"     : "钢铎装饰",
+            "gondorian_weaponry"  : "钢铎武器"
+        },
+         "recipes": {
+            "silver_wood_chair_recipe": {
+               "description" : "银树, 树中之最.",
+               "recipe_name" : "银木椅",
+               "flavor"      : "珍品当配皇亲国戚."
+            },
+            "black_leberthon_dining_table_recipe": {
+               "description": "拉比西隆木被认为是良品, 深受钢铎木匠们的喜爱.",
+               "recipe_name": "黑拉比西隆餐桌",
+               "flavor": "坐下进餐是文明的象征."
+            },
+            "small_coffer_recipe": {
+               "description" : "把你值钱的东东藏在这个镀金的小箱箱里, 防止那些'小偷小摸'.",
+               "recipe_name" : "小型保险箱",
+               "flavor"      : "吾乃珍宝之守!"
+            },
+            "lancet_window_tall_wood_recipe": {
+               "recipe_name" : "木制柳叶窗",
+               "description" : "木头做的三柳叶高窗",
+               "flavor"      : "风景甚好!"
+            },
+            "lancet_window_tall_s_wood_recipe": {
+               "recipe_name" : "银木柳叶窗",
+               "description" : "银树木制作而成的三柳叶高窗",
+               "flavor"      : "风景甚好!"
+            },
+            "railed_lancet_window_sw_recipe": {
+               "recipe_name" : "银木栏杆柳叶窗",
+               "description" : "银树木制作而成的三柳叶高窗",
+               "flavor"      : "风景甚好!!"
+            },
+            "ithilien_recurve_bow_recipe": {
+               "recipe_name" : "伊锡利安反曲弓",
+               "description" : "用珍贵的拉比西隆木制作而成的反曲弓."
+            }
+         }
+      },
+      "mason": {
+        "recipe_category" : {
+            "gondorian_armory"   : "钢铎护甲",
+            "gondorian_smelting" : "钢铎冶炼",
+            "gondorian_decor"    : "钢铎装饰",
+            "gondorian_weaponry" : "钢铎武器"
+        },
+         "recipes": {
+            "statue_plinth_recipe": {
+               "description" : "石刻的美丽基座.",
+               "recipe_name" : "雕像基座",
+               "flavor"      : "..."
+            },
+            "lancet_window_tall_stone_recipe": {
+               "recipe_name" : "石制柳叶窗",
+               "description" : "石刻的三柳叶高窗",
+               "flavor"      : "风景甚好!"
+            },
+            "stone_railing_recipe": {
+               "description" : "小酒馆边上尤其需要.",
+               "recipe_name" : "石护栏",
+               "flavor"      : "别跳啊!"
+            },
+            "mithril_silver_flakes_recipe": {
+               "recipe_name": "秘银砂",
+               "description": "精加工所需.",
+               "flavor": "很贵!"
+            }
+ 		 }
+      },  	  
+      "weaver": {
+        "recipe_category" : {
+            "gondorian_armory"   : "钢铎护甲",
+            "gondorian_smelting" : "钢铎冶炼",
+            "gondorian_decor"    : "钢铎装饰",
+            "gondorian_weaponry" : "钢铎武器"
+        },
+         "recipes": {
+            "gondor_banner_tall_recipe": {
+               "description" : "让钢铎的旗帜高扬在清晨的微风中.",
+               "recipe_name" : "钢铎旗帜",
+               "flavor"      : "也是一番美景!!"
+            },
+            "gondor_wall_banner_tall_recipe": {
+               "description" : "让钢铎的旗帜高扬在清晨的微风中.",
+               "recipe_name" : "钢铎墙旗",
+               "flavor"      : "也是一番美景!!"
+            },
+            "gondor_spear_banner_recipe": {
+               "description" : "让钢铎的旗帜高扬在清晨的微风中.",
+               "recipe_name" : "钢铎矛旗",
+               "flavor"      : "也是一番美景!!"
+            },
+            "silversilk_thread_recipe": {
+               "description" : "精美服饰和护甲所需",
+               "recipe_name" : "银丝",
+               "flavor"      : "是美丽闪亮的银丝卷成的."
+            },
+            "ithilien_quiver_recipe": {
+               "recipe_name" : "伊锡利安的游侠箭袋",
+               "description" : "使用游侠箭失的弓箭手可以对兽人和哥布林造成额外伤害"
+            }
+         }
+      }  	  
+   },
+   "entities": { 
+      "armor": {
+         "ringmail_coif": {
+            "display_name" : "链甲头巾",
+            "description"  : "由钢环制成的链甲头巾.",
+            "ringmail_coif_iconic": {
+               "display_name" : "链甲头巾",
+               "description"  : "由钢环制成的链甲头巾."
+            }
+		 },
+         "guardsmans_helmet": {
+            "display_name" : "钢铎卫兵头盔",
+            "description"  : "由钢制成的卫兵头盔.",
+            "guardsmans_helmet_iconic": {
+               "display_name" : "卫兵头盔",
+               "description"  : "钢铎卫兵头盔"
+            }
+		 },
+         "soldiers_helmet": {
+            "display_name" : "钢铎士兵头盔",
+            "description"  : "钢制成的士兵头盔, 以银作为点缀",
+            "soldiers_helmet_iconic": {
+               "display_name" : "士兵头盔",
+               "description"  : "钢制成的士兵头盔, 以银作为点缀"
+            }
+		 },
+         "sergeants_helmet": {
+            "display_name" : "钢铎中士头盔",
+            "description"  : "一顶精致的, 内衬毛皮的钢盔, 还用了闪亮的银作顶饰..",
+            "sergeants_helmet_iconic": {
+               "display_name" : "钢铎中士头盔",
+               "description"  : "一顶精致的, 内衬毛皮的钢盔, 还用了闪亮的银作顶饰.."
+            }
+		 },
+         "crown_of_elendil": {
+            "display_name" : "伊兰迪尔之冠",
+            "description"  : "镶钻之冠, 朱石之于其上, 寓其次子, 曰安那瑞安."
+         },
+         "fountain_guard_helmet": {
+            "display_name" : "喷泉守卫头盔",
+            "description"  : "精致羽饰钢盔",
+            "fountain_guard_helmet_iconic": {
+               "display_name" : "喷泉守卫头盔",
+               "description"  : "精致羽饰钢盔."
+            }
+		 },
+         "guardsmans_armor": {
+            "display_name" : "钢铎卫兵甲",
+            "description"  : "轻型的皮甲, 附有用链甲重新加固过的护颈来提供额外保护.",
+            "guardsmans_armor_iconic": {
+               "display_name" : "钢铎卫兵甲",
+               "description"  : "一种轻甲."
+            }
+         },
+         "gondor_platemail": {
+            "display_name" : "钢铎铠甲",
+            "description"  : "闪亮的铠甲, 上面是圣白树的图案",
+            "gondor_platemail_iconic": {
+               "display_name" : "钢铎铠甲",
+               "description"  : "闪亮的铠甲, 上面是圣白树的图案"
+            }
+         },
+         "fountain_guard_armor": {
+            "display_name" : "喷泉守卫铠甲",
+            "description"  : "A Robed Steel Plate Harnes.",
+            "fountain_guard_armor_iconic": {
+               "display_name" : "喷泉守卫铠甲",
+               "description"  : "带有长袍披风的钢铠甲"
+            }
+         },
+         "ithilien_quiver": {
+            "display_name" : "伊锡利安的游侠箭袋",
+            "description"  : "对兽人和哥布林会造成额外伤害"
+         },
+         "greatshield": {
+            "display_name" : "钢铎圣盾",
+            "description"  : "战斗中的可靠伙伴."
+         },
+         "gondor_towershield": {
+            "display_name" : "钢铎塔盾",
+            "description"  : "重而坚固."
+         }
+	  }, 
+      "containers": {
+         "small_coffer": {
+            "small_coffer_ghost" : {
+               "display_name" : "吾乃珍宝之守!",
+               "description"  : "完全不起眼的, 闪闪发光的镀金小箱子."
+            }
+         }
+      },	  
+      "construction": {
+         "lancet_window_tall_wood": {
+            "lancet_window_tall_wood_ghost": {
+               "display_name" : "木制柳叶窗",
+               "description"  : "木头做的三柳叶高窗."
+            }
+         },
+         "lancet_window_tall_s_wood": {
+            "lancet_window_tall_s_wood_ghost": {
+               "display_name" : "银木柳叶窗",
+               "description"  : "银树木制作而成的三柳叶高窗."
+            }
+         },
+         "lancet_window_tall_stone": {
+            "lancet_window_tall_stone_ghost": {
+               "display_name" : "石制柳叶窗",
+               "description"  : "石刻的三柳叶高窗."
+            }
+         },
+         "railed_lancet_window_sw": {
+            "railed_lancet_window_sw_ghost": {
+               "display_name" : "银木栏杆柳叶窗",
+               "description"  : "银树木制作而成的三柳叶带栏杆的高窗."
+            }
+         },
+         "stone_railing": {
+            "stone_railing_ghost": {
+               "display_name" : "石护栏",
+               "description"  : "小酒馆边上尤其需要."
+            }
+         }
+	  },
+      "decoration": {
+         "gondor_banner_tall": {
+            "gondor_banner_tall_ghost": {
+               "display_name" : "钢铎旗帜",
+               "description"  : "让钢铎的旗帜高扬在清晨的微风中."
+            }
+         },
+         "gondor_wall_banner_tall": {
+            "gondor_wall_banner_tall_ghost": {
+               "display_name" : "钢铎墙旗",
+               "description"  : "让钢铎的旗帜高扬在清晨的微风中."
+            }
+         },
+         "statue_plinth": {
+            "statue_plinth_ghost": {
+               "display_name" : "雕像基座",
+               "description"  : "石刻的美丽基座."
+            }
+		 },       
+         "silver_candelabra_tall": {
+            "silver_candelabra_tall_ghost": {
+               "display_name" : "高烛架",
+               "description"  : "大礼堂里面才会见到的装饰, 这些枝状烛架明显不是那种'头脑简单'的人能驾驭的."
+            }
+         },
+         "silver_candelabra": {
+            "silver_candelabra_ghost": {
+               "display_name" : "银烛架",
+               "description"  : "用它来陶冶你的炉民吧!"
+            }
+         },
+         "gondor_spear_banner": {
+            "gondor_spear_banner_ghost": {
+               "display_name" : "钢铎矛旗",
+               "description"  : "让钢铎的旗帜高扬在清晨的微风中."
+            }
+         }
+      },	  
+      "furniture": {
+         "silver_wood_chair": {
+            "silver_wood_chair_ghost": {
+               "display_name" : "银木椅",
+               "description"  : "珍品当配皇亲国戚."
+            }
+         },
+         "black_leberthon_dining_table": {
+            "black_leberthon_dining_table_ghost": {
+               "display_name": "黑拉比西陇餐桌",
+               "description": "由黑色拉比西隆木做成的餐桌."
+            }
+         }
+	  },
+	  "refined": {
+         "silversilk_thread": {
+            "display_name" : "银丝",
+            "description"  : "是美丽闪亮的银丝卷成的"
+         },
+         "narsil_shard_01": {
+            "display_name" : "纳西尔圣剑的第一截.",
+            "description"  : "重铸安都瑞尔所需的碎片之一."
+         },
+         "narsil_shard_02": {
+            "display_name" : "纳西尔圣剑的第二截.",
+            "description"  : "重铸安都瑞尔所需的碎片之一."
+         },
+         "narsil_shard_03": {
+            "display_name" : "纳西尔圣剑的第三截.",
+            "description"  : "重铸安都瑞尔所需的碎片之一."
+         },
+         "mithril_silver_bar": {
+            "display_name" : "秘银锭",
+            "description"  : "一块纯秘银 -- 世上最稀有的金属."
+         },
+          "mithril_silver_flakes": {
+            "display_name" : "秘银砂",
+            "description"  : "呈碎状的纯秘银 -- 世上最稀有的金属."
+         }
+      },
+      "weapons": {
+         "glamdring": {
+            "display_name" : "敌击剑格兰瑞",
+            "description"  : "黑暗笼罩的谜.."
+         },
+         "longspear": {
+            "display_name" : "长矛",
+            "description"  : "一种长柄类武器, 顶端有钢制的锋利薄刃. (双持)",
+            "longspear_iconic": {
+               "display_name" : "长矛",
+               "description"  : "和敌人保持距离."
+            }
+         },
+         "lance_spear": {
+            "display_name" : "冲锋骑枪",
+            "description"  : "一种长柄类武器, 顶端是钢制的尖刃.(双持)",
+            "lance_spear_iconic": {
+               "display_name" : "冲锋骑枪",
+               "description"  : "和敌人保持距离."
+            }
+         },
+         "longblade": {
+            "display_name" : "长刃",
+            "description"  : "剑柄死死咬住的是一片十分匀称的双刃刀片!",
+            "longblade_iconic": {
+               "display_name" : "长刃",
+               "description"  : "尝起来有点金属的味道.."
+            }
+         },
+         "anduril": {
+            "display_name" : "安都瑞尔",
+            "description"  : "一柄双持剑, 又名'西方之火'",
+            "anduril_iconic": {
+               "display_name" : "安都瑞尔, 西方之火!",
+               "description"  : "王者之剑!"
+            }
+         },
+         "greatblade": {
+            "display_name" : "钢铎圣剑",
+            "description"  : "又重又危险. (双持)",
+            "greatblade_iconic": {
+               "display_name" : "钢铎圣剑",
+               "description"  : "又重又危险."
+            }
+         },
+         "ithilien_recurve_bow": {
+            "display_name" : "伊锡利安反曲弓",
+            "description"  : "用珍贵的拉比西隆木制作而成的反曲弓."
+         }
+      }
+   }
+}

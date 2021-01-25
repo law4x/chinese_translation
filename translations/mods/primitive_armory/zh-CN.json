@@ -1,0 +1,79 @@
+{
+	"ui": {
+
+	},
+	"entities": {
+		"armor": {
+			"primitive_armor1": {
+				"description": "A flimsily assembled armor made of wood parts and tree bark pieces.",
+				"display_name": "树皮胸甲",
+				"recipe_name": "树皮胸甲",
+				"flavor": "It's time for our enemies to suffer as our foresters do."
+			},
+			"primitive_armor2": {
+				"description": "A suit of body armor created with overheated, hard ceramic plates.",
+				"display_name": "陶瓷胸甲",
+				"recipe_name": "陶瓷胸甲",
+				"flavor": "'You may not pass.' says the Teapot Knight."
+			},
+			"primitive_helm1": {
+				"description": "A piece of headgear made out of wood and bark.",
+				"display_name": "Bark Helmet",
+				"recipe_name": "Bark Helmet",
+				"flavor": "Bearded goblins shall inflict certain head strikes."
+			},
+			"primitive_helm2": {
+				"description": "A protective piece of ceramic armor for the head.",
+				"display_name": "Ceramic Cap",
+				"recipe_name": "Ceramic Cap",
+				"flavor": "'Darling, have you seen my garden pot?'"
+			},
+			"primitive_shield1": {
+				"description": "A large chunk of tree bark used as a shield.",
+				"display_name": "Bark Buckler",
+				"recipe_name": "Bark Buckler",
+				"flavor": "What could possibly go wrong?"
+			},
+			"primitive_shield2": {
+				"description": "An improvised shield made of hard ceramic.",
+				"display_name": "Ceramic Lid",
+				"recipe_name": "Ceramic Lid",
+				"flavor": "Totally not a pot lid."
+			}
+		},
+		"weapons": {
+			"primitive_spear1": {
+				"description": "A crude spear shaved from a hard wood stick.",
+				"display_name": "Primitive Spear",
+				"recipe_name": "Primitive Spear",
+				"flavor": "The pointy end goes towards the wolves."
+			},
+			"primitive_spear2": {
+				"description": "A spear crafted with a piece of sharpened flint.",
+				"display_name": "Primitive Stone Spear",
+				"recipe_name": "Primitive Stone Spear",
+				"flavor": "Ideal for living in caves."
+			},
+			"primitive_hatchet": {
+				"description": "A small axe assembled with a stone headpiece.",
+				"display_name": "Primitive Hatchet",
+				"recipe_name": "Primitive Hatchet",
+				"flavor": "'But Workers already carry a metal hatchet' said no Hearthling ever."
+			},
+			"primitive_dagger": {
+				"description": "A ceremonial dagger made with hard ceramic.",
+				"display_name": "Primitive Dagger",
+				"recipe_name": "Primitive Dagger",
+				"flavor": "Extra brittle, handle with care."
+			}
+		}
+	},
+	"jobs": {
+		"potter": {
+			"recipes": {
+				"weapons_armor_name": "武器与防具"
+               	}
+			}
+		}
+	
+}

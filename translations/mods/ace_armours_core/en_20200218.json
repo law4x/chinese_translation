@@ -1,0 +1,56 @@
+{
+	"data": {
+		"commands": {
+			"job_armor_variant": {
+				"asc_archer": {
+					"display_name": "Prefer Ascendancy Armor",
+					"description": "This Archer currently prefers wearing armor made by the Ascendancy. Click to change!"
+				},
+				"na_archer": {
+					"display_name": "Prefer Northern Alliance Armor",
+					"description": "This Archer currently prefers wearing armor made by the Northern Alliance. Click to change!"
+				},
+				"rc_archer": {
+					"display_name": "Prefer Rayya's Children Armor",
+					"description": "This Archer currently prefers wearing armor made by Rayya's Children. Click to change!"
+				},
+				"asc_cleric": {
+					"display_name": "Prefer Ascendancy Armor",
+					"description": "This Cleric currently prefers wearing armor made by the Ascendancy. Click to change!"
+				},
+				"na_cleric": {
+					"display_name": "Prefer Northern Alliance Armor",
+					"description": "This Cleric currently prefers wearing armor made by the Northern Alliance. Click to change!"
+				},
+				"rc_cleric": {
+					"display_name": "Prefer Rayya's Children Armor",
+					"description": "This Cleric currently prefers wearing armor made by Rayya's Children. Click to change!"
+				},
+				"asc_footman": {
+					"display_name": "Prefer Ascendancy Armor",
+					"description": "This Footman currently prefers wearing armor made by the Ascendancy. Click to change!"
+				},
+				"na_footman": {
+					"display_name": "Prefer Northern Alliance Armor",
+					"description": "This Footman currently prefers wearing armor made by the Northern Alliance. Click to change!"
+				},
+				"rc_footman": {
+					"display_name": "Prefer Rayya's Children Armor",
+					"description": "This Footman currently prefers wearing armor made by Rayya's Children. Click to change!"
+				},
+				"asc_knight": {
+					"display_name": "Prefer Ascendancy Armor",
+					"description": "This Knight currently prefers wearing armor made by the Ascendancy. Click to change!"
+				},
+				"na_knight": {
+					"display_name": "Prefer Northern Alliance Armor",
+					"description": "This Knight currently prefers wearing armor made by the Northern Alliance. Click to change!"
+				},
+				"rc_knight": {
+					"display_name": "Prefer Rayya's Children Armor",
+					"description": "This Knight currently prefers wearing armor made by Rayya's Children. Click to change!"
+				}
+			}
+		}
+	}
+}

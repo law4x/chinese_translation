@@ -1,0 +1,28 @@
+{
+	"data": {
+		"biome": {
+			"canyon": {
+				"display_name": "峡谷",
+				"description": "狭窄又陡峭的悬崖峭壁, 被河流所侵蚀而分割开来",
+				"random_location_names": {
+					"000": "雷电山",
+					"001": "暴风崖",
+					"002": "猩红山脉",
+					"003": "鹰崖"
+				}
+			}
+		}
+	},
+	"entities":{
+		"decoration":{
+			"bones":{
+				"display_name":"骨头",
+				"description":"曾经是动物,现在是地球的一部分了"
+			},
+			"skull":{
+				"display_name":"头骨",
+				"description":"曾经是动物,现在是地球的一部分了"
+			}
+		}
+	}
+}

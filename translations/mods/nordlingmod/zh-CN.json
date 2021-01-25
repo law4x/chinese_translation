@@ -1,0 +1,1950 @@
+{
+	"kingdom": {
+		"kingdom_name": "诺丁斯",
+		"quote": "老办法会让我们渡过难关的!",
+		"long_description": "北欧人有着讲述古代故事的传统,他们期待着自己的故事",
+		"post_selection_description": ",一个坚强勇敢的社会.",
+		"initial_town_name": "牛车 [str(town_number)]"
+	},
+	"data": {
+		"nordlings_population": {
+			"display_name": "北欧人"
+		},
+		"loadouts": {
+			"items": {
+				"cabbage": "卷心菜"
+			}
+		},
+		"gm": {
+			"campaigns": {
+				"town_progression": {
+					"arcs": {
+						"trigger": {
+							"town_progression": {
+								"encounters": {
+									"hearth_choice_explanation": {
+										"dialog_tree_info": {
+											"dialog_nodes": {
+												"intro2": {
+													"bulletin_message": {
+														"00": "我亲自出来帮助你在成为一个真正的北欧定居点的最后一步!<br><br>你已经长大了,现在是时候选择代表你的城镇的石炉了,这是传统."
+													},
+													"bulletin_title": "贾尔·斯泰克继续说",
+													"dialog_title": "贾尔·斯泰克"
+												},
+												"intro3": {
+													"bulletin_title": "坚忍的延续",
+													"dialog_title": "坚忍的浩瀚"
+												}
+											}
+										}
+									},
+									"valor_dialog_1": {
+										"dialog_tree_info": {
+											"dialog_nodes": {
+												"msg1": {
+													"bulletin_message": {
+														"00": "多么令人振奋的纪念碑!它真实地讲述了雷神的荣耀.它再次提醒了我为什么我会成为一名警卫.感觉像是很久以前的事了...<br/><p align='好吧'><font size=-1 color='#cccccc'>(安温凝视着小镇的景色,眼睛闪闪发光.)</font></p>"
+													}
+												},
+												"msg2": {
+													"bulletin_message": {
+														"00": "哦!我很好,我只是...想起了一些事情<br/><br/>你知道,我真的相信古神和我们的人民,我们注定会重夺这些失地.每一个新兴的城镇都有助于加强我的信仰.<br/><br/>但是,像你这样的小镇,致力于支持我们勇敢的卫士,真正温暖了我的心."
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					},
+					"shrine_choice": {
+						"valor": {
+							"name": "托尔神殿",
+							"description": "<i>该镇将致力于学习托尔的英勇,以保护所有的九个世界.</i><ul><li>解锁传奇武器配方</li><li>解锁城堡装饰配方</li></ul>"
+						},
+						"guildmaster": {
+							"name": "奥丁神殿",
+							"description": "<i>这个小镇因其工匠的智慧和知识而闻名.</i><ul><li>允许制作大师品质的物品</li><li>解锁工匠主题的装饰配方</li></ul>"
+						},
+						"deity": {
+							"name": "芙蕾雅神殿",
+							"description": "<i>这个小镇效仿芙蕾雅的善良,对自然的尊重无人能及.</i><ul><li>神的祝福使所有的炉民额外增加了1点的力量,精神和智慧</li><li>解锁以自然为主题的装饰配方,祝福您的神殿,特别是...</li></ul>"
+						}
+					},
+					"shrine_quest_guildmaster": {
+						"title": "小镇任务:奥丁的智慧",
+						"dialog_title": "小镇任务:奥丁的智慧"
+					},
+					"shrine_quest_valor": {
+						"title": "小镇任务:雷神的力量",
+						"dialog_title": "小镇任务:雷神的力量"
+					},
+					"shrine_quest_deity": {
+						"title": "芙蕾雅的善良",
+						"dialog_title": "芙蕾雅的善良"
+					},
+					"town_founding_explanation": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"open_letter": {
+									"bulletin_message": {
+										"00": "一只奇怪的鸟来了,嘴里衔着一封信,上面盖着贾尔斯的官方印章. <br><br><p align='好吧'><font size=-6 color='#cccccc'>这只鸟还带有一个名签,上面写着\"哈罗德\".</font></p>"
+									}
+								}
+							}
+						}
+					},
+					"hearth_foreshadow_dialog": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"msg1": {
+									"bulletin_message": {
+										"00": "信差鸟带着贾尔·斯泰克的回复回来了.<br><br><p align='好吧'><font size=-6 color='#cccccc'>这封信附着着口水和咬痕,哈罗德已经尽力了.</font></p>"
+									}
+								},
+								"msg3": {
+									"bulletin_message": {
+										"00": "随着你的前哨站向定居点的地位发展,你将开始吸引新移民.<br/><br/>你的石炉现在只有一丝火花,但我相信它总有一天会成为遍布北欧的灯塔的."
+									}
+								},
+								"msg4": {
+									"bulletin_message": {
+										"00": "花点时间考虑一下你认为最重要的,你希望你的石炉代表什么.繁荣?幸福?力量?每一个都是高尚的追求.<br><br>祝你好运! <br><br>你那在首都的,<br> 贾尔·斯泰克<br><br><font size=-1>P.S. 我的私人花园给你的小礼物 <font size=+2>❀</font></font>"
+									}
+								}
+							}
+						}
+					}
+				},
+				"trader": {
+					"valor_tier_2_reached": {
+						"reward_message": "作为北欧贵族,我们认为:"
+					},
+					"crafting_tier_2_reached": {
+						"reward_message_ctd": "以精湛的工艺和奥丁的诡诈.该镇有资格:"
+					}
+				}
+			}
+		},
+		"population": {
+			"nordlings": {
+				"titles": {
+					"none": {
+						"description": "没有必要的标题"
+					},
+					"goblin_killer": {
+						"display_name": "哥布林杀手",
+						"description": "通过杀死哥布林获得.",
+						"1_display_name": "哥布林杀手",
+						"1_description": "他们杀死了一个哥布林!",
+						"5_display_name": "哥布林屠杀者",
+						"5_description": "他们杀死了五个哥布林!他们去了!又杀了!",
+						"10_display_name": "哥布林屠杀机器",
+						"10_description": "他们杀了十个哥布林!他们真的很擅长!",
+						"20_display_name": ", 哥布林天敌",
+						"20_description": "他们杀了二十个哥布林!这可真多!",
+						"50_display_name": ", 哥布林毁灭者",
+						"50_description": "他们杀了五十个哥布林!他们从哪找来的那么多哥布林?!",
+						"100_display_name": ", 哥布林食者",
+						"100_description": "他们杀了一百个哥布林!也许他们应该接受治疗,重新审视他们真正该做的事."
+					},
+					"goblin_killer_item": {
+						"display_name": "哥布林杀手",
+						"description": "通过杀死哥布林获得.",
+						"1_display_name": "哥布林杀手",
+						"1_description": "它杀死了一个哥布林!",
+						"5_display_name": "哥布林屠杀者",
+						"5_description": "它杀了五个哥布林!它去了!又杀了!",
+						"10_display_name": "哥布林屠杀机器",
+						"10_description": "它杀了十个哥布林!它真的很棒!",
+						"20_display_name": ", 哥布林天敌",
+						"20_description": "它杀了二十个哥布林!这可真多!",
+						"50_display_name": ", 哥布林毁灭者",
+						"50_description": "它杀死了五十个哥布林!这是不可阻挡的,即使是哥布林!",
+						"100_display_name": ", 哥布林食者",
+						"100_description": "它杀了一百个哥布林!它的嗜血最终是否能被满足?"
+					},
+					"defender": {
+						"display_name": "防护者",
+						"description": "通过获得杀戮助攻获得(直接参与战斗或与被杀死的敌人接近).",
+						"10_display_name": ", 防护者",
+						"10_description": "他们在十个敌人的手中保护城镇!",
+						"50_display_name": ", 伟大的保护者",
+						"50_description": "他们在五十个敌人的手中保护城镇!",
+						"100_display_name": ", 小镇英雄",
+						"100_description": "他们在一百个敌人的手中保护了城镇!终于要结束了吗?",
+						"500_display_name": "伟大的法律保护之手",
+						"500_description": "他们在五百个敌人的手中保护城镇!多么令人难以置信的城镇对抗!",
+						"1000_display_name": ", 文明的救世主",
+						"1000_description": "他们在一千个敌人的手中保护城镇!也许有必要采取更具外交性的手段了."
+					},
+					"prolific_crafter": {
+						"display_name": "高产制造者",
+						"description": "通过制作很多物品获得.",
+						"100_display_name": ",高产制造者",
+						"100_description": "他们创造了一百个物品!",
+						"200_display_name": "千手匠师",
+						"200_description": "他们创造了两百个物品!",
+						"500_display_name": ", 大众匠师",
+						"500_description": "他们创造了五百个物品!也许他们需要一些助手.",
+						"1000_display_name": ", 公会使者",
+						"1000_description": "他们创造了一千个物品!排队取物的人最好能有一些养老金."
+					},
+					"excellent_crafter": {
+						"display_name": "优秀的制造者",
+						"description": "通过制作优质的物品(精细还不够,必须要是杰作)获得.",
+						"10_display_name": ", 优秀的创造者",
+						"10_description": "他们制作了十件优秀的商品!",
+						"25_display_name": ", 非凡的创造者",
+						"25_description": "他们制作了二十五件优秀的商品!",
+						"100_display_name": "卓越的制造之皇",
+						"100_description": "他们制作了一百个优秀的商品!"
+					},
+					"master_crafter": {
+						"display_name": "制作大师",
+						"description": "通过制作大师品质的物品获得.",
+						"1_display_name": ",制作大师",
+						"1_description": "他们制作了大师作品!惊人!",
+						"10_display_name": "质量大师",
+						"10_description": "他们制作了十个大师作品!难以置信!"
+					},
+					"starving": {
+						"display_name": "挨饿者",
+						"description": "通过花费大量时间挨饿来获得",
+						"1_display_name": "挨饿者",
+						"1_description": "他们花了四个小时来挨饿!",
+						"2_display_name": "皮包骨",
+						"2_description": "他们饿了两天,仍然屹立!",
+						"3_display_name": "真仙",
+						"3_description": "他们已经饿了10天了! 也许食物采集的事情应该稍微优先考虑."
+					},
+					"incapacitated": {
+						"display_name": "瘫患儿童",
+						"description": "通过多次失去行动能力获得.",
+						"1_display_name": "挨揍者",
+						"1_description": "他们被击倒并起身然后被再次击倒.",
+						"2_display_name": "沙包",
+						"2_description": "他们已经被击倒五次了!是否有人能杀死他们?",
+						"3_display_name": "小儿麻痹",
+						"3_description": "他们已经丧失了十次行动能力!他们会学会避免危及生命的情况吗?"
+					}
+				}
+			}
+		}
+	},
+	"entities": {
+		"funiture": {
+			"comfy_fur_bed": {
+				"comfy_fur_bed_ghost": {
+					"display_name": "舒适的毛皮床",
+					"description": "冬天滚开!"
+				}
+			},
+			"wooden_chair_fur": {
+				"wooden_chair_fur_ghost": {
+					"display_name": "毛皮覆盖的椅子",
+					"description": "背后柔软,超舒服!"
+				}
+			}
+		},
+		"gizmos": {
+			"nordlings_camp_standard": {
+				"nordlings_camp_standard_ghost": {
+					"display_name": "营地标记",
+					"description": "用于文明地标记领土."
+				}
+			},
+			"nordlings_town_banner_guardian": {
+				"nordlings_town_banner_guardian_ghost": {
+					"display_name": "狡诈的旗帜",
+					"description": "你怎么知道你回家了?",
+					"town_bonus_description": "<i>这将是一个繁忙的贸易中心.</i><ul><li>道路的正常速度提高了3倍</li><li>您的商品售价增加50％</li><li>贸易商将带来2倍的货物和黄金</li></ul>"
+				},
+				"town_banner_guardian_token_iconic": {
+					"display_name": "狡诈旗帜的碎片",
+					"description": "来自狡诈旗帜的碎片,带着它的魔力."
+				},
+				"nordlings_town_banner_guardian_token_iconic": {
+					"display_name": "狡诈旗帜",
+					"description": "一条狡猾的旗帜,仍带着它的魔力"
+				}
+			},
+			"nordlings_town_banner_might": {
+				"nordlings_town_banner_might_ghost": {
+					"display_name": "力量的旗帜",
+					"description": "你怎么知道你回家了?",
+					"town_bonus_description": "<i>这个定居点将通过泥土和钢铁变得越来越坚固.</i><ul><li>采矿使矿石,石头和粘土的产出量额外增加50%</li><li>炉民们再也不介意地方狭窄了</li></ul>"
+				},
+				"nordlings_town_banner_might_token_iconic": {
+					"display_name": "力量旗帜的碎片",
+					"description": "来自力量旗帜的碎片,仍带着它的魔力."
+				}
+			},
+			"nordlings_town_banner_nature": {
+				"nordlings_town_banner_nature_ghost": {
+					"display_name": "活力的旗帜",
+					"description": "你怎么知道你回家了?",
+					"town_bonus_description": "<i>这个定居点将与自然合为一体.</i><ul><li>树木的木材产量增加了25%</li><li>植物和农作物的生长速度都加快了25%</li><li>植物的魅力值将会变成正常植物的2倍</li></ul>"
+				},
+				"nordlings_town_banner_nature_token_iconic": {
+					"display_name": "活力旗帜的碎片",
+					"description": "来自活力旗帜的碎片,仍带着它的魔力."
+				}
+			},
+			"town_banner_might": {
+				"town_banner_might_ghost": {
+					"display_name": "大地之旗"
+				}
+			}
+		},
+		"landmark": {
+			"summon_stone_hotspring": {
+				"display_name": "温泉",
+				"description": "召唤一个诺丁斯温泉."
+			}
+		},
+		"weapons": {
+			"stone_axe": {
+				"display_name": "石斧",
+				"description": "一把单手石斧.",
+				"stone_axe_iconic": {
+					"display_name": "石斧",
+					"description": "看着很重,但实际上已支离破碎"
+				}
+			},
+			"bronze_axe": {
+				"display_name": "青铜斧",
+				"description": "一把单手青铜斧.",
+				"bronze_axe_iconic": {
+					"display_name": "青铜斧",
+					"description": "切菜好,维修方便!"
+				}
+			},
+			"iron_axe": {
+				"display_name": "铁斧",
+				"description": "一把单手铁斧.",
+				"iron_axe_iconic": {
+					"display_name": "铁斧",
+					"description": "一把有着铁斧刃的结实的斧头."
+				}
+			},
+			"steel_axe": {
+				"display_name": "钢斧",
+				"description": "一把单手钢斧.",
+				"steel_axe_iconic": {
+					"display_name": "钢斧",
+					"description": "waaaaaaaaagh!!!!"
+				}
+			},
+			"stone_spear": {
+				"display_name": "石野猪矛",
+				"description": "一把石野猪矛",
+				"bronze_spear_iconic": {
+					"display_name": "石野猪矛",
+					"description": "一把石野猪矛"
+				}
+			},
+			"bronze_spear": {
+				"display_name": "青铜野猪矛",
+				"description": "一把青铜野猪矛",
+				"bronze_spear_iconic": {
+					"display_name": "青铜野猪矛",
+					"description": "一把青铜野猪矛"
+				}
+			},
+			"iron_spear": {
+				"display_name": "铁野猪矛",
+				"description": "一把铁野猪矛",
+				"iron_spear_iconic": {
+					"display_name": "铁野猪矛",
+					"description": "一把铁野猪矛"
+				}
+			},
+			"steel_spear": {
+				"display_name": "钢制野猪矛",
+				"description": "一把钢制野猪矛",
+				"steel_spear_iconic": {
+					"display_name": "钢制野猪矛",
+					"description": "一把钢制野猪矛"
+				}
+			},
+			"mythril_axe": {
+				"display_name": "神秘斧",
+				"description": "一把神秘的单手斧头.",
+				"mythril_axe_iconic": {
+					"display_name": "神秘斧",
+					"description": "一把非常轻,非常锋利且神秘的斧头."
+				}
+			},
+			"einherjar_axe": {
+				"display_name": "赫希尔斧",
+				"description": "赫希尔用的双头斧.",
+				"einherjar_axe_iconic": {
+					"display_name": "赫希尔斧",
+					"description": "赫希尔用的双头斧."
+				}
+			},
+			"bronze_sword_viking": {
+				"display_name": "青铜维京剑",
+				"description": "一把精心制作的单手钢剑(说好的青铜呢?).适合维京人",
+				"bronze_sword_viking_iconic": {
+					"display_name": "青铜维京剑",
+					"description": "锋利!"
+				}
+			},
+			"iron_sword_viking": {
+				"display_name": "维京铁剑",
+				"description": "一把精心制作的单手铁剑.适合维京人",
+				"iron_sword_viking_iconic": {
+					"display_name": "维京铁剑",
+					"description": "锋利!"
+				}
+			},
+			"steel_sword_viking": {
+				"display_name": "钢制维京剑",
+				"description": "一把精心制作的单手钢剑.适合维京人",
+				"steel_sword_viking_iconic": {
+					"display_name": "钢制维京剑",
+					"description": "锋利!"
+				}
+			},
+			"mythril_sword_viking": {
+				"display_name": "神话维京剑",
+				"description": "一把精心制作的单手神话剑.适合维京英雄",
+				"mythril_sword_viking_iconic": {
+					"display_name": "神话维京剑",
+					"description": "比钢轻,强度是钢的两倍!"
+				}
+			},
+			"legendary_hammer": {
+				"display_name": "传说中的锤子",
+				"description": "压倒性的力量,以及对闪电的控制.可惜把手有点短",
+				"legendary_hammer": {
+					"display_name": "传说中的锤子",
+					"description": "压倒性的力量,以及对闪电的控制.可惜把手有点短"
+				},
+				"legendary_hammer_iconic": {
+					"display_name": "传说中的锤子",
+					"description": "手柄短,通电时间长."
+				}
+			},
+			"iron_axe_2h": {
+				"iron_axe_2h_iconic": {
+					"display_name": "铁大斧",
+					"description": "是为了消灭怪物,而不是树!"
+				},
+				"display_name": "铁大斧",
+				"description": "一把铁质的双手斧."
+			},
+			"steel_axe_2h": {
+				"display_name": "钢铁大斧",
+				"description": "一把钢大斧",
+				"steel_axe_2h_iconic": {
+					"display_name": "钢铁大斧",
+					"description": "一把钢大斧"
+				}
+			},
+			"throwing_axe": {
+				"display_name": "飞斧",
+				"description": "一把用来投掷的轻斧头!",
+				"throwing_axe_talisman": {
+					"display_name": "飞斧",
+					"description": "用于晋升散兵"
+				}
+			},
+			"throwing_axe_projectile": {
+				"display_name": "飞斧",
+				"description": "投掷用的轻斧"
+			},
+			"ruler_sword_ac": {
+				"display_name": "国王之剑",
+				"description": "将一个炉民提拔为国王",
+				"ruler_sword_ac_iconic": {
+					"display_name": "国王之剑",
+					"description": "将一个炉民提拔为国王"
+				}
+			},
+			"ruler_sword_ascendency": {
+				"ruler_sword_ascendency_iconic": {
+					"display_name": "统治者圣剑",
+					"description": "适合统治者的剑"
+				}
+			},
+			"legendary_axe": {
+				"legendary_axe_iconic": {
+					"display_name": "传奇斧头",
+					"description": "边缘看起来很锋利,可以刮胡子..."
+				},
+				"display_name": "传奇斧头",
+				"description": "边缘看起来很锋利,可以刮胡子..."
+			},
+			"bow": {
+				"display_name": "弓",
+				"description": "由散兵用于射箭.",
+				"bow_talisman": {
+					"display_name": "散兵的弓",
+					"description": "需要将近卫军提升为散兵"
+				}
+			},
+			"throwing_axe_iron": {
+				"display_name": "投掷斧头",
+				"description": "一把用来投掷的轻斧头!"
+			},
+			"einherjar_axe_steel": {
+				"display_name": "钢制赫希尔斧",
+				"description": "当最强的人挥动这把斧头时,只要一击世界便会毁灭",
+				"einherjar_axe_steel_iconic": {
+					"display_name": "钢制赫希尔斧",
+					"description": "适合想要毁灭世界的英雄"
+				}
+			},
+			"ruler_sword_nordlings": {
+				"ruler_sword_nordlings_iconic": {
+					"display_name": "贾尔的剑",
+					"description": "一把属于贾尔的剑"
+				}
+			},
+			"einherjar_sword_steel": {
+				"einherjar_sword_steel_iconic": {
+					"display_name": "赫希尔之剑",
+					"description": "赫希尔所使用的沉重刀刃."
+				},
+				"display_name": "赫希尔之剑",
+				"description": "赫希尔所使用的沉重刀刃."
+			},
+			"wooden_spear": {
+				"wooden_spear_talisman": {
+					"display_name": "木矛",
+					"description": "将一个工人提升为轻骑兵"
+				},
+				"wooden_spear_iconic": {
+					"display_name": "木矛",
+					"description": "用尖的那一头刺它们!"
+				},
+				"display_name": "木矛",
+				"description": "一把简单的木矛"
+			}
+		},
+		"armor": {
+			"runic_wooden_comb": {
+				"display_name": "符文木梳",
+				"description": "符文魔法就可以保护你的头,谁还需要头盔!",
+				"runic_wooden_comb_iconic": {
+					"display_name": "符文木梳",
+					"description": "打架的时候看起来不错!"
+				}
+			},
+			"runic_bronze_comb": {
+				"display_name": "符文青铜梳",
+				"description": "符文魔法就可以保护你的头,谁还需要头盔!",
+				"runic_bronze_comb_iconic": {
+					"display_name": "符文青铜梳",
+					"description": "打架的时候看起来不错!"
+				}
+			},
+			"runic_iron_comb": {
+				"display_name": "符文铁梳",
+				"description": "符文魔法就可以保护你的头,谁还需要头盔!",
+				"runic_iron_comb_iconic": {
+					"display_name": "符文铁梳",
+					"description": "打架的时候看起来不错!"
+				}
+			},
+			"runic_steel_comb": {
+				"display_name": "符文钢梳",
+				"description": "符文魔法就可以保护你的头,谁还需要头盔!",
+				"runic_steel_comb_iconic": {
+					"display_name": "符文钢梳",
+					"description": "打架的时候看起来不错!"
+				}
+			},
+			"runic_mythril_comb": {
+				"display_name": "符文神话梳",
+				"description": "符文魔法就可以保护你的头,谁还需要头盔!",
+				"runic_mythril_comb_iconic": {
+					"display_name": "符文神话梳",
+					"description": "打架的时候看起来不错!"
+				}
+			},
+			"chain_mail_bronze": {
+				"display_name": "铜链甲",
+				"description": "多个青铜环编织成的一件保护背心",
+				"chain_mail_bronze_iconic": {
+					"display_name": "链甲",
+					"description": "当你触摸它时它会发出嘶嘶声"
+				}
+			},
+			"cloth_armour": {
+				"display_name": "布垫背心",
+				"description": "轻甲,可以减轻一两次打击",
+				"chain_mail_iron_iconic": {
+					"display_name": "布垫背心",
+					"description": "轻甲,可以减轻一两次打击"
+				}
+			},
+			"leather_armour": {
+				"display_name": "皮甲",
+				"description": "轻甲,略好于布",
+				"leather_armour_iconic": {
+					"display_name": "皮甲",
+					"description": "轻甲,略好于布"
+				}
+			},
+			"chain_mail_iron": {
+				"display_name": "铁链甲",
+				"description": "多个铁环编织成的一件防护背心",
+				"chain_mail_iron_iconic": {
+					"display_name": "链甲",
+					"description": "当你触摸它时它会发出嘶嘶声"
+				}
+			},
+			"chain_mail_steel": {
+				"display_name": "钢链甲",
+				"description": "多个钢圈编织成的一件防护背心",
+				"chain_mail_steel_iconic": {
+					"display_name": "链甲",
+					"description": "当你触摸它时它会发出嘶嘶声"
+				}
+			},
+			"chain_mail_mythril": {
+				"display_name": "神话链甲",
+				"description": "多个神话圆环编织成的一件防护背心",
+				"chain_mail_mythril_iconic": {
+					"display_name": "链甲",
+					"description": "当你触摸它时它会发出嘶嘶声"
+				}
+			},
+			"training_roundshield": {
+				"display_name": "训练圆盾",
+				"description": "钉在一起的木板,没什么特别的",
+				"training_roundshield_iconic": {
+					"display_name": "训练圆盾",
+					"description": "最适合训练"
+				}
+			},
+			"wooden_round_shield": {
+				"display_name": "木质圆盾",
+				"description": "木圆盾牌,面铺亚麻布",
+				"wooden_round_shield_iconic": {
+					"display_name": "木质圆盾",
+					"description": "你的炉民会在使用前装饰它!"
+				}
+			},
+			"iron_round_shield": {
+				"display_name": "铁带圆盾",
+				"description": "亚麻布面木质圆盾牌,边缘有结实的铁带",
+				"iron_round_shield_iconic": {
+					"display_name": "铁带圆盾",
+					"description": "你的炉民会在使用前装饰它!"
+				}
+			},
+			"sword_sheeth": {
+				"display_name": "剑鞘",
+				"description": "不用的时候要收起你的剑."
+			},
+			"einherjar_axe_offhand": {
+				"display_name": "赫希尔斧",
+				"description": "为真正英雄而生的武器"
+			},
+			"weapon_belt_hanger": {
+				"display_name": "皮带环",
+				"description": "用来装武器的皮带环"
+			},
+			"weapon_back_hanger": {
+				"display_name": "武器后皮套",
+				"description": "用来收起你的大型武器"
+			},
+			"runes_fire_projectile": {
+				"display_name": "火符文护身符",
+				"description": "将这个护身符给你的散兵用,火焰便会包住他的武器"
+			},
+			"runes_slowing_projectile": {
+				"display_name": "荆棘符文护身符",
+				"description": "将这个护身符给你的散兵,使他的武器速度变慢"
+			},
+			"einherjar_axe_offhand_steel": {
+				"display_name": "钢制赫希尔斧",
+				"description": "适合英雄使用."
+			},
+			"gold_ring": {
+				"display_name": "金戒指",
+				"description": "一束纯金,象征忠诚"
+			},
+			"runic_silver_comb": {
+				"display_name": "符文银梳",
+				"description": "符文魔法就可以保护你的头,谁还需要头盔!",
+				"runic_silver_comb_iconic": {
+					"display_name": "符文银梳",
+					"description": "符文魔法就可以保护你的头,谁还需要头盔!"
+				}
+			}
+		},
+		"decoration": {
+			"rune_stone": {
+				"display_name": "符石",
+				"description": "一块刻着古老知识的符文石...但主要是很漂亮",
+				"rune_stone_iconic": {
+					"display_name": "符石",
+					"description": "我们也不知道是怎么做到的,但是石匠会让它变小"
+				}
+			},
+			"fireplace": {
+				"fireplace_ghost": {
+					"display_name": "壁炉",
+					"description": "让你的房子保持温暖!"
+				}
+			},
+			"decorative_wall_shield": {
+				"decorative_wall_shield_ghost": {
+					"display_name": "装饰墙盾",
+					"description": "不是为了实际的战斗,而是装饰!"
+				}
+			},
+			"hearth_nordlings_trade": {
+				"hearth_nordlings_trade": {
+					"display_name": "繁荣之炉",
+					"description": "愿你的未来充满光明和闪耀."
+				}
+			},
+			"firepit_hearth": {
+				"firepit_hearth_ghost": {
+					"display_name": "战斗之炉",
+					"description": "愿战争的火焰为你扫清道路."
+				}
+			},
+			"hearth_stump": {
+				"hearth_stump_ghost": {
+					"display_name": "幸福之炉",
+					"description": "幸福是真正的智慧."
+				}
+			},
+			"fireplace_big": {
+				"fireplace_big_ghost": {
+					"display_name": "大壁炉",
+					"description": "当你需要更多热量的时候,这就成了最好的选择"
+				}
+			},
+			"shield_mounting": {
+				"shield_mounting_ghost": {
+					"display_name": "盾牌架",
+					"description": "挂上你的盾牌."
+				}
+			},
+			"shrine_to_odin": {
+				"shrine_to_odin_ghost": {
+					"display_name": "供奉众神之王奥丁.",
+					"description": "神之王奥丁智慧的圣地."
+				}
+			},
+			"shrine_to_thor": {
+				"shrine_to_thor_ghost": {
+					"display_name": "托尔神殿",
+					"description": "保护神雷神托尔的神殿."
+				}
+			},
+			"shrine_to_freya": {
+				"shrine_to_freya_ghost": {
+					"description": "把它作为芙蕾雅的祭品,看看会发生什么",
+					"display_name": "神秘的种子"
+				},
+				"shrine_to_freya_fully_grown": {
+					"display_name": "世界树的幼苗",
+					"description": "世界树的幼苗,连接了所有的九个领域,包括你现在的位置"
+				},
+				"shrine_to_freya_blessed": {
+					"display_name": "世界树的祝福种子",
+					"description": "一颗神秘的种子,由芙蕾雅女神赐福,为它腾出足够的空间,享受这趟旅程..."
+				}
+			},
+			"decorative_wall_dragon": {
+				"decorative_wall_dragon_ghost": {
+					"display_name": "装饰墙龙",
+					"description": "用木头雕刻的龙装饰"
+				}
+			},
+			"bee_hive": {
+				"display_name": "蜂巢",
+				"description": "嗡嗡的蜜蜂为你做蜂蜜!"
+			}
+		},
+		"resources": {
+			"mythril_ore": {
+				"display_name": "神秘矿石",
+				"description": "一大堆最原始的神秘",
+				"mythril_vein": {
+					"display_name": "神秘纹路",
+					"description": "开采时提供神秘"
+				}
+			},
+			"coal": {
+				"lump_of_charcoal": {
+					"display_name": "木炭块",
+					"description": "烧得比木头还热!"
+				}
+			},
+			"wood": {
+				"firewood": {
+					"display_name": "一捆柴火",
+					"description": "一堆木柴,在寒冷的黑夜里会让你保持温暖."
+				}
+			},
+			"gem_sapphire": {
+				"display_name": "未切割蓝宝石",
+				"description": "未切割蓝宝石"
+			},
+			"gem_ruby": {
+				"display_name": "未切割的红宝石",
+				"description": "未切割的红宝石"
+			},
+			"gem_amethyst": {
+				"display_name": "未切割紫水晶",
+				"description": "未切割紫水晶"
+			}
+		},
+		"refined": {
+			"mythril_ingot": {
+				"display_name": "神秘锭",
+				"description": "一根纯粹的神秘,价值连城"
+			},
+			"leather_strip": {
+				"display_name": "皮带",
+				"description": "一条皮革,用于制作."
+			},
+			"legendary_hammer_haft": {
+				"display_name": "传说中的锤子柄",
+				"description": "铁锤柄,如山一样坚固."
+			},
+			"legendary_hammer_mounting": {
+				"display_name": "传说中的锤子装配",
+				"description": "由高导电金制成...它似乎触手可及."
+			},
+			"legendary_hammer_head": {
+				"display_name": "传说中的锤头",
+				"description": "它似乎充满力量."
+			},
+			"legendary_axe_head": {
+				"display_name": "传说中的斧头",
+				"description": "精心制作的斧头."
+			},
+			"legendary_axe_haft": {
+				"display_name": "传说中的斧柄",
+				"description": "像山一样强壮."
+			}
+		},
+		"crops": {
+			"onion": {
+				"onion_crop": {
+					"display_name": "洋葱",
+					"description": "一颗甜洋葱",
+					"growth_stage": {
+						"003": {
+							"name": "熟洋葱",
+							"description": "好吃!"
+						},
+						"002": {
+							"name": "小洋葱",
+							"description": "又小又苦."
+						},
+						"001": {
+							"name": "洋葱芽",
+							"description": "还不能食用!"
+						},
+						"000": {
+							"name": "洋葱幼苗",
+							"description": "还没长成的洋葱."
+						},
+						"011": {
+							"name": "烂洋葱",
+							"description": "发霉而令人恶心."
+						}
+					}
+				}
+			},
+			"white_carrot_crop": {
+				"growth_stage": {
+					"000": {
+						"name": "白胡萝卜苗",
+						"description": "刚种的!"
+					},
+					"001": {
+						"name": "小白胡萝卜",
+						"description": "尽力成长"
+					},
+					"003": {
+						"name": "熟白胡萝卜",
+						"description": "准备好被收割了!"
+					},
+					"002": {
+						"name": "种植白胡萝卜",
+						"description": "到目前为止,还只是个新手"
+					},
+					"011": {
+						"name": "腐烂的白胡萝卜",
+						"description": "现在只适合堆肥"
+					}
+				},
+				"display_name": "白胡萝卜",
+				"description": "丰盛的蔬菜"
+			},
+			"cabbage_crop": {
+				"display_name": "卷心菜",
+				"description": "绿叶成荫",
+				"growth_stage": {
+					"011": {
+						"name": "腐烂的卷心菜",
+						"description": "这臭味简直像是一场灾难"
+					},
+					"000": {
+						"name": "卷心菜芽",
+						"description": "种植并准备生长!"
+					},
+					"001": {
+						"name": "卷心菜宝宝",
+						"description": " 只是个小家伙"
+					},
+					"002": {
+						"name": "小包菜",
+						"description": "还在成长!"
+					},
+					"003": {
+						"name": "熟卷心菜",
+						"description": "准备好被收割了!"
+					}
+				}
+			},
+			"beans_crop": {
+				"display_name": "豆子",
+				"description": "摇摇欲坠,营养丰富",
+				"growth_stage": {
+					"000": {
+						"name": "豆芽",
+						"description": "只是一小截"
+					},
+					"001": {
+						"name": "种植豆茎",
+						"description": "粘人!"
+					},
+					"002": {
+						"name": "喷射豆茎",
+						"description": "你确定这些不是魔法吗?"
+					},
+					"005": {
+						"name": "成熟的豆茎",
+						"description": "成熟的豆子在茎上,收割它们!现在!"
+					},
+					"004": {
+						"name": "成熟中的豆茎",
+						"description": "快成熟了!"
+					},
+					"011": {
+						"name": "腐烂的豆子",
+						"description": "粘稠和恶心!"
+					},
+					"003": {
+						"description": "充满希望!"
+					}
+				}
+			}
+		},
+		"plants": {
+			"onion": {
+				"onion_basket": {
+					"display_name": "萝卜篮子",
+					"description": "多汁而刺激!"
+				},
+				"onion_serving": {
+					"display_name": "芜菁",
+					"description": "小,苦"
+				}
+			},
+			"beans": {
+				"beans_basket": {
+					"display_name": "豆子篮子",
+					"description": "装满豆子的篮子"
+				},
+				"beans_serving": {
+					"display_name": "豆子",
+					"description": "一份青豆,"
+				}
+			},
+			"cabbage": {
+				"cabbage_basket": {
+					"display_name": "篮子里的卷心菜",
+					"description": "篮子里的卷心菜,就是这么简单"
+				},
+				"cabbage_serving": {
+					"display_name": "盘子里的卷心菜",
+					"description": "把它当作沙拉"
+				}
+			},
+			"white_carrot": {
+				"white_carrot_basket": {
+					"display_name": "白胡萝卜",
+					"description": "一种耐寒的老胡萝卜"
+				},
+				"white_carrot_serving": {
+					"display_name": "一顿胡萝卜",
+					"description": "小兔子们喜欢!"
+				}
+			}
+		},
+		"food": {
+			"honey": {
+				"honey": {
+					"display_name": "一罐蜂蜜",
+					"description": "只是一罐蜂蜜,你为什么还需要看描述?"
+				},
+				"honey_serving": {
+					"display_name": "一罐蜂蜜",
+					"description": "一壶蜂蜜"
+				}
+			},
+			"ale": {
+				"ale": {
+					"display_name": "啤酒",
+					"description": "一桶啤酒"
+				},
+				"ale_serving": {
+					"display_name": "啤酒",
+					"description": "装满啤酒的角"
+				},
+				"display_name": "啤酒"
+			},
+			"mead": {
+				"mead": {
+					"display_name": "蜂蜜酒",
+					"description": "一瓶蜂蜜酒"
+				},
+				"mead_serving": {
+					"display_name": "蜂蜜酒",
+					"description": "装满蜂蜜酒的角"
+				},
+				"display_name": "蜂蜜酒"
+			}
+		},
+		"critters": {
+			"bee": {
+				"display_name": "蜂后",
+				"description": "使工蜂产蜜"
+			}
+		},
+		"furniture": {
+			"map_table": {
+				"map_table_ghost": {
+					"display_name": "地图桌",
+					"description": "有地图的桌子"
+				}
+			},
+			"wooden_chair_fur": {
+				"wooden_chair_fur_ghost": {
+					"display_name": "毛皮覆盖的椅子",
+					"description": "覆盖着毛皮的椅子"
+				}
+			},
+			"charcoal_mound": {
+				"charcoal_mound_phase_1": {
+					"display_name": "木炭堆",
+					"description": "它很快就变热了!",
+					"charcoal_mound_phase_1_ghost": {
+						"display_name": "木炭堆",
+						"description": "把木头变成木炭!"
+					}
+				},
+				"charcoal_mound_phase_2": {
+					"display_name": "木炭堆",
+					"description": "快到最热的时候了!是时候关闭它了"
+				},
+				"charcoal_mound_phase_3": {
+					"display_name": "木炭堆",
+					"description": "现在它关闭了,很快你就可以收获木炭了!"
+				},
+				"charcoal_mound_phase_4": {
+					"display_name": "木炭堆",
+					"description": "准备好了!"
+				}
+			},
+			"comfy_fur_bed": {
+				"comfy_fur_bed_ghost": {
+					"display_name": "舒适的毛皮床",
+					"description": "让你在冬天保持温暖!"
+				}
+			},
+			"comfy_fur_bed_stone": {
+				"comfy_fur_bed_stone_ghost": {
+					"display_name": "舒适的毛皮石床",
+					"description": "坚固而温暖!"
+				}
+			},
+			"hotspring_steam_generator": {
+				"hotspring_steam_generator_ghost": {
+					"display_name": "温泉蒸汽发生器",
+					"description": "产生蒸汽区以模拟温泉"
+				}
+			},
+			"wooden_chair_nordlings": {
+				"wooden_chair_nordlings_ghost": {
+					"display_name": "诺丁椅",
+					"description": "没有人真的需要第四条腿,对吧?"
+				}
+			},
+			"ornate_comfy_fur_bed": {
+				"ornate_comfy_fur_bed_ghost": {
+					"display_name": "华丽舒适的毛皮床",
+					"description": "让你既温暖又时尚"
+				}
+			},
+			"ornate_chair_nordlings": {
+				"ornate_wooden_chair_nordlings_ghost": {
+					"display_name": "华丽的诺丁椅",
+					"description": "时尚,只有三条腿!"
+				}
+			},
+			"nordling_throne": {
+				"nordling_throne_ghost": {
+					"display_name": "北欧王位",
+					"description": "一个王位,为老国王而建."
+				}
+			},
+			"nordling_tent": {
+				"nordling_tent_ghost": {
+					"display_name": "北方帐篷",
+					"description": "帐篷,露营时保护您免受各种因素的影响"
+				}
+			}
+		},
+		"consumables": {
+			"seeds": {
+				"beans_seeds": {
+					"display_name": "豆子",
+					"description": "使用这些来解锁豆类作物"
+				},
+				"cabbage_seeds": {
+					"display_name": "卷心菜种子",
+					"description": "使卷心菜成为作物!"
+				},
+				"white_carrot_seeds": {
+					"display_name": "白胡萝卜种子",
+					"description": "使白胡萝卜成为一种作物!"
+				}
+			}
+		},
+		"legendary_hammer_lightning": {
+			"display_name": "五雷轰顶",
+			"description": "被雷神的狂怒击中!"
+		},
+		"containers": {
+			"fuel_holder_large_wood": {
+				"display_name": "大桶",
+				"description": "拿了很多酒,看起来也很酷"
+			},
+			"nord_chest": {
+				"nord_chest_ghost": {
+					"display_name": "诺丁的海柜",
+					"description": "最多可存储64个物品.有助于把东西放在家里,也可以放在海上"
+				}
+			}
+		}
+	},
+	"jobs": {
+		"weaver": {
+			"recipes": {
+				"cloth_armour": {
+					"description": "这件三层防护的背心为你的战斗单位提供了比衣服更多的保护.不是很多,但每一点都有帮助,对吗?",
+					"recipe_name": "加垫背心",
+					"flavor": "需要...更厚...的衬垫!"
+				},
+				"leather_armour": {
+					"description": "硬化皮革提供了对轻武器的保护.",
+					"recipe_name": "厚皮背心",
+					"flavor": "就算是侮辱也会立即反弹!"
+				},
+				"worker_outfit_fancy_recipe": {
+					"recipe_name": "花式北欧服装",
+					"description": "让你保持温暖,看起来也不错!",
+					"flavor": "\"这是巨魔吗?是只熊!?不,这是北欧人!\""
+				},
+				"leather_strip_recipe": {
+					"recipe_name": "皮带 (x3)",
+					"description": "生产三条皮革条,用于制作",
+					"flavor": "你还会用什么来包装把手?"
+				},
+				"weaver_workbench_recipe": {
+					"recipe_name": "诺丁纺织工作台",
+					"description": "用于制作纤维或皮革制品",
+					"flavor": "\"金羊毛很漂亮,但我肯定更喜欢诺曼羊,因为它的保暖能力.\" - 鲁迅"
+				},
+				"nordling_tent": {
+					"recipe_name": "诺丁帐篷",
+					"description": "避雨",
+					"flavor": "好吧,你没指望我们现在还要睡在露天的床上吧?"
+				},
+				"ac_tent": {
+					"description": "避雨",
+					"flavor": "卑微的开端,比睡在外面好.",
+					"recipe_name": "优势帐篷"
+				},
+				"na_tent": {
+					"flavor": "你是什么意思?问我\"你从哪里弄到的那块皮?\" - 北方联盟帐篷制造商希尔德",
+					"description": "把天气挡在外面,把快乐放在里面.",
+					"recipe_name": "北方联盟帐篷"
+				},
+				"rc_tent": {
+					"flavor": "\"为什么要在沙漠里搭帐篷?你试过在烈日下睡觉还是在寒冷的夜晚睡觉?\"",
+					"description": "在你睡觉的时候保护你",
+					"recipe_name": "雷亚儿童帐篷"
+				}
+			},
+			"weaver_workbench_nordlings": {
+				"weaver_workbench_nordlings_ghost": {
+					"display_name": "诺丁纺织工作台",
+					"description": "用纤维或皮革制作东西"
+				}
+			}
+		},
+		"trapper": {
+			"bee_hive": {
+				"display_name": "蜂巢",
+				"description": "蜜蜂在这里生活并酿蜜!"
+			}
+		},
+		"herbalist": {
+			"recipes": {
+				"ale_recipe": {
+					"description": "啤酒",
+					"flavor": "再来一杯!*打碎杯子*",
+					"recipe_name": "啤酒桶"
+				},
+				"mead_recipe": {
+					"description": "蜂蜜酒",
+					"flavor": "神的饮料!",
+					"recipe_name": "一瓶蜂蜜酒"
+				},
+				"runes_slowing_projectile_recipe": {
+					"recipe_name": "荆棘符文护身符",
+					"description": "将这个护身符给你的散兵,使他的武器速度变慢"
+				},
+				"runes_fire_projectile_recipe": {
+					"recipe_name": "火焰符文护身符",
+					"description": "将这个护身符给你的散兵用,火焰便会包住他的武器"
+				},
+				"shrine_to_freya_recipe": {
+					"recipe_name": "神秘的种子",
+					"description": "一颗神秘的种子,一定会让人惊讶",
+					"flavor": "\"从圣水开始,加上世界的根基,把这一切加到星光中最宝贵的生命中... \"- 未知的德鲁伊"
+				},
+				"bee_hive_recipe": {
+					"recipe_name": "蜂巢",
+					"description": "饲养能产蜜的蜜蜂.",
+					"flavor": "既美味又健康! - 奥拉夫·奥拉夫森"
+				},
+				"earthbud_plant_recipe": {
+					"recipe_name": "心之芽",
+					"description": "可收获浓缩炉缸精华和更多的心芽种子",
+					"flavor": "一种非常神奇的植物"
+				},
+				"oak_tree_recipe": {
+					"recipe_name": "橡树",
+					"description": "种下树苗,长成一棵高贵的橡树",
+					"flavor": "女神芙蕾雅欣赏橡树"
+				},
+				"summon_stone_hotspring_recipe": {
+					"recipe_name": "诺丁温泉",
+					"description": "在这自然奇观中热身放松."
+				},
+				"beans_seeds_recipe": {
+					"recipe_name": "豆类种子",
+					"description": "可供农民种植豆类",
+					"flavor": "可能不会长出一根巨大的豆茎直通天上的云端城堡."
+				},
+				"cabbage_seeds_recipe": {
+					"recipe_name": "卷心菜种子",
+					"description": "允许你种卷心菜",
+					"flavor": "做一个好沙拉!"
+				},
+				"white_carrot_seeds_recipe": {
+					"recipe_name": "白胡萝卜种子",
+					"description": "让你种白胡萝卜",
+					"flavor": "又白又美味"
+				}
+			}
+		},
+		"footman": {
+			"footman_description": {
+				"display_name": "近卫军",
+				"description": "近卫军是一种迅猛的近战战士,是你所在城镇军队的中坚力量",
+				"requirements": "由木匠制作",
+				"level_4_data": {
+					"perk_000_name": "伤害提升40%",
+					"perk_000_description": "近卫军现在正在练习优化每次打击的效果."
+				},
+				"level_1_data": {
+					"perk_000_name": "伤害提升20%",
+					"perk_000_description": "近卫军知道,所有的战斗都可能造成致命的后果,所以他们会以新的决心发动进攻."
+				},
+				"level_3_data": {
+					"perk_000_name": "尖刺力量",
+					"perk_000_description": "这种强大的剑顶挥砍造成双重伤害"
+				},
+				"level_6_data": {
+					"perk_000_name": "伤害提升60%",
+					"perk_000_description": "最大伤害!"
+				},
+				"level_2_data": {
+					"perk_000_name": "第一响应者",
+					"perk_000_description": "近卫军将以极快的速度冲向战场."
+				},
+				"level_5_data": {
+					"perk_000_name": "顺劈",
+					"perk_000_description": "近卫军对目标周围最多4个敌人造成伤害的一次猛击"
+				}
+			},
+			"footman_buffs": {
+				"damage_1_buff": {
+					"description": "在一级时,近卫军的攻击将会更加凶猛",
+					"display_name": "伤害+20%"
+				},
+				"damage_2_buff": {
+					"description": "近卫军的攻击更加猛烈",
+					"display_name": "伤害+40%"
+				},
+				"damage_3_buff": {
+					"description": "在6级时,近卫军的攻击是无法阻挡的！",
+					"display_name": "伤害+60%"
+				},
+				"speed_buff": {
+					"display_name": "第一响应者",
+					"description": "近卫军跑得更快"
+				}
+			},
+			"footman_outfit": {
+				"display_name": "军装",
+				"description": "有一个方便的装备皮带!"
+			}
+		},
+		"blacksmith": {
+			"recipes": {
+				"mythril_ingot": {
+					"description": "神秘锭",
+					"flavor": "此处风味浓郁",
+					"recipe_name": "神秘锭"
+				},
+				"bronze_sword_viking": {
+					"description": "冰巨人评价!",
+					"flavor": "此处风味浓郁",
+					"recipe_name": "青铜维京剑"
+				},
+				"iron_sword_viking": {
+					"description": "冰巨人评价!",
+					"flavor": "此处风味浓郁",
+					"recipe_name": "维京铁剑"
+				},
+				"steel_sword_viking": {
+					"description": "冰巨人评价!",
+					"flavor": "此处风味浓郁",
+					"recipe_name": "钢制维京剑"
+				},
+				"mythril_sword_viking": {
+					"description": "冰巨人评价!",
+					"flavor": "此处风味浓郁",
+					"recipe_name": "神秘维京剑"
+				},
+				"legendary_hammer": {
+					"description": "传说中的锤子",
+					"flavor": "它应该被称为:王大锤",
+					"recipe_name": "传说中的锤子"
+				},
+				"stone_axe": {
+					"description": "有着石斧刃的斧头",
+					"flavor": "此处风味浓郁",
+					"recipe_name": "石斧"
+				},
+				"bronze_axe": {
+					"description": "有青铜斧刃的斧头",
+					"flavor": "此处风味浓郁",
+					"recipe_name": "青铜斧"
+				},
+				"iron_axe": {
+					"description": "有铁斧刃的斧头",
+					"flavor": "此处风味浓郁",
+					"recipe_name": "铁斧"
+				},
+				"steel_axe": {
+					"description": "有钢斧刃的斧头",
+					"flavor": "此处风味浓郁",
+					"recipe_name": "钢斧"
+				},
+				"mythril_axe": {
+					"description": "一把带有神秘斧刃的斧头",
+					"flavor": "此处风味浓郁",
+					"recipe_name": "神秘斧"
+				},
+				"bronze_spear": {
+					"description": "铜头野猪矛",
+					"flavor": "此处风味浓郁",
+					"recipe_name": "青铜野猪矛"
+				},
+				"iron_spear": {
+					"description": "铁头野猪矛",
+					"flavor": "此处风味浓郁",
+					"recipe_name": "铁猪矛"
+				},
+				"steel_spear": {
+					"description": "钢头野猪矛",
+					"flavor": "此处风味浓郁",
+					"recipe_name": "钢制野猪矛"
+				},
+				"chain_mail_bronze": {
+					"description": "青铜环编织在一起形成了一个保护背心",
+					"flavor": "此处风味浓郁",
+					"recipe_name": "铜链甲"
+				},
+				"chain_mail_iron": {
+					"description": "铁环编织在一起形成了一个保护背心",
+					"flavor": "此处风味浓郁",
+					"recipe_name": "铁链甲"
+				},
+				"chain_mail_steel": {
+					"description": "钢环编织在一起形成了一个保护背心",
+					"flavor": "此处风味浓郁",
+					"recipe_name": "钢链甲"
+				},
+				"chain_mail_mythril": {
+					"description": "神秘铁环编织在一起形成一个保护背心",
+					"flavor": "此处风味浓郁",
+					"recipe_name": "神秘链甲"
+				},
+				"runic_bronze_comb": {
+					"description": "一把照顾你头发的符文梳子.让你的头发照顾好你!",
+					"flavor": "此处风味浓郁",
+					"recipe_name": "符文青铜梳"
+				},
+				"runic_iron_comb": {
+					"description": "一把照顾你头发的符文梳子.让你的头发照顾好你!",
+					"flavor": "此处风味浓郁",
+					"recipe_name": "符文铁梳"
+				},
+				"runic_steel_comb": {
+					"description": "一把照顾你头发的符文梳子.让你的头发照顾好你!",
+					"flavor": "此处风味浓郁",
+					"recipe_name": "符文钢梳"
+				},
+				"runic_mythril_comb": {
+					"description": "一把照顾你头发的符文梳子.让你的头发照顾好你!",
+					"flavor": "此处风味浓郁",
+					"recipe_name": "符文神秘梳"
+				},
+				"iron_round_shield": {
+					"description": "用亚麻布包着的圆盾牌,上面有一条铁带.",
+					"flavor": "由您的炉民自豪地装饰!",
+					"recipe_name": "铁带圆盾"
+				},
+				"einherjar_axe_offhand_talisman": {
+					"description": "一把巨大的双头斧头,用来把近卫军变成赫希尔.",
+					"flavor": "纳尔菲用力一击,打中了两个脑袋.",
+					"recipe_name": "赫希尔斧(副手)"
+				},
+				"blacksmith_forge_nordlings_recipe": {
+					"recipe_name": "诺丁斯锻造炉 ",
+					"flavor": "引导古老的锻造神",
+					"description": "用于制作铁匠配方"
+				},
+				"blacksmith_workbench_nordlings_recipe": {
+					"recipe_name": "诺丁铁砧",
+					"description": "击打金属使其屈服!",
+					"flavor": "\"还有什么可以切成两半来测试锐度呢?\""
+				},
+				"legendary_hammer_head": {
+					"recipe_name": "传说中的锤头",
+					"description": "像时间一样沉重,像闪电一样猛烈!",
+					"flavor": "\"谁都好,帮我拿着这个锤子...\""
+				},
+				"legendary_hammer_haft": {
+					"recipe_name": "传说中的锤子柄",
+					"description": "像山一样强壮!",
+					"flavor": "\"别让那该死的蚊子靠近我!\" - 艾拓"
+				},
+				"legendary_hammer_recipe": {
+					"recipe_name": "传说中的锤子",
+					"description": " 传说中的铁锤,配得上托尔神本人.",
+					"flavor": "\"不管是谁快来拿着这把锤子,如果他配得上...\""
+				},
+				"steel_axe_2h_recipe": {
+					"recipe_name": "钢铁大斧",
+					"description": "一把双手斧,不是用来砍树的.",
+					"flavor": "\"试着转圈圈.那可能有用!\"-博罗勇士,讨论战斗风格"
+				},
+				"iron_axe_2h_recipe": {
+					"recipe_name": "铁大斧",
+					"description": "双手巨斧",
+					"flavor": "不太好用作防守,但肯定会给对方带来麻烦"
+				},
+				"legendary_axe_haft": {
+					"recipe_name": "传说中的斧柄",
+					"flavor": "\"被强大的法术迷住了,像山一样强大...然后你把它当成了一条椅子腿...\" - 伯弗拉姆斯班,铁匠大师.",
+					"description": "一把足以用作传奇斧头柄的柄"
+				},
+				"legendary_axe_head": {
+					"recipe_name": "传说中的斧头",
+					"flavor": "它可以穿透盔甲...顺便切一个西红柿!",
+					"description": "传说中的斧头"
+				},
+				"legendary_axe_recipe": {
+					"recipe_name": "传说中的斧头",
+					"description": "熟练的武器.",
+					"flavor": "灌输在钢铁中的是强大的法术,它发威起来就像冬天一样."
+				},
+				"throwing_axe": {
+					"recipe_name": "飞斧",
+					"description": "一把投掷斧,由一个散兵使用",
+					"flavor": "\"接着!\""
+				},
+				"einherjar_axe_offhand_steel_recipe": {
+					"recipe_name": "钢制赫希尔斧(副手)",
+					"flavor": "它有微小的符文,上面写着:\"像时间的流动一样沉重,切割同样深.\"",
+					"description": "它被赫希尔使用,可以阻止任何攻击."
+				},
+				"einherjar_axe_steel_recipe": {
+					"recipe_name": "钢制赫希尔斧",
+					"description": "为了对抗真正的大战斗.",
+					"flavor": "\"我的鳞甲是盾牌,我的牙齿像剑,我的翅膀是飓风,但即使我也能被这条龙之杀手杀死.\" - 无名的龙"
+				},
+				"einherjar_sword_steel_recipe": {
+					"flavor": "\"我不知道\"剑\"在哪里结束,\"锋利的钢铁之墙\"在哪里开始... - 疯狂的铁匠纳菲",
+					"recipe_name": "赫希尔剑",
+					"description": "一把巨大的刀,为赫希尔做的"
+				},
+				"silver_helmet_recipe": {
+					"flavor": "调味酒",
+					"recipe_name": "符文银梳",
+					"description": "一把照顾你头发的符文梳子.让你的头发照顾好你!"
+				}
+			},
+			"blacksmith_workbench_nordlings": {
+				"blacksmith_workbench_nordlings_ghost": {
+					"display_name": "诺丁砧",
+					"description": "击打金属使其屈服!"
+				}
+			},
+			"blacksmith_forge_nordlings": {
+				"blacksmith_forge_nordlings_ghost": {
+					"display_name": "诺丁锻造炉",
+					"description": "为北欧铁匠打造的锻造炉"
+				}
+			}
+		},
+		"carpenter": {
+			"recipes": {
+				"runic_wooden_comb": {
+					"description": "一把照顾你头发的符文梳子.让你的头发照顾好你!",
+					"flavor": "此处风味浓郁",
+					"recipe_name": "符文木梳"
+				},
+				"training_roundshield": {
+					"description": "一个基本的木盾,没有封皮",
+					"flavor": "在紧急情况下可兼用作雪橇!",
+					"recipe_name": "训练圆盾"
+				},
+				"wooden_round_shield": {
+					"description": "用亚麻布包着的木制圆盾牌",
+					"flavor": "由您的炉民自豪地装饰!",
+					"recipe_name": "木质圆盾"
+				},
+				"comfy_fur_bed": {
+					"description": "温暖的毛皮床",
+					"flavor": "冬天可能要到了,但不要到这张床上去!",
+					"recipe_name": "舒适的毛皮床"
+				},
+				"wooden_chair_fur": {
+					"description": "毛皮覆盖的椅子",
+					"flavor": "只要确保不要不小心坐到猫身上!",
+					"recipe_name": "毛皮覆盖的椅子"
+				},
+				"charcoal_mound": {
+					"recipe_name": "木炭堆",
+					"description": "用木头做木炭",
+					"flavor": "原始的黑金"
+				},
+				"decorative_wall_shield_recipe": {
+					"recipe_name": "装饰墙盾",
+					"description": "做起来比做盾牌容易,但也同样具有装饰性!",
+					"flavor": "北欧人不在盾牌墙后等待,我们先进攻!"
+				},
+				"wooden_chair_nordlings": {
+					"recipe_name": "诺丁椅",
+					"flavor": "\"古老的传说说好事成三,为什么腿不是呢?\"",
+					"description": "北欧人喜欢的三条腿的椅子"
+				},
+				"ornate_comfy_fur_bed": {
+					"flavor": "\"没有窗帘!\" - 埃德娜",
+					"recipe_name": "华丽舒适的毛皮床",
+					"description": "适合北欧贵族的床"
+				},
+				"carpenter_toolbench_nordlings_recipe": {
+					"recipe_name": "诺丁木匠工具台",
+					"flavor": "\"奥拉夫!带着雕刻的龙头回到这里!\" - 斯诺里",
+					"description": "木匠用的北欧工具台."
+				},
+				"carpenter_workbench_nordlings_recipe": {
+					"recipe_name": "诺丁木匠工作台",
+					"description": "木匠用来做家具",
+					"flavor": "\"对你来说,这可能只是一颗裂开的树,但对我来说,这是家的开始.\" - 奥拉夫·伍德施普利特"
+				},
+				"firewood3x": {
+					"recipe_name": "木柴 (x3)",
+					"description": "曾经用来点燃壁炉,作为燃料.",
+					"flavor": "\"你的意思是把一整棵树放在壁炉里不是解决问题的方法吗?\" - 拉雅"
+				},
+				"ornate_wooden_chair_nordlings": {
+					"recipe_name": "华丽的诺丁椅",
+					"description": "一把覆盖着舒适衬垫的北欧椅子.看起来也很时髦!",
+					"flavor": "坐在三条腿上,炫酷!"
+				},
+				"map_table": {
+					"recipe_name": "地图桌",
+					"description": "一张计划战略的桌子.",
+					"flavor": "在右下角,它用很小的印刷体写着\"维迪维希\"."
+				},
+				"big_barrel": {
+					"recipe_name": "大桶",
+					"description": "装酒(目前有啤酒和蜂蜜酒)",
+					"flavor": "试着不要一块喝,除非你是托尔."
+				},
+				"nord_chest_recipe": {
+					"recipe_name": "诺丁斯海柜",
+					"description": "最多可存储64个物品.有助于把东西放在家里,也可以放在海上",
+					"flavor": "伊瓦尔迪的儿子们在传统节日中制作的特殊箱子,以防止某些东西变得湿和冷."
+				},
+				"wooden_spear_recipe": {
+					"recipe_name": "木矛",
+					"description": "需要将炉民提升为轻骑兵.",
+					"flavor": "所有伟大的战士都有卑微的开端."
+				}
+			},
+			"carpenter_workbench_nordlings": {
+				"carpenter_workbench_nordlings_ghost": {
+					"display_name": "诺丁木匠工作台",
+					"description": "木工工具台,做家具."
+				}
+			},
+			"carpenter_toolbench_nordlings": {
+				"carpenter_toolbench_ghost": {
+					"display_name": "诺丁木匠工具台",
+					"description": "适用于高级木制配方."
+				}
+			}
+		},
+		"mason": {
+			"recipes": {
+				"rune_stone": {
+					"description": "一块刻着符文符号的石头.",
+					"flavor": "我想知道它说了什么?",
+					"recipe_name": "符石"
+				},
+				"stone_axe": {
+					"description": "有石斧刃的斧头",
+					"flavor": "此处风味浓郁",
+					"recipe_name": "石斧"
+				},
+				"stone_spear": {
+					"description": "石头制的野猪矛",
+					"flavor": "此处风味浓郁",
+					"recipe_name": "石野猪矛"
+				},
+				"fireplace": {
+					"description": "壁炉放置,木头燃烧,可以保你温暖",
+					"flavor": "此处风味浓郁",
+					"recipe_name": "壁炉"
+				},
+				"comfy_fur_bed_stone_recipe": {
+					"recipe_name": "石头毛皮床",
+					"description": "一张铺着舒适毛皮的石床,可以睡在下面.",
+					"flavor": "调味料架"
+				},
+				"fireplace_big": {
+					"recipe_name": "大壁炉",
+					"flavor": "调味酒",
+					"description": "因为当小的还不够的时候."
+				},
+				"shrine_to_odin_recipe": {
+					"recipe_name": "奥丁神殿",
+					"description": "独眼奥丁,众神之王的圣地。",
+					"flavor": "\"别忘了,雷神托尔在雷暴的指引下才会把锤子投向哪里,而奥丁更喜欢在晴空出击.\""
+				},
+				"shrine_to_thor_recipe": {
+					"recipe_name": "雷神神殿",
+					"description": "雷神托尔的神殿",
+					"flavor": "符文描述了伟大的手艺是如何无界限的,并赞扬了雷神的荣耀."
+				},
+				"decorative_wall_dragon_recipe": {
+					"recipe_name": "龙墙装饰",
+					"description": "用木头雕刻的龙",
+					"flavor": "\"AAAAAAAAAH\" -伊瓦尔"
+				}
+			}
+		},
+		"knight": {
+			"knight_outfit": {
+				"display_name": "赫希尔盔甲",
+				"description": "赫希尔穿的金属盔甲"
+			},
+			"knight_description": {
+				"display_name": "赫希尔",
+				"description": "一个被神选中的军事指挥官,激励着军队为荣誉而战.",
+				"requirements": "由铁匠制作",
+				"level_1_data": {
+					"perk_000_name": "鼓起勇气",
+					"perk_001_name": "受到伤害等级降低1",
+					"perk_000_description": "增加耐力,勇气,吸引怪物的注意力",
+					"perk_001_description": "赫希尔从装备中获得额外10%的防御"
+				},
+				"level_4_data": {
+					"perk_000_name": "受到伤害等级降低2",
+					"perk_000_description": "赫希尔从装备中获得额外的20%护甲."
+				},
+				"level_3_data": {
+					"perk_000_name": "鼓起勇气(II)",
+					"perk_000_description": "体力和勇气大增"
+				},
+				"level_5_data": {
+					"perk_000_name": "振奋军心",
+					"perk_000_description": "赫希尔增强了周围所有人的勇气"
+				},
+				"level_2_data": {
+					"perk_000_name": "无能狂怒",
+					"perk_000_description": "赫希尔向敌人发起挑战,让他们的进攻."
+				},
+				"level_6_data": {
+					"perk_000_name": "英雄号角",
+					"perk_000_description": "赫希尔吹起了战斗的号角,引起了远近敌人的注意"
+				}
+			},
+			"knight_buffs": {
+				"defense_1_buff": {
+					"display_name": "防御提高10%",
+					"description": "装备防御提高10%"
+				},
+				"defense_2_buff": {
+					"display_name": "防御提高20%",
+					"description": "装备防御提高10%"
+				},
+				"health_1_buff": {
+					"display_name": "鼓起勇气",
+					"description": "赫希尔对敌人的威胁越来越大,在战斗中引起了他们的注意.他们还会获得健康和耐力的奖励来跟上进度."
+				},
+				"health_2_buff": {
+					"display_name": "鼓起勇气(II)",
+					"description": "更快,更愤怒"
+				},
+				"courage_aura_buff": {
+					"display_name": "振奋军心",
+					"description": "赫希尔增加了周围每个人的勇气"
+				},
+				"courage_aura_effect_buff": {
+					"display_name": "鼓舞",
+					"description": "勇气因赫希尔的出现而获得增强."
+				}
+			},
+			"knight_helm": {
+				"display_name": "赫希尔头盔",
+				"description": "所有赫希尔的铁制头盔标准版本"
+			}
+		},
+		"worker": {
+			"worker_description": {
+				"display_name": "村民",
+				"description": "村民们除了照料田地外,还执行一些基本的任务,如收获资源,搬运东西,建造建筑物等."
+			},
+			"worker_outfit_fancy": {
+				"worker_outfit_fancy_iconic": {
+					"display_name": "花哨的衣服",
+					"description": "花哨的服装,御寒保暖,提高生产效率"
+				},
+				"display_name": "花哨的衣服",
+				"description": "花哨的服装,御寒保暖,提高生产效率"
+			}
+		},
+		"potter": {
+			"recipes": {
+				"legendary_hammer_mounting": {
+					"recipe_name": "传说中的锤子配装",
+					"description": "它由高导电性的黄金制成,触摸时会产生火花.",
+					"flavor": "\"刚才有人看到闪光了吗?\""
+				}
+			}
+		},
+		"cook": {
+			"recipes": {
+				"cook_workbench_nordlings_recipe": {
+					"recipe_name": "诺丁炊具",
+					"description": "准备食物",
+					"flavor": "\"好吃!好吃!\""
+				}
+			},
+			"cook_workbench_nordlings": {
+				"cook_workbench_nordlings_ghost": {
+					"display_name": "诺丁斯大锅",
+					"description": "用于烹饪"
+				}
+			}
+		},
+		"ruler": {
+			"ruler_sword": {
+				"display_name": "统治者圣剑",
+				"description": "适合统治者的剑"
+			},
+			"ruler_talisman": {
+				"display_name": "权利契约",
+				"description": "看起来很正式的文书"
+			},
+			"ruler_description": {
+				"display_name": "领主",
+				"description": "一个领主,带领你的人民.",
+				"requirements": "统治权证明",
+				"level_6_data": {
+					"perk_000_name": "更大的强度"
+				}
+			},
+			"ruler_description_na": {
+				"display_name": "酋长",
+				"description": "一个酋长,领导你们的人民."
+			},
+			"ruler_description_rc": {
+				"display_name": "苏丹王",
+				"description": "一个苏丹,来领导你们的人民."
+			},
+			"ruler_description_nordlings": {
+				"display_name": "贾尔",
+				"description": "北欧的老国王.",
+				"requirements": "不知道是不是应该在这里"
+			},
+			"ruler_sword_nordlings": {
+				"display_name": "贾尔的剑",
+				"description": "一把贾尔的剑"
+			},
+			"ac": {
+				"ruler_description": {
+					"level_1_data": {
+						"perk_000_description": "你的领主知道所有的战斗都会有致命的后果,必须要以新的决心进攻."
+					},
+					"level_2_data": {
+						"perk_000_description": "你的领主以极快的速度冲向战场."
+					},
+					"level_3_data": {
+						"perk_000_description": "你的领主能增强周围每个人的勇气."
+					},
+					"level_5_data": {
+						"perk_000_description": "一次猛击,对你领主周围的4个敌人造成伤害."
+					},
+					"level_6_data": {
+						"perk_000_description": "你的领主激励他周围的人更加努力地战斗.(勇气buff)"
+					}
+				}
+			},
+			"na": {
+				"ruler_description": {
+					"level_1_data": {
+						"perk_000_description": "你的酋长知道所有的战斗都可能会有致命的后果,必须要以新的决心发动攻击."
+					},
+					"level_2_data": {
+						"perk_000_description": "你的酋长以极快的速度冲向战场."
+					},
+					"level_3_data": {
+						"perk_000_description": "你的酋长提高了周围所有人的勇气."
+					},
+					"level_5_data": {
+						"perk_000_description": "对酋长周围最多4个敌人造成伤害的砍击."
+					},
+					"level_6_data": {
+						"perk_000_description": "你的酋长激励他周围的人更努力地战斗.(勇气buff)"
+					}
+				}
+			},
+			"nordlings": {
+				"ruler_description": {
+					"level_1_data": {
+						"perk_000_description": "贾尔知道所有的战斗都会有致命的后果,必须要以新的决心发动攻击."
+					},
+					"level_2_data": {
+						"perk_000_description": "贾尔以极快的速度冲向战场."
+					},
+					"level_3_data": {
+						"perk_000_description": "贾尔提高了周围所有人的勇气."
+					},
+					"level_5_data": {
+						"perk_000_description": "对贾尔周围最多4个敌人造成伤害的砍击."
+					},
+					"level_6_data": {
+						"perk_000_description": "你的贾尔激励他周围的人更努力地战斗.(勇气buff)"
+					}
+				}
+			},
+			"rc": {
+				"ruler_description": {
+					"level_1_data": {
+						"perk_000_description": "你的苏丹王知道所有的战斗都可能会有致命的后果,必须要以新的决心发动攻击."
+					},
+					"level_2_data": {
+						"perk_000_description": "你的苏丹王以极快的速度冲向战场."
+					},
+					"level_3_data": {
+						"perk_000_description": "你的苏丹王提高了周围所有人的勇气."
+					},
+					"level_5_data": {
+						"perk_000_description": "对苏丹王周围最多4个敌人造成伤害的砍击."
+					},
+					"level_6_data": {
+						"perk_000_description": "你的苏丹王激励他周围的人更努力地战斗.(勇气buff)"
+					}
+				}
+			}
+		},
+		"archer": {
+			"archer_description": {
+				"display_name": "散兵",
+				"description": "用箭射杀敌人的远程战斗单位",
+				"requirements": "由木匠制作",
+				"level_1_data": {
+					"perk_000_name": "弓的熟练程度",
+					"perk_001_name": "拉拔强度提高",
+					"perk_000_description": "散兵能用弓向敌人射箭.",
+					"perk_001_description": "散兵造成的伤害增加了"
+				},
+				"level_2_data": {
+					"perk_000_name": "穿甲箭",
+					"perk_000_description": "散兵的射击忽略了目标50%的护甲."
+				},
+				"level_3_data": {
+					"perk_000_name": "范围增加",
+					"perk_000_description": "散兵可以从更远的地方攻击敌人."
+				},
+				"level_5_data": {
+					"perk_000_name": "范围增加(II)",
+					"perk_000_description": "散兵可以从很远的地方攻击敌人."
+				},
+				"level_4_data": {
+					"perk_000_name": "提速",
+					"perk_000_description": "散兵以更快的速度射箭"
+				},
+				"level_6_data": {
+					"perk_000_name": "连射",
+					"perk_000_description": "散兵学习古代速射技术,允许快速连续发射两支箭."
+				}
+			},
+			"archer_buffs": {
+				"damage_1_buff": {
+					"display_name": "伤害+20%",
+					"description": "散兵的伤害增加了."
+				}
+			}
+		}
+	},
+	"ui": {
+		"data": {
+			"constants": {
+				"coal_resource_name": "一块煤"
+			}
+		}
+	}
+}

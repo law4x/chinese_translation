@@ -1,0 +1,16 @@
+{
+	"data": {
+		"commands": {
+			"autoharvest_on": {
+				"display_name": "自动收获模式开启",
+				"description": "点击关闭.",
+				"disabled_description": "现在无法关闭，请稍后再试."
+			},
+			"autoharvest_off": {
+				"display_name": "自动收获模式关闭",
+				"description": "点击开启.",
+				"disabled_description": "现在无法开启，请稍后再试."
+			}
+		}
+	}
+}

@@ -1,0 +1,992 @@
+{
+    "ui": {
+        "gardener": {
+            "display_name": "园丁工匠菜单",
+            "description": "花艺装饰品.",
+            "requirements": "需要农民"
+        }
+    },
+   "entities": {
+      "construction": {
+         "carved_stone_window": {
+            "display_name": "石雕窗口",
+            "description": "仔细雕刻石窗"
+         },
+        "carved_stone_door": {
+            "display_name": "石雕门",
+            "description": "仔细雕刻石门"
+         },
+         "clay_brick_wall": {
+            "display_name": "粘土砖墙",
+            "description": "堆积成型粘土"
+         },
+         "fortress_door": {
+            "display_name": "堡垒门",
+            "description": "看起来很强"
+         },
+         "fortress_window": {
+            "display_name": "堡垒窗口",
+            "description": "石铁窗"
+         },
+         "gardener_sign": {
+            "display_name": "壁挂园丁标志",
+            "description": "园丁的标志"
+         },
+         "hedge": {
+            "display_name": "篱笆",
+            "description": "Leafy and Spongey"
+         },
+         "hedge_corner": {
+            "display_name": "篱笆角",
+            "description": "Leafy and Spongey"
+         },
+         "tumbleweed_fibre_fence": {
+            "display_name": "纤维植物篱",
+            "description": "一团乱"
+         },
+         "tumbleweed_fibre_fence_corner": {
+            "display_name": "纤维植物篱角",
+            "description": "植物篱角件"
+         },
+         "mine_entrance_scaffold": {
+            "display_name": "矿井的入口支架",
+            "description": "矿用支架"
+         },
+         "picket_fence_archway": {
+            "display_name": "栅栏拱门",
+            "description": "不适合动物围栏"
+         },
+         "potters_sign": {
+            "display_name": "壁挂式陶工标志",
+            "description": "陶工作坊的标志"
+         },
+         "robust_door": {
+            "display_name": "坚固的门",
+            "description": "坚​​固可靠"
+         },
+         "robust_window": {
+            "display_name": "强大的窗",
+            "description": "一个小窥视孔"
+         },
+         "spiked_fence_corner": {
+            "display_name": "带刺的篱笆角",
+            "description": "满足你所有的角度需求"
+         },
+         "spiked_fence": {
+            "display_name": "带刺的篱笆",
+            "description": "额外尖版"
+         },
+         "stone_mine_entrance": {
+            "display_name": "石矿入口",
+            "description": "石雕矿山入口"
+         },
+         "large_wooden_window_frame": {
+            "display_name": "木制大窗框",
+            "description": "大窗框"
+         },
+         "large_stone_window_frame": {
+            "display_name": "石制大窗框",
+            "description": "大窗框"
+         },
+         "iron_gate": {
+            "display_name": "铁门",
+            "description": "风中的伤痕"
+         }
+      },
+      "furniture": {
+         "berry_curtains": {
+            "display_name": "浆果窗帘",
+            "description": "你几乎可以品尝到浆果."
+         },
+         "bird_house": {
+            "display_name": "鸟屋",
+            "description": "鸟免费住宿."
+         },
+         "brightbell_hanging_basket": {
+            "display_name": "明亮吊篮",
+            "description": "水的痛苦."
+         },
+         "cactus_tree_planter": {
+            "display_name": "仙人掌树种植者",
+            "description": "高，强，刺."
+         },
+         "canopy_garden": {
+            "display_name": "冠层花园",
+            "description": "为什么在地上有鲜花."
+         },
+         "canopy_garden_long": {
+            "display_name": "冠层长花园",
+            "description": "为什么在地上有鲜花."
+         },
+         "cloth_canopy": {
+            "display_name": "布棚",
+            "description": "阴凉的地方休息."
+         },
+         "cloth_canopy_long": {
+            "display_name": "长布棚",
+            "description": "阴凉的地方休息."
+         },
+         "chiminea": {
+            "display_name": "Chiminea",
+            "description": "热的善良"
+         },
+         "flower_fence": {
+            "display_name": "花篱笆",
+            "description": "花的分离"
+         },
+         "flowered_curtains": {
+            "display_name": "花窗",
+            "description": "时尚实用."
+         },
+         "footman_tapestry": {
+            "display_name": "步兵挂毯",
+            "description": "一个步兵的形象的挂毯."
+         },
+         "foxfire_hanging_basket": {
+            "display_name": "狐火挂篮",
+            "description": "痛苦的水."
+         },
+         "foxfire_lantern": {
+            "display_name": "狐火灯笼",
+            "description": "石灯笼充满曙光"
+         },
+         "ember_lantern": {
+            "display_name": "灰烬的灯笼",
+            "description": "石灯笼充满了植物花粉"
+         },
+         "frostsnap_hanging_basket": {
+            "display_name": "灰烬挂篮",
+            "description": "痛苦的水."
+         },
+         "fur_bed": {
+            "display_name": "毛皮床",
+            "description": "温暖放松."
+         },
+         "garden_bed": {
+            "display_name": "花园床",
+            "description": "所有植物的圣所."
+         },
+         "guardian_statue": {
+            "display_name": "守护神像",
+            "description": "石卫士雕像"
+         },
+         "hanging_cactus_pots": {
+            "display_name": "吊盆仙人掌",
+            "description": "挂着仙人掌植物的花盆."
+         },
+         "hanging_ember_pots": {
+            "display_name": "吊烬盆",
+            "description": "挂着余烬植物的花盆."
+         },
+         "hanging_litso_pots": {
+            "display_name": "吊盆丽特草",
+            "description": "挂着丽特草植物的花盆."
+         },
+         "large_stone_planter": {
+            "display_name": "大石雕",
+            "description": "漂亮而强壮."
+         },
+         "large_vase": {
+            "display_name": "大花瓶",
+            "description": "大而脆弱"
+         },
+         "large_wooden_planter": {
+            "display_name": "大型木制播种机",
+            "description": "太好了."
+         },
+         "log_chair": {
+            "display_name": "原木的椅子",
+            "description": "户外座位，放松的时刻."
+         },
+         "luxury_stone_chair": {
+            "display_name": "豪华石椅",
+            "description": "最好的座位."
+         },
+         "plant_pot": {
+            "display_name": "植物盆",
+            "description": "小陶罐"
+         },
+         "poster_bed": {
+            "display_name": "四柱床",
+            "description": "腿太多了."
+         },
+         "potted_brightbell": {
+            "display_name": "光玲花盆栽",
+            "description": " 一盆光玲花."
+         },
+         "potted_foxfire": {
+            "display_name": "盆栽狐火",
+            "description": "一盆狐火."
+         },
+         "potted_frostsnap": {
+            "display_name": "霜断花盆栽",
+            "description": "一盆霜断花."
+         },
+         "potted_sunflower": {
+            "display_name": "盆栽向日葵",
+            "description": "一壶向日葵."
+         },
+         "potted_litso_grass": {
+            "display_name": "盆栽丽特草",
+            "description": "一盆丽特草."
+         },
+         "potted_ember_plant": {
+            "display_name": "盆栽植物灰烬",
+            "description": "有余烬植物的罐子."
+         },
+         "sarcophagus": {
+            "display_name": "石棺",
+            "description": "英雄的坟墓."
+         },
+         "scarecrow": {
+            "display_name": "稻草人",
+            "description": "种子防御."
+         },
+         "shelf": {
+            "display_name": "架子",
+            "description": "儿童接触不到."
+         },
+         "shepherd_tapestry": {
+            "display_name": "牧羊人挂毯",
+            "description": "牧羊人和他的羊的挂毯."
+         },
+         "skull_flag": {
+            "display_name": "骷髅旗",
+            "description": "多一点恐吓."
+         },
+         "small_stone_planter": {
+            "display_name": "小石雕",
+            "description": "适合前花园."
+         },
+         "small_vase": {
+            "display_name": "小花瓶",
+            "description": "小而脆弱"
+         },
+         "small_wooden_planter": {
+            "display_name": "小木制播种机",
+            "description": "适合前花园."
+         },
+         "statue_of_fortune": {
+            "display_name": "财富雕像",
+            "description": "做一个愿望."
+         },
+         "stone_fur_bed": {
+            "display_name": "石毛皮床",
+            "description": "强而软."
+         },
+         "stone_garden_bed": {
+            "display_name": "石花园床",
+            "description": "所有植物的圣所."
+         },
+         "stone_totem": {
+            "display_name": "石图腾",
+            "description": "文化融入石"
+         },
+         "straw_basket": {
+            "display_name": "稻草篮子",
+            "description": "由稻草编织的篮子."
+         },
+         "sundial": {
+            "display_name": "日晷",
+            "description": "简单而有趣"
+         },
+         "the_mighty_worker_statue": {
+            "display_name": "强大的工人雕像",
+            "description": "一切灵感."
+         },
+         "tiered_stone_planter": {
+            "display_name": "分层石雕刻机",
+            "description": "层层有机."
+         },
+         "tiered_wooden_planter": {
+            "display_name": "分层木制播种机",
+            "description": "层层有机."
+         },
+         "totem": {
+            "display_name": "图腾",
+            "description": "从神社到生活的各个方面."
+         },
+         "traveller_statue": {
+            "display_name": "旅行者雕像",
+            "description": "冰冷的石头和深黑的眼睛."
+         },
+         "wall_mounted_foxfire_lantern": {
+            "display_name": "壁挂式狐火灯笼",
+            "description": "墙上闪闪发光的石灯笼."
+         },
+         "wall_mounted_ember_lantern": {
+            "display_name": "壁挂式灰烬灯笼",
+            "description": "墙上的石灯笼充满了植物花粉."
+         },
+         "weaver_tapestry": {
+            "display_name": "织布工毛毯",
+            "description": "织工辛勤工作的装饰挂毯."
+         },
+         "wise_man_statue": {
+            "display_name": "智者雕像",
+            "description": "羽毛笔比剑更强大."
+         },
+         "wooden_hero_statue": {
+            "display_name": "本地英雄雕像",
+            "description": "更好的方式来尊重我们的英雄."
+         },
+         "wooden_tree_planter": {
+            "display_name": "树种植者",
+            "description": "当小花还不够的时候."
+         }
+      },
+      "crops": {
+        "sunflower": {
+            "display_name": "向日葵",
+            "description": "生长缓慢，但高而明亮"
+        },
+        "sunflower_1" : {
+            "name": "葵花籽苗",
+            "description": "小绿芽"
+        },
+        "sunflower_2" : {
+            "name": "向日葵芽",
+            "description": "开花"
+        },
+        "sunflower_3" : {
+            "name": "娇嫩的向日葵",
+            "description": "小阳光之城"
+        },
+        "sunflower_4" : {
+            "name": "成年向日葵",
+            "description": "完整的向日葵生长"
+        },
+        "foxfire": {
+            "display_name": "狐火",
+            "description": "缓慢成熟，产生发光的泥"
+        },
+        "foxfire_1" : {
+            "name": "狐火幼苗",
+            "description": "小的粘球"
+        },
+        "foxfire_2" : {
+            "name": "狐火萌芽",
+            "description": "更大更苗条"
+        },
+        "foxfire_3" : {
+            "name": "狐火蕾",
+            "description": "准备收获"
+        },
+        "litso_grass": {
+            "display_name": "丽特草",
+            "description": "一种短而小的草，有装饰性的黄色尖端"
+        },
+        "litso_grass_1" : {
+            "name": "小丽特草",
+            "description": "小幼苗"
+        },
+        "litso_grass_2" : {
+            "name": "丽特草芽",
+            "description": "绿芽长得更高更强"
+        },
+        "litso_grass_3" : {
+            "name": "娇嫩的丽特草",
+            "description": "几乎完全成熟"
+        },
+        "litso_grass_4" : {
+            "name": "丽特草",
+            "description": "完全成熟的黄茎"
+        },
+        "ember_plant": {
+            "display_name": "灰烬植物",
+            "description": "带有红色发光花粉的短开花植物"
+        },
+        "ember_plant_1" : {
+            "name": "灰烬植物幼芽",
+            "description": "婴幼儿植物茎"
+        },
+        "ember_plant_2" : {
+            "name": "灰烬植物芽",
+            "description": "尚未完全成熟"
+        },
+        "ember_plant_3" : {
+            "name": "娇嫩的灰烬植物",
+            "description": "开花迹象"
+        },
+        "ember_plant_4" : {
+            "name": "精美的灰烬植物",
+            "description": "完全花的灰烬植物"
+        }
+      },
+      "decorations": {
+        "foxfire": {
+            "display_name": "野狐火",
+            "description": "亮蓝色发光"
+        },
+        "sunflower": {
+            "display_name": "野生向日葵",
+            "description": "明亮但不热"
+        },
+        "litso_grass": {
+            "display_name": "野生丽特草",
+            "description": "黄尖小绿芽"
+        },
+        "ember_plant": {
+            "display_name": "野生灰烬植物",
+            "description": "小沙漠火炬"
+        }
+      },
+      "plants": {
+        "foxfire": {
+            "display_name": "野狐火",
+            "description": "可以收获明亮的蓝色的发光泥.",
+            "unripe_description": "这种植物已经收获，还没有成长."
+        },
+        "sunflower": {
+            "display_name": "野生向日葵",
+            "description": "可收获的野花装饰.",
+            "unripe_description": "这种植物已经收获，还没有成长."
+        },
+        "litso_grass": {
+            "display_name": "野生丽特草",
+            "description": "收割野草，用于装饰.",
+            "unripe_description": "这种植物已经收获，还没有成长."
+        },
+        "ember_plant": {
+            "display_name": "野生灰烬植物",
+            "description": "可以收获其发光的橙色花粉.",
+            "unripe_description": "这种植物已经收获，还没有成长."
+        }
+      },
+      "resources": {
+        "foxfire_slime": {
+            "display_name": "狐火泥",
+            "description": "发出蓝色光芒的泥质物质"
+        },
+        "ember_plant_pollen": {
+            "display_name": "灰烬植物花粉",
+            "description": "一种灰烬植物的花粉，像火焰一样散发着橙色的光辉"
+        },
+        "ember_plant_pod": {
+            "display_name": "灰烬植物荚",
+            "description": "从灰烬植物中采集的开花荚."
+        },
+        "foxfire_pod": {
+            "display_name": "狐火荚",
+            "description": "一个狐火植物粘糊糊的核心."
+        },
+        "litso_grass_stem": {
+            "display_name": "丽特草茎",
+            "description": "来自丽特草的茎."
+        },
+        "sunflower_pod": {
+            "display_name": "向日葵荚",
+            "description": "向日葵的头."
+        }
+      }
+   },
+   "jobs": {
+    "gardener": {
+        "talisman": {
+            "name": "园丁的铲子",
+            "description": "让公民变成一个园丁"
+        },
+        "workbench": {
+            "display_name": "园丁的工作台",
+            "description": "园丁制作"
+        },
+        "toolbench": {
+            "display_name": "园丁的工具台",
+            "description": "园丁制作"
+        },
+        "outfit": {
+            "name": "园丁工作服",
+            "description": "所有园丁的制服"
+        },
+        "job_description": {
+            "display_name": "园丁",
+            "description": "园丁用鲜花创造装饰品",
+            "requirements": "一个三级的农民用铁匠打造的铲子"
+        },
+        "level_data": {
+            "l1_name": "标准目录",
+            "l1_description": "园丁现在可以制作一系列花园装饰品.",
+            "l2_name": "扩展材料清单",
+            "l2_description": "园丁现在可以熟练使用更复杂的材料.",
+            "l3_name": "复杂装饰",
+            "l3_description": "园丁可以创造更多的椭圆形花园家具.",
+            "l4_name": "艺术灵感",
+            "l4_description": "当灵感来袭时，园丁可能以意想不到的方式装饰他的作品.",
+            "l6_name": "园艺大师",
+            "l6_description": "园丁对他的行业的精通使他能够想出全新的使用植物的方法."
+        },
+        "personality": {
+            "promote": "听到铲子的呼唤:",
+            "beleaguered_leader": "我不知道，控制着这些花，如果他们死了怎么办?",
+            "hopeless_optimist": "现在我可以种我自己的食物.......我想.",
+            "lovable_rogue": "通常我只是踩花，但，我想他们成长还是不错的.",
+            "psychopathic_misanthrope": "所有这些花都在我的控制之下，它们将不会浇水，它们的命运掌握在我手中.",
+            "insufferable_academic": "我一直想在植物学上试一试.",
+            "diligent_sweetheart": "一个园丁？所以我可以把漂亮的花朵放在我想要的地方吗? Great!!!"
+        },
+        "recipe_category": {
+            "workbenches": "工作台",
+            "garden_decorations": "花园装饰品",
+            "housing_decorations": "房屋装饰",
+            "planters": "种植者",
+            "resources": "资源"
+        },
+        "recipes": {
+            "brightbell_hanging_basket": {
+                "recipe_name": "明亮吊篮",
+                "description": "一个挂在你门​​上的明亮的花朵的篮子.",
+                "flavor": "警告在暴风雨的天气可能会变得致命."
+            },
+            "cactus_tree_planter": {
+                "recipe_name": "仙人掌树种植者",
+                "description": "支撑大仙人掌树的粘土砖基地.",
+                "flavor": "别碰!"
+            },
+            "canopy_garden_long": {
+                "recipe_name": "冠层长花园",
+                "description": "一盏长长的木制框架，以明亮的花朵覆盖着.",
+                "flavor": "除了云之外，还有什么东西要抬头看."
+            },
+            "canopy_garden": {
+                "recipe_name": "冠层花园",
+                "description": "一个木框架在明亮的花朵里覆盖着.",
+                "flavor": "除了云之外，还有什么东西要抬头看."
+            },
+            "flower_fence": {
+                "recipe_name": "花篱笆",
+                "description": "装饰的木栅栏，通过光玲花编织.",
+                "flavor": "隐私和装饰，一个包装."
+            },
+            "foxfire_hanging_basket": {
+                "recipe_name": "狐火挂篮",
+                "description": "你的门上挂狐火的篮子.",
+                "flavor": "警告暴风雨天气可能会变得致命."
+            },
+            "foxfire_slime": {
+                "recipe_name": "狐火泥",
+                "description": "从狐火里面提取的一种粘稠的蓝色物质.",
+                "flavor": "排斥而又...有趣."
+            },
+            "ember_plant_pollen": {
+                "recipe_name": "灰烬植物花粉",
+                "description": "取自灰烬植物的花粉.",
+                "flavor": "像旧火的余烬一样发光."
+            },
+            "frostsnap_hanging_basket": {
+                "recipe_name": "冰霜吊篮",
+                "description": "一个挂在你门​​上的花篮.",
+                "flavor": "警告暴风雨天气可能会变得致命."
+            },
+            "garden_bed": {
+                "recipe_name": "花园床",
+                "description": "多种植物的土壤和有机质的庇护所.",
+                "flavor": ""
+            },
+            "gardener_toolbench": {
+                "recipe_name": "园丁工具台",
+                "description": "用于创建更复杂的花园装饰需要的工具.",
+                "flavor": ""
+            },
+            "gardener_workbench": {
+                "recipe_name": "园丁工作台",
+                "description": "花园装饰品工作台.",
+                "flavor": ""
+            },
+            "hedge_corner": {
+                "recipe_name": "树篱角",
+                "description": "一种植物篱角.",
+                "flavor": "环境友好的障碍."
+            },
+            "hedge": {
+                "recipe_name": "树篱",
+                "description": "一条很短的树篱.",
+                "flavor": "环境友好的障碍."
+            },
+            "tumbleweed_fibre_fence": {
+                "recipe_name": "纤维树篱",
+                "description": "纤维缠结在一起形成屏障.",
+                "flavor": ""
+            },
+            "tumbleweed_fibre_fence_corner": {
+                "recipe_name": "纤维树篱角",
+                "description": "纤维缠结在一起形成屏障角.",
+                "flavor": ""
+            },
+            "hanging_cactus_pots": {
+                "recipe_name": "吊盆仙人掌",
+                "description": "花盆中充满了悬挂在线上的仙人掌.",
+                "flavor": "确保他们的安全."
+            },
+            "hanging_ember_pots": {
+                "recipe_name": "吊烬盆",
+                "description": "花盆中充满了挂在线上的灰烬植物.",
+                "flavor": "确保他们的安全."
+            },
+            "hanging_litso_pots": {
+                "recipe_name": "吊盆丽特草",
+                "description": "花盆中充满了挂在线上的丽特草.",
+                "flavor": "确保他们的安全."
+            },
+            "large_stone_planter": {
+                "recipe_name": "大石雕",
+                "description": "一大块装满鲜花的石头.",
+                "flavor": ""
+            },
+            "large_wooden_planter": {
+                "recipe_name": "大型木制播种机",
+                "description": "装满花的大型木头装饰.",
+                "flavor": ""
+            },
+            "potted_brightbell": {
+                "recipe_name": "光玲花盆栽",
+                "description": "一个装有光玲花的粘土植物盆.",
+                "flavor": ""
+            },
+            "potted_foxfire": {
+                "recipe_name": "盆栽狐火",
+                "description": "一个带有狐火植物的粘土植物盆.",
+                "flavor": ""
+            },
+            "potted_frostsnap": {
+                "recipe_name": "盆栽霜断花",
+                "description": "一个装有霜断花的粘土植物盆.",
+                "flavor": ""
+            },
+            "potted_sunflower": {
+                "recipe_name": "盆栽向日葵",
+                "description": "一个装有向日葵的粘土植物盆.",
+                "flavor": ""
+            },
+            "potted_litso_grass": {
+                "recipe_name": "盆栽丽特草",
+                "description": "一个装有丽特草的粘土植物盆.",
+                "flavor": ""
+            },
+            "potted_ember_plant": {
+                "recipe_name": "盆栽灰烬植物",
+                "description": "一个装有灰烬植物的粘土植物盆.",
+                "flavor": ""
+            },
+            "scarecrow": {
+                "recipe_name": "稻草人",
+                "description": "守护你的庄稼的稻草人.",
+                "flavor": "我们只是希望这个没有像最后一个那样活着."
+            },
+            "small_stone_planter": {
+                "recipe_name": "小石雕",
+                "description": "小石头装饰，内有小花.",
+                "flavor": ""
+            },
+            "small_wooden_planter": {
+                "recipe_name": "小木制播种机",
+                "description": "一个小木制的装饰品，里面有光玲花",
+                "flavor": ""
+            },
+            "stone_garden_bed": {
+                "recipe_name": "石花园床",
+                "description": "各种植物物种的土壤和有机的石庇护区.",
+                "flavor": ""
+            },
+            "tiered_stone_planter": {
+                "recipe_name": "分层石雕",
+                "description": "一个有优雅花园的多层次的花盆.",
+                "flavor": ""
+            },
+            "tiered_wooden_planter": {
+                "recipe_name": "分层木制播种机",
+                "description": "一个有优雅花园的多层木制花盆.",
+                "flavor": ""
+            },
+            "wooden_tree_planter": {
+                "recipe_name": "树种植者",
+                "description": "一个装满小树的大型木制播种机.",
+                "flavor": "当你不想要树木长大的时候，你不要讨厌它."
+            }
+        }
+   },
+   "carpenter": {
+        "recipe_category" : {
+            "statues" : "雕像"
+        },
+        "recipes" : {
+           "picket_fence_archway": {
+              "recipe_name" : "栅栏的拱门",
+              "description" : "为栅栏围栏和花园装饰的拱门.",
+              "flavor" : "谁有时间开门."
+           },
+            "robust_window": {
+              "recipe_name" : "坚固的窗",
+              "description" : "一个坚固的窗户来阻止入侵者.",
+              "flavor" : ""
+           },
+           "robust_door": {
+              "recipe_name" : "坚固的门",
+              "description" : "一个坚固可靠的门，为安全的住宿而设计.",
+              "flavor" : "每次打开和关闭，保证."
+           },
+           "mine_entrance_scaffold": {
+              "recipe_name" : "矿山脚手架",
+              "description" : "加强矿山入口.",
+              "flavor" : "按照矿山安全法规462-A."
+           },
+           "spiked_fence": {
+              "recipe_name" : "Spiked 栅栏",
+              "description" : "让敌人离开你的财产.",
+              "flavor" : "小心尖"
+           },
+           "gardener_sign": {
+              "recipe_name" : "园丁壁挂标志",
+              "description" : "带有园丁标记的标志，放在建筑物上.",
+              "flavor" : "全为花."
+           },
+           "the_mighty_worker_statue": {
+              "recipe_name" : "强大的工人雕像",
+              "description" : "激励任何工人行动的雕像.",
+              "flavor" : "适合任何共产主义城镇."
+           },
+           "wise_man_statue": {
+              "recipe_name" : "智者雕像",
+              "description" : "一个聪明的老人的雕像，尊重那些使用大脑的人.",
+              "flavor" : "有说他聪明，有说他疯狂."
+           },
+           "wooden_hero_statue": {
+              "recipe_name" : "本地英雄雕像",
+              "description" : "尊敬一个勇敢的英雄，勇敢的行为应该被记住.",
+              "flavor" : "健康安全部门决定我们不能使剑太尖锐了."
+           },
+           "spiked_fence_corner": {
+              "recipe_name" : "spikeed篱笆角",
+              "description" : "现在你可以做任何你喜欢的角度，只要它是一个90度的.",
+              "flavor" : "小心尖"
+           },
+           "bird_house": {
+              "recipe_name" : "鸟屋",
+              "description" : "为你的鸟类朋友准备的小木屋.",
+              "flavor" : "吱吱的叫声"
+           },
+           "poster_bed": {
+              "recipe_name" : "四柱床",
+              "description" : "一张大床，适合那些享受过度舒适的人.",
+              "flavor" : "成为你所有邻居的羡慕."
+           },
+           "fur_bed": {
+              "recipe_name" : "毛皮床",
+              "description" : "柔软毛皮层叠.",
+              "flavor" : "现在我知道熊的感觉."
+           },
+           "log_chair": {
+              "recipe_name" : "原木椅",
+              "description" : "从原木雕刻的椅子.",
+              "flavor" : "简单，便宜，有效，不舒服."
+           },
+           "totem": {
+              "recipe_name" : "图腾",
+              "description" : "一个炫耀你的木匠雕塑技巧的图腾柱.",
+              "flavor" : "每个雕刻都有故事."
+           },
+           "shelf": {
+              "recipe_name" : "架子",
+              "description" : "提供书籍，装饰品和奖杯的高架存储......如果你有任何东西的话.",
+              "flavor" : "短暂的人."
+           },
+           "large_wooden_window_frame": {
+              "recipe_name" : "大木窗框",
+              "description" : "一个更大，更大的窗框",
+              "flavor" : "有什么看法!"
+           }
+        }
+    },
+    "mason": {
+        "recipe_category" : {
+            "statues": "雕像"
+        },
+        "recipes" : {
+          "foxfire_lantern": {
+            "recipe_name" : "狐火灯笼",
+            "description" : "一个充满狐火泥的石头灯笼，照亮黑暗.",
+            "flavor" : ""
+          },
+          "wall_mounted_foxfire_lantern": {
+            "recipe_name" : "壁挂狐火灯笼",
+            "description" : "装有狐火泥的石制壁挂灯笼，照亮黑暗.",
+            "flavor" : ""
+          },
+          "ember_lantern": {
+            "recipe_name" : "灰烬灯笼",
+            "description" : "一个石雕工艺灯笼充满了灰烬植物花粉，照亮黑暗.",
+            "flavor" : ""
+          },
+          "wall_mounted_ember_lantern": {
+            "recipe_name" : "壁挂灰烬灯笼",
+            "description" : "装有灰烬植物花粉的石制壁挂灯笼，照亮黑暗.",
+            "flavor" : ""
+          },
+          "sundial": {
+            "recipe_name" : "日冕",
+            "description" : "使用光阴影像展现时间的石头结构.",
+            "flavor" : "在5小时内准备!"
+          },
+          "stone_totem": {
+            "recipe_name" : "石图腾",
+            "description" : "有历史和知识的石头图腾.",
+            "flavor" : ""
+          },
+          "sarcophagus": {
+            "recipe_name" : "石棺",
+            "description" : "放置英雄尸体的石墓.",
+            "flavor" : "谁的内心?"
+          },
+          "stone_mine_entrance": {
+            "recipe_name" : "石制矿山入口",
+            "description" : "石头建筑矿山入口.",
+            "flavor" : "按照矿山安全法规462-B."
+          },
+          "carved_stone_window": {
+            "recipe_name" : "雕刻石窗",
+            "description" : "石雕门外的世界.",
+            "flavor" : ""
+          },
+          "carved_stone_door": {
+            "recipe_name" : "雕刻石门",
+            "description" : "仔细雕刻华丽的石门.",
+            "flavor" : ""
+          },
+          "fortress_window": {
+            "recipe_name" : "要塞窗口",
+            "description" : "用铁棒固定的石窗.",
+            "flavor" : "让人进出."
+          },
+          "fortress_door": {
+            "recipe_name" : "要塞门",
+            "description" : "石头框加强双门.",
+            "flavor" : "理想的围困亡灵与部落!"
+          },
+          "stone_fur_bed": {
+            "recipe_name" : "石毛皮床",
+            "description" : "软毛皮覆盖着坚实的石头基地.",
+            "flavor" : "没有皮毛，这比一个晚上在地板上更糟."
+          },
+          "luxury_stone_chair": {
+            "recipe_name" : "毛皮石椅",
+            "description" : "由石头制成的椅子，用最柔软的毛皮铺盖在上面.",
+            "flavor" : "喜欢坐在云上."
+          },
+          "guardian_statue": {
+            "recipe_name" : "守护神像",
+            "description" : "守卫的石雕雕像.",
+            "flavor" : "不动声色，永远警惕，就像守卫一样."
+          },
+          "statue_of_fortune": {
+            "recipe_name" : "财富之雕",
+            "description" : "为神提供礼物的雕像.",
+            "flavor" : "花为希望，黄金为财，铁为力，青铜为保护."
+          },
+          "traveller_statue": {
+            "recipe_name" : "旅行者雕像",
+            "description" : "一尊雕像，据说是为了把死人带到来世.",
+            "flavor" : "为安全旅行祈祷."
+          },
+          "large_stone_window_frame": {
+              "recipe_name" : "大的石制窗框",
+              "description" : "一个更大，更大的窗框",
+              "flavor" : "有什么看法!"
+           },
+           "iron_gate": {
+              "recipe_name" : "铁门",
+              "description" : "石柱与铁禁门.",
+              "flavor" : ""
+           }
+        }
+     },
+     "blacksmith": {
+        "recipes" : {
+          "gardeners_tool": {
+            "recipe_name" : "园丁的铲子",
+            "description" : "让公民变成一个园丁.",
+            "flavor" : ""
+          }
+       }
+    },
+    "weaver": {
+      "recipe_category": {
+        "storage" : "存储"
+      },
+      "recipes" : {
+        "skull_flag": {
+          "recipe_name" : "骷髅旗",
+          "description" : "一只红旗安装在两根动物头骨上.",
+          "flavor" : "如果不文明的野蛮部落是你要去的地方，那么这是你的旗帜."
+        },
+        "weaver_tapestry": {
+          "recipe_name" : "纺织工挂毯",
+          "description" : "一个复杂的挂毯，描绘了一个伟大的工作人员.",
+          "flavor" : "艺术模仿生活"
+        },
+        "footman_tapestry": {
+          "recipe_name" : "步兵挂毯",
+          "description" : "一个详细的步兵肖像.",
+          "flavor" : ""
+        },
+        "shepherd_tapestry": {
+          "recipe_name" : "牧羊人挂毯",
+          "description" : "牧羊人牧羊的挂毯.",
+          "flavor" : ""
+        },
+        "flowered_curtains": {
+          "recipe_name" : "花窗帘",
+          "description" : "将光玲花压成棉花窗帘.",
+          "flavor" : "遏制外界的恶劣，冷酷的现实."
+        },
+        "berry_curtains": {
+          "recipe_name" : "浆果窗帘",
+          "description" : "浸泡在浆果中的棉花帘子，给他们一种明显的紫色.",
+          "flavor" : "灵感来自于浆果汁污渍遍及全村的衣服."
+        },
+        "straw_basket": {
+          "recipe_name" : "稻草篮",
+          "description" : "由秸秆编织的储物篮，最多可储存16件.",
+          "flavor" : ""
+        },
+        "cloth_canopy": {
+          "recipe_name" : "布棚",
+          "description" : "用布覆盖的木制框架结构.",
+          "flavor" : "提供阴暗的景点，远离恶劣的太阳"
+        },
+        "cloth_canopy_long": {
+          "recipe_name" : "长布棚",
+          "description" : "用布覆盖的长木框架.",
+          "flavor" : "提供阴暗的景点，远离恶劣的太阳"
+        }
+      }
+    },
+    "potter": {
+      "recipes" : {
+        "clay_brick_wall": {
+          "recipe_name" : "粘土砖墙",
+          "description" : "通过堆叠粘土砖形成的坚固的墙壁.",
+          "flavor" : ""
+        },
+        "plant_pot": {
+          "recipe_name" : "植物盆",
+          "description" : "盆栽植物.",
+          "flavor" : ""
+        },
+        "chiminea": {
+          "recipe_name" : "Chiminea",
+          "description" : "大型粘土户外壁炉.",
+          "flavor" : "温暖手指和脚趾."
+        },
+        "small_vase": {
+          "recipe_name" : "小花瓶",
+          "description" : "由平原粘土制作的小花瓶.",
+          "flavor" : ""
+        },
+        "large_vase": {
+          "recipe_name" : "大花瓶",
+          "description" : "由平原粘土制作的大花瓶.",
+          "flavor" : ""
+        }
+      } 
+    }
+  }
+}

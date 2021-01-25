@@ -1,0 +1,166 @@
+{
+   "data": {
+       "gm": {
+          "campaigns": {
+		      "bug_campaign": {
+				 "bug": {
+				    "sighted_bulletin": {
+					   "title": "Angry Golem Bug comes to bug you!"
+				    }
+			     },
+				 "big_bug": {
+				    "sighted_bulletin": {
+					   "title": "Big Golem Bug comes to pester you!"
+				    }
+			     }
+		      }
+		  }
+        }
+    },
+   "entities": {
+     "angry": {
+	    "golem_bug": {
+		   "display_name": "Angry Golem Bug",
+		   "description": "Gets angry when seeing Guns."
+		},
+		"golem_big_bug": {
+		   "display_name": "Big Golem Bug",
+		   "description": "An angry pest."
+		}
+     },
+     "gizmos": {     
+	   "gun_blaster": {
+	      "gun_blaster_ghost": {
+		    "display_name": "Blaster Gun",
+            "description": "Multiple Target Defense versus Goblins, Wild Beasts."
+		  }
+	   },
+	   "gun_zapper": {
+	      "gun_zapper_ghost": {
+		    "display_name": "Zapper Gun",
+            "description": "Multiple Target Defense versus Orcs, Undead, Titans."
+		  }
+	   },
+	   "gun_super": {
+	      "gun_super_ghost": {
+		    "display_name": "Super Gun",
+            "description": "Multiple Target Defense Machine."
+		  }
+	   },
+       "small_turret": {
+	      "small_turret_ghost": {
+		    "display_name": "Turret Auto Gun",
+            "description": "Small Auto Fire Defense."
+		  }
+	   }
+	 },
+	 "refined": {
+	   "golem_blocks": {
+	     "display_name": "Golem Blocks",
+         "description": "Parts to construct an Auto Golem."
+	   }
+	 },
+     "monsters": {
+      "golems": {
+	     "golem_building_automod": {
+            "display_name": "Hammer Golem",
+            "description": "Building Auto Golem."
+         },
+		 "golem_harvesting_automod": {
+            "display_name": "Farm Auto Golem",
+            "description": "Harvesting Auto Golem."
+         },
+		 "golem_mining_automod": {
+            "display_name": "Dig Auto Golem",
+            "description": "Mining Auto Golem."
+         },
+		 "golem_restocking_automod": {
+            "display_name": "Bug Auto Golem",
+            "description": "Item-Carrying Auto Golem."
+         }
+      }
+     } 
+   },
+   "jobs": {  
+      "builder": {
+         "builder_description": {
+            "display_name": "Builder",
+            "description": "Builders perform basic tasks like constructing buildings, and placing items.",
+            "requirements": "Be placed into the world to become automated.",
+            "level_0_data": {
+               "title": "Builder"
+            }
+         }
+	  },
+      "mason": {
+	     "mason_description": {
+	     "level_1_data": {
+               "perk_001_name": "Gun Stock",
+               "perk_001_description": "Mason allows for 30 guns placed. (Ascendancy, Northern Alliance)"
+            }
+		 },
+         "recipes": {
+		    "categories": {
+			  "golems_guns": "Golems & Guns"
+			},
+			"golem_blocks_recipe": {
+               "recipe_name": "Golem Blocks",
+			   "description": "Crafted blocks to use in constructing Auto Golems.",
+			   "flavor": ""
+            },
+			"golem_restocking_recipe": {
+               "recipe_name": "Bug Auto Golem"
+            },
+            "golem_mining_recipe": {
+               "recipe_name": "Dig Auto Golem",
+			   "flavor": "No mountain can withstand the Digger's pick."
+            },
+            "golem_harvesting_recipe": {
+               "recipe_name": "Farm Auto Golem"
+            },
+			"golem_building_recipe": {
+               "recipe_name": "Hammer Golem",
+			   "description": "Performs building tasks.",
+			   "flavor": "They will build all day long, but need help to get down if they are stuck. Unable to dig foundations."
+            },
+			"small_turret_recipe": {
+               "recipe_name": "Turret Auto Gun",
+			   "description": "Shoots at enemies from a distance.",
+			   "flavor": "Single target damage device."
+            },
+			"gun_blaster_recipe": {
+               "recipe_name": "Blaster Gun",
+			   "description": "Blasts the surrounding area versus Goblins and Wild Beasts.",
+			   "flavor": "Multiple target damage, slow shot device."
+            },
+			"gun_zapper_recipe": {
+               "recipe_name": "Zapper Gun",
+			   "description": "Zaps the surrounding area versus Orcs, Undead, and Titans.",
+			   "flavor": "Multiple target damage, slow shot device."
+            },
+			"gun_super_recipe": {
+               "recipe_name": "Super Gun",
+			   "description": "Fires upon all target types hit by Blaster and Zapper Guns.",
+			   "flavor": "Multiple target damage, slow shot device."
+            }
+         }
+      },
+	  "potter": {
+	     "potter_description": {
+	     "level_1_data": {
+               "perk_001_name": "Gun Stock",
+               "perk_001_description": "Potter allows for 30 guns placed. (Rayya's Children)"
+            }
+		 }
+	  },
+	  "shaman": {
+	     "shaman_description": {
+	     "level_1_data": {
+               "perk_001_name": "Gun Stock",
+               "perk_001_description": "Shaman allows for 30 guns placed. (Firefly Clan)"
+            }
+		 }
+	  }
+   }
+}
+

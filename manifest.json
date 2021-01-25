@@ -1,0 +1,59 @@
+{
+	"info" : {
+		"name" : "Chinese Translation",
+		"namespace" : "chinese_translation",
+		"version" : 3,
+		"author"  : "law",
+		"steam_file_id" : "1359505430",
+		"client_only" : true
+	 },
+	"dependencies": [
+		"chinese_font"
+   ],
+   "mixintos" : {
+      "stonehearth/locales/supported_languages.json" : "file(added_languages.json)"
+   },
+   "overrides" : {
+   	"stonehearth/locales/zh-CN.json": "file(translations/stonehearth/zh-CN.json)",
+    "rayyas_children/locales/zh-CN.json": "file(translations/rayyas_children/zh-CN.json)",
+    "northern_alliance/locales/zh-CN.json": "file(translations/northern_alliance/zh-CN.json)",
+     
+     
+    "stonehearth_ace/locales/zh-CN.json": "file(translations/mods/stonehearth_ace/zh-CN.json)",
+    "stonehearth_ace/locales/zh-CN_mixin.json": "file(translations/mods/stonehearth_ace/zh-CN_mixin.json)",
+    "archipelago_biome/locales/zh-CN.json": "file(translations/mods/archipelago_biome/zh-CN.json)",
+    "settlementdecor/locales/zh-CN.json": "file(translations/mods/settlementdecor/zh-CN.json)",
+    "cookmod/locales/zh-CN.json": "file(translations/mods/cookmod/zh-CN.json)",
+    "cookmod/locales/zh-CN_fix.json": "file(translations/mods/cookmod/zh-CN_fix.json)",
+    "swamp_goblins/locales/zh-CN.json": "file(translations/mods/swamp_goblins/zh-CN.json)",
+    "frostfeast/locales/zh-CN.json": "file(translations/mods/frostfeast/zh-CN.json)",
+    "don_mod/locales/zh-CN.json": "file(translations/mods/don_mod/zh-CN.json)",
+    "candledark/locales/zh-CN.json": "file(translations/mods/candledark/zh-CN.json)",
+    "wizq/locales/zh-CN.json": "file(translations/mods/wizq/zh-CN.json)",
+    "spacemagic/locales/zh-CN.json": "file(translations/mods/spacemagic/zh-CN.json)",
+    "autogg/locales/zh-CN.json": "file(translations/mods/auto_golems_guns/zh-CN.json)",
+    "ace_armours/locales/zh-CN.json": "file(translations/mods/ace_armours/zh-CN.json)",
+    "ace_armours_core/locales/zh-CN.json": "file(translations/mods/ace_armours_core/zh-CN.json)",
+
+    "betterstorage/locales/zh-CN.json": "file(translations/mods/betterstorage/zh-CN.json)",
+    "canyon_biome/locales/zh-CN.json": "file(translations/mods/canyon_biome/zh-CN.json)",
+    "lorki_biome/locales/zh-CN.json": "file(translations/mods/lorki_biome/zh-CN.json)",
+    "floating_physics/locales/zh-CN.json": "file(translations/mods/floating_physics/zh-CN.json)",
+    "yangessential/locales/zh-CN.json": "file(translations/mods/yangessential/zh-CN.json)",
+    "armis_maximus/locales/zh-CN.json": "file(translations/mods/armis_maximus/zh-CN.json)",
+
+
+    "giant_map/locales/zh-CN.json": "file(translations/mods/giant_map/zh-CN.json)",
+    "balista/locales/zh-CN.json": "file(translations/mods/balista/zh-CN.json)",
+    "primitive_armory/locales/zh-CN.json": "file(translations/mods/primitive_armory/zh-CN.json)",
+    "glassworks/locales/zh-CN.json": "file(translations/mods/glassworks/zh-CN.json)",
+    "trapper_plus/locales/zh-CN.json": "file(translations/mods/trapper_plus/zh-CN.json)",
+    "nordlingmod/locales/zh-CN.json": "file(translations/mods/nordlingmod/zh-CN.json)",
+    "fortify/locales/zh-CN.json": "file(translations/mods/fortify/zh-CN.json)",
+    "homesweethome/locales/zh-CN.json": "file(translations/mods/homesweethome/zh-CN.json)",
+    "homf/locales/zh-CN.json": "file(translations/mods/homf/zh-CN.json)",
+    "homf/locales/zh-CN_fix.json": "file(translations/mods/homf/zh-CN_fix.json)",
+    "core_dani/locales/zh-CN.json": "file(translations/mods/core_dani/zh-CN.json)",
+    "extra_map_options/locales/zh-CN.json": "file(translations/mods/extra_map_options/zh-CN.json)"
+   }
+}

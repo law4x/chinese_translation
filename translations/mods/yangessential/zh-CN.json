@@ -1,0 +1,110 @@
+{
+   "entities": {      
+      "refined" : {
+"_comment": "冶炼",
+        "gold_nugget" :{
+				"display_name" : "金粒",
+				"description" : "一小粒金"
+				},
+            "silver_nugget" :{
+				"display_name" : "银粒",
+				"description" : "一小粒银"
+				},
+            "copper_nugget" :{
+				"display_name" : "铜粒",
+				"description" : "一下小粒铜"
+				},
+            "bronze_nugget" :{
+				"display_name" : "青铜粒",
+				"description" : "一小粒青铜"
+				},
+            "iron_nugget" :{
+				"display_name" : "铁粒",
+				"description" : "一小粒铁"
+				},
+            "tin_nugget" :{
+				"display_name" : "锡粒",
+				"description" : "一小粒锡粒"
+				},
+            "steel_nugget" :{
+				"display_name" : "钢粒",
+				"description" : "一小粒钢"
+				},
+            "clock_gear" :{
+				"display_name" : "发条装置",
+				"description" : "小而精确"
+				},
+		"bronze_gear": {
+            "display_name": "基础齿轮",
+            "description": "用于制作基础装置"
+         },
+         "iron_gear": {
+            "display_name": "中级齿轮",
+            "description": "用于制作中级装置"
+         }
+      }
+   },
+   "jobs": {
+      "engineer" : {
+         "recipes" : {
+"_comment": "工程师",
+            "clock_gear_recipe" :{
+				"recipe_name" : "发条装置",
+				"description" : "用于制作需要非常精确齿轮的钟表和小装置",
+				"flavor" : "其中一些齿轮并不比我的指尖大"
+				},
+            "iron_gear_recipe": {
+               "description": "用于制作中级装置",
+               "recipe_name": "中级齿轮",
+               "flavor": "不要拿来当飞镖玩"
+            },
+            "bronze_gear_recipe": {
+               "description": "用于制作基础装置",
+               "recipe_name": "基础齿轮",
+               "flavor": "幸运的是，这个不需要刷牙"
+            }
+         }
+      },
+      "blacksmith" :{
+         "recipes" :{
+         	"utility_name": "Utility",
+"_comment": "铁匠",
+			"gold_nugget_recipe" :{
+				"recipe_name" : "金粒 (3x)",
+				"description" : "一块金属锭可以制作出 3 颗金属粒",
+				"flavor" : ""
+				},
+            "silver_nugget_recipe" :{
+				"recipe_name" : "银粒 (3x)",
+				"description" : "一块金属锭可以制作出 3 颗金属粒",
+				"flavor" : ""
+				},
+            "copper_nugget_recipe" :{
+				"recipe_name" : "铜粒t (3x)",
+				"description" : "一块金属锭可以制作出 3 颗金属粒",
+				"flavor" : ""
+				},
+            "bronze_nugget_recipe" :{
+				"recipe_name" : "青铜粒 (3x)",
+				"description" : "一块金属锭可以制作出 3 颗金属粒",
+				"flavor" : ""
+				},
+            "iron_nugget_recipe" :{
+				"recipe_name" : "铁粒 (3x)",
+				"description" : "一块金属锭可以制作出 3 颗金属粒",
+				"flavor" : ""
+				},
+            "tin_nugget_recipe" :{
+				"recipe_name" : "锡粒 (3x)",
+				"description" : "一块金属锭可以制作出 3 颗金属粒",
+				"flavor" : ""
+				},
+            "steel_nugget_recipe" :{
+				"recipe_name" : "钢粒 (3x)",
+				"description" : "一块金属锭可以制作出 3 颗金属粒",
+				"flavor" : ""
+				}
+         }
+      }
+   }
+}

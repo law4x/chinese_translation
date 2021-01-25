@@ -1,0 +1,7 @@
+"info" : {
+		"name" : "Clan Muramasa",
+		"namespace" : "cm",
+		"version" : 3,
+		"steam_file_id" : "2023695462"
+	}
+https://steamcommunity.com/sharedfiles/filedetails/?id=2023695462

@@ -1,0 +1,56 @@
+{
+	"data": {
+		"commands": {
+			"job_armor_variant": {
+				"asc_archer": {
+					"display_name": "偏好崛起之都的盔甲",
+					"description": "这个弓箭手更喜欢穿着崛起之都的盔甲,点击以更换!"
+				},
+				"na_archer": {
+					"display_name": "偏好北方联盟的盔甲",
+					"description": "这个弓箭手更喜欢穿着北方联盟的盔甲,点击以更换!"
+				},
+				"rc_archer": {
+					"display_name": "偏好瑞雅之裔的盔甲",
+					"description": "这个弓箭手更喜欢穿着瑞雅之裔的盔甲,点击以更换!"
+				},
+				"asc_cleric": {
+					"display_name": "偏好崛起之都的盔甲",
+					"description": "这个牧师更喜欢穿着崛起之都的盔甲,点击以更换!"
+				},
+				"na_cleric": {
+					"display_name": "偏好北方联盟的盔甲",
+					"description": "这个牧师更喜欢穿着北方联盟的盔甲,点击以更换!"
+				},
+				"rc_cleric": {
+					"display_name": "偏好瑞雅之裔的盔甲",
+					"description": "这个牧师更喜欢穿着瑞雅之裔的盔甲,点击以更换!"
+				},
+				"asc_footman": {
+					"display_name": "偏好崛起之都的盔甲",
+					"description": "这个步兵更喜欢穿着崛起之都的盔甲,点击以更换!"
+				},
+				"na_footman": {
+					"display_name": "偏好北方联盟的盔甲",
+					"description": "这个步兵更喜欢穿着北方联盟的盔甲,点击以更换!"
+				},
+				"rc_footman": {
+					"display_name": "偏好瑞雅之裔的盔甲",
+					"description": "这个步兵更喜欢穿着瑞雅之裔的盔甲,点击以更换!"
+				},
+				"asc_knight": {
+					"display_name": "偏好崛起之都的盔甲",
+					"description": "这个骑士更喜欢穿着崛起之都的盔甲,点击以更换!"
+				},
+				"na_knight": {
+					"display_name": "偏好北方联盟的盔甲",
+					"description": "这个骑士更喜欢穿着北方联盟的盔甲,点击以更换!"
+				},
+				"rc_knight": {
+					"display_name": "偏好瑞雅之裔的盔甲",
+					"description": "这个骑士更喜欢穿着瑞雅之裔的盔甲,点击以更换!"
+				}
+			}
+		}
+	}
+}

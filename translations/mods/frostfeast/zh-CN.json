@@ -1,0 +1,1130 @@
+{
+   "ui": {
+      "game": {
+         "common": {
+            "ilgn": "我喜欢好消息!",
+            "fttoya": "冰霜祭? 又到这个时候了嘛?",
+            "iiabn": "好像是有点...冷飕飕的!",
+            "yes_please": "好吖!",
+            "no_thanks": "不用了, 谢谢!",
+            "idlg": "我的确喜欢礼物!",
+            "sharing": "分享?",
+            "cold": "我们还没开始准备呢!",
+            "aeisk": "有别的什么需要了解的事情么?",
+            "yup": "恩!",
+            "great": "真棒!",
+            "huh": "哈?",
+            "theend": "完...",
+            "letsdothis": "好啊我们开始吧!",
+            "sowhatsnext": "然后嘞?",
+            "toodles": "啊知道了, 走吧走吧...",
+            "wai": "的确!",
+            "ohnoes": "真糟糕!",
+            "greetings": "哇又见到你了!",
+            "i_said_bah_humbug": "我!说!去你个 大!骗!纸!",
+            "changed_mind": "好吧... 你接着讲吧",
+            "hello": "你好!",
+            "and": "然后?",
+            "oh": "是吗?",
+            "ill": "我还见过更绿的呢",
+            "pastey": "就是那边的那个小伙子...但他人好像还不错!",
+            "interesting": "嗯? 因缺思婷!",
+            "countonus": "包在我们身上!",
+            "keep_in_mind": "我会记住的!"
+         },
+         "special": {
+            "zebra": "去你个!大骗纸!"
+         },
+         "zones_mode": {
+            "pasture": {
+               "pig_pen_name": "猪圈",
+               "pig_pen_description": "养猪猪是不需要花费太多心思的"
+            },
+            "stockpile": {
+               "filters": {
+                  "tooltip_offerings": "捐赠品"
+               }
+            }
+         }
+      },
+      "data": {
+         "constants": {
+            "food_resource_name": "食物"
+         },
+         "gm": {
+            "campaigns": {
+               "frostfeast": {
+                  "dialog_nodes": {
+                     "bulletin_message": {
+                        "000": "行善之家, 必有庆余. 我是兰顿兄弟, 我有好消息带给你们! ",
+                        "001": "冰霜祭又要到来啦! ",
+                        "002": "是的! 现在晚上变得特别漫长, 气温也低了好多! 你要尽快想办法弄点可以取暖的东西, 还有照明的光源!",
+                        "003": "的确! 如你所知, 冰霜祭是一个给予的节日. 当然如果你记性不太好的话我可以提醒你一下.",
+                        "004": "每年的这个时候, 来自王国内各个地区的城镇都会给丰收之教会奉上捐赠品. 而作为回报我们教会也会送给你们礼物. ",
+                        "004a": "然而冰霜祭可不是仅仅只有礼物! 这个节日的重点是让大家和那些不怎么幸运的人共同分享快乐!",
+                        "004b": "现在开始天气会变得非常冷, 夜晚也会很长. 如果夏天收成差的话, 这种天气完全可以把像你这种规模的小镇弄垮. 更不要说那些还没准备好过冬的小镇了.",
+                        "004c": "我注意到了! 你的炉民感觉越冷, 他们做事情效率就越低. 寒冷的时候在雪地里跋涉更是会变得尤其困难. 所以当务之急是可以取暖的东西, 别让你的炉民继续挨冻了!",
+                        "004d": "光! 光源也是重点. 不然黑灯瞎火的, 视野也会受阻. 重要的差不多也就这些了 -- 你准备好了嘛? ",
+                        "005": "很好! 我们的姐妹珍娜不久就会来访的. 他被派遣管理王国这片区域内的捐物, 她还会告诉你我们急需的捐赠品是什么.",
+                        "006": "如果你接下了任务并且成功完成, 教会也会奖励你礼物的. 那我们就先暂时别过吧.",
+                        "007": "天冷了, 如果不保暖的话你的炉民会冻得很厉害的. 我不帮忙实在过意不去, 请收下我小小的心意吧.",
+                        "008": "行善之家, 必有庆余. 我是珍娜姐妹, 听说你等我很久了. ",
+                        "009": "今年王国高层集团担心着一件事情, 这次的冰霜祭是有史以来最寒冷的一次. 有些学者甚至担心如果我们不做点什么的话, 寒冬将永不驱散!",
+                        "009b": "是的! 不过我不知道说这些会不会为时过早... 其实我们需要许多小镇协力来帮助我们完成一个古老的仪式,来驱散寒冬. 虽然可能你们才刚刚定居下来, 但你们一定有兴趣吧?",
+                        "009c": "很好! 希望你们也明白这么重要的事情我们不能只靠口头承诺. 我会给你们布置一个小作业, 完成了我们就可以深入探讨那个特殊任务啦. 我还有其他城镇要拜访呢, 就让我的信使来传达思想吧.",
+                        "009d": "我理解. 不论对于谁来说这都是件大事, 更不用说像你们这种毫无经验的小镇了. 你们确定不感兴趣么? (注意: 选择不感兴趣则终止事件, 并开启较为自由的沙盒模式.)",
+                        "010": "行善之家, 必有庆余.",
+                        "011": "我恐怕情况已经糟透了. 这个冬天比我们预料的要冷得多, 所以可能需要你们提供更多的东西. 当然... 挑战越大, 奖励也就越丰厚嘛.",
+                        "012": "噢.. 听到你这样说我感到很抱歉, 但你真的不想帮助我们王国里穷苦不幸的孤儿么? (注意: 重复大骗纸则终止事件, 并开启较为自由的沙盒模式.)",
+                        "013": "好吧... 我再也不会!.. 我们不会来麻烦你了. 上帝保佑... 不幸之人.",
+                        "014": "行善之家, 必有庆余. 吾名波江水委.",
+                        "015": "我在刚那边建起了我的碑坛营地, 不经意间看到了你们来来往往的拜访者.",
+                        "016": "我们的集团是教会的一支古老的分支, 在长期计划方面和他们基本不一致, 不过每年的这时候是我们共同的节日.",
+                        "017": "我会时不时来找你们了解下情况的. 也许我们甚至可以互相帮助? 以物易物, 如果要说的话.",
+                        "018": "很好! 成也好败也罢, 尝试才是最重要的! 你的小作业已经完成了, 你是可以靠得住的.",
+                        "019": "现在来看我们手头的任务. 如果想驱散冰霜的话, 我们必须要举行古老的巴尔赫仪式来乞灵. 其中包括摆放好我们王国内所有的魔法符文守护和碑坛. 高层集团坚持认为这是破除冰霜的唯一办法...",
+                        "020": "在接下来的几个试炼中, 我会寄给你一些非常贵重的石器. <i>很重要</i>, 你需要把<i>马上</i>它们放到小镇<i>外面</i>, 并且注意摆放的位置. 强大的魔力保护着栓链, 一旦放置你就再也不能移动它们了.",
+                        "021": "哦! 哇哦! 我做梦也没想到这种事情会发生! 真漂亮!",
+                        "022": "好吧, 这都是理论而已! 我们从没用这个仪式乞过灵 -- 或者至少今天没有一个活着的人记得我们曾经这么干过",
+                        "023": "嗯...不知道接下来要干什么了. 从来没见过这种东西! 嗯...好吧....有了棵树那只有一件事可以做了..等它长大然后装饰它! 我们回去后要在档案室里找找看有没有什么合适的小挂件可以用.",
+                        "024": "真棒! 真漂亮! 这真是对太阳神的一大敬畏之礼. 此举定能破除冰霜! ",
+                        "025": "为了表彰您的努力, 我们要把这一天记入编年史中, 并且命名为破霜之日. 您和您的小镇必将被芳名永存!",
+                        "026": "大结局. 感谢玩耍 2016冰霜祭",
+                        "027": "诅咒你们! 你以及你们所有人过冰霜祭的快乐气氛! 不能原谅! 必经之祸只是被你们推迟了而已. 凛冬将至! 下一次你们阻止不了. 他, 必将重生!",
+                        "028": "你们好呀! 我看到你们的树... emmmm...还活着? 嗯.. 它不应该是这个样子的. 话说回来, 你们冷吗? 我觉得这里比其他地方更冷.. 珍娜可是和我们保证过这么做就能破除冰霜的呢!",
+                        "029": "<盯着树> 看起来似乎有人, 或者某些势力正在很积极地破坏我们的仪式呢. <看着手上的笔记> 经仔细查阅, 文献上说在仪式期间, 树要依赖善举来维持活力...",
+                        "030": "你没有照我们要求地来换东西, 不是吗? 或者你更恶劣地直接把它们送给了那些没资格拥有的 - 还有点奇怪的人? 不... 冰霜祭的日子里哪里会有你这么残忍的人, 更不会有人去故意帮那个疯子. 何况, 他应该早已经死掉了!",
+                        "031": "不过, 若是你仍然肯把东西卖给我们, 亡羊补牢, 犹未迟也! 如果你行更多善举, 我至少可以保证这棵树有50%的几率会活过来!"
+                     },
+                     "bulletin_title": "丰收之教会",
+                     "bulletin_title1": "在我走之前!",
+                     "bulletin_title3": "黑曜结社",
+                     "dialog_title": "一位牧师",
+                     "dialog_title1": "兰顿兄弟",
+                     "dialog_title2": "珍娜姐妹",
+                     "dialog_title3": "波江水委",
+                     "dialog_title4": "丰收教会的信使",
+                     "trade_details_1": "[str(i18n_data.town_name)], 你们好!<br>丰收之教会的捐物要求如下:",
+                     "trade_details_2": "如果你们愿意给我们提供 [str(i18n_data.want_number)] 盒[str(i18n_data.want_item)], 明天我回来的时候, 会带来这些东西以表谢意: [str(i18n_data.reward_number)] 盒[str(i18n_data.reward_item)].",
+                     "trade_details_3": "如果你还能给我们 [str(i18n_data.optional_want_number)] 盒[str(i18n_data.optional_want_item)] 的话, 我们还会送你额外的 [str(i18n_data.optional_reward_number)] 盒[str(i18n_data.optional_reward_item)].",
+                     "trade_details_1a": "[str(i18n_data.town_name)], 我给你们带来了好消息!<br> 在搜档案室的时候, 我们发现了有趣的东西!",
+                     "trade_details_2a": "如果你提供给我们 [str(i18n_data.want_number)] 盒[str(i18n_data.want_item)], 我们会在明天回来的时候会从档案室里带给你一块石器.",
+                     "waiting_title": "信使将在 [str(i18n_data.hour_counter)] 小时后回来!",
+                     "waiting_text_1": "信使将在 [str(i18n_data.hour_counter)] 小时后回来.",
+                     "waiting_text_2": "如果你有 [str(i18n_data.want_number)] 盒[str(i18n_data.want_item)]给他们的话, 他们会给你[str(i18n_data.reward_number)] 盒[str(i18n_data.reward_item)]!",
+                     "waiting_text_3": "如果你还额外给他们 [str(i18n_data.optional_want_number)] 盒[str(i18n_data.optional_want_item)] 的话, 他们也会给你 [str(i18n_data.optional_reward_number)] 盒[str(i18n_data.optional_reward_item)]!",
+                     "accepted_title": "丰收之教会",
+                     "accepted_text": "很好! [str(i18n_data.hour_counter)] 小时后我会回来拿捐物. 待会儿见!",
+                     "accepted_text2": "很好! 我会让我的使者在 [str(i18n_data.hour_counter)] 小时后来收捐物. 待会儿见!",
+                     "declined_title": "丰收之教会",
+                     "declined_text": "哦不! 你没有捐赠品吗? 真可惜, 我要马上上报给教会.",
+                     "rejected_title": "丰收之教会",
+                     "rejected_text": "或许 [str(i18n_data.want_number)] 盒[str(i18n_data.want_item)] 对你来说太多了? 我能理解. 你们的定居点还没发展起来, 要让你们拿出额外的东西是很困难. 我以后再来吧.",
+                     "return_title": "丰收之教会的人回来了!",
+                     "return_greetings_positive": "很好! 看起来这 [str(i18n_data.want_number)] 盒[str(i18n_data.want_item)]正是为我而准备的. 我会用 [str(i18n_data.reward_number)] 盒[str(i18n_data.reward_item)] 来和你换, 听起来怎么样?",
+                     "return_greetings_excellent": "真不可思议! 你们似乎不仅准备好了 [str(i18n_data.want_number)] 盒我们需要的 [str(i18n_data.want_item)]. 甚至还有额外的 [str(i18n_data.optional_want_number)] 盒[str(i18n_data.optional_want_item)]! 我会给你 [str(i18n_data.reward_number)] 盒[str(i18n_data.reward_item)] 和额外的 [str(i18n_data.optional_reward_number)] 盒[str(i18n_data.optional_reward_item)]作为交换, 怎么样?",
+                     "return_greetings_negative": "我回来了, 但貌似你们没有我要的 [str(i18n_data.want_number)] 盒[str(i18n_data.want_item)]. 好吧, 不过无家可归的孤儿们会原谅你的...肯定会的...",
+                     "requests_title": "任务",
+                     "rewards_title": "奖励",
+                     "required_text": "需求:",
+                     "optional_text": "拓展目标:",
+                     "trade_for": "以换取",
+                     "waiting_dialog_title": "波江水委将在 [str(i18n_data.hour_counter)] 小时后回来!",
+                     "waiting_message_1": "你转而同意将捐赠品给波江水委, 他看起来似乎急需这些东西.",
+                     "waiting_message_2": "如果你给他些东西, 他也会给你些东西.",
+                     "waiting_message_3": "如果你还给他弄到了别的东西, 他也会回报给你其他东西.",
+                     "message_positive": "很好. 那我就当交易仍然成立, 拿走了哦?",
+                     "message_excellent": "真是勤勉, 难以置信... 我的大脑在颤抖. 可以的话, 我们就交易吧.",
+                     "achernar_return_title": "波江水委回来了!",
+                     "achernar_failed_message": "你东西没做出来? 你真是怠惰啊... 这种失败我可要记在账上..",
+                     "achernar_declined_message": "真是不幸...但我知道可能你的物品别有他用. 我已经迫不及待等待我们下一次见面了...",
+                     "achernar_title": "波江水委出现了",
+                     "achernar_message_1": [ "你能听我的请求真是太好了!" ],
+                     "achernar_message_2": "如果你转而给我们提供 [str(i18n_data.want_number)] 盒[str(i18n_data.want_item)], 我们会奖励你 [str(i18n_data.reward_number)] 盒[str(i18n_data.reward_item)].",
+                     "achernar_message_3": "如果你还可以给我弄到另外 [str(i18n_data.optional_want_number)] 盒[str(i18n_data.optional_want_item)], 你会得到额外 [str(i18n_data.optional_reward_number)] 盒[str(i18n_data.optional_reward_item)].",
+                     "achernar_accept_message": "啊, 支持着我们崇高事业的你真是勤勉啊. 我会在既定日期派人来拿的.",
+                     "achernar_decline_message": "啊, 真可惜. 下次吧?",
+                     "achernar_accept_ok": "好!",
+                     "achernar_decline_ok": "不好意思!",
+                     "achernar_excuse_1": "请允许我献上我的祝福, 节日坚定的追随者们. 这真是惊人的巧合啊! 这些东西正好也是<i>我们</i>想要的! 世界真是小啊! 你说是不是! 我是说, 孩子嘛... 他们最后肯定拿得到礼物的! 但就现在而言, 我们这边的报酬可是要丰厚得多呢!",
+                     "achernar_excuse_2": "请允许我献上我的祝福. 你猜我们干嘛来了?! 是的, 我们突然特别缺少某样东西. 来帮帮忙, 你不会吃亏的.",
+                     "achernar_excuse_3": "又是我! 你看有这么多小工蜂给教会做事情, 他们才不会注意到你有没有把东西转给我呢. 你的努力会得到大大的回报的! 若是你不给我, 那就是在拖延我给整个石炉世界一份大礼的时间呢!",
+                     "achernar_continue": "我在听..."
+                  }
+               }
+            }
+         }
+      }
+   },
+   "data": {
+      "biome": {
+         "winter_desert": {
+            "display_name": "冬日大漠",
+            "description": "冬季的沙漠特别的干燥, 这里有着贫瘠突兀的山丘, 稀疏的植被, 还有冰霜...祭的, 慷慨馈赠."
+         },
+         "winter_temperate": {
+            "display_name": "温带之冬",
+            "description": "顶部积雪的森林, 山脉, 交织着河流. 这是雄伟的冰雪奇境."
+         }
+      },
+      "build": {
+         "building_brushes": {
+            "colors": {
+               "#E43334": "朱砂红",
+               "#FFE701": "极速黄",
+               "#7CAE21": "香橼青",
+               "#1483C6": "牛仔蓝",
+               "#9A388F": "李子紫",
+               "#F58816": "喜庆橙",
+               "#29443C": "木林色",
+               "#2B5648": "木林绿",
+               "#643B2B": "古董色",
+               "#49362F": "岩石棕",
+               "#D6E5EB": "波提切利",
+               "#D6E5EC": "波提切利",
+               "#C2D5DC": "丛林迷雾",
+               "#C2D5DD": "丛林迷雾",
+               "#CADBE3": "浅色波提切利",
+               "#CADBE2": "浅色波提切利"
+            },
+            "patterns": {
+               "snow_covered_roof": "屋顶盖上了一层新雪."
+            }
+         }
+      },
+      "buffs": {
+         "shivering": {
+            "sniffles": {
+               "display_name": "抽鼻子",
+               "description": "感冒严重了"
+            },
+            "shivering_buff_1": {
+               "display_name": "发抖",
+               "description": "Brrrr!"
+            },
+            "shivering_buff_2": {
+               "display_name": "寒冷",
+               "description": "冷得十分不舒服!"
+            },
+            "shivering_buff_3": {
+               "display_name": "冻僵",
+               "description": "快变成冰块了. 赶紧找些取暖的东西!"
+            }
+         },
+         "vapour_buff": {
+            "vapour_buff": {
+               "display_name": "风油精",
+               "description": "刺痛感!"
+            }
+         },
+         "comfy_clothes": {
+            "comfy_clothes_buff": {
+               "display_name": "舒适的衣物",
+               "description": "舒适的衣物可以御寒"
+            }
+         },
+         "warm_food": {
+            "warm_food_buff": {
+               "display_name": "温暖的食物",
+               "description": "最近吃了顿热的, 稍微感觉少冷了点了"
+            }
+         }
+      },
+      "commands": {
+         "open_present": {
+            "display_name": "打开包装",
+            "description": "打开盒子, 这是你应得的礼物! "
+         }
+      }
+   },
+   "jobs": {
+      "generic": {
+         "offering": "礼物",
+         "decorations": "装饰品",
+         "building_parts": "建筑构件"
+      },
+      "blacksmith": {
+         "winter_blacksmith_outfit": {
+            "display_name": "铁匠冬季套装",
+            "description": "一件厚重的羊毛大衣, 可以穿着度过寒冷的冬夜",
+            "winter_blacksmith_outfit_iconic": {
+               "display_name": "铁匠冬季套装",
+               "description": "真暖和..."
+            }
+         },
+         "recipes": {
+            "frostfeast_iron_double_door_recipe": {
+               "recipe_name": "冰霜祭双开铁门",
+               "description": "一扇节日双开铁门",
+               "flavor": ""
+            },
+            "frostfeast_iron_door_recipe": {
+               "recipe_name": "冰霜祭铁制门",
+               "description": "一扇节日铁门",
+               "flavor": ""
+            },
+            "frostfeast_candle_recipe": {
+               "recipe_name": "冰霜烛台",
+               "description": "一种华丽的节日蜡烛",
+               "flavor": ""
+            },
+            "festive_fighting_shield_recipe": {
+               "recipe_name": "节日冬青盾",
+               "description": "因为战争, 永远不会改变..",
+               "flavor": "锻铁之砧尚有余热"
+            }
+         }
+      },
+      "carpenter": {
+         "winter_carpenter_outfit": {
+            "display_name": "冬季木匠套装",
+            "description": "一件厚重的羊毛大衣, 可以抵御冬夜的严寒",
+            "winter_carpenter_outfit_iconic": {
+               "display_name": "冬季木匠套装",
+               "description": "真暖和..."
+            }
+         },
+         "recipes": {
+            "frostfeast_present_pile_recipe": {
+               "recipe_name": "冰霜祭礼物堆",
+               "description": "一堆装饰性的礼物盒",
+               "flavor": ""
+            },
+            "frostfeast_present_pile_tree_recipe": {
+               "recipe_name": "冰霜祭礼物堆",
+               "description": "给你的树装饰用的一圈小礼物",
+               "flavor": ""
+            },
+            "frostfeast_wreath_recipe": {
+               "recipe_name": "冰霜冬青花环",
+               "description": "一种传统的节日饰品",
+               "flavor": ""
+            },
+            "frostfeast_wooden_window_frame_recipe": {
+               "recipe_name": "冰霜木窗框",
+               "description": "一扇节日木制窗框",
+               "flavor": ""
+            },
+            "frostfeast_wooden_door_recipe": {
+               "recipe_name": "冰霜木门",
+               "description": "一扇节日木质门",
+               "flavor": ""
+            },
+            "frostfeast_wooden_double_door_recipe": {
+               "recipe_name": "冰霜祭双开木门",
+               "description": "一扇节日双开木质门",
+               "flavor": ""
+            },
+            "frostfeast_tree_recipe": {
+               "recipe_name": "冰霜冬青树",
+               "description": "一种传统的冰霜祭装饰",
+               "flavor": ""
+            },
+            "frostfeast_comfy_bed_recipe": {
+               "recipe_name": "豪华舒适的床",
+               "description": "一张十分温暖别致的床",
+               "flavor": ""
+            }
+         }
+      },
+      "cook": {
+         "winter_cook_outfit": {
+            "display_name": "冬季厨师套装",
+            "description": "一件厚重的羊毛大衣, 可以抵御冬夜的严寒",
+            "winter_cook_outfit_iconic": {
+               "display_name": "冬季厨师套装",
+               "description": "真暖和..."
+            }
+         },
+         "recipes": {
+            "pig_feed_recipe": {
+               "recipe_name": "猪饲料",
+               "description": "只要能吃它们就会去吃",
+               "flavor": ""
+            }
+         }
+      },
+      "engineer": {
+         "winter_engineer_outfit": {
+            "display_name": "冬季工程师套装",
+            "description": "一件厚重的羊毛大衣, 可以抵御冬夜的严寒",
+            "winter_engineer_outfit_iconic": {
+               "display_name": "冬季工程师套装",
+               "description": "真暖和..."
+            }
+         },
+         "winter_engineer_helm": {
+            "display_name": "工程师冬季护目镜",
+            "description": "在冬天, 专家的眼睛需要特殊的保护",
+            "winter_engineer_helm_iconic": {
+               "display_name": "工程师冬季护目镜",
+               "description": "冷凝水有点烦.."
+            }
+         },
+         "recipes": {
+            "frostfeast_lights_recipe": {
+               "recipe_name": "冰霜彩灯",
+               "description": "一块矿石再加一卷银丝就能做出这个亮闪闪的装饰啦.",
+               "flavor": ""
+            },
+            "clockwork_engine_recipe": {
+               "recipe_name": "发条火车头",
+               "description": "华丽的发条火车头.",
+               "flavor": "如果我把它造成十倍的大小会怎么样!"
+            }
+         }
+      },
+      "farmer": {
+         "farmer_helm": {
+            "display_name": "农夫的草帽",
+            "description": "太阳光正好照不到眼睛, 下半边脸又能晒到太阳."
+         },
+         "winter_farmer_outfit": {
+            "display_name": "冬季农民套装",
+            "description": "一件厚重的羊毛大衣, 可以抵御冬夜的严寒",
+            "winter_farmer_outfit_iconic": {
+               "display_name": "冬季农民套装",
+               "description": "真暖和..."
+            }
+         }
+      },
+      "mason": {
+         "winter_mason_outfit": {
+            "display_name": "冬季石匠套装",
+            "description": "一件厚重的羊毛大衣, 可以抵御冬夜的严寒",
+            "winter_mason_outfit_iconic": {
+               "display_name": "冬季农民套装",
+               "description": "真暖和..."
+            }
+         },
+         "recipes": {
+            "frostfeast_stone_window_frame_recipe": {
+               "recipe_name": "冰霜石窗框",
+               "description": "一扇节日石制窗框",
+               "flavor": ""
+            },
+            "frostfeast_mosiac_2_recipe": {
+               "recipe_name": "冰霜铃铛拼花",
+               "description": "一幅漂亮的冰霜祭拼花",
+               "flavor": "上面的图案是冰霜祭要挂的铃铛"
+            },
+            "frostfeast_mosiac_recipe": {
+               "recipe_name": "冰霜冬青拼花",
+               "description": "一幅漂亮的冰霜祭拼花",
+               "flavor": "上面的图案是冰霜祭的树"
+            },
+            "stone_heater_recipe": {
+               "recipe_name": "石制暖炉",
+               "description": "一种热源",
+               "flavor": ""
+            },
+            "decorative_stone_chimney_recipe": {
+               "recipe_name": "装饰石烟囱",
+               "description": "寒夜里的温暖",
+               "flavor": "仅用于装饰"
+            },
+            "frostfeast_stone_chimney_recipe": {
+               "recipe_name": "石制壁炉",
+               "description": "寒夜里的温暖",
+               "flavor": "这绝壁不是石炉.."
+            }
+         }
+      },
+      "herbalist": {
+         "winter_herbalist_outfit": {
+            "display_name": "冬季草药师套装",
+            "description": "一件厚重的羊毛大衣, 可以抵御冬夜的严寒",
+            "winter_mason_outfit_iconic": {
+               "display_name": "冬季草药师套装",
+               "description": "真暖和..."
+            }
+         },
+         "recipes": {
+            "cough_syrup_recipe": {
+               "recipe_name": "止咳药水",
+               "description": "板蓝根一般的存在?!",
+               "flavor": ""
+            },
+            "vapour_rub_recipe": {
+               "recipe_name": "维克托的风油精",
+               "description": "可以防止抽鼻子哦",
+               "flavor": ""
+            }
+         }
+      },
+      "potter": {
+         "winter_potter_outfit": {
+            "display_name": "冬季陶艺师套装",
+            "description": "一件厚重的羊毛大衣, 可以抵御冬夜的严寒",
+            "winter_potter_outfit_iconic": {
+               "display_name": "冬季陶艺师套装",
+               "description": "真暖和..."
+            }
+         },
+         "recipes": {
+            "frostfeast_floor_tile_recipe": {
+               "recipe_name": "冬青地砖",
+               "description": "画有冬青树的地砖",
+               "flavor": ""
+            },
+            "frostfeast_floor_tile_2_recipe": {
+               "recipe_name": "铃铛地砖",
+               "description": "画有铃铛的地砖",
+               "flavor": ""
+            },
+            "frostfeast_floor_tile_3_recipe": {
+               "recipe_name": "糖果手杖地砖",
+               "description": "画有糖果手杖的地砖",
+               "flavor": ""
+            },
+            "frostfeast_wall_tile_recipe": {
+               "recipe_name": "铃铛墙砖",
+               "description": "画有多个铃铛的墙砖",
+               "flavor": ""
+            },
+            "frostfeast_wall_tile_2_recipe": {
+               "recipe_name": "冬青墙砖",
+               "description": "画有几棵冬青树的墙砖",
+               "flavor": ""
+            }
+         }
+      },
+      "shepherd": {
+         "winter_shepherd_outfit": {
+            "display_name": "冬季牧羊人套装",
+            "description": "一件厚重的羊毛大衣, 可以抵御冬夜的严寒",
+            "winter_shepherd_outfit_iconic": {
+               "display_name": "冬季牧羊人套装",
+               "description": "真暖和..."
+            }
+         }
+      },
+      "trapper": {
+         "winter_trapper_outfit": {
+            "display_name": "冬季猎人套装",
+            "description": "一件厚重的羊毛大衣, 可以抵御冬夜的严寒",
+            "winter_trapper_outfit_iconic": {
+               "display_name": "冬季猎人套装",
+               "description": "真暖和..."
+            }
+         }
+      },
+      "weaver": {
+         "winter_weaver_outfit": {
+            "display_name": "冬季织工套装",
+            "description": "一件厚重的羊毛大衣, 可以抵御冬夜的严寒",
+            "winter_weaver_outfit_iconic": {
+               "display_name": "冬季织工套装",
+               "description": "真暖和..."
+            }
+         },
+         "recipes": {
+            "plushie_toy_snowling_recipe": {
+               "recipe_name": "毛绒雪晶灵",
+               "description": "♫ 想要来堆雪人嘛? ♫",
+               "flavor": ""
+            },
+            "frostfeast_stocking_recipe": {
+               "recipe_name": "冰霜袜",
+               "description": "要挂在墙上的袜子",
+               "flavor": "你是淘气还是听话的孩子? "
+            },
+            "frostfeast_rug": {
+               "recipe_name": "冰霜地毯",
+               "description": "洋溢着喜庆的地毯",
+               "flavor": ""
+            },
+            "hunters_hat_recipe": {
+               "recipe_name": "猎人款式的帽子",
+               "description": "这个舒适的帽子适合所有人.",
+               "flavor": ""
+            },
+            "bobble_hat_recipe": {
+               "recipe_name": "波波帽",
+               "description": "这个舒适的帽子适合所有人.",
+               "flavor": ""
+            },
+            "reindeer_hat_recipe": {
+               "recipe_name": "新款驯鹿帽",
+               "description": "这个舒适的帽子可以让人心情倍儿好.",
+               "flavor": ""
+            },
+            "blacksmith_outfit_winter_recipe": {
+               "recipe_name": "冬季铁匠套装",
+               "description": "一件厚重的羊毛大衣, 可以抵御冬夜的严寒. 铁匠穿上该装备后移动速度提高10%且不易受冻.",
+               "flavor": "凛冬将至!"
+            },
+            "carpenter_outfit_winter_recipe": {
+               "recipe_name": "冬季木匠套装",
+               "description": "一件厚重的羊毛大衣, 可以抵御冬夜的严寒. 木匠穿上该装备后移动速度提高10%且不易受冻.",
+               "flavor": "凛冬将至!"
+            },
+            "cook_outfit_winter_recipe": {
+               "recipe_name": "冬季厨师套装",
+               "description": "一件厚重的羊毛大衣, 可以抵御冬夜的严寒. 厨师穿上该装备后移动速度提高10%且不易受冻.",
+               "flavor": "凛冬将至!"
+            },
+            "engineer_helm_winter_recipe": {
+               "recipe_name": "冬季工程师头盔",
+               "description": "这个高级的头盔自带护目镜. 工程师穿上后移动速度提高10%且不易受冻.",
+               "flavor": "凛冬将至!"
+            },
+            "engineer_outfit_winter_recipe": {
+               "recipe_name": "冬季工程师套装",
+               "description": "一件厚重的羊毛大衣, 可以抵御冬夜的严寒. 工程师穿上该装备后移动速度提高10%且不易受冻.",
+               "flavor": "凛冬将至!"
+            },
+            "farmer_outfit_winter_recipe": {
+               "recipe_name": "冬季农民套装",
+               "description": "一件厚重的羊毛大衣, 可以抵御冬夜的严寒. 农民穿上该装备后移动速度提高10%且不易受冻.",
+               "flavor": "凛冬将至!"
+            },
+            "herbalist_outfit_winter_recipe": {
+               "recipe_name": "冬季草药师套装",
+               "description": "一件厚重的羊毛大衣, 可以抵御冬夜的严寒. 草药师穿上该装备后移动速度提高10%且不易受冻.",
+               "flavor": "凛冬将至!"
+            },
+            "mason_outfit_winter_recipe": {
+               "recipe_name": "冬季石匠套装",
+               "description": "一件厚重的羊毛大衣, 可以抵御冬夜的严寒. 石匠穿上该装备后移动速度提高10%且不易受冻.",
+               "flavor": "凛冬将至!"
+            },
+            "potter_outfit_winter_recipe": {
+               "recipe_name": "冬季陶艺师套装",
+               "description": "一件厚重的羊毛大衣, 可以抵御冬夜的严寒. 陶艺师穿上该装备后移动速度提高10%且不易受冻.",
+               "flavor": "凛冬将至!"
+            },
+            "shepherd_outfit_winter_recipe": {
+               "recipe_name": "冬季牧羊人套装",
+               "description": "一件厚重的羊毛大衣, 可以抵御冬夜的严寒. 牧羊人穿上该装备后移动速度提高10%且不易受冻.",
+               "flavor": "凛冬将至!"
+            },
+            "trapper_outfit_winter_recipe": {
+               "recipe_name": "冬季猎人套装",
+               "description": "一件厚重的羊毛大衣, 可以抵御冬夜的严寒. 猎人穿上该装备后移动速度提高10%且不易受冻.",
+               "flavor": "凛冬将至!"
+            },
+            "weaver_outfit_winter_recipe": {
+               "recipe_name": "冬季纺织工套装",
+               "description": "一件厚重的羊毛大衣, 可以抵御冬夜的严寒. 纺织工穿上该装备后移动速度提高10%且不易受冻.",
+               "flavor": "凛冬将至!"
+            }
+         }
+      }
+   },
+   "entities": {
+      "consumables": {
+         "cough_syrup": {
+            "description": "治疗冬季小恙",
+            "display_name": "止咳药水"
+         },
+         "vapour_rub": {
+            "description": "防止抽鼻子",
+            "display_name": "维克托的风油精"
+         }
+      },
+      "monsters": {
+         "goblins": {
+            "goblin_light_pole": {
+               "description": "亮晶晶! 亮晶晶!",
+               "display_name": "哥布林小彩灯"
+            },
+            "goblin_loot_chest": {
+               "description": "你不会来偷他们的东西的, 对吗?",
+               "display_name": "一大堆礼品"
+            }
+         },
+         "cultists": {
+            "cultist": {
+               "display_name": "狂热的卡缇斯特教信徒",
+               "description": "有点难区分."
+            }
+         }
+      },
+      "toys": {
+         "plushie_toy_snowling": {
+            "plushie_toy_snowling_ghost": {
+               "description": "♫ 想要来堆雪人嘛? ♫",
+               "display_name": "毛绒雪晶灵"
+            }
+         },
+         "frostfeast_present_pile": {
+            "frostfeast_present_pile_ghost": {
+               "description": "装饰性的礼品堆",
+               "display_name": "冰霜礼品堆"
+            }
+         },
+         "clockwork_engine": {
+            "clockwork_engine_ghost": {
+               "description": "污~ 污~!",
+               "display_name": "发条火车头"
+            }
+         },
+         "frostfeast_present_pile_tree_ring": {
+            "frostfeast_present_pile_tree_ring_ghost": {
+               "description": "为你的冰霜祭树准备的礼品装饰",
+               "display_name": "冰霜礼品堆 (树)"
+            }
+         }
+      },
+      "construction": {
+         "frostfeast_wooden_double_door": {
+            "frostfeast_wooden_double_door_ghost": {
+               "description": "一扇节日双开木质门",
+               "display_name": "冰霜祭双开木门"
+            }
+         },
+         "frostfeast_iron_double_door": {
+            "frostfeast_iron_double_door_ghost": {
+               "description": "一扇节日双开铁门",
+               "display_name": "冰霜祭双开木门"
+            }
+         },
+         "frostfeast_wooden_door": {
+            "frostfeast_wooden_door_ghost": {
+               "description": "一扇节日木质门",
+               "display_name": "冰霜木门"
+            }
+         },
+         "frostfeast_iron_door": {
+            "frostfeast_iron_door_ghost": {
+               "description": "一扇节日铁门",
+               "display_name": "冰霜祭铁制门"
+            }
+         },
+         "frostfeast_wooden_window_frame": {
+            "frostfeast_wooden_window_frame_ghost": {
+               "description": "一扇节日木制窗框",
+               "display_name": "冰霜木窗框"
+            }
+         },
+         "frostfeast_stone_window_frame": {
+            "frostfeast_stone_window_frame_ghost": {
+               "description": "一扇节日石制窗框",
+               "display_name": "冰霜石窗框"
+            }
+         },
+         "frostfeast_stone_chimney": {
+            "frostfeast_stone_chimney_ghost": {
+               "description": "有了温暖的炉子, 才会有一个温暖的家",
+               "display_name": "冰霜祭石制壁炉"
+            }
+         }
+      },
+      "furniture": {
+         "frostfeast_comfy_bed": {
+            "description": "一张十分温暖别致的床",
+            "display_name": "豪华舒适的床"
+         }
+      },
+      "armor": {
+         "hunter_hat": {
+            "description": "猎人款式的保暖帽子",
+            "display_name": "猎人帽"
+         },
+         "bobble_hat": {
+            "description": "保暖波波帽",
+            "display_name": "波波帽"
+         },
+         "reindeer_hat": {
+            "description": "一款新型的驯鹿帽子",
+            "display_name": "新型驯鹿帽"
+         },
+         "fhois_hat": {
+            "description": "给最挥金如土的人设计的帽子",
+            "display_name": "'小公举' 帽",
+            "flavor": "就在刚刚你战胜了概率论."
+         },
+         "festive_fighting_shield": {
+            "description": "因为战争, 永远不会改变...",
+            "display_name": "节日冬青盾"
+         }
+      },
+      "critters": {
+         "pig": {
+            "pig_description": "勉强缓解下肚子的空虚",
+            "pig_display_name": "猪猪"
+         }
+      },
+      "wealth": {
+         "offering": {
+            "bauble_description": "丰收之教会准备的礼物",
+            "bauble_display_name": "古老的彩球",
+            "blacksmith_description": "铁匠准备的礼物",
+            "blacksmith_display_name": "铁匠的捐赠品",
+            "carpenter_description": "木匠准备的礼物",
+            "carpenter_display_name": "木匠的捐赠品",
+            "cook_description": "厨师准备的礼物",
+            "cook_display_name": "厨师的捐赠品",
+            "engineer_description": "工程师准备的礼物",
+            "engineer_display_name": "工程师的捐赠品",
+            "herbalist_description": "草药师准备的礼物",
+            "herbalist_display_name": "草药师的捐赠品",
+            "mason_description": "石匠准备的礼物",
+            "mason_display_name": "石匠的捐赠品",
+            "potter_description": "陶艺师准备的礼物",
+            "potter_display_name": "陶艺师的捐赠品",
+            "plentiful_description": "来自丰收之教会的礼物",
+            "plentiful_display_name": "丰收之教会的礼物",
+            "sublime_plentiful_description": "来自丰收之教会的礼物",
+            "sublime_plentiful_display_name": "丰收之馈赠",
+            "achernar_plentiful_description": "来自丰收之教会的礼物",
+            "achernar_plentiful_display_name": "丰收之教会的礼物",
+            "achernar_sublime_plentiful_description": "来自丰收之教会的礼物",
+            "achernar_sublime_plentiful_display_name": "丰收之馈赠",
+            "weaver_description": "织工准备的礼物",
+            "weaver_display_name": "纺织工的捐赠品"
+         }
+      },
+      "food": {
+         "figgy_pudding": {
+            "figgy_pudding": {
+               "display_name": "无花果布丁",
+               "description": "美味又温暖",
+               "flavor": "好吃!"
+            },
+            "figgy_pudding_serving": {
+               "display_name": "无花果布丁",
+               "description": "美味又温暖"
+            }
+         },
+         "frostfeast_cake": {
+            "frostfeast_cake": {
+               "display_name": "冰霜祭蛋糕",
+               "description": "糖霜装点的丰盛水果蛋糕",
+               "flavor": "唇齿留香!"
+            },
+            "frostfeast_cake_serving": {
+               "display_name": "冰霜祭蛋糕",
+               "description": "糖霜装点的丰盛水果蛋糕"
+            }
+         },
+         "frostfeast_ham": {
+            "frostfeast_ham": {
+               "display_name": "冰霜祭火腿",
+               "description": "鲜嫩多汁",
+               "flavor": "传统的冰霜祭烤火腿肉!"
+            },
+            "frostfeast_ham_serving": {
+               "display_name": "冰霜祭火腿",
+               "description": "鲜嫩多汁"
+            }
+         },
+         "pig_meat": {
+            "display_name": "猪肉",
+            "description": "冬日烧烤首选"
+         },
+         "ginger": {
+            "display_name": "姜",
+            "description": "冬季厨房食材"
+         },
+         "pig_feed": {
+            "pig_feed": {
+               "display_name": "猪饲料",
+               "description": "喂猪的."
+            },
+            "pig_feed_ground": {
+               "display_name": "猪饲料",
+               "description": "猪很喜欢吃啊."
+            }
+         },
+         "ginger_bread": {
+            "ginger_bread": {
+               "display_name": "生姜面包",
+               "description": "美味而暖和",
+               "flavor": "冬季的保暖盛宴"
+            },
+            "ginger_bread_serving": {
+               "display_name": "生姜面包",
+               "description": "美味而暖和"
+            }
+         },
+         "pumpkin_soup": {
+            "pumpkin_soup": {
+               "display_name": "南瓜羹",
+               "description": "一碗稠稠的南瓜糊!",
+               "flavor": ""
+            },
+            "pumpkin_soup_serving": {
+               "display_name": "一小杯南瓜羹",
+               "description": "好吃!"
+            }
+         },
+         "pumpkin_pie": {
+            "pumpkin_pie": {
+               "display_name": "南瓜派",
+               "description": "最好留在窗台上!",
+               "flavor": "香甜美味"
+            },
+            "pumpkin_pie_serving": {
+               "display_name": "一片南瓜派",
+               "description": "香甜美味"
+            }
+         }
+      },
+      "plants": {
+         "fig": {
+            "fig_basket": {
+               "display_name": "一篮无花果",
+               "description": "汁液丰富"
+            },
+            "fig_serving": {
+               "display_name": "一把无花果",
+               "description": "汁液丰富"
+            }
+         }
+      },
+      "decoration": {
+         "frostfeast_monument": {
+            "frostfeast_monument_tree": {
+               "stages": {
+                  "seedling": {
+                     "display_name": "节日之种",
+                     "description": "万物成形之始"
+                  },
+                  "sapling": {
+                     "display_name": "节日嫩芽",
+                     "description": "嗷, 看那棵小苗!"
+                  },
+                  "pole": {
+                     "display_name": "节日种苗",
+                     "description": "年轻的节日树!"
+                  },
+                  "tree": {
+                     "substages": {
+                        "super_healthy": {
+                           "display_name": "碑坛之木",
+                           "description": "散发着温暖的节日气息"
+                        },
+                        "healthy": {
+                           "display_name": "节日之树",
+                           "description": "万物成形之时"
+                        },
+                        "waning": {
+                           "display_name": "衰老的节日树",
+                           "description": "这棵树有麻烦了, 开始走下坡路了"
+                        },
+                        "buggered": {
+                           "display_name": "濒死的节日树",
+                           "description": "看着他死去是多么残忍"
+                        }
+                     }
+                  }
+               }
+            },
+            "frostfeast_monument_ghost": {
+               "display_name": "冰霜碑坛",
+               "description": "丰收之教会赠与的魔法祭坛"
+            },
+            "frostfeast_monument_bauble": {
+               "display_name": "冰霜彩球",
+               "description": "一个魔法彩球"
+            },
+            "pillar_1": {
+               "pillar_1_ghost": {
+                  "display_name": "石炉",
+                  "description": "迫不及待地, 他们拥抱了寒冷"
+               }
+            },
+            "pillar_2": {
+               "pillar_2_ghost": {
+                  "display_name": "旅行者之石",
+                  "description": "一位老人, 请求着施与"
+               }
+            },
+            "pillar_3": {
+               "pillar_3_ghost": {
+                  "display_name": "凤凰之塑",
+                  "description": "迷幻的火焰"
+               }
+            },
+            "pillar_4": {
+               "pillar_4_ghost": {
+                  "display_name": "慷慨之石",
+                  "description": "然后他们的背包满了"
+               }
+            }
+         },
+         "frostfeast_obsidian_monument": {
+            "frostfeast_obsidian_monument_ghost": {
+               "display_name": "冻结碑坛",
+               "description": "那些柱子似乎顺序错了"
+            },
+            "pillar": {
+               "pillar_ghost": {
+                  "display_name": "冻结的黑曜碑柱"
+               }
+            }
+         },
+         "frostfeast_snowling": {
+            "frostfeast_snowling": {
+               "display_name": "雪晶灵",
+               "description": "♫ 想来堆雪人嘛? ♫"
+            }
+         },
+         "frostfeast_candle": {
+            "frostfeast_candle_ghost": {
+               "display_name": "冰霜烛台",
+               "description": "一种华丽的节日蜡烛"
+            }
+         },
+         "frostfeast_mosiac": {
+            "frostfeast_mosiac_ghost": {
+               "display_name": "冰霜祭冬青拼花",
+               "description": "一幅漂亮的冰霜祭拼花"
+            }
+         },
+         "frostfeast_mosiac_2": {
+            "frostfeast_mosiac_2_ghost": {
+               "display_name": "冰霜祭铃铛拼花",
+               "description": "一幅漂亮的冰霜祭拼花"
+            }
+         },
+         "frostfeast_wreath": {
+            "frostfeast_wreath_ghost": {
+               "display_name": "冰霜冬青花环",
+               "description": "一种传统的节日饰品"
+            }
+         },
+         "frostfeast_stocking": {
+            "frostfeast_stocking_ghost": {
+               "display_name": "冰霜袜",
+               "description": "你是淘气还是听话的孩子?"
+            }
+         },
+         "frostfeast_lights": {
+            "frostfeast_lights": {
+               "display_name": "冰霜彩灯",
+               "description": "要有光!",
+               "iconic_description": "怎么这么快又缠在一起了?"
+            }
+         },
+         "frostfeast_rug": {
+            "frostfeast_rug_ghost": {
+               "display_name": "冰霜地毯",
+               "description": "洋溢着喜庆的地毯"
+            }
+         },
+         "frostfeast_tree": {
+            "frostfeast_tree": {
+               "display_name": "冰霜冬青",
+               "description": "要有光!",
+               "iconic_description": "♫ 嗯...很有节日的味道了哦! ♫"
+            }
+         },
+         "stone_heater": {
+            "stone_heater": {
+               "display_name": "石制暖炉",
+               "description": "热源",
+               "iconic_description": "热源"
+            }
+         },
+         "decorative_chimney_stack": {
+            "decorative_chimney_stack": {
+               "display_name": "装饰性石制烟囱",
+               "description": "用于装点的大烟囱",
+               "iconic_description": "装饰性石制烟囱"
+            }
+         },
+         "frostfeast_floor_tile": {
+            "frostfeast_floor_tile_ghost": {
+               "display_name": "冬青地砖",
+               "description": "画有冬青树的地砖",
+               "flavor": ""
+            }
+         },
+         "frostfeast_floor_tile_2": {
+            "frostfeast_floor_tile_2_ghost": {
+               "display_name": "铃铛地砖",
+               "description": "画有铃铛的地砖",
+               "flavor": ""
+            }
+         },
+         "frostfeast_floor_tile_3": {
+            "frostfeast_floor_tile_3_ghost": {
+               "display_name": "糖果手杖地砖",
+               "description": "画有糖果手杖的地砖",
+               "flavor": ""
+            }
+         },
+         "frostfeast_wall_tile": {
+            "frostfeast_wall_tile_ghost": {
+               "display_name": "铃铛墙砖",
+               "description": "画有多个铃铛的墙砖",
+               "flavor": ""
+            }
+         },
+         "frostfeast_wall_tile_2": {
+            "frostfeast_wall_tile_2_ghost": {
+               "display_name": "冬青墙砖",
+               "description": "画有几棵冬青树的墙砖",
+               "flavor": ""
+            }
+         }
+      },
+      "crops": {
+         "fig_crop": {
+            "display_name": "无花果",
+            "description": "一种可食用的水果",
+            "growth_stage": {
+               "003": {
+                  "name": "成熟的无花果",
+                  "description": "可以收获啦!"
+               },
+               "002": {
+                  "name": "未成熟的无花果",
+                  "description": "还没成熟"
+               },
+               "001": {
+                  "name": "无花果灌木丛",
+                  "description": "还没成熟"
+               },
+               "000": {
+                  "name": "无花果灌木丛",
+                  "description": "还没成熟"
+               },
+               "011": {
+                  "name": "腐烂的无花果",
+                  "description": "挂掉了."
+               }
+            }
+         },
+         "ginger_crop": {
+            "display_name": "生姜",
+            "description": "一种冰霜祭的节日烹饪食材",
+            "growth_stage": {
+               "003": {
+                  "name": "成熟的生姜",
+                  "description": "可以收获啦!"
+               },
+               "002": {
+                  "name": "生姜根茎",
+                  "description": "还没成熟"
+               },
+               "001": {
+                  "name": "生姜根茎",
+                  "description": "还没成熟"
+               },
+               "000": {
+                  "name": "生姜幼苗",
+                  "description": "还没成熟"
+               },
+               "011": {
+                  "name": "腐烂的生姜",
+                  "description": "挂掉了."
+               }
+            }
+         }
+      },
+      "weapons": {
+         "cultist_dagger": {
+            "display_name": "水委之拳",
+            "description": "在冰霜之火中铸就的卡缇斯特短刀."
+         },
+         "fire_ball": {
+            "display_name": "火球",
+            "description": "警告: 很烫."
+         }
+      }
+   }
+}

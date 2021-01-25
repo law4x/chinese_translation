@@ -1,0 +1,1038 @@
+{
+	"ai": {
+		"actions": {
+			"status_text": {
+				"fishing": "从事渔业中"
+			}
+		}
+	},
+	"entities": {
+		"armor": {
+			"fish_quiver": {
+				"display_name": "咸鱼箭袋",
+				"description": "飞鱼骑脸, 降低敌人勇气"
+			},
+			"turtle_shield": {
+				"display_name": "龟甲盾",
+				"description": "海龟的壳, 被做成了盾牌"
+			}
+		},
+		"beach": {
+			"bottle": {
+				"display_name": "漂流瓶",
+				"description": "漂流瓶"
+			},
+			"broken_boat": {
+				"display_name": "船只残骸",
+				"description": "可以采集木头和里面的黄金."
+			},
+			"oyster": {
+				"display_name": "牡蛎",
+				"description": "珍珠的家.",
+				"unripe_description": "只有两片空壳."
+			},
+			"seaweed": {
+				"display_name": "海藻"
+			},
+			"starfish": {
+				"display_name": "海星",
+				"description": "也被叫做星鱼, 不过不是鱼哦."
+			}
+		},
+		"construction": {
+			"bead_door": {
+				"display_name": "珠帘门",
+				"description": "从天花板上荡下来的线上串着许许多多的珠子",
+				"flavor": "有风的时候很吵."
+			},
+			"porthole": {
+				"display_name": "舷窗",
+				"description": "船上很常见的小圆窗",
+				"flavor": "船上的舷窗为什么是圆的呢?<br>因为这样就算窗坏了, 水也只能圆润地进来了呀."
+			}
+		},
+		"containers": {
+			"input_fish_rack": {
+				"display_name": "晒鱼架",
+				"description": "供展示和储存你的鱼"
+			},
+			"input_food_bin": {
+				"display_name": "食物捐赠篮",
+				"description": "补给容器, 供食物捐赠用"
+			}
+		},
+		"critters": {
+			"crab": {
+				"display_name": "蟹",
+				"description": "手头有点紧"
+			},
+			"sea_turtle": {
+				"display_name": "海龟",
+				"description": "大洋里有着鳍状四肢的爬行动物"
+			}
+		},
+		"crops": {
+			"palm_tree_crop": {
+				"display_name": "椰树苗木",
+				"description": "已经出圃了? 随时可以参与植树造林.",
+				"growth_stage_0": {
+					"name": "椰种",
+					"description": "只是一只埋在土里的椰子."
+				},
+				"growth_stage_1": {
+					"name": "椰芽",
+					"description": "它终于穿透了硬壳."
+				},
+				"growth_stage_2": {
+					"name": "椰苗",
+					"description": "努力想够到太阳."
+				},
+				"growth_stage_3": {
+					"name": "椰树苗木",
+					"description": "可以换大号的花盆啦."
+				}
+			}
+		},
+		"decoration": {
+			"anchor": {
+				"display_name": "锚",
+				"description": "很重, 用来固定你的船",
+				"recipe": {
+					"description": "既可以放在地上还可以挂在墙上",
+					"flavor": "如果船是一个头, 那锚就是耳环吗?"
+				}
+			},
+			"aquarium": {
+				"display_name": "水族箱",
+				"description": "鱼儿在透明的缸里游着",
+				"recipe": {
+					"flavor": "要么养一缸鱼, 要么养只猫, 两者不可兼得."
+				}
+			},
+			"big_fish_hanging": {
+				"display_name": "大鱼挂饰",
+				"description": "挂在链子上展示的一条大鱼",
+				"recipe": {
+					"flavor": "你最好把它摆出来, 不然没人会相信你能钓到这么大的鱼."
+				}
+			},
+			"dock": {
+				"display_name": "钓鱼码头",
+				"description": "一个能让渔民钓鱼的平台"
+			},
+			"ice_dock": {
+				"display_name": "冰钓区",
+				"description": "在冰上凿了个洞, 渔夫可以去钓鱼"
+			},
+			"fish_container": {
+				"display_name": "装鱼木箱",
+				"description": "出口必备"
+			},
+			"fancy_fisher_sign": {
+				"display_name": "装饰性渔民招牌",
+				"description": "一块标志着渔民职业的漂亮牌子",
+				"recipe": {
+					"flavor": "这里还有更好的鱼呢"
+				}
+			},
+			"fisher_sign": {
+				"display_name": "渔民木招牌",
+				"description": "一块标志着渔民职业的牌子",
+				"recipe": {
+					"flavor": "这里有最好的鱼"
+				}
+			},
+			"fruit_container": {
+				"display_name": "椰子箱",
+				"description": "出口必备",
+				"recipe": {
+					"description": "箱装椰子更好卖.",
+					"flavor": "出口必备"
+				}
+			},
+			"lei": {
+				"display_name": "花冠",
+				"description": "可以挂在墙上的花花",
+				"recipe": {
+					"description": "挂墙上.",
+					"flavor": "花花可以让墙变得美丽!"
+				}
+			},
+			"magma": {
+				"display_name": "岩浆块",
+				"description": "超烫,冒着红光,半凝固的岩浆,别碰."
+			},
+			"pearl_container": {
+				"display_name": "珍珠箱",
+				"description": "出口必备"
+			},
+			"pirate_flag": {
+				"display_name": "海盗旗帜",
+				"description": "这样交朋友可不好",
+				"recipe": {
+					"description": "经典的海盗旗.",
+					"flavor": "冲啊啊啊啊啊啊!"
+				}
+			},
+			"raft": {
+				"display_name": "木筏",
+				"description": "原始的小船船",
+				"recipe": {
+					"description": "所有海上舰队的祖先.",
+					"flavor": "如果梦做得再美一点, 你是可以用这个去海上航行的!"
+				}
+			},
+			"sand_castle": {
+				"display_name": "沙堡",
+				"description": "沙沙公主住在另外一座沙堡里",
+				"recipe": {
+					"description": "用沙(粘)子(土)来建造你的梦幻城堡吧",
+					"flavor": "建筑学院4年课程学下来就造出这种东西?"
+				}
+			},
+			"ship_wheel": {
+				"display_name": "船舵",
+				"description": "好为你的梦指引方向",
+				"recipe": {
+					"description": "曾使用来控制船只的, 但如今多用于装饰",
+					"flavor": "你知道什么东西需要它吗? 船船!"
+				}
+			},
+			"tiki_torch": {
+				"display_name": "提基火炬",
+				"description": "超长的火把",
+				"recipe": {
+					"description": "立在地上的一根长棍, 另一头是可以室外照明的光源.",
+					"flavor": "派对派对嗨起来, 虫儿虫儿快走开."
+				}
+			},
+			"totem": {
+				"display_name": "图腾",
+				"description": "海滩动物全家桶",
+				"flavor": "一个乌龟, 一只螃蟹还有一只海鸥"
+			}
+		},
+		"food": {
+			"coconut": {
+				"display_name": "椰子",
+				"description": "喝了椰汁总能让人焕然一新"
+			},
+			"crab": {
+				"display_name": "生蟹",
+				"description": "还不能吃"
+			},
+			"crab_bisque": {
+				"display_name": "浓汤蟹",
+				"description": "温暖可口",
+				"recipe": {
+					"description": "用椰汁和蟹肉煲出来的美味浓汤.",
+					"flavor": "这碗集聚了两种美味食材的营养汤无可挑剔."
+				}
+			},
+			"crab_bisque_serving": {
+				"display_name": "小碗美味浓汤蟹"
+			},
+			"crab_cake": {
+				"display_name": "蟹肉饼",
+				"description": "这是一款经典小菜, 先把蟹肉打碎然后在油里滚一下.",
+				"recipe": {
+					"description": "这是一款经典小菜, 先把蟹肉打碎然后在油里滚一下.",
+					"flavor": "外脆里嫩"
+				}
+			},
+			"crab_omelette": {
+				"display_name": "蟹肉蛋饼",
+				"description": "美味的煎蛋包裹着螃蟹的肉"
+			},
+			"crab_rotten": {
+				"display_name": "腐烂的蟹",
+				"description": "螃蟹臭得很快..."
+			},
+			"big_fish": {
+				"display_name": "大鲜鱼",
+				"description": "太大了, 一锅炖不下. 还没熟不能吃"
+			},
+			"big_fish_cooked": {
+				"display_name": "烤大鱼",
+				"description": "焦香味美",
+				"recipe": {
+					"description": "放炉子里烤就完事了.",
+					"flavor": "外脆里嫩"
+				}
+			},
+			"big_fish_cooked_serving": {
+				"display_name": "一份烤大鱼"
+			},
+			"nemo": {
+				"display_name": "尼莫"
+			},
+			"fish": {
+				"display_name": "生鱼",
+				"description": "还不能吃"
+			},
+			"fish_cooked": {
+				"display_name": "煸鱼",
+				"description": "炒出来的美味菜肴",
+				"recipe": {
+					"description": "只管放在烤炉上好了.",
+					"flavor": "外脆里嫩"
+				}
+			},
+			"big_fish_rotten": {
+				"display_name": "大烂鱼",
+				"description": "鱼臭得很快..."
+			},
+			"fish_rotten": {
+				"display_name": "腐烂的鱼",
+				"description": "鱼臭得很快..."
+			},
+			"fish_stew": {
+				"display_name": "炖鱼汤",
+				"description": "温暖又美味",
+				"recipe": {
+					"description": "暖暖的好吃的鱼汤, 鱼肉也很嫩..",
+					"flavor": "很容易做"
+				}
+			},
+			"fish_stew_serving": {
+				"display_name": "小碗鱼汤"
+			},
+			"papaya_cookie": {
+				"display_name": "木瓜饼干",
+				"description": "还有椰丝",
+				"recipe": {
+					"description": "撒着椰丝的木瓜饼干.",
+					"flavor": "很健康, 但吃多了还是会胖."
+				}
+			},
+			"papaya_smoothie": {
+				"display_name": "木瓜冰沙",
+				"description": "满口都是木瓜的味道",
+				"recipe": {
+					"description": "让你在夏天也保持帅气.",
+					"flavor": "早上吃一杯, 开心一整天."
+				}
+			},
+			"papaya_basket": {
+				"display_name": "木瓜篮",
+				"description": "装满了木瓜"
+			},
+			"papaya_serving": {
+				"display_name": "木瓜",
+				"description": "半种水果"
+			},
+			"sashimi": {
+				"display_name": "生鱼刺身",
+				"description": "切成片的新鲜的生鱼"
+			},
+			"tropical_fish": {
+				"display_name": "新鲜热带鱼"
+			}
+		},
+		"furniture": {
+			"hammock": {
+				"display_name": "吊床",
+				"description": "午饭后的小憩",
+				"recipe": {
+					"description": "睡觉用",
+					"flavor": "螃蟹能掐到你, 从下面..."
+				}
+			}
+		},
+		"gizmos": {
+			"boat": {
+				"display_name": "船",
+				"description": "将炉民从从一侧到另一侧"
+			},
+			"boat_dock": {
+				"display_name": "船用码头",
+				"description": "船从这里出发,到另一边的码头."
+			},
+			"cocobomb": {
+				"display_name": "椰壳炸弹",
+				"description": "别把你吃的东西拿来玩.",
+				"recipe": {
+					"description": "放置后受到敌人攻击会自动引爆. 给爆炸周围敌人伤害并引燃.",
+					"flavor": "然后世界清静了"
+				}
+			},
+			"crab_trap": {
+				"display_name": "蟹笼",
+				"description": "吸引螃蟹然后抓住它们."
+			}
+		},
+		"humans": {
+			"anya": {
+				"display_name": "安雅"
+			},
+			"captain_miranda": {
+				"display_name": "米兰达船长",
+				"description": "大海是她的家乡"
+			}
+		},
+		"landmark": {
+			"summon_stone_block_sand": {
+				"display_name": "沙地地块石",
+				"description": "召唤一块8x5x8大小的沙地地块."
+			},
+			"summon_stone_patch_sand": {
+				"display_name": "沙地地片石",
+				"description": "召唤一片沙地, 大小是12x12."
+			},
+			"summon_stone_volcano": {
+				"display_name": "火山口",
+				"description": "召唤一座小火山."
+			}
+		},
+		"monsters": {
+			"cocoling": {
+				"display_name": "椰子精",
+				"description": "不是椰子汁. 没有焕然一新"
+			},
+			"cocoling_spawner": {
+				"display_name": "远古召唤器物",
+				"description": "年代久远, 却还金光灿灿."
+			},
+			"fake_container": {
+				"display_name": "神秘箱子",
+				"description": "打开看看里面有什么"
+			},
+			"octopus": {
+				"display_name": "章鱼怪",
+				"description": "手臂, 多到你数不过来"
+			},
+			"oyster": {
+				"display_name": "牡蛎怪",
+				"description": "背着硬壳的愤怒大牡蛎"
+			}
+		},
+		"outfit": {
+			"visitor_outfit": {
+				"description": "来自另一个岛屿的工作装"
+			}
+		},
+		"plants": {
+			"hibiscus_plant": {
+				"display_name": "大海槿",
+				"description": "是可以采集的, 有治疗效果的草药.",
+				"unripe_description": "这棵植物已经被收割过了, 还没长好.",
+				"seed": {
+					"display_name": "海槿种子",
+					"description": "种下之后, 会长出一棵草药"
+				},
+				"sprout": {
+					"description": "需要一些时间与爱心.",
+					"display_name": "海槿芽"
+				},
+				"stem": {
+					"description": "还在成长!",
+					"display_name": "海槿苗"
+				},
+				"bud": {
+					"description": "快长成了!  看, 那是花苞!",
+					"display_name": "含苞的海槿"
+				}
+			},
+			"blue_hibiscus_plant": {
+				"display_name": "大蓝海槿",
+				"description": "稀有的品种, 是可以采集的, 有治疗效果的草药",
+				"unripe_description": "这株植物已经收割,还没有长回来",
+				"seed": {
+					"display_name": "蓝海槿种子",
+					"description": "种下之后, 会长出一棵草药"
+				},
+				"sprout": {
+					"description": "需要一些时间与爱心.",
+					"display_name": "蓝海槿芽"
+				},
+				"stem": {
+					"description": "还在成长!",
+					"display_name": "蓝海槿苗"
+				},
+				"bud": {
+					"description": "快长成了!  看, 那是花苞!",
+					"display_name": "含苞的蓝海槿"
+				}
+			}
+		},
+		"resources": {
+			"pearl": {
+				"display_name": "白珍珠",
+				"description": "或许永远都会是人们最喜欢的宝石"
+			},
+			"black_pearl": {
+				"display_name": "黑珍珠",
+				"description": "充满了诅咒, 不过可以卖个好价钱"
+			},
+			"herb": {
+				"hibiscus": {
+					"display_name": "海槿花",
+					"description": "带有治疗效果的美丽热带花朵"
+				},
+				"blue_hibiscus": {
+					"display_name": "蓝海槿花",
+					"description": "带有治疗效果的稀有热带花朵"
+				}
+			},
+			"hot_rock": {
+				"display_name": "热岩",
+				"description": "矿物质储量丰富, 挖就对了"
+			},
+			"ice_cube": {
+				"display_name": "冰块",
+				"description": "某人钓上来的. 很快就会化掉."
+			}
+		},
+		"toys": {
+			"beachball": {
+				"display_name": "沙滩球",
+				"description": "海滩游戏的必备"
+			}
+		},
+		"trees": {
+			"common_palm": {
+				"description": "热带岛屿天堂的象征.",
+				"unripe_description": "还没长出小椰子. 热带岛屿天堂的象征."
+			},
+			"palm_tree": {
+				"seed": {
+					"display_name": "椰种",
+					"description": "种下就会长出一棵椰子树"
+				},
+				"sprout": {
+					"display_name": "椰芽",
+					"description": "需要一些时间与爱心."
+				},
+				"stem": {
+					"display_name": "椰苗",
+					"description": "还在成长!"
+				},
+				"bud": {
+					"display_name": "椰树苗木",
+					"description": "快长成了!  成叶也在慢慢出来!"
+				},
+				"sapling_palm_tree": {
+					"display_name": "椰树苗木"
+				},
+				"small_palm_tree": {
+					"display_name": "小椰树"
+				},
+				"large_palm_tree": {
+					"display_name": "大椰树"
+				}
+			},
+			"bend_palm_tree": {
+				"small_bend_palm_tree": {
+					"display_name": "小型弯椰子树"
+				},
+				"large_bend_palm_tree": {
+					"display_name": "大型弯椰子树"
+				}
+			},
+			"dranden": {
+				"display_name": "象鼻板棕",
+				"description": "象鼻一样的主干周围覆着重重的叶子",
+				"seed": {
+					"display_name": "板棕种子",
+					"description": "种下后能长出一棵象鼻板棕"
+				},
+				"sprout": {
+					"display_name": "板棕嫩芽",
+					"description": "需要一些时间与爱心."
+				},
+				"stem": {
+					"display_name": "板棕幼苗",
+					"description": "还在成长!"
+				},
+				"bud": {
+					"display_name": "板棕幼树",
+					"description": "快长成了! 已经有叶子冒出来了!"
+				}
+			},
+			"smalea": {
+				"display_name": "小花叶榕",
+				"description": "小巧的树却有着浓密的叶子",
+				"seed": {
+					"display_name": "小花叶榕种子",
+					"description": "种下后能长出一棵小花叶榕"
+				},
+				"sprout": {
+					"display_name": "榕树嫩芽",
+					"description": "需要一些时间与爱心."
+				},
+				"stem": {
+					"display_name": "榕树幼苗",
+					"description": "还在成长!"
+				},
+				"bud": {
+					"display_name": "榕树幼树",
+					"description": "快长成了! 已经有叶子冒出来了!"
+				}
+			},
+			"papaya": {
+				"display_name": "番木瓜树",
+				"description": "大大的, 像树一样植物 (原来不是树?)",
+				"unripe_description": "果子还没成熟",
+				"seed": {
+					"display_name": "木瓜籽",
+					"description": "种下后能长出一棵木瓜树"
+				},
+				"sprout": {
+					"display_name": "木瓜树芽",
+					"description": "需要一些时间与爱心."
+				},
+				"stem": {
+					"display_name": "木瓜幼苗",
+					"description": "还在成长!"
+				},
+				"bud": {
+					"display_name": "木瓜幼树",
+					"description": "快长成了! 已经有叶子冒出来了!"
+				}
+			}
+		},
+		"weapons": {
+			"slap_fish": {
+				"display_name": "咸鱼板",
+				"description": "痛!"
+			},
+			"crab_pincer": {
+				"display_name": "蟹螯",
+				"description": "手头很紧!"
+			},
+			"fish_arrow": {
+				"display_name": "咸鱼箭失",
+				"description": "飞鱼骑脸, 对面谁敢上."
+			}
+		}
+	},
+	"jobs": {
+		"archer": {
+			"archer_buffs": {
+				"fish_arrow": {
+					"display_name": "找不着北",
+					"description": "因脸上都是鱼而勇气下降"
+				}
+			}
+		},
+		"cook": {
+			"recipes": {
+				"tropical_recipes_name": "海鲜与热带菜系"
+			}
+		},
+		"fisher": {
+			"fisher_description": {
+				"display_name": "渔民",
+				"description": "会捉蟹, 采珍珠, 以及其他渔业",
+				"requirements": "由木匠打造",
+				"level_1": {
+					"perk_name": "退而结网",
+					"perk_description": "渔民可以制造渔具来帮助抓鱼."
+				},
+				"level_2": {
+					"perk_name": "蟹可殇客",
+					"perk_description": "渔民可以制造并放置小陷阱来抓螃蟹了."
+				},
+				"level_3": {
+					"perk_name": "简易料理",
+					"perk_description": "做个烤架, 渔夫现在可以烹饪一些基础食物了."
+				},
+				"level_4": {
+					"perk_name": "小船",
+					"perk_description": "在放置一个船坞后,炉民们可以利用它在水面上从一边移动到另一边."
+				},
+				"level_5": {
+					"perk_name": "超快",
+					"perk_description": "每升一级,捕鱼速度就更快,等待上钩的时间也更少."
+				}
+			},
+			"fisher_bucket": {
+				"display_name": "渔篮",
+				"description": "多功能用途的篮筐",
+				"fisher_bucket_talisman": {
+					"display_name": "渔篮",
+					"description": "炉民转职成渔民的必要道具"
+				}
+			},
+			"fisher_rod": {
+				"display_name": "鱼竿",
+				"description": "长长的, 弹性十足的竿子, 可以用来捕鱼"
+			},
+			"fisher_workbench": {
+				"display_name": "工作台",
+				"description": "渔民能在这里做点事儿",
+				"flavor": "别碰渔具"
+			},
+			"fisher_firepit": {
+				"display_name": "烤架",
+				"description": "烤制常见的熟食",
+				"flavor": "高品质的食物还是需要拜托您的主厨"
+			},
+			"fisher_outfit": {
+				"display_name": "渔民外套",
+				"description": "普通的渔民外套"
+			},
+			"recipes": {
+				"fisher_tools_name": "渔具",
+				"fisher_bucket_recipe": {
+					"recipe_name": "渔篮",
+					"description": "炉民转职成渔民的必要道具.",
+					"flavor": "多功能用途的篮筐"
+				},
+				"crab_pincer_recipe": {
+					"recipe_name": "蟹螯",
+					"description": "一种你可以带在手上的武器!",
+					"flavor": "先把里面的肉清干净!"
+				},
+				"crab_trap_recipe": {
+					"recipe_name": "蟹笼",
+					"description": "放置后可以吸引和捕捉附近的螃蟹, 放在水里或水边才行.",
+					"flavor": ""
+				},
+				"fish_container_recipe": {
+					"recipe_name": "装鱼木箱",
+					"description": "这样更好卖.",
+					"flavor": "出口必备"
+				},
+				"fish_quiver_recipe": {
+					"recipe_name": "咸鱼箭袋",
+					"description": "被飞来的鱼砸中的话, 敌人会失去勇气, 会被恶心到, 还会找不着北."
+				},
+				"input_fish_rack_recipe": {
+					"recipe_name": "晒鱼架",
+					"description": "放鱼的补给容器, 让你的工匠不愁原材料.",
+					"flavor": "总比放在地板上要好"
+				},
+				"pearl_container_recipe": {
+					"recipe_name": "珍珠箱",
+					"description": "这样珍珠更好卖.",
+					"flavor": "出口必备"
+				},
+				"sashimi_recipe": {
+					"recipe_name": "生鱼刺身",
+					"description": "切成片的新鲜的生鱼",
+					"flavor": "做起来不是很难"
+				},
+				"slap_fish_recipe": {
+					"recipe_name": "咸鱼板",
+					"description": "痛!",
+					"flavor": "比起危险, 不如说有点恶心"
+				},
+				"boat_dock_recipe": {
+					"recipe_name": "船坞",
+					"description": "把它放在面向水的边缘,第二个将在另一端自动创建.现在,炉民们可以使用船只从一个码头到另一个码头单独过河.",
+					"flavor": "\"每个人都有自己的船吗?\" - \"是的.\""
+				},
+				"dock_recipe": {
+					"recipe_name": "钓鱼码头",
+					"description": "放置在靠海的一边. 渔民会把这个地方视作钓点然后前去钓鱼.",
+					"flavor": "鱼鱼可喜欢它在太阳里投下的影子了"
+				},
+				"ice_dock_recipe": {
+					"recipe_name": "冰钓区",
+					"description": "在冰雪上凿个洞. 渔民会把这个地方视作钓点然后前去钓鱼.",
+					"flavor": "鱼鱼可喜欢在洞周围游来游去了"
+				}
+			}
+		},
+		"geomancer": {
+			"recipes": {
+				"summon_stone_volcano_recipe": {
+					"recipe_name": "火山口",
+					"description": "召唤一座小火山."
+				}
+			}
+		},
+		"herbalist": {
+			"recipes": {
+				"palm_transmute_recipe": {
+					"recipe_name": "椰种",
+					"description": "为椰子树提供营养",
+					"flavor": "把切开的两半合上, 就有一个新椰子啦, 随时可以种下去"
+				},
+				"papaya_transmute_recipe": {
+					"recipe_name": "木瓜籽 (x3)"
+				},
+				"hibiscus_transmute_recipe": {
+					"recipe_name": "海槿种子 (x3)"
+				},
+				"blue_hibiscus_transmute_recipe": {
+					"recipe_name": "蓝海槿种子 (x3)"
+				}
+			}
+		}
+	},
+	"ui": {
+		"data": {
+			"constants": {
+				"raw_fish_name": "生鱼",
+				"raw_big_fish_name": "大鲜鱼"
+			}
+		},
+		"game": {
+			"build_mode": {
+				"building_templates": {
+					"template_names": {
+						"fisher_hut": "渔棚",
+						"fisher_hut_rayya": "渔棚 (瑞亚)",
+						"fisher_hut_north": "渔棚 (北方)",
+						"shaded_hammock": "阴凉吊床",
+						"beach_tower": "沙滩瞭望塔",
+						"little_pier": "小码头",
+						"open_house": "休息室",
+						"small_beach_house": "沙滩小屋",
+						"carpenter_house": "木匠骨屋",
+						"tiki_bar": "提基酒吧",
+						"small_boat": "小筏",
+						"double_outrigger_boat": "双外托架木船",
+						"explorer_ship": "探索者号",
+						"long_ship": "长船",
+						"trader_ship": "商船"
+					}
+				}
+			},
+			"goblinpedia": {
+				"menu": {
+					"goblins": {
+						"jobs": {
+							"fisher": "渔夫"
+						}
+					}
+				},
+				"pages": {
+					"jobs": {
+						"fisher": {
+							"title": "渔夫",
+							"description1": "他们能抓到比自己更大的鱼吗?",
+							"topic1": {
+								"title": "描述:",
+								"desc1": "工匠和食品生产商,由工人转职."
+							},
+							"topic2": {
+								"title": "工作原理:",
+								"desc1": "放置一个钓鱼码头,它会在钓鱼时标记它们的位置.",
+								"desc2": "捕蟹器必须放在靠近水的地方."
+							},
+							"topic3": {
+								"title": "制作菜单:",
+								"desc1": "可以做简单的装饰,烹饪,甚至一些有用的物品,如鱼类武器."
+							}
+						}
+					}
+				}
+			},
+			"menu": {
+				"crafter_menu": {
+					"items": {
+						"fisher": {
+							"display_name": "渔民制作菜单",
+							"description": "制造渔业用具",
+							"required_job_text": "需要一位渔民"
+						}
+					}
+				}
+			},
+			"zones_mode": {
+				"stockpile": {
+					"filters": {
+						"food_bin": "帮助捐赠食物"
+					}
+				}
+			}
+		},
+		"shell": {
+			"select_settlement": {
+				"terrain_codes": {
+					"water": "大洋",
+					"plains_2": "沙滩"
+				}
+			}
+		}
+	},
+	"data": {
+		"biome": {
+			"archipelago": {
+				"display_name": "海洋群岛",
+				"description": "哪里都是水, 哪里都是沙, 好像处处都是一样的",
+				"random_location_names": {
+					"000": "莫纳罗亚群岛"
+				},
+				"seasons": {
+					"dry": {
+						"display_name": "旱季",
+						"description": "海岛的旱季阳光明媚,持续长达八个月的时间.是度假的好时光,不过有时候大风大雨也是在所难免的."
+					},
+					"hurricane": {
+						"display_name": "暴风季",
+						"description": "海岛的暴风季节十分危险, 仅持续一个月. 狂风暴雨乃是家常便饭."
+					},
+					"wet": {
+						"display_name": "雨季",
+						"description": "海岛的雨季十分湿润, 持续三个月. 风雨乃是常客, 晴天十分罕见"
+					}
+				}
+			}
+		},
+		"build": {
+			"building_brushes": {
+				"colors": {
+					"#f1f1a4": "沙滩 1 (海岛)",
+					"#f0ea99": "沙滩 2 (海岛)",
+					"#f0e187": "沙滩 3 (海岛)"
+				}
+			}
+		},
+		"commands": {
+			"open_crate": {
+				"display_name": "开箱",
+				"description": "把它锤开"
+			},
+			"archer_arrows": {
+				"fish_arrows": {
+					"display_name": "使用咸鱼箭失",
+					"description": "当前使用的是咸鱼箭失, 可以降低敌人勇气. 点击切换箭失种类."
+				}
+			}
+		},
+		"fishing": {
+			"turtle_shield": {
+				"title": "渔民捡到了个龟甲盾!",
+				"message": "看起来可以做步兵的简陋防具, 即拿即用."
+			},
+			"nemo": {
+				"title": "发现了一条鱼",
+				"message": "渔民刚刚抓到了这条迷路的可爱小丑鱼."
+			},
+			"dusty_tome": {
+				"message": "一本非常古老的书,对沙漠城镇很有价值.至于它为什么一尘不染...这是一个谜."
+			}
+		},
+		"monster_tuning": {
+			"forest": {
+				"insane_octopus": {
+					"description": "小章鱼常常会在聚在它们周围."
+				},
+				"insane_oyster": {
+					"description": "小牡蛎常常会在聚在它们周围."
+				}
+			}
+		},
+		"gm": {
+			"anya": "安雅",
+			"captain_miranda": "米兰达船长",
+			"goblin_bucket": "带了个水桶的哥布林",
+			"campaigns": {
+				"archipelago_tutorial": {
+					"trigger": {
+						"introduction": {
+							"title": "来自大海的帮助",
+							"message_start": "嘿, 很高兴遇见你们! 我叫米兰达. 你们需要帮助吗?<br>如果你们只是新来的话我可以给你们介绍些情况.",
+							"message_decline": "诶, 好吧, 那你们保重.<br>祝好运.",
+							"message_accept": "液! 终于有人接受了我的帮助!<br>额... 我是说, 跟我来吧看看!",
+							"message_trees": "首先会找木材, 找吃的对吧?<br>这些东西既能给你提供木头, 又能给你们充饥!<br>看到那些椰子树了吗?<br>如果你选择采集收获, 那你就能获得椰子. 虽然可能不是太管饱.<br>如果再次使用采集命令(当树上没有椰子的时候)就会把树砍下来获得木材.",
+							"message_oysters": "啊, 还有这些大贝壳超棒的, 只有渔民才知道怎么采珍珠哦, 珍珠能拿去卖个好价钱.<br>听说还会有稀有的黑珍珠, 不过我从来没遇见过.",
+							"message_broken_boats": "看看四周, 你可能会发现些不幸船只的遗骸.<br>你可以把那些船拆解掉, 说不定能发现宝藏.",
+							"message_bye": "那我就解释这么多啦.<br>以后我也会回来看看你们的.<br>我要趁着这阵好风赶紧出海了, 我的船可不会自己赚钱<br>祝好运, 拜拜.",
+							"na_message_start": "嘿, 雪原来的朋友们! 我怎么知道你们来自雪原? 瞧你们这身打扮, 这大棉袄的!..<br>哦对了, 我叫米兰达. 需要一些帮助吗?<br>如果你们是新来的话, 我可以给你们简单介绍一下.",
+							"na_message_decline": "好吧, 保重.<br>祝好运. 祝你们穿这么多衣服别晕过去了!",
+							"na_message_bye": "那我就解释这么多了.<br>以后我也会回来看看你们的. 但愿你们穿这么多衣服别被大太阳烤熟了!<br>我要趁着这阵好风赶紧出海了, 我的船可不会自己赚钱.<br>祝好运, 拜拜."
+						}
+					}
+				},
+				"archipelago_campaign": {
+					"trigger": {
+						"miranda_before_selling_clay": {
+							"title": "黏土超重",
+							"message_start": "我和一位瑞娅商人做了笔交易. 你知道他们手头总是有超多的粘土吗? 超便宜! 完全拒绝不了, 不过现在我买太多了!",
+							"message_convincing": "太重了, 我的船都开不动了! 你说什么? 我能卖些给你嘛? 我觉得你们会需要的, 因为这种地方能挖的地也不是很多...",
+							"rc_message_start": "我又换了个瑞娅商人做了笔生意. 你也知道粘土太重要了, 不是吗? 完全停不下来, 然后又买多了!"
+						},
+						"miranda_clay_shop": "米兰达船长的过剩粘土",
+						"miranda_notice_a_lost_crate": {
+							"title": "你掉了个箱子吗?",
+							"message_start": "差点儿忘了, 刚才你们看货的时候我注意到你们营地旁边有个箱子. 我在想是不是你们的, 然后我就把箱子放到了你们营地旗帜旁边.",
+							"choice": "嗯? 啥箱子?",
+							"this_crate": "这个?"
+						},
+						"teaches_how_to_break_crate": {
+							"title": "好奇吗?",
+							"message_start": "你们不打算开出来看看嘛? 或许是很厉害的东西, 放久了就烂了!<br>(若要打开, 选中箱子然后点击'打开'按钮)"
+						},
+						"miranda_talks_about_cocolings": {
+							"title": "椰子精",
+							"message_start": "听到昨天你被袭击了我真的感到很抱歉. 这几天那些椰子精处处都有...",
+							"choice": "那些小小的邪恶的椰子精?",
+							"message_2": "是的,他们在其他岛上也为非作歹!<br>我们仍然不明白他们从哪儿冒出来, 为什么在这里...<br>许多其他岛民也在试图搞清这件事.",
+							"choice_end": "需要帮助的话通知我们一下吧."
+						},
+						"miranda_notice_another_crate": {
+							"title": "又一个箱子...",
+							"message_start": "当心, 我又在你们的小岛上看到了一个箱子! 打开时最好让士兵看守着.",
+							"choice": "告诉我在哪!"
+						},
+						"lets_trade_again": {
+							"title": "我们再来做笔交易?",
+							"message_start": "嗨! 还想买些没什么用的东西吗?<br>不好意思, 没看到你们正在招待客人. 我等下再来吧.",
+							"choice": "客人?..",
+							"message_those_guys": "那些人不是吗. 我指你看."
+						},
+						"show_the_visitors": {
+							"show": "就是那里"
+						},
+						"visitors_introduction": {
+							"title": "我们需要帮助",
+							"message_start": "你好, 我是安雅. 如此突兀地在这里上岸真的很抱歉. 但我们别无选择了.",
+							"choice": "怎么了?",
+							"message_2": "你一定也知道那些椰子精吧, 知道的吧? 他们很烦人, 但也不是什么威胁.<br>直到几天前, 一切都变了.<br>男人们留下来战斗了, 我们则出来求助. 可以的话, 给我们点吃的吧.",
+							"choice_2": "我可以提供援助",
+							"message_3": "谢谢! 我们把箱子就放在你们镇上旗帜边了, 请把食物放点进去吧.<br>这段时间里, 我们就留在这里给你们小镇打工吧.",
+							"choice_end": "没事的!"
+						},
+						"teaches_how_to_donate_food": {
+							"title": "怎么了?",
+							"message_start": "食物篮满了吗?<br>(若要装入食物, 点击箱子, 激活储存)"
+						},
+						"anya_says_she_will_leave": {
+							"message_start": "哇! 满了! 谢谢.",
+							"message_2": "那么, 我们也该走了. 我们准备明天早上8:00出发, 可以么?",
+							"title": "满载的食物篮"
+						},
+						"miranda_offers_a_ride": {
+							"title": "拜拜",
+							"message_start": "鼎力之助, 谢意难以言表.",
+							"choice": "没事的",
+							"message_2": "我们的旧筏子去哪了?",
+							"choice_2": "啊?",
+							"message_3": "旧筏子? 不. 乘上我的大船吧. 我们马上就能到你那里.",
+							"choice_3": "棒棒哒",
+							"message_4": "谢谢米兰达. 谢谢你们. 我们要走了.<br>但愿一路顺风! 再见!",
+							"choice_end": "再见!"
+						}
+					}
+				},
+				"archipelago_free_bucket": {
+					"trigger": {
+						"goblin_donation": {
+							"title": "一只带着水桶的哥布林走了过来",
+							"message_1": "嘿, 笨蛋们. 我捡到了这个没什么用的桶, 这种垃圾, 就应该是你们的. 当帽子都嫌小, 看吧?<br><br><font size=-1>(指了指自己的头头)</font>",
+							"message_2": "我才不管你们怎么处理它. 烧了也随便!<br><br><font size=-1>(把桶扔在地上, 踢了脚, 然后生气地走开了)</font>",
+							"answer": "谢谢?"
+						}
+					}
+				}
+			}
+		},
+		"saved_objects": {
+			"building_templates_index": {
+				"template_tabs": {
+					"display_name": "海洋群岛",
+					"categories": {
+						"camp": "沙滩营地",
+						"boats": "避风港口",
+						"tier3": "富丽港湾"
+					}
+				}
+			}
+		}
+	}
+}

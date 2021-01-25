@@ -1,0 +1,15 @@
+{
+   "data": {
+      "biome": {
+         "lorki": {
+            "display_name": "洛基斯坦",
+            "description": "洛基斯的第一个生物群落模组.",
+            "random_location_names": {
+               "000": "幸福山脉",
+               "001": "传说山脉",
+               "002": "美丽世界"
+            }
+         }
+      }
+   }
+}

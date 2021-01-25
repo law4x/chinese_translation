@@ -1,0 +1,394 @@
+{
+   "na_rug_pelt_wolf": {
+      "recipe_name": "Black Wolf Pelt Rug",
+      "display_name": "Black Wolf Pelt Rug"
+   },
+   "armor": {
+      "leather": {
+         "display_name": "Leather Vest",
+         "description": "Leather provides sturdy protection against light weapons.",
+         "flavor": "Insults bounce right off too!",
+         "i_description": "Leather provides sturdy protection."
+      }
+   },
+   "trapper": {
+      "recipes": {
+         "workbenches_name": "Workbenches & Tools",
+         "tannery_name": "Leatherworking",
+         "butchering_name": "Butchering",
+         "storage_name": "Storage",
+         "clothing_name": "Clothing & Outfits",
+         "decorations_name": "Decorations"
+      },
+      "craft_menu": {
+         "display_name": "Trapper Craft Menu",
+         "description": "Handles leather tanning and meat butchering.",
+         "required_job_text": "Requires a trapper"
+      },
+      "perks": {
+         "l1_display_name": "Tannery",
+         "l1_description": "The Trapper is able to build tannery facilities, extract tannins, dry fresh hides and prepare pelts."
+      },
+      "block": {
+         "display_name": "Trapper's Block",
+         "description": "Used by the Trapper for cleaning pelts.",
+         "recipe_display_name": "Trapper's Block",
+         "recipe_description": "Required for cleaning pelts and turning them into leather.",
+         "flavor": "Is that... b-blood?"
+      },
+      "tanning_tub": {
+         "display_name": "Tanning Tub",
+         "description": "Used to tan rawhide into leather. Should be kept away due to its foul smell!",
+         "recipe_display_name": "Tanning Tub",
+         "recipe_description": "Used to tan rawhide into leather.",
+         "flavor": "Tanneries are usually built on the outskirts of towns due to their... particular smell."
+      },
+      "drying_frame": {
+         "display_name": "Drying Frame",
+         "description": "Used to dry fresh large hides into useful pelts and skins.",
+         "recipe_display_name": "Drying Frame",
+         "recipe_description": "Required for drying pelts and skins for later tanning.",
+         "flavor": "It is NOT a jumping bed!"
+      },
+      "small_drying_frame": {
+         "description": "Can simultaneously dry up to eight small hides into useful pelts and skins.",
+         "display_name": "Hanging Drying Frame",
+         "recipe_display_name": "Hanging Drying Frame",
+         "recipe_description": "Required for drying small pelts for later tanning.",
+         "flavor": ""
+      },
+      "racoon_hat": {
+         "display_name": "Raccoon Hat",
+         "description": "Trappers can wear this hat for a small speed and diligence increase.",
+         "worn_description": "Slightly increasing the Trapper's speed and diligence.",
+         "flavor": "'Ain't no thing like me, 'cept me!' - Rocket Raccoon"
+      },
+      "rabbit_hat": {
+         "display_name": "Rabbit Hat",
+         "description": "Trappers can wear this hat for a good compassion bonus and a small speed increase.",
+         "worn_description": "Increasing the Trapper's compassion and slightly increasing speed.",
+         "flavor": "For making furry friends."
+      },
+      "squirrel_hat": {
+         "display_name": "Squirrel Hat",
+         "description": "Trappers can wear this hat for a small speed increase.",
+         "worn_description": "Slightly increasing the Trapper's speed.",
+         "flavor": "SQUIRREL!"
+      },
+      "wolf_hat": {
+         "display_name": "Wolf Hood",
+         "description": "Trappers can wear this hood for a good speed increase.",
+         "worn_description": "Increasing the Trapper's speed.",
+         "flavor": "Become one with the pack."
+      },
+      "cougar_hat": {
+         "display_name": "Cougar Hood",
+         "description": "Trappers can wear this hood for a good speed and diligence increase.",
+         "worn_description": "Increasing the Trapper's speed and diligence.",
+         "flavor": "Only a master of the hunt can wear this."
+      },
+      "smokehouse": {
+         "display_name": "Smokery",
+         "description": "Smokehouses are useful for curing products like meat with smoke.",
+         "recipe_description": "A smokehouse can be used to cure certain products like raw meats or sausages into edible and preserved forms.",
+         "flavor": "Smells funny."
+      }
+   },
+   "data": {
+      "constants": {
+         "small_pelt_resource_name": "Small Fur Pelt",
+         "skin_resource_name": "Scaly Skins"
+      },
+      "filters": {
+         "meat_types": "Food Types",
+         "raw_jerky": "All Jerky Meat",
+         "raw_sausage": "Sausages",
+         "specific_foods": "Specific Foods",
+         "raw_jerky_small": "Small Game Meat",
+         "raw_jerky_big": "Big Game Meat",
+         "all_type": "Unrestricted",
+         "everything": "All Curables",
+         "raw_meat": "Raw Meat",
+         "small_pelt": "Small Pelt"
+      }
+   },
+   "entities": {
+      "rawhide": {
+         "display_name": "Rawhide",
+         "description": "Rawhide can be tanned into leather using a tanning tub.",
+         "recipe_display_name": "Clean Pelt",
+         "small_recipe_display_name": "Clean Small Pelt",
+         "recipe_description": "Unhair and degrease a dried animal hide to prepare it for tanning. Produces two pieces of rawhide.",
+         "small_recipe_description": "Unhair and degrease a dried animal hide to prepare it for tanning.",
+         "flavor": "Eww."
+      },
+      "tannin": {
+         "display_name": "Pinch of Tannin",
+         "description": "Milled from organics like wood, bark or leaves. Used in leather tanning.",
+         "recipe_display_name": "Extract Tannins",
+         "oak_recipe_display_name": "Extract Oak Tannins",
+         "acacia_recipe_display_name": "Extract Acacia Tannins",
+         "recipe_description": "Tannins are used by Trappers to create tanning tubs where leather can be turned into rawhide.",
+         "flavor": ""
+      },
+      "fresh_pelt": {
+         "display_name": "Fresh Pelt",
+         "description": "Eww! Recently skinned, requires drying before being of any use."
+      },
+      "fresh_small_pelt": {
+         "display_name": "Fresh Small Pelt"
+      },
+      "fresh_boar_pelt": {
+         "display_name": "Fresh Boar Pelt"
+      },
+      "fresh_cougar_pelt": {
+         "display_name": "Fresh Cougar Pelt"
+      },
+      "fresh_deer_pelt": {
+         "display_name": "Fresh Deer Pelt"
+      },
+      "fresh_rabbit_pelt": {
+         "display_name": "Fresh Rabbit Pelt"
+      },
+      "fresh_racoon_pelt": {
+         "display_name": "Fresh Racoon Pelt"
+      },
+      "fresh_red_fox_pelt": {
+         "display_name": "Fresh Fox Pelt"
+      },
+      "fresh_squirrel_pelt": {
+         "display_name": "Fresh Squirrel Pelt"
+      },
+      "fresh_wolf_pelt": {
+         "display_name": "Fresh Wolf Pelt"
+      },
+      "fresh_varanus_pelt": {
+         "display_name": "Fresh Varanus Skin",
+         "description": "Eww! Scaly and rough, requires drying."
+      },
+      "fresh_zilla_pelt": {
+         "display_name": "Fresh Zilla Skin",
+         "description": "Eww! Scaly, rough and somewhat warm to the touch, requires drying."
+      },
+      "thin_leather": {
+         "display_name": "Thin Leather",
+         "description": "Supple but not so strong. Can be woven into stronger bolts by a Weaver.",
+         "recipe_display_name": "Bolt of Leather",
+         "recipe_description": "Prepared sheets of leather, ready to be put to good use.",
+         "flavor": "A Trapper can tan pelts into thin leather"
+      },
+      "scaly_leather": {
+         "display_name": "Scaly Leather",
+         "description": "Full of hardened, flexible scales. Can be woven into stronger bolts by a Weaver."
+      },
+      "raw_skin": {
+         "display_name": "Raw Skin",
+         "description": "Raw skin can be tanned into scaly leather using a tanning tub.",
+         "recipe_display_name": "Clean Scaly Skin",
+         "small_recipe_display_name": "Clean Small Scaly Skin",
+         "recipe_description": "Degrease and treat a dried animal scaly skin to prepare it for tanning. Produces two pieces of raw skin.",
+         "small_recipe_description": "Degrease and treat a dried animal scaly skin to prepare it for tanning.",
+         "flavor": "Scaly!"
+      },
+      "scaly_leather_boots": {
+         "display_name": "Scaly Leather Boots",
+         "worn_description": "Slightly increasing the Worker's speed.",
+         "description": "Fairly resistant scaly leather boots that grants Workers a minor speed bonus.",
+         "flavor": ""
+      },
+      "scaly_leather_bolt": {
+         "display_name": "Bolt of Scaly Leather",
+         "description": "Scaly and supple but durable.",
+         "recipe_display_name": "Bolt of Scaly Leather",
+         "recipe_description": "Prepared sheets of scaly leather, ready to be put to good use.",
+         "flavor": "Scaly animals like the Varanus will provide scaly leather"
+      }
+   },
+   "buffs": {
+      "wolf_spirit": {
+         "display_name": "The Spirit of the Wolf",
+         "description": "Speed Increased by 25"
+      },
+      "squirrel_spirit": {
+         "display_name": "The Squirrel's Agility",
+         "description": "Speed Increased by 15"
+      },
+      "racoon_spirit": {
+         "display_name": "The Raccoon's Guile",
+         "description": "Diligence increased by 15 and Speed Increased by 10"
+      },
+      "rabbit_spirit": {
+         "display_name": "The Rabbit's Charm",
+         "description": "Compassion increased by 25 and Speed Increased by 10"
+      },
+      "cougar_spirit": {
+         "display_name": "The Soul of a Cougar",
+         "description": "Diligence and Speed Increased by 25"
+      },
+      "boots": {
+         "display_name": "Fancy Shoes",
+         "description": "Speed Increased by 8"
+      }
+   },
+   "decorations": {
+      "tannery_sign": {
+         "display_name": "Tanner's Sign",
+         "recipe_display_name": "Tanner's Wall-Mounted Sign",
+         "description": "A sign with the mark of the Trapper.",
+         "flavor": ""
+      },
+      "plushie_dragon": {
+         "display_name": "Plushie Toy Dragon",
+         "description": "A bit fluffier than the original.",
+         "flavor": "Rawrr!"
+      },
+      "boar_rug": {
+         "display_name": "Boar Rug",
+         "description": "Make a comfy rug with the prepared fur of a boar.",
+         "flavor": ""
+      },
+      "cougar_rug": {
+         "display_name": "Cougar Rug",
+         "description": "Make a comfy rug with the prepared fur of a cougar.",
+         "flavor": "Careful with the teeth."
+      },
+      "deer_rug": {
+         "display_name": "Deer Rug",
+         "description": "Make a comfy rug with the prepared fur of a deer.",
+         "flavor": ""
+      },
+      "fox_rug": {
+         "display_name": "Fox Rug",
+         "description": "Make a comfy rug with the prepared fur of a fox.",
+         "flavor": ""
+      },
+      "wolf_rug": {
+         "display_name": "Wolf Rug",
+         "description": "Make a comfy rug with the prepared fur of a wolf.",
+         "flavor": "Not so scary anymore."
+      }
+   },
+   "food": {
+      "raw_jerky": {
+         "display_name": "Raw Jerky",
+         "description": "Not good for consumption, needs curing in a smokery or usage in cooking!",
+         "decay_1_description": "It's rotting! Better use it quickly before it is gone...",
+         "recipes": {
+            "poyo_display_name": "Slice Poyo Meat",
+            "poyo_description": "Produces two units of raw poyo cuts that can be used as meat in cooking or smoked into jerky.",
+            "poyo_flavor": "",
+            "poultry_display_name": "Slice Raw Poultry",
+            "poultry_description": "Produces three units of raw poultry cuts that can be used as meat in cooking or smoked into jerky.",
+            "poultry_flavor": "",
+            "pork_display_name": "Slice Raw Pork",
+            "pork_description": "Produces four units of raw pork cuts that can be used as meat in cooking or smoked into jerky.",
+            "pork_flavor": "",
+            "mutton_display_name": "Slice Raw Mutton",
+            "mutton_description": "Produces two units of raw mutton cuts that can be used as meat in cooking or smoked into jerky.",
+            "mutton_flavor": "",
+            "venison_display_name": "Slice Raw Venison",
+            "venison_description": "Produces three units of raw venison cuts that can be used as meat in cooking or smoked into jerky.",
+            "venison_flavor": "",
+            "varanus_display_name": "Slice Varanus Meat",
+            "varanus_description": "Produces three units of raw varanus cuts that can be used as meat in cooking or smoked into jerky.",
+            "varanus_flavor": ""
+         }
+      },
+      "raw_boar_jerky": {
+         "display_name": "Raw Boar Meat"
+      },
+      "raw_deer_jerky": {
+         "display_name": "Raw Deer Meat"
+      },
+      "raw_duckduck_jerky": {
+         "display_name": "Raw Duckduck Meat"
+      },
+      "raw_poultry_jerky": {
+         "display_name": "Raw Poultry Cuts"
+      },
+      "raw_poyo_jerky": {
+         "display_name": "Raw Poyo Cuts"
+      },
+      "raw_rabbit_jerky": {
+         "display_name": "Raw Rabbit Meat"
+      },
+      "raw_racoon_jerky": {
+         "display_name": "Raw Raccoon Meat"
+      },
+      "raw_red_fox_jerky": {
+         "display_name": "Raw Fox Meat"
+      },
+      "raw_mutton_jerky": {
+         "display_name": "Raw Mutton Cuts"
+      },
+      "raw_squirrel_jerky": {
+         "display_name": "Raw Squirrel Meat"
+      },
+      "raw_varanus_jerky": {
+         "display_name": "Raw Varanus Cuts"
+      },
+      "mutton_jerky": {
+         "display_name": "Mutton Jerky"
+      },
+      "poultry_jerky": {
+         "display_name": "Poultry Jerky"
+      },
+      "poyo_jerky": {
+         "display_name": "Poyo Jerky"
+      },
+      "raw_pork_jerky": {
+         "display_name": "Raw Pork Cuts"
+      },
+      "raw_venison_jerky": {
+         "display_name": "Raw Venison Cuts"
+      },
+      "pork_jerky": {
+         "display_name": "Pork Jerky"
+      },
+      "venison_jerky": {
+         "display_name": "Venison Jerky"
+      },
+      "raw_ostrich_jerky": {
+         "display_name": "Raw Ostrich Meat"
+      },
+      "fish_smoked": {
+         "all_raw_display_name": "Fish",
+         "raw_display_name": "Raw Fish",
+         "display_name": "Smoked Fish",
+         "description": "Stringy and delicious cured white meat!"
+      },
+      "big_fish_smoked": {
+         "raw_display_name": "Raw Big Fish",
+         "display_name": "Smoked Big Fish",
+         "description": "Tasty and healthy, it is a delicious fruit of the labor of a fisherman.",
+         "serving_display_name": "Serving of Smoked Big Fish"
+      },
+      "smoked_sausage": {
+         "serving_display_name": "Serving of Smoked Sausage",
+         "serving_description": "",
+         "display_name": "Smoked Sausage",
+         "description": "Tasty, stringy and encased ground meat cured in a smokery."
+      },
+      "sausage": {
+         "description": "The trapper can use fibers for a more rustic and practical encasing of sausages."
+      },
+      "warm_wolf": {
+         "serving_display_name": "Serving of Warm-Wolf",
+         "serving_description": "",
+         "display_name": "Warm-Wolf",
+         "description": "Perhaps one of the best ideas ever was to put roast sausages inside common bread.",
+         "flavor": "Now we only need some kind of sauce..."
+      },
+      "raw_wolf_jerky": {
+         "display_name": "Raw Wolf Meat"
+      }
+   },
+   "worker": {
+      "fur_coat": {
+         "display_name": "Fur Coat",
+         "worn_description": "Warm and cozy, keeps the cold away...",
+         "description": "Workers can wear this to fight off the cold in snowy days.",
+		 "flavor": ""
+      }
+   }
+}

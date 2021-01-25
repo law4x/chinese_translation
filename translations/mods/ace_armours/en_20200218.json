@@ -1,0 +1,587 @@
+{
+	"data": {
+		"commands": {
+			"job_armor_variant": {
+				"asc_blue_archer": {
+					"display_name": "Prefer Blue Armor",
+					"description": "This Archer currently prefers wearing blue armor made by the Ascendancy. Click to change!"
+				},
+				"asc_green_archer": {
+					"display_name": "Prefer Green Armor",
+					"description": "This Archer currently prefers wearing green armor made by the Ascendancy. Click to change!"
+				},
+				"asc_purple_archer": {
+					"display_name": "Prefer Purple Armor",
+					"description": "This Archer currently prefers wearing purple armor made by the Ascendancy. Click to change!"
+				},
+				"asc_red_archer": {
+					"display_name": "Prefer Red Armor",
+					"description": "This Archer currently prefers wearing red armor made by the Ascendancy. Click to change!"
+				},
+				"asc_teal_archer": {
+					"display_name": "Prefer Teal Armor",
+					"description": "This Archer currently prefers wearing teal armor made by the Ascendancy. Click to change!"
+				},
+				"asc_yellow_archer": {
+					"display_name": "Prefer Yellow Armor",
+					"description": "This Archer currently prefers wearing yellow armor made by the Ascendancy. Click to change!"
+				},
+				"na_blue_archer": {
+					"display_name": "Prefer Blue Armor",
+					"description": "This Archer currently prefers wearing blue armor made by the Northern Alliance. Click to change!"
+				},
+				"na_yellow_archer": {
+					"display_name": "Prefer Yellow Armor",
+					"description": "This Archer currently prefers wearing yellow armor made by the Northern Alliance. Click to change!"
+				},
+				"rc_black_archer": {
+					"display_name": "Prefer Black Armor",
+					"description": "This Archer currently prefers wearing black armor made by Rayya's Children. Click to change!"
+				},
+				"rc_red_archer": {
+					"display_name": "Prefer Red Armor",
+					"description": "This Archer currently prefers wearing red armor made by Rayya's Children. Click to change!"
+				},
+				"asc_blue_cleric": {
+					"display_name": "Prefer Blue Armor",
+					"description": "This Cleric currently prefers wearing blue armor made by the Ascendancy. Click to change!"
+				},
+				"asc_green_cleric": {
+					"display_name": "Prefer Green Armor",
+					"description": "This Cleric currently prefers wearing green armor made by the Ascendancy. Click to change!"
+				},
+				"asc_purple_cleric": {
+					"display_name": "Prefer Purple Armor",
+					"description": "This Cleric currently prefers wearing purple armor made by the Ascendancy. Click to change!"
+				},
+				"asc_red_cleric": {
+					"display_name": "Prefer Red Armor",
+					"description": "This Cleric currently prefers wearing red armor made by the Ascendancy. Click to change!"
+				},
+				"asc_teal_cleric": {
+					"display_name": "Prefer Teal Armor",
+					"description": "This Cleric currently prefers wearing teal armor made by the Ascendancy. Click to change!"
+				},
+				"asc_yellow_cleric": {
+					"display_name": "Prefer Yellow Armor",
+					"description": "This Cleric currently prefers wearing yellow armor made by the Ascendancy. Click to change!"
+				},
+				"na_blue_cleric": {
+					"display_name": "Prefer Blue Armor",
+					"description": "This Cleric currently prefers wearing blue armor made by the Northern Alliance. Click to change!"
+				},
+				"na_yellow_cleric": {
+					"display_name": "Prefer Yellow Armor",
+					"description": "This Cleric currently prefers wearing yellow armor made by the Northern Alliance. Click to change!"
+				},
+				"rc_black_cleric": {
+					"display_name": "Prefer Black Armor",
+					"description": "This Cleric currently prefers wearing black armor made by Rayya's Children. Click to change!"
+				},
+				"rc_red_cleric": {
+					"display_name": "Prefer Red Armor",
+					"description": "This Cleric currently prefers wearing red armor made by Rayya's Children. Click to change!"
+				},
+				"asc_blue_footman": {
+					"display_name": "Prefer Blue Armor",
+					"description": "This Footman currently prefers wearing blue armor made by the Ascendancy. Click to change!"
+				},
+				"asc_green_footman": {
+					"display_name": "Prefer Green Armor",
+					"description": "This Footman currently prefers wearing green armor made by the Ascendancy. Click to change!"
+				},
+				"asc_purple_footman": {
+					"display_name": "Prefer Purple Armor",
+					"description": "This Footman currently prefers wearing purple armor made by the Ascendancy. Click to change!"
+				},
+				"asc_red_footman": {
+					"display_name": "Prefer Red Armor",
+					"description": "This Footman currently prefers wearing red armor made by the Ascendancy. Click to change!"
+				},
+				"asc_teal_footman": {
+					"display_name": "Prefer Teal Armor",
+					"description": "This Footman currently prefers wearing teal armor made by the Ascendancy. Click to change!"
+				},
+				"asc_yellow_footman": {
+					"display_name": "Prefer Yellow Armor",
+					"description": "This Footman currently prefers wearing yellow armor made by the Ascendancy. Click to change!"
+				},
+				"na_blue_footman": {
+					"display_name": "Prefer Blue Armor",
+					"description": "This Footman currently prefers wearing blue armor made by the Northern Alliance. Click to change!"
+				},
+				"na_yellow_footman": {
+					"display_name": "Prefer Yellow Armor",
+					"description": "This Footman currently prefers wearing yellow armor made by the Northern Alliance. Click to change!"
+				},
+				"rc_black_footman": {
+					"display_name": "Prefer Black Armor",
+					"description": "This Footman currently prefers wearing black armor made by Rayya's Children. Click to change!"
+				},
+				"rc_red_footman": {
+					"display_name": "Prefer Red Armor",
+					"description": "This Footman currently prefers wearing red armor made by Rayya's Children. Click to change!"
+				},
+				"asc_blue_knight": {
+					"display_name": "Prefer Blue Armor",
+					"description": "This Knight currently prefers wearing blue armor made by the Ascendancy. Click to change!"
+				},
+				"asc_green_knight": {
+					"display_name": "Prefer Green Armor",
+					"description": "This Knight currently prefers wearing green armor made by the Ascendancy. Click to change!"
+				},
+				"asc_purple_knight": {
+					"display_name": "Prefer Purple Armor",
+					"description": "This Knight currently prefers wearing purple armor made by the Ascendancy. Click to change!"
+				},
+				"asc_red_knight": {
+					"display_name": "Prefer Red Armor",
+					"description": "This Knight currently prefers wearing red armor made by the Ascendancy. Click to change!"
+				},
+				"asc_teal_knight": {
+					"display_name": "Prefer Teal Armor",
+					"description": "This Knight currently prefers wearing teal armor made by the Ascendancy. Click to change!"
+				},
+				"asc_yellow_knight": {
+					"display_name": "Prefer Yellow Armor",
+					"description": "This Knight currently prefers wearing yellow armor made by the Ascendancy. Click to change!"
+				},
+				"na_blue_knight": {
+					"display_name": "Prefer Blue Armor",
+					"description": "This Knight currently prefers wearing blue armor made by the Northern Alliance. Click to change!"
+				},
+				"na_yellow_knight": {
+					"display_name": "Prefer Yellow Armor",
+					"description": "This Knight currently prefers wearing yellow armor made by the Northern Alliance. Click to change!"
+				},
+				"rc_black_knight": {
+					"display_name": "Prefer Black Armor",
+					"description": "This Knight currently prefers wearing black armor made by Rayya's Children. Click to change!"
+				},
+				"rc_red_knight": {
+					"display_name": "Prefer Red Armor",
+					"description": "This Knight currently prefers wearing red armor made by Rayya's Children. Click to change!"
+				}
+			}
+		}
+	},	
+	"entities": {
+		"armor": {
+			"green_cloth_padded_vest": {
+				"display_name": "Green Padded Vest"
+			},
+			"green_cloth_padded_helmet": {
+				"display_name": "Green Padded Helmet"
+			},
+			"green_leather_vest": {
+				"display_name": "Green Thick Leather Vest"
+			},
+			"green_leather_helmet": {
+				"display_name": "Green Leather Skull Cap"
+			},
+			"green_bronze_breastplate": {
+				"display_name": "Green Bronze Breastplate"
+			},
+			"green_bronze_helm": {
+				"display_name": "Green Bronze Helm"
+			},
+			"green_iron_mail": {
+				"display_name": "Green Iron Mail"
+			},
+			"green_iron_helm": {
+				"display_name": "Green Iron Helm"
+			},
+			"green_iron_platemail": {
+				"display_name": "Green Iron Platemail"
+			},
+			"green_iron_helmet": {
+				"display_name": "Green Iron Helmet"
+			},
+			"green_steel_chainmail": {
+				"display_name": "Green Steel Chainmail"
+			},
+			"green_steel_mail": {
+				"display_name": "Green Full Platemail"
+			},
+			"green_steel_helmet": {
+				"display_name": "Green Plate Helm"
+			},
+			"green_silver_mail": {
+				"display_name": "Green Silver Mail"
+			},
+			"green_silver_helmet": {
+				"display_name": "Green Silver Helmet"
+			},
+			"purple_cloth_padded_vest": {
+				"display_name": "Purple Padded Vest"
+			},
+			"purple_cloth_padded_helmet": {
+				"display_name": "Purple Padded Helmet"
+			},
+			"purple_leather_vest": {
+				"display_name": "Purple Thick Leather Vest"
+			},
+			"purple_leather_helmet": {
+				"display_name": "Purple Leather Skull Cap"
+			},
+			"purple_bronze_breastplate": {
+				"display_name": "Purple Bronze Breastplate"
+			},
+			"purple_bronze_helm": {
+				"display_name": "Purple Bronze Helm"
+			},
+			"purple_iron_mail": {
+				"display_name": "Purple Iron Mail"
+			},
+			"purple_iron_helm": {
+				"display_name": "Purple Iron Helm"
+			},
+			"purple_iron_platemail": {
+				"display_name": "Purple Iron Platemail"
+			},
+			"purple_iron_helmet": {
+				"display_name": "Purple Iron Helmet"
+			},
+			"purple_steel_chainmail": {
+				"display_name": "Purple Steel Chainmail"
+			},
+			"purple_steel_mail": {
+				"display_name": "Purple Full Platemail"
+			},
+			"purple_steel_helmet": {
+				"display_name": "Purple Plate Helm"
+			},
+			"purple_silver_mail": {
+				"display_name": "Purple Silver Mail"
+			},
+			"purple_silver_helmet": {
+				"display_name": "Purple Silver Helmet"
+			},
+			"red_cloth_padded_vest": {
+				"display_name": "Red Padded Vest"
+			},
+			"red_cloth_padded_helmet": {
+				"display_name": "Red Padded Helmet"
+			},
+			"red_leather_vest": {
+				"display_name": "Red Thick Leather Vest"
+			},
+			"red_leather_helmet": {
+				"display_name": "Red Leather Skull Cap"
+			},
+			"red_bronze_breastplate": {
+				"display_name": "Red Bronze Breastplate"
+			},
+			"red_bronze_helm": {
+				"display_name": "Red Bronze Helm"
+			},
+			"red_iron_mail": {
+				"display_name": "Red Iron Mail"
+			},
+			"red_iron_helm": {
+				"display_name": "Red Iron Helm"
+			},
+			"blue_iron_platemail": {
+				"display_name": "Blue Iron Platemail"
+			},
+			"blue_iron_helmet": {
+				"display_name": "Blue Iron Helmet"
+			},
+			"red_steel_chainmail": {
+				"display_name": "Red Steel Chainmail"
+			},
+			"blue_steel_mail": {
+				"display_name": "Blue Full Platemail"
+			},
+			"blue_steel_helmet": {
+				"display_name": "Blue Plate Helm"
+			},
+			"blue_silver_mail": {
+				"display_name": "Blue Silver Mail"
+			},
+			"blue_silver_helmet": {
+				"display_name": "Blue Silver Helmet"
+			},
+			"na_horned_bronze_helm": {
+				"display_name": "Horned Bronze Northern Helm"
+			},
+			"na_horned_iron_helm": {
+				"display_name": "Horned Iron Northern Helm"
+			},
+			"na_horned_steel_helm": {
+				"display_name": "Horned Steel Northern Helm"
+			},
+			"leather_archer_vest": {
+				"display_name": "Archer Leather Vest",
+				"description": "Extra padding for extra survivability."
+			},
+			"leather_archer_hood": {
+				"display_name": "Archer Leather Hood",
+				"description": "Two helmets is better than one!"
+			},
+			"rc_leather_archer_vest": {
+				"display_name": "Archer Desert Vest"
+			},
+			"rc_leather_archer_hood": {
+				"display_name": "Archer Desert Cap"
+			},
+			"na_leather_archer_vest": {
+				"display_name": "Archer Hide Vest"
+			},
+			"na_leather_archer_hood": {
+				"display_name": "Archer Hide Cap"
+			},
+			"varanus_archer_vest": {
+				"display_name": "Archer Varanus Skin Vest",
+				"description": "For the big game hunter."
+			},
+			"varanus_archer_hood": {
+				"display_name": "Archer Varanus Skin Hood",
+				"description": "99% guaranteed to scare non-courageous hearthlings."
+			},
+			"zilla_archer_vest": {
+				"display_name": "Archer Zilla Skin Vest",
+				"description": "The most prized armor for big game hunters."
+			},
+			"zilla_archer_hood": {
+				"display_name": "Archer Zilla Skin Hood",
+				"description": "Will surely strike fear into your foes."
+			},
+			"rc_black_cloth_padded_vest": {
+				"display_name": "Black Padded Desert Vest"
+			},
+			"rc_black_cloth_padded_helmet": {
+				"display_name": "Black Padded Desert Cap"
+			},
+			"rc_black_leather_archer_vest": {
+				"display_name": "Black Archer Desert Vest"
+			},
+			"rc_black_leather_archer_hood": {
+				"display_name": "Black Archer Desert Cap"
+			},
+			"rc_black_leather_vest": {
+				"display_name": "Black Leather Desert Vest"
+			},
+			"rc_black_leather_helmet": {
+				"display_name": "Black Leather Desert Cap"
+			},
+			"rc_black_bronze_breastplate": {
+				"display_name": "Black Bronze Lamellar Armor"
+			},
+			"rc_black_bronze_cleric_breastplate": {
+				"display_name": "Black Bronze Cleric Lamellar Armor"
+			},
+			"rc_black_bronze_helm": {
+				"display_name": "Black Bronze Desert Helm"
+			},
+			"rc_black_bronze_circlet": {
+				"display_name": "Black Bronze Desert Headdress"
+			},
+			"rc_black_iron_cleric_mail": {
+				"display_name": "Black Iron Cleric Lamellar Armor"
+			},
+			"rc_black_iron_mail": {
+				"display_name": "Black Iron Lamellar Armor"
+			},
+			"rc_black_iron_helm": {
+				"display_name": "Black Iron Desert Helm"
+			},
+			"rc_black_iron_circlet": {
+				"display_name": "Black Iron Desert Headdress"
+			},
+			"rc_black_iron_platemail": {
+				"display_name": "Black Iron Gilded Cuirass"
+			},
+			"rc_black_iron_helmet": {
+				"display_name": "Black Iron Desert Helmet"
+			},
+			"rc_black_steel_chainmail": {
+				"display_name": "Black Steel Lamellar Armor"
+			},
+			"rc_black_steel_cleric_chainmail": {
+				"display_name": "Black Steel Cleric Lamellar Armor"
+			},
+			"rc_black_steel_helm": {
+				"display_name": "Black Steel Desert Helm"
+			},
+			"rc_black_steel_circlet": {
+				"display_name": "Black Steel Desert Headdress"
+			},
+			"rc_black_steel_mail": {
+				"display_name": "Black Steel Gilded Cuirass"
+			},
+			"rc_black_steel_helmet": {
+				"display_name": "Black Steel Desert Helmet"
+			},
+			"rc_black_silver_mail": {
+				"display_name": "Black Silver Gilded Cuirass"
+			},
+			"rc_black_silver_helmet": {
+				"display_name": "Black Silver Desert Helmet"
+			},
+			"na_blue_cloth_padded_vest": {
+				"display_name": "Blue Padded Gambeson"
+			},
+			"na_blue_cloth_padded_helmet": {
+				"display_name": "Blue Padded Northern Cap"
+			},
+			"na_blue_leather_archer_vest": {
+				"display_name": "Blue Archer Hide Vest"
+			},
+			"na_blue_leather_vest": {
+				"display_name": "Blue Hide Vest"
+			},
+			"na_blue_bronze_breastplate": {
+			   "display_name": "Blue Bronze Hauberk"
+			},
+			"na_blue_bronze_cleric_breastplate": {
+			   "display_name": "Blue Bronze Cleric Hauberk"
+			},
+			"na_blue_iron_cleric_mail": {
+			   "display_name": "Blue Iron Cleric Hauberk"
+			},
+			"na_blue_iron_mail": {
+			   "display_name": "Blue Iron Hauberk"
+			},
+			"na_blue_iron_platemail": {
+			   "display_name": "Blue Iron Brigandine"
+			},
+			"na_blue_iron_helmet": {
+			   "display_name": "Blue Iron Northern Helmet"
+			},
+			"na_blue_steel_mail": {
+			   "display_name": "Blue Steel Brigandine"
+			},
+			"na_blue_steel_helmet": {
+			   "display_name": "Blue Steel Northern Helmet"
+			},
+			"na_blue_steel_chainmail": {
+			   "display_name": "Blue Steel Hauberk"
+			},
+			"na_blue_steel_cleric_chainmail": {
+			   "display_name": "Blue Steel Cleric Hauberk"
+			},
+			"na_blue_silver_mail": {
+			   "display_name": "Blue Silver Brigandine"
+			},
+			"na_blue_silver_helmet": {
+			   "display_name": "Blue Silver Northern Helmet"
+			},
+			"blue_leather_archer_vest": {
+				"display_name": "Blue Archer Leather Vest"
+			},
+			"blue_leather_archer_hood": {
+				"display_name": "Blue Archer Leather Hood"
+			},
+			"green_leather_archer_vest": {
+				"display_name": "Green Archer Leather Vest"
+			},
+			"green_leather_archer_hood": {
+				"display_name": "Green Archer Leather Hood"
+			},
+			"purple_leather_archer_vest": {
+				"display_name": "Purple Archer Leather Vest"
+			},
+			"purple_leather_archer_hood": {
+				"display_name": "Purple Archer Leather Hood"
+			},
+			"red_leather_archer_vest": {
+				"display_name": "Red Archer Leather Vest"
+			},
+			"red_leather_archer_hood": {
+				"display_name": "Red Archer Leather Hood"
+			},
+			"bronze_cleric_breastplate": {
+				"display_name": "Cleric Bronze Breastplate",
+				"description": "Minor protection for divine intervention."
+			},
+			"iron_cleric_mail": {
+				"display_name": "Cleric Iron Mail",
+				"description": "Decent protection for divine intervention."
+			},
+			"steel_cleric_chainmail": {
+				"display_name": "Cleric Steel Chainmail",
+				"description": "Superior protection for divine intervention."
+			},
+			"rc_bronze_cleric_breastplate": {
+				"display_name": "Cleric Bronze Lamellar Armor"
+			},
+			"rc_iron_cleric_mail": {
+				"display_name": "Cleric Iron Lamellar Armor"
+			},
+			"rc_steel_cleric_chainmail": {
+				"display_name": "Cleric Steel Lamellar Armor"
+			},
+			"na_bronze_cleric_breastplate": {
+				"display_name": "Cleric Bronze Hauberk"
+			},
+			"na_iron_cleric_mail": {
+				"display_name": "Cleric Iron Hauberk"
+			},
+			"na_steel_cleric_chainmail": {
+				"display_name": "Cleric Steel Hauberk"
+			}
+		}
+	},
+	"jobs": {
+		"weaver": {
+			"recipes": {
+				"blue_weapons_name": "Blue Combat Equipment",
+				"green_weapons_name": "Green Combat Equipment",
+				"purple_weapons_name": "Purple Combat Equipment",
+				"red_weapons_name": "Red Combat Equipment",
+				"black_weapons_name": "Black Combat Equipment",
+				"white_weapons_name": "White Combat Equipment",
+				"leather_archer_vest_recipe": {
+					"description": "Provides additional protection for your archers",
+					"flavor": "Remind me why you need this again?"
+				},
+				"leather_archer_hood_recipe": {
+					"description": "A leather helmet to pad out your archer's headgear",
+					"flavor": "It's like a helmet inside a helmet!"
+				},
+				"varanus_archer_vest_recipe": {
+					"description": "A Varanus skin vest for experienced archers",
+					"flavor": "Guaranteed to blow cosplayers' minds!"
+				},
+				"varanus_archer_hood_recipe": {
+					"description": "A hood made out of Varanus skins for archers",
+					"flavor": "The transformation is complete..."
+				},
+				"zilla_archer_vest_recipe": {
+					"description": "A vest made out of Zilla skins, for your most experienced archers",
+					"flavor": "Must be hot in there..."
+				},
+				"zilla_archer_hood_recipe": {
+					"description": "The pinnacle of archer hood fashion",
+					"flavor": "Almost lets you summon volcanic earthquakes."
+				}
+			}
+		},
+		"blacksmith": {
+			"recipes": {
+				"blue_armor_name": "Blue Armor",
+				"green_armor_name": "Green Armor",
+				"purple_armor_name": "Purple Armor",
+				"red_armor_name": "Red Armor",
+				"black_armor_name": "Black Armor",
+				"white_armor_name": "White Armor",
+				"na_horned_helm": {
+					"flavor": "For when you feel like touting your horn(s)"
+				},
+				"bronze_cleric_breastplate_recipe": {
+					"description": "Provides some protection for your wanna-be Paladins",
+					"flavor": "Does not require lawful good alignment."
+				},
+				"iron_cleric_mail_recipe": {
+					"description": "Provides fair protection for your wanna-be Paladins",
+					"flavor": "Requires the Strength domain to equip."
+				},
+				"steel_cleric_chainmail": {
+					"description": "Provides great protection for your wanna-be Paladins",
+					"flavor": "Requires lawful good alignment (To be implemented)."
+				}
+			}
+		}
+	}
+}

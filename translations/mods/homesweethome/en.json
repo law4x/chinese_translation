@@ -1,0 +1,596 @@
+{
+	"jobs": {
+		"blacksmith": {
+			"recipes" : {
+				"bronze_wall_candle_recipe" : {
+		      "recipe_name" : "Bronze Candle Holder",
+		      "description" : "A small decorative light source for your rooms.",
+		      "flavor" : "Lovely details…"
+		    },
+				"bronze_wall_double_candle_recipe" : {
+		      "recipe_name" : "Bronze-Twins Candle Holder",
+		      "description" : "A small decorative light source for your rooms.",
+		      "flavor" : "Lovely details…"
+		    },
+				"gold_wall_candle_recipe" : {
+		      "recipe_name" : "Golden Candle Holder",
+		      "description" : "A small decorative light source for your rooms.",
+		      "flavor" : "Beware of orcs!"
+		    },
+				"gold_wall_double_candle_recipe" : {
+		      "recipe_name" : "Golden-Twins Candle Holder",
+		      "description" : "A small decorative light source for your rooms.",
+		      "flavor" : "Beware of orcs!"
+		    },
+				"iron_brazier_recipe" : {
+					"recipe_name" : "Iron Brazier",
+		      "description" : "Brings light to dark nights.",
+		      "flavor" : "I love how the fire is dancing!"
+				},
+				"iron_brazier_patrol-point_recipe" : {
+					"recipe_name" : "Patrol Iron Brazier",
+		      "description" : "Light souce for soldiers.",
+		      "flavor" : "Keeps also warm on cold nights"
+				},
+				"oil_lamp_height_rayya_recipe" : {
+		      "recipe_name" : "Height Oil Brazier",
+		      "description" : "Useful light source for dark nights.",
+		      "flavor" : "Looks nice in my living room"
+		    },
+				"oil_lamp_height_patrol-point_rayya_recipe" : {
+		      "recipe_name" : "Patrol Oil Brazier",
+		      "description" : "Light souce for soldiers.",
+		      "flavor" : "Keeps also warm on cold nights"
+		    },
+				"oil_lamp_large_rayya_recipe" : {
+		      "recipe_name" : "Large Oil Brazier",
+		      "description" : "Useful light source for dark nights.",
+		      "flavor" : "Uff this Brazier is really heavy"
+		    },
+				"silver_wall_candle_recipe" : {
+		      "recipe_name" : "Silver Candle Holder",
+		      "description" : "A small decorative light source for your rooms.",
+		      "flavor" : "Oh gosh! I like the bling bling"
+		    },
+				"silver_wall_double_candle_recipe" : {
+		      "recipe_name" : "Silver-Twins Candle Holder",
+		      "description" : "A small decorative light source for your rooms.",
+		      "flavor" : "Oh gosh! I like the bling bling"
+		    },
+				"utensils_recipe" : {
+					"recipe_name" : "Bronze Utensils",
+		      "description" : "Useful Utensils for your Workshop.",
+		      "flavor" : "Ohh i love this spoon!"
+				}
+			}
+		},
+		"cook": {
+			"recipes" : {
+				"storage_name" : "Storage",
+				"furniture_name" : "Furniture",
+
+				"corbel_cook_recipe" : {
+					"recipe_name" : "Spice Corbel",
+		      "description" : "Spicy food is more delicious.",
+		      "flavor" : "Let me add a little bit coriander…"
+				},
+				"barrels_berrie_recipe" : {
+					"recipe_name" : "Berrie Barrels",
+		      "description" : "Serving fresh Berrie juice makes Hearthlings happier. Place for 92 Items.",
+		      "flavor" : "Cheers my Friends!"
+				},
+				"barrels_pear_rayya_recipe" : {
+					"recipe_name" : "Pear Barrels",
+		      "description" : "Serving fresh prickly pear juice makes Hearthlings happier. Place for 92 Items.",
+		      "flavor" : "Cheers my Friends!"
+				},
+				"dishes-cabinet_recipe" : {
+					"recipe_name" : "Dishes Cabinet",
+		      "description" : "Workbench to decorate you Tavern.",
+		      "flavor" : "Another Decoration on this wall please!"
+				},
+				"pantry_cook_recipe" : {
+					"recipe_name" : "Ingredients Pantry",
+					"description" : "Useful storage for 64 cooking ingredients.",
+					"flavor" : "Finally i have enough place for it!"
+				},
+				"shelf_cook_recipe" : {
+					"recipe_name" : "Crockery Shelf",
+					"description" : "Decorative Shelf for all your Recipes and Crockeries.",
+					"flavor" : "You have some really beautiful Plates."
+				},
+				"tavern_table_large_recipe" : {
+					"recipe_name" : "Large Tavern Table",
+					"description" : "A table for big reunions.",
+					"flavor" : "This is a massive Table."
+				},
+				"tavern_table_large_cloth_recipe" : {
+					"recipe_name" : "Large Tavern Table",
+					"description" : "A large table with a Tablecloth.",
+					"flavor" : "Ohh i love this color!"
+				},
+				"tavern_table_large_fiber_recipe" : {
+					"recipe_name" : "Large Tavern Table",
+					"description" : "A large table with a fiber Tablecloth.",
+					"flavor" : "Ohh i love this color!"
+				},
+				"tavern_table_large_fur_recipe" : {
+					"recipe_name" : "Large Tavern Table",
+					"description" : "A large table with a fur Tablecloth.",
+					"flavor" : "Ohh i love this color!"
+				},
+				"tavern_table_small_cloth_recipe" : {
+					"recipe_name" : "Small Tavern Table",
+					"description" : "A small table with a Tablecloth.",
+					"flavor" : "Ohh i love this color!"
+				},
+				"tavern_table_small_fiber_recipe" : {
+					"recipe_name" : "Small Tavern Table",
+					"description" : "A small table with a fiber Tablecloth.",
+					"flavor" : "Ohh i love this color!"
+				},
+				"tavern_table_small_fur_recipe" : {
+					"recipe_name" : "Small Tavern Table",
+					"description" : "A small table with a fur Tablecloth.",
+					"flavor" : "Ohh i love this color!"
+				},
+				"utensils_holder_cook_recipe" : {
+					"recipe_name" : "Utensils Holder",
+					"description" : "Finally a good place for your utensils.",
+					"flavor" : "Well arranged…"
+				},
+				"wash_barrel_recipe" : {
+					"recipe_name" : "Wash Barrel",
+					"description" : "Only a clean Plate is a good Crockery.",
+					"flavor" : "Look how it shines."
+				}
+			}
+		},
+
+		"carpenter": {
+			"recipes" : {
+				"barrel_recipe" : {
+		      "recipe_name" : "Wooden Barrel",
+		      "description" : "Safe space with this Item. Contains up to 32 Materials",
+		      "flavor" : "I love the Berrie juice!"
+		    },
+				"case_small_recipe" : {
+		      "recipe_name" : "Small Case",
+		      "description" : "Collect some Materials. Contains up to 10 Items.",
+		      "flavor" : "Small but fine!"
+		    },
+				"case_large_recipe" : {
+		      "recipe_name" : "Large Case",
+		      "description" : "Collect a large amout of Materials. Contains up to 48 Items.",
+		      "flavor" : "Well organized!"
+		    },
+				"pantry_recipe" : {
+					"recipe_name" : "Wooden Pantry",
+					"description" : "Decorative empty wooden Pantry.",
+					"flavor" : "A lot of new storage possibilities."
+				},
+				"shelf_carpenter_recipe" : {
+					"recipe_name" : "Wooden Shelf",
+					"description" : "Decorative empty wooden Shelf.",
+					"flavor" : "Great! More place for Items."
+				},
+				"table_recipe" : {
+		      "recipe_name" : "Wooden Table",
+		      "description" : "A large wooden table for your Workshop.",
+		      "flavor" : "How useful! A nice wooden table."
+		    },
+				"wood_wall_candle_recipe" : {
+		      "recipe_name" : "Wooden Candle Holder",
+		      "description" : "A small decorative light source for your rooms.",
+		      "flavor" : "I hope the wood doesn't burn…"
+		    },
+				"wood_wall_double_candle_recipe" : {
+		      "recipe_name" : "Wooden-Twins Candle Holder",
+		      "description" : "A small decorative light source for your rooms.",
+		      "flavor" : "I hope the wood doesn't burn…"
+		    }
+			}
+		},
+
+		"herbalist": {
+			"recipes" : {
+				"storage_name" : "Storage",
+				"plants_name" : "Plants",
+
+				"gardener-bench_recipe" : {
+		      "recipe_name" : "Gardener Bench",
+		      "description" : "Plants don't have only healing attributes.",
+		      "flavor" : "Helpful and decorative. A nice combi."
+		    },
+				"books_recipe" : {
+		      "recipe_name" : "Books",
+		      "description" : "Sometimes is useful to write down your knowledge.",
+		      "flavor" : "Hopefully i don't have to read all this books."
+		    },
+				"corbel_herbalist_recipe" : {
+		      "recipe_name" : "Herbs Corbel",
+		      "description" : "Decorative corbel to dry collected herbs.",
+		      "flavor" : "They smell so seductive."
+		    },
+
+		    "shelf_herbalist_library_recipe" : {
+		      "recipe_name" : "Potions Bookshelf",
+		      "description" : "Decorative Shelf for all your healing books.",
+		      "flavor" : "Also a Herbalist sometimes needs some help."
+		    },
+				"table_herbalist_recipe" : {
+		      "recipe_name" : "Herbs Table",
+		      "description" : "Writing desk for professional Herbalists.",
+		      "flavor" : "Let me write some recipes…"
+		    },
+
+				"case_large_herbs_recipe" : {
+		      "recipe_name" : "Large Herb Case",
+		      "description" : "Collect a large amout of fresh Herbs. Contains up to 48 Items.",
+		      "flavor" : "Well organized!"
+		    },
+		    "jar_small_recipe" : {
+		      "recipe_name" : "Small Jar",
+		      "description" : "Small but fine container. Contains up to 8 Items.",
+		      "flavor" : "Uh! Did i smell cookies inside?"
+		    },
+				"jar_large_recipe" : {
+		      "recipe_name" : "Large Jar",
+		      "description" : "The savest place for Tonics and Herbs. Contains up to 32 Items.",
+		      "flavor" : "It's a really big storage… Awful!"
+		    },
+				"planter-box_small_brightbell_recipe" : {
+		      "recipe_name" : "Brightbell Planter Box",
+		      "description" : "Let grow needed herbs in your Workshop.",
+		      "flavor" : "So amazing see them growing!"
+		    },
+				"planter-box_small_frostsnap_recipe" : {
+		      "recipe_name" : "Frostsnap Planter Box",
+		      "description" : "Let grow needed herbs in your Workshop.",
+		      "flavor" : "So amazing see them growing!"
+		    },
+				"planter-box_small_cactus_rayya_recipe" : {
+		      "recipe_name" : "Cactusflower Planter Box",
+		      "description" : "Let grow needed herbs in your Workshop.",
+		      "flavor" : "So amazing see them growing!"
+		    },
+				"planter-box_large_recipe" : {
+		      "recipe_name" : "Large Planter Box",
+		      "description" : "Increase the production of herbs with a large box.",
+		      "flavor" : "So amazing see them growing!"
+		    }
+			}
+		},
+
+		"mason": {
+			"recipes" : {
+
+				"monument_name" : "Statues & Monuments",
+
+				"fireplace_stone_large_recipe" : {
+					"recipe_name" : "Stone Fireplace",
+		      "description" : "A rustic fireplace for your home sweet home.",
+		      "flavor" : "It fit's perfectly in my living room."
+				},
+				"sculpture_hamnisu_recipe" : {
+					"recipe_name" : "Monument to Hamnisu",
+		      "description" : "A decorative monument dedicated to Hamnisu for his essential help for the Update 2.2",
+		      "flavor" : "Ohh see the bling bling!!"
+				},
+				"stone_wall_candle_recipe" : {
+		      "recipe_name" : "Stone Candle Holder",
+		      "description" : "A small decorative light source for your rooms.",
+		      "flavor" : "Burn baby, burn…"
+		    },
+				"stone_wall_double_candle_recipe" : {
+		      "recipe_name" : "Stone-Twins Candle Holder",
+		      "description" : "A small decorative light source for your rooms.",
+		      "flavor" : "Burn baby, burn…"
+		    }
+			}
+		},
+
+		"potter": {
+			"recipes" : {
+				"decoration_name" : "Decorations",
+				"monument_name" : "Statues & Monuments",
+
+				"crockery_recipe" : {
+					"recipe_name" : "Crockery",
+					"description" : "Beautiful porcellan crockery for special Events.",
+					"flavor" : "Lovely Tea Service."
+				},
+				"clay_wall_candle_recipe" : {
+		      "recipe_name" : "Clay Candle Holder",
+		      "description" : "A small decorative light source for your rooms.",
+		      "flavor" : "Lovely details…"
+		    },
+				"clay_wall_double_candle_recipe" : {
+		      "recipe_name" : "Clay-Twins Candle Holder",
+		      "description" : "A small decorative light source for your rooms.",
+		      "flavor" : "Lovely details…"
+		    },
+				"pantry_rayya_recipe" : {
+					"recipe_name" : "Clay Pantry",
+					"description" : "Decorative empty clay Pantry.",
+					"flavor" : "A lot of new storage possibilities."
+				},
+				"shelf_rayya_recipe" : {
+		      "recipe_name" : "Clay Shelf",
+		      "description" : "Decorative empty clay Shelf.",
+					"flavor" : "Great! More place for Items."
+		    },
+				"table_rayya_recipe" : {
+		      "recipe_name" : "Clay Table",
+		      "description" : "A large clay table for your Workshop.",
+		      "flavor" : "How useful! A nice clay table."
+		    }
+			}
+		}
+	},
+
+	"entities" : {
+		"workbenches" : {
+			"dishes-cabinet_ghost" : {
+        "display_name": "Dishes Cabinet",
+        "description" : "Workbench to decorate you Tavern."
+			},
+			"gardener-bench_ghost" : {
+        "display_name": "Gardener Bench",
+        "description" : "Helpful and decorative."
+			}
+		},
+
+		"containers" : {
+			"barrel_ghost" : {
+        "display_name": "Wooden Barrel",
+        "description" : "Collect over 32 Items."
+      },
+			"barrels_berrie_ghost" : {
+        "display_name": "Berrie Barrels",
+        "description" : "Collect over 96 Items."
+      },
+			"barrels_pear_rayya_ghost" : {
+        "display_name": "Pear Barrels",
+        "description" : "Collect over 96 Items."
+      },
+			"case_small_ghost" : {
+        "display_name": "Small Case",
+        "description" : "Collect over 10 Items."
+      },
+			"case_large_ghost" : {
+        "display_name": "Large Case",
+        "description" : "Collect a large amout of 48 Items."
+      },
+			"case_large_herbs_ghost" : {
+        "display_name": "Large Herb Case",
+        "description" : "Collect to 48 Units of fresh Herbs."
+      },
+      "jar_large_ghost" : {
+        "display_name": "Large Jar",
+        "description" : "The savest place for Tonics and Herbs."
+      },
+      "jar_small_ghost" : {
+				"display_name": "Small Jar",
+        "description" : "Small but fine container."
+      },
+			"pantry_cook_ghost" : {
+				"display_name": "Ingredients Pantry",
+				"description" : "Useful storage for 64 cooking ingredients."
+			}
+		},
+
+		"food" : {
+			"honey" : {
+				"honey_basket" : {
+        	"display_name": "Honey Jar",
+        	"description" : "A small jar filled with deicious honey."
+				},
+				"honey_serving" : {
+        	"display_name": "Delicious Honey",
+        	"description" : "Sweet. Sweeter. Honey. Your people will love it!"
+				}
+			}
+		},
+
+    "furniture" : {
+			"fireplace_stone_large_ghost" : {
+				"display_name": "Stone Fireplace",
+        "description" : "Rustic fireplace for your home."
+      },
+			"pantry_ghost" : {
+				"display_name": "Wooden Pantry",
+        "description" : "An empty storage for new Items."
+      },
+			"pantry_rayya_ghost" : {
+				"display_name": "Clay Pantry",
+        "description" : "An empty storage for new Items."
+      },
+      "shelf_carpenter_ghost" : {
+				"display_name": "Wooden Shelf",
+        "description" : "Maybe someone needs more storage place…"
+      },
+			"shelf_rayya_ghost" : {
+				"display_name": "Clay Shelf",
+        "description" : "Maybe someone needs more storage place…"
+      },
+			"shelf_cook_ghost" : {
+				"display_name": "Crockery Shelf",
+				"description" : "Shelf for your Recipes and Crockeries."
+			},
+			"shelf_herbalist_library_ghost" : {
+				"display_name": "Potions Bookshelf",
+        "description" : "Collects all your healing knowledge."
+      },
+			"table_ghost" : {
+				"display_name": "Wooden Table",
+        "description" : "A large wooden table for your Workshop."
+      },
+			"table_rayya_ghost" : {
+				"display_name": "Clay Table",
+        "description" : "A large clay table for your Workshop."
+      },
+			"table_herbalist_ghost" : {
+				"display_name": "Herb Table",
+        "description" : "More place to produce healing Items."
+      },
+			"tavern_table_large_ghost" : {
+				"display_name": "Large Tavern Table",
+        "description" : "A table for big reunions."
+      },
+			"tavern_table_large_cloth_ghost" : {
+				"display_name": "Large Tavern Table",
+				"description" : "A large table with a Tablecloth"
+			},
+			"tavern_table_large_fiber_ghost" : {
+				"display_name": "Large Tavern Table",
+				"description" : "A large table with a fiber Tablecloth"
+			},
+			"tavern_table_large_fur_ghost" : {
+				"display_name": "Large Tavern Table",
+				"description" : "A large table with a fur Tablecloth"
+			},
+			"tavern_table_small_cloth_ghost" : {
+				"display_name": "Small Tavern Table",
+				"description" : "A small table with a Tablecloth."
+			},
+			"tavern_table_small_fiber_ghost" : {
+				"display_name": "Small Tavern Table",
+        "description" : "A small table with a fiber Tablecloth."
+      },
+			"tavern_table_small_fur_ghost" : {
+				"display_name": "Small Tavern Table",
+				"description" : "A small table with a fur Tablecloth."
+			}
+    },
+
+		"decoration" : {
+			"books_ghost" : {
+				"display_name": "Books",
+        "description" : "Decorative and useful."
+      },
+			"bronze_wall_candle_ghost" : {
+				"display_name": "Bronze Candle Holder",
+        "description" : "A small decorative light source."
+      },
+			"bronze_wall_double_candle_ghost" : {
+				"display_name": "Bronze-Twins Candle Holder",
+        "description" : "A small decorative light source."
+      },
+			"clay_wall_candle_ghost" : {
+				"display_name": "Clay Candle Holder",
+        "description" : "A small decorative light source."
+      },
+			"clay_wall_double_candle_ghost" : {
+				"display_name": "Clay-Twins Candle Holder",
+        "description" : "A small decorative light source."
+      },
+			"corbel_cook_ghost" : {
+				"display_name": "Spice Corbel",
+				"description" : "Spicy food is more delicious."
+			},
+			"corbel_herbalist_ghost" : {
+				"display_name": "Herbs Corbel",
+        "description" : "Ideal to dry collected herbs."
+      },
+			"crockery_ghost" : {
+				"display_name": "Crockery",
+        "description" : "Beautiful porcellan crockery."
+      },
+			"gold_wall_candle_ghost" : {
+				"display_name": "Golden Candle Holder",
+        "description" : "A small decorative light source."
+      },
+			"gold_wall_double_candle_ghost" : {
+				"display_name": "Golden-Twins Candle Holder",
+        "description" : "A small decorative light source."
+      },
+			"iron_brazier_ghost" : {
+				"display_name": "Iron Brazier",
+        "description" : "Brings light to dark nights."
+      },
+			"oil_lamp_height_rayya_ghost" : {
+				"display_name": "Height Oil Brazier",
+        "description" : "Brings light to dark nights."
+      },
+			"oil_lamp_large_rayya_ghost" : {
+				"display_name": "Large Oil Brazier",
+        "description" : "Brings light to dark nights."
+      },
+			"sculpture_hamnisu_ghost" : {
+				"display_name": "Monument to Hamnisu",
+				"description" : "For his help in the Update 2.2"
+			},
+			"silver_wall_candle_ghost" : {
+				"display_name": "Silver Candle Holder",
+        "description" : "A small decorative light source."
+      },
+			"silver_wall_double_candle_ghost" : {
+				"display_name": "Silver-Twins Candle Holder",
+        "description" : "A small decorative light source."
+      },
+			"stone_wall_candle_ghost" : {
+				"display_name": "Stone Candle Holder",
+        "description" : "A small decorative light source."
+      },
+			"stone_wall_double_candle_ghost" : {
+				"display_name": "Stone-Twins Candle Holder",
+        "description" : "A small decorative light source."
+      },
+			"utensils_ghost" : {
+				"display_name": "Bronze Utensils",
+				"description" : "Useful Utensils for your Workshop."
+			},
+			"utensils_holder_cook_ghost" : {
+				"display_name": "Utensils Holder",
+				"description" : "Your Utensils, well arranged…"
+			},
+			"wash_barrel_ghost" : {
+				"display_name": "Wash Barrel",
+        "description" : "Let shine your Crockery."
+      },
+			"wood_wall_candle_ghost" : {
+				"display_name": "Wooden Candle Holder",
+        "description" : "A small decorative light source."
+      },
+			"wood_wall_double_candle_ghost" : {
+				"display_name": "Wooden-Twins Candle Holder",
+        "description" : "A small decorative light source."
+      }
+    },
+		"plants" : {
+
+			"grass_large_ghost" : {
+				"display_name": "Grass",
+        "description" : "A large tuft of grass."
+			},
+
+			"grass_medium_ghost" : {
+				"display_name": "Grass",
+        "description" : "A medium tuft of grass."
+			},
+
+			"grass_small_ghost" : {
+				"display_name": "Grass",
+        "description" : "A small tuft of grass."
+			},
+
+			"planter-box_small_brightbell_ghost" : {
+				"display_name": "Brightbell Planter Box",
+        "description" : "Plant herbs in your Workshop."
+      },
+			"planter-box_small_frostsnap_ghost" : {
+				"display_name": "Frostsnap Planter Box",
+        "description" : "Plant herbs in your Workshop."
+      },
+			"planter-box_small_cactus_rayya_ghost" : {
+				"display_name": "Cactusflower Planter Box",
+        "description" : "Plant herbs in your Workshop."
+      },
+			"planter-box_large_ghost" : {
+				"display_name": "Large Planter Box",
+        "description" : "Increase the production of herbs."
+      }
+		}
+	}
+}

@@ -1,0 +1,1221 @@
+{
+	"wip": "正在进行的工作",
+	"ai": {
+		"actions": {
+			"status_text": {
+				"summoning": "召唤中",
+				"lay_egg": "下蛋中"
+			}
+		}
+	},
+	"data": {
+		"biome": {
+			"swamp": {
+				"display_name": "沼泽",
+				"description": "水系泛滥的平原, 有着茂密的植被. 小心脚下.",
+				"random_location_names": {
+					"000": "孟波斯沼泽"
+				},
+				"seasons": {
+					"dry": {
+						"display_name": "旱季",
+						"description": "沼泽的旱季持续六个月. 基本上没有雨水. 白天温暖, 但晚上有些凉."
+					},
+					"wet": {
+						"display_name": "雨季",
+						"description": "沼泽的雨季持续六个月. 是温暖的季节. 午后的阵雨十分常见, 草木也长得很茂盛."
+					}
+				}
+			}
+		},
+		"build": {
+			"building_brushes": {
+				"colors": {
+					"#7C7F48": "边草绿 (沼泽)",
+					"#6D7037": "淡色草地绿 (沼泽)",
+					"#5D602D": "草地绿 (沼泽)",
+					"#CFCCC2": "淡色骨质灰 (沼泽)",
+					"#B4AD95": "骨质灰 (沼泽)",
+					"#A19878": "陈年骨质灰 (沼泽)",
+					"#695087": "浅大芽花紫 (沼泽)",
+					"#5C4578": "大芽花色紫 (沼泽)",
+					"#4A3662": "暗大芽花紫 (沼泽)"
+				}
+			}
+		},
+		"commands": {
+			"enable_egg_spot": {
+				"display_name": "生蛋",
+				"description": "叫一名哥布林来生个蛋",
+				"disabled_description": "已占用"
+			},
+			"goblinpedia": {
+				"display_name": "打开哥布林百科",
+				"description": "点击阅读"
+			},
+			"travel": {
+				"display_name": "旅行",
+				"description": "选择将要重新开始的哥布林"
+			}
+		},
+		"gm": {
+			"nina": "尼娜",
+			"campaigns": {
+				"town_progression": {
+					"trigger": {
+						"before_chosing_banner": {
+							"title": "是时候了",
+							"dialog_title": "是时候了",
+							"message": "不用再等了,萨满已经准备好了,我们也准备好了.<br>让我们选择我们的旗帜吧."
+						},
+						"explain_egg": {
+							"title": "每日报告?",
+							"dialog_title": "每日报告?",
+							"message": "什么是\"每日报告\"?一种获得新公民的方法?我们可没有这样的东西. <br> 使用萨满制作的哥布林百科来学习如何完成."
+						}
+					}
+				}
+			}
+		},
+		"loadouts": {
+			"toys": {
+				"display_name": "哥布林玩具",
+				"description": "这就是让哥布林自己带东西时会发生的情况",
+				"tooltip": "手里有武器, 肚里有东西, 袋里有金币."
+			},
+			"nature": {
+				"display_name": "自然协调",
+				"description": "有时候与自然协调会很难, 希望这可以帮到你.",
+				"tooltip": "基础物资, 你应该都用得到."
+			}
+		},
+		"happiness": {
+			"thoughts": {
+				"water": {
+					"values": {
+						"sticky_water": {
+							"display_name": "黏糊糊的水",
+							"tooltip": "噫! 我不要走进这种泥浆里啊."
+						}
+					}
+				}
+			}
+		},
+		"monster_tuning": {
+			"forest": {
+				"insane_bear": {
+					"description": "小心熊"
+				}
+			}
+		},
+		"population": {
+			"firefly_clan": {
+				"initial_town_name": "小哥布林族",
+				"display_name": "流萤族",
+				"quote": "",
+				"long_description": "生活在沼泽中的萨满式族群. 这种生活方式让他们与绿皮的表亲们区分了开来, 对生命有了些许理解.",
+				"post_selection_description": ", 一帮神奇的哥布林."
+			}
+		},
+		"saved_objects": {
+			"building_templates": {
+				"barrack": "营房",
+				"house1": "房子 1",
+				"house2": "房子 2",
+				"house3": "房子 3",
+				"hut": "棚屋",
+				"temple": "寺庙",
+				"tent": "帐篷",
+				"trading": "贸易点",
+				"garden": "园地"
+			}
+		},
+		"traits": {
+			"party_goblin": {
+				"display_name": "派对哥布林"
+			}
+		},
+		"weather": {
+			"foggy": {
+				"description": "迷雾布满了大地, 隐藏着不可告人的神秘.<ul><li>视野大幅下降.</li></ul>"
+			}
+		},
+		"buffs": {
+			"body_up": {
+				"display_name": "体能提升",
+				"description": "+1体能属性"
+			},
+			"firefly_confusion": {
+				"display_name": "群萤障目",
+				"description": "一群萤火虫让敌人陷入混乱和盲目"
+			},
+			"poison": {
+				"display_name": "中毒",
+				"description": "中毒了, 状态下降"
+			},
+			"rage_over_time": {
+				"display_name": "怒气积攒",
+				"description": "状态随时间提升"
+			},
+			"self_aid": {
+				"display_name": "自救措施",
+				"description": "更快的生命值回复速度"
+			},
+			"trapped": {
+				"display_name": "受困",
+				"description": "被御兽师困住了"
+			}
+		}
+	},
+	"entities": {
+		"armor": {
+			"fern_helmet": {
+				"display_name": "(流萤) 蕨帽",
+				"description": "让你的头在太阳的炙烤下也不会发热"
+			},
+			"flower_helmet": {
+				"display_name": "(流萤) 花帽",
+				"description": "只要风度不要保护"
+			},
+			"goblin_aura": {
+				"display_name": "哥布林光环",
+				"description": "灵魂行者赐予的守护"
+			},
+			"horn_helmet": {
+				"display_name": "(流萤) 号角头盔",
+				"description": "神奇的平衡性"
+			},
+			"leather_armor": {
+				"display_name": "(流萤) 皮甲"
+			},
+			"leather_helmet": {
+				"display_name": "(流萤) 皮帽"
+			},
+			"full_leather_helmet": {
+				"display_name": "(流萤) 全皮帽",
+				"description": "比普通皮帽保护性更强"
+			},
+			"log_armor": {
+				"display_name": "(流萤) 木甲",
+				"description": "足够结实"
+			},
+			"log_helmet": {
+				"display_name": "(流萤) 木盔",
+				"description": "很重, 但能保护你的头"
+			},
+			"party_goblin_hat": {
+				"display_name": "派对哥布林帽",
+				"description": "可以在任何派对中脱颖而出"
+			},
+			"varanus_armor": {
+				"display_name": "(流萤) 巨蜥甲",
+				"description": "带鳞的护甲, 保护性很高"
+			},
+			"varanus_helmet": {
+				"display_name": "(流萤) 巨蜥盔",
+				"description": "恐怖, 有点臭u"
+			}
+		},
+		"construction": {
+			"brick_fence": {
+				"display_name": "砖围栏",
+				"description": "挡住路",
+				"flavor": "一次一片"
+			},
+			"brick_fence_end": {
+				"display_name": "砖围栏端",
+				"description": "挡住路",
+				"flavor": "一次一片"
+			},
+			"goblin_barricade": {
+				"display_name": "双重路障",
+				"description": "更大的阻碍",
+				"flavor": "基本的双栅栏"
+			},
+			"goblin_barricade_single": {
+				"display_name": "路障",
+				"description": "挡住路",
+				"flavor": "基本的围栏"
+			},
+			"curtains_door": {
+				"display_name": "窗帘门",
+				"description": "一扇更大的门. 这给人留下了深刻的印象."
+			},
+			"wooden_door": {
+				"display_name": "木门",
+				"description": "开个口子"
+			},
+			"wooden_window_frame": {
+				"display_name": "木窗框",
+				"description": "让光照进来"
+			}
+		},
+		"consumables": {
+			"blue_potion": {
+				"display_name": "蓝药剂"
+			},
+			"green_potion": {
+				"display_name": "绿药剂"
+			},
+			"purple_potion": {
+				"display_name": "紫药剂"
+			},
+			"white_potion": {
+				"display_name": "白药剂"
+			}
+		},
+		"containers": {
+			"chest": {
+				"display_name": "编织箱子",
+				"description": "能储存24件物品"
+			},
+			"clay_chest": {
+				"display_name": "粘土箱",
+				"description": "最多可存储48件物品"
+			}
+		},
+		"critters": {
+			"frog": {
+				"species": "青蛙",
+				"display_name": "青蛙",
+				"description": "跳跳的两栖动物"
+			}
+		},
+		"decoration": {
+			"big_firefly_essense": {
+				"display_name": "大萤火虫精华",
+				"description": "有相当于8个小萤火虫的香精瓶,夜光",
+				"flavor": "以后可以收获回8瓶"
+			},
+			"certificate": {
+				"display_name": "哥布林证书",
+				"description": "做得好的证明",
+				"flavor": "可以是升职,也可以是赢得吐痰比赛,对任何东西都是有价值的"
+			},
+			"fiber_rug": {
+				"display_name": "纤维地毯",
+				"description": "一种混合的纤维用手紧紧地编织在一起,无论步行的交通工具是什么都能通过.",
+				"flavor": "容易清洁."
+			},
+			"hourglass": {
+				"display_name": "巨大沙漏",
+				"description": "一种形状有趣的玻璃,里面有沙子,从一端流到另一端",
+				"flavor": "轮到我翻转它了!"
+			},
+			"large_candle": {
+				"display_name": "大蜡烛",
+				"description": "高又大的蜡烛"
+			},
+			"small_candle": {
+				"display_name": "小蜡烛",
+				"description": "小蜡烛, 亮度可不变"
+			},
+			"wall_candle": {
+				"display_name": "墙烛",
+				"description": "挂在墙上的小蜡烛"
+			},
+			"goblin_large_totem": {
+				"display_name": "流萤大图腾",
+				"description": "纪念图腾,上面刻有类似氏族的人",
+				"flavor": "别担心,它不是用真正的头骨做的,只是白漆"
+			},
+			"goblin_small_totem": {
+				"display_name": "流萤小图腾",
+				"description": "纪念图腾,上面刻有类似氏族的人",
+				"flavor": "别担心,它不是用真正的头骨做的,只是白漆"
+			},
+			"goblin_market_stall": {
+				"display_name": "流萤露天商店"
+			},
+			"mini_fountain": {
+				"display_name": "迷你喷泉",
+				"description": "水从顶部开始向下流过所有位置",
+				"flavor": "其中4个可以放在一起形成一个更大的喷泉"
+			},
+			"pole_banner": {
+				"display_name": "波兰旗",
+				"description": "一个带有氏族色彩的旗帜,高高举起,让每个人都能看到.",
+				"flavor": "军队在巡逻时会考虑这一点"
+			},
+			"potted_cattail": {
+				"display_name": "盆栽香蒲",
+				"description": "来自沼泽生物群落的天然植物,现在适合您的家",
+				"flavor": "嘿,在我离开的时候你能帮我植物浇水吗?"
+			},
+			"potted_giple": {
+				"display_name": "盆栽吉普花",
+				"description": "来自沼泽生物群落的天然植物,现在适合您的家",
+				"flavor": "嘿,在我离开的时候你能帮我植物浇水吗?"
+			},
+			"potted_sapling": {
+				"display_name": "盆栽树苗",
+				"description": "来自沼泽生物群落的天然植物,现在适合您的家",
+				"flavor": "嘿,在我离开的时候你能帮我植物浇水吗?"
+			},
+			"travel_stall": {
+				"display_name": "流萤旅行摊位",
+				"description": "让地精重新上船"
+			},
+			"windchime": {
+				"display_name": "风铃",
+				"description": "令人惬意的欢乐音符",
+				"flavor": "若风向改变, 演奏出的又是另一首旋律"
+			},
+			"window_box_wood": {
+				"display_name": "玻璃盆",
+				"description": "一个整洁的植物之家."
+			},
+			"wood_sign": {
+				"goblin": {
+					"display_name": "哥布林牌子",
+					"description": "有哥布林脸的牌子"
+				},
+				"hammer": {
+					"display_name": "锤子牌子",
+					"description": "有锤子图案的牌子"
+				},
+				"mug": {
+					"display_name": "杯子牌子",
+					"description": "有杯子图案的牌子"
+				},
+				"mushroom": {
+					"display_name": "蘑菇牌子",
+					"description": "有蘑菇图案的牌子"
+				},
+				"pot": {
+					"display_name": "锅牌子",
+					"description": "有锅图案的牌子"
+				},
+				"poyo": {
+					"display_name": "波波鸡牌子",
+					"description": "有波波鸡图案的牌子"
+				},
+				"saw": {
+					"display_name": "锯牌子",
+					"description": "有锯子图案的牌子"
+				},
+				"tree": {
+					"display_name": "树牌子",
+					"description": "画着树的牌子"
+				},
+				"varanus": {
+					"display_name": "巨蜥标志",
+					"description": "有一张巨蜥脸的牌子"
+				}
+			}
+		},
+		"food": {
+			"plate_of_ferns": {
+				"display_name": "蕨菜片",
+				"description": "摘下的蕨菜",
+				"flavor": "沼泽区系中可获得的有用食材"
+			},
+			"plate_of_mushrooms": {
+				"display_name": "蘑菇片",
+				"description": "砍下的蘑菇",
+				"flavor": "沼泽区系中可获得的有用食材"
+			}
+		},
+		"furniture": {
+			"checkers_table": {
+				"display_name": "西洋棋桌",
+				"description": "有棋盘的桌子",
+				"flavor": "不,你上次已经玩过绿色棋子了,现在轮到我了"
+			},
+			"hammock": {
+				"display_name": "吊床",
+				"description": "远离地面睡觉"
+			},
+			"mush_chair": {
+				"display_name": "蘑菇椅",
+				"description": "你可以坐在上面.非常柔软."
+			},
+			"mush_table": {
+				"display_name": "蘑菇桌",
+				"description": "一张桌子,用来放应该放在桌子上的东西,有点摇晃"
+			},
+			"simple_chair": {
+				"display_name": "简易椅子",
+				"description": "可以坐"
+			},
+			"simple_table": {
+				"display_name": "简易桌子",
+				"description": "上桌就谈能上台面的事"
+			},
+			"swing": {
+				"display_name": "秋千",
+				"description": "你可以坐在上面",
+				"flavor": "这个坏了吗?为什么秋千不动?"
+			}
+		},
+		"goblins": {
+			"egg": {
+				"display_name": "哥布林蛋",
+				"description": "保护它的安全"
+			},
+			"baby": {
+				"display_name": "年幼的哥布林",
+				"description": "马上就可以成长为一个成年的哥布林了"
+			}
+		},
+		"gizmos": {
+			"camp_standard": {
+				"display_name": "营地旗帜",
+				"description": "家的标志"
+			},
+			"goblin_camp_standard": {
+				"display_name": "哥布林旗帜",
+				"description": "你怎么知道你回家了",
+				"town_bonus_description": "<i>这个定居点将通过我们的肌肉和精神变得强大.</i><ul><li>采矿使矿石,石头和粘土的产量增加了50%</li><li>哥布林不再介意狭窄的空间</li></ul>"
+			},
+			"varanus_camp_standard": {
+				"display_name": "自然旗帜",
+				"description": "你怎么知道你回家了",
+				"town_bonus_description": "<i>这个定居点将与自然合为一体.</i><ul><li>树木的木材产量增加了25%.</li><li>植物和农作物的生长速度都增快了25%</li><li>植物的景观魅力是正常植物的2倍</li></ul>"
+			},
+			"goblinpedia": {
+				"display_name": "哥布林百科",
+				"description": "关于哥布林和沼泽",
+				"flavor": "使用此物品打开一个实际的百科全书,其中包含有关 <b>流萤氏族</b> 和 <b>沼泽生物群系</b>. 学习结束后,你可以简单地把它当作一个漂亮的装饰."
+			}
+		},
+		"monsters": {
+			"bear": {
+				"display_name": "沼地熊",
+				"description": "体大而迅猛, 沾了点泥, 但还是毛茸茸"
+			},
+			"doodles_egg_raider": {
+				"description": "看上去是一个营养丰富的哥布林蛋"
+			},
+			"varanus_nest": {
+				"display_name": "巨蜥巢穴",
+				"description": "随时间会生出更多巨蜥"
+			}
+		},
+		"peoples": {
+			"goblin": {
+				"species": "哥布林"
+			}
+		},
+		"plants": {
+			"cattail": {
+				"display_name": "香蒲",
+				"description": "这种植物的纤维可以纺成丝..",
+				"unripe_description": "这株植物近期已经采集过了, 还没长好",
+				"seed": {
+					"display_name": "香蒲种子",
+					"description": "小种子,大植物"
+				},
+				"sprout": {
+					"display_name": "香蒲芽",
+					"description": "只需要一些时间和关心."
+				}
+			},
+			"fern": {
+				"display_name": "蕨菜",
+				"description": "采下后能塞塞牙缝.",
+				"unripe_description": "这株植物近期已经采集过了, 还没长好"
+			},
+			"giant_flower": {
+				"display_name": "大芽花",
+				"description": "采集能获得有治疗效果的药草",
+				"unripe_description": "这株植物近期已经采集过了, 还没长好",
+				"seed": {
+					"display_name": "吉普花籽",
+					"description": "小种大花"
+				},
+				"sprout": {
+					"display_name": "吉普花芽",
+					"description": "只是需要一些时间和照顾."
+				}
+			},
+			"mushroom": {
+				"display_name": "蘑菇",
+				"description": "采下后能塞塞牙缝.",
+				"unripe_description": "这株植物近期已经采集过了, 还没长好",
+				"seed": {
+					"display_name": "蘑菇种子",
+					"description": "大蘑菇上的一小块"
+				},
+				"sprout": {
+					"display_name": "蘑菇芽",
+					"description": "只是需要一些时间和照顾."
+				}
+			},
+			"log": {
+				"display_name": "木头",
+				"description": "一根浮木"
+			},
+			"lilypad": {
+				"display_name": "莲叶",
+				"description": "浮叶一张, 能承不少重呢"
+			}
+		},
+		"resources": {
+			"cattail": {
+				"display_name": "香蒲",
+				"description": "能纺成丝线."
+			},
+			"giant_flower": {
+				"display_name": "大芽花",
+				"description": "作医学用途的常见植物"
+			},
+			"mushroom": {
+				"display_name": "蘑菇",
+				"description": "能吃了"
+			},
+			"fern": {
+				"display_name": "蕨菜",
+				"description": "能吃了"
+			},
+			"pelt": {
+				"bear_pelt": {
+					"display_name": "熊皮",
+					"description": "熊的皮"
+				}
+			},
+			"firefly_essense": {
+				"display_name": "流萤精华",
+				"description": "有着魔法特性"
+			}
+		},
+		"summons": {
+			"big_g": {
+				"display_name": "G老哥",
+				"description": "受人爱戴, 平易近人, 曾帮助他那一代渡过困难的时光"
+			},
+			"big_wolf": {
+				"display_name": "大灰狼",
+				"description": "盟友的玩伴,敌人的噩梦"
+			},
+			"goblin_spirit": {
+				"display_name": "哥布林灵魂",
+				"description": "被召唤回来的一名先祖"
+			},
+			"trap": {
+				"display_name": "陷阱",
+				"description": "可以把什么东西困在里面"
+			}
+		},
+		"trees": {
+			"bogger": {
+				"display_name": "博格树",
+				"description": "它散发着神秘的气息",
+				"bud": {
+					"display_name": "博格幼树",
+					"description": "成长中"
+				},
+				"seed": {
+					"display_name": "博格树种",
+					"description": "种下后能长出一棵博格树"
+				},
+				"sprout": {
+					"display_name": "博格嫩芽",
+					"description": "成长中"
+				},
+				"stem": {
+					"display_name": "抽条的博格树",
+					"description": "成长中"
+				}
+			},
+			"cypress": {
+				"display_name": "沼地柏",
+				"description": "根系深深地扎入土壤",
+				"bud": {
+					"display_name": "小柏树",
+					"description": "成长中"
+				},
+				"seed": {
+					"display_name": "柏树种子",
+					"description": "种下后能长出一棵柏树"
+				},
+				"sprout": {
+					"display_name": "柏树嫩芽",
+					"description": "成长中"
+				},
+				"stem": {
+					"display_name": "抽条的柏树",
+					"description": "成长中"
+				}
+			},
+			"stump": {
+				"display_name": "树桩",
+				"description": "树的遗骸."
+			},
+			"swirl": {
+				"display_name": "风卷树",
+				"description": "了不起的活化石."
+			}
+		},
+		"weapons": {
+			"crude_axe": {
+				"display_name": "(流萤) 粗制斧子"
+			},
+			"dart_tube": {
+				"display_name": "吹镖管",
+				"description": "可以射出毒镖"
+			},
+			"giant_bone_axe": {
+				"display_name": "(流萤) 巨骨斧"
+			},
+			"giant_bone_mace": {
+				"display_name": "(流萤) 巨骨槌"
+			},
+			"poison_dart": {
+				"display_name": "毒镖",
+				"description": "可使敌人中毒"
+			},
+			"skull_basher": {
+				"display_name": "(流萤) 碎颅槌",
+				"description": "尽量瞄准往头上砸"
+			},
+			"spear": {
+				"display_name": "(流萤) 长枪",
+				"description": "基础的, 不长的长枪"
+			},
+			"stick": {
+				"display_name": "木棒",
+				"description": "就是随地捡的那种"
+			},
+			"stone_maul": {
+				"display_name": "(流萤) 石锤"
+			}
+		}
+	},
+	"jobs": {
+		"shaman": {
+			"shaman_description": {
+				"display_name": "萨满",
+				"description": "照顾整个族的生活, 为他们制作护甲, 药剂与食物",
+				"requirements": "由另一名萨满制作",
+				"level_3_data": {
+					"perk_000_name": "熟练的知识",
+					"perk_000_description": "当灵感出现时,萨满现在可以制造出一种特别好的物品."
+				},
+				"level_5_data": {
+					"perk_000_name": "大师的洞察力",
+					"perk_000_description": "萨满现在可以创造出质量上乘的物品,并且会更频繁地制造出质量上乘的物品."
+				}
+			},
+			"shaman_workbench": {
+				"display_name": "萨满工作台",
+				"description": "萨满可以在这里制作东西"
+			},
+			"shaman_firefly_token": {
+				"display_name": "流萤萨满图腾",
+				"description": "萨满可以用来提取流萤精华"
+			},
+			"dreamcatcher": {
+				"display_name": "萨满的捕梦网",
+				"dreamcatcher_talisman": {
+					"display_name": "萨满的捕梦网",
+					"description": "魔力辅助. 别让你的梦想只停留在梦想.",
+					"flavor": "将一名哥布林转职成萨满"
+				},
+				"description": "魔力辅助"
+			},
+			"egg_pedestal": {
+				"display_name": "承蛋基座",
+				"description": "用来生蛋并照顾蛋的地方"
+			},
+			"recipes": {
+				"potions": "药剂"
+			}
+		},
+		"spirit_walker": {
+			"spirit_walker_description": {
+				"display_name": "灵魂行者",
+				"description": "治疗师, 召唤灵魂协助战斗",
+				"requirements": "由萨满制作",
+				"level_1_data": {
+					"perk_000_name": "治疗",
+					"perk_000_description": "可以小幅治疗友军"
+				},
+				"level_2_data": {
+					"perk_000_name": "英灵哥布林",
+					"perk_000_description": "召唤哥布林灵魂协助战斗"
+				},
+				"level_3_data": {
+					"perk_000_name": "多魂萦绕",
+					"perk_000_description": "召唤多个哥布林灵魂, 数量取决于召唤者的精神属性"
+				},
+				"level_4_data": {
+					"perk_000_name": "G老哥",
+					"perk_000_description": "召唤受人爱戴, 平易近人的G老哥. 好久以前他曾帮助他那一代渡过困难的时光."
+				},
+				"level_5_data": {
+					"perk_000_name": "战士护盾",
+					"perk_000_description": "现在你所有战士都有一个防御性屏障了"
+				},
+				"level_6_data": {
+					"perk_000_name": "龙兆",
+					"perk_000_description": "有了御兽师(最高级)的协助, 他们可以召唤古老的龙族灵魂前来助战"
+				}
+			},
+			"spirit_walker_staff": {
+				"display_name": "灵魂行杖",
+				"spirit_walker_staff_talisman": {
+					"display_name": "灵魂行杖",
+					"description": "其实是很可怕的钝器",
+					"flavor": "将一名哥布林转职成灵魂行者"
+				},
+				"description": "其实是很可怕的钝器"
+			}
+		},
+		"shadow_walker": {
+			"shadow_walker_description": {
+				"display_name": "暗影的支配者"
+			}
+		},
+		"warrior": {
+			"warrior_description": {
+				"display_name": "战士",
+				"requirements": "由萨满制作",
+				"description": "以战斗为傲. 战士就是应该拿起重武器, 穿上盔甲去莽的.",
+				"level_1_data": {
+					"perk_000_name": "应知应会",
+					"perk_000_description": "学习了基础知识后, 勇气提升了, 耐性提升了"
+				},
+				"level_2_data": {
+					"perk_000_name": "多重目标",
+					"perk_000_description": "使用旋转攻击, 可以打到所有在周围的敌人."
+				},
+				"level_3_data": {
+					"perk_000_name": "暗箭毒镖",
+					"perk_000_description": "远程使用毒镖打击敌人, 使他们中毒."
+				},
+				"level_4_data": {
+					"perk_000_name": "自救措施",
+					"perk_000_description": "皮糙肉厚, 生命值恢复速度提升."
+				},
+				"level_5_data": {
+					"perk_000_name": "体能提升",
+					"perk_000_description": "以往战斗中获得的力量使战士的体能属性+1"
+				},
+				"level_6_data": {
+					"perk_000_name": "怒气积攒",
+					"perk_000_description": "战斗时间越长, 属性值越高."
+				}
+			},
+			"warrior_horn": {
+				"display_name": "战士号角",
+				"warrior_horn_talisman": {
+					"display_name": "战士号角",
+					"description": "战斗中实用的联络工具",
+					"flavor": "将一名哥布林转职成战士"
+				}
+			}
+		},
+		"chief": {
+			"chief_description": {
+				"display_name": "战队队长"
+			}
+		},
+		"firemaster": {
+			"firemaster_description": {
+				"display_name": "御火士"
+			}
+		},
+		"peon": {
+			"peon_description": {
+				"display_name": "劳工"
+			}
+		},
+		"scavenger": {
+			"scavenger_description": {
+				"requirements": "由萨满制作"
+			},
+			"scavenger_backpack": {
+				"display_name": "清道夫背包",
+				"scavenger_backpack_talisman": {
+					"display_name": "清道夫背包",
+					"description": "装捡到的好东西",
+					"flavor": "将一名哥布林转职成清道夫"
+				}
+			}
+		},
+		"earthmaster": {
+			"earthmaster_description": {
+				"display_name": "塑土师",
+				"description": "用石头或粘土之类的硬物制作出高级的物品和装饰",
+				"requirements": "由萨满制作",
+				"level_3_data": {
+					"perk_000_name": "熟练的知识",
+					"perk_000_description": "当灵感袭来时,陆地大师现在可以制造出一种特别精细的物品."
+				},
+				"level_5_data": {
+					"perk_000_name": "大师的洞察力",
+					"perk_000_description": "陆地大师现在可以创造出质量上乘的物品,并且会更频繁地制造出质量上乘的物品."
+				}
+			},
+			"earthmaster_chisel": {
+				"display_name": "塑土师的凿子",
+				"earthmaster_chisel_talisman": {
+					"display_name": "塑土师的凿子",
+					"description": "雕刻硬东西",
+					"flavor": "将一名哥布林转职成塑土师"
+				},
+				"description": "雕刻硬东西"
+			},
+			"magmasmith_workbench": {
+				"display_name": "岩浆工作台",
+				"description": "熔岩在内部流动"
+			},
+			"mason_pedestal": {
+				"display_name": "砌体台座",
+				"description": "在光线充足的空间中制作."
+			},
+			"potter_kiln": {
+				"display_name": "陶窑",
+				"description": "粘土变硬后的杰作."
+			},
+			"potter_workbench": {
+				"display_name": "制陶轮",
+				"description": "用于制作对称的粘土制品"
+			},
+			"recipes": {
+				"reclaim": "回收",
+				"burn": {
+					"description": "把物体烧成煤",
+					"flavor": "没什么能省下来的",
+					"decoration": "烧木装饰",
+					"fence": "燃烧木防御措施",
+					"furniture": "烧木家具",
+					"portal": "烧木门",
+					"window": "烧木窗"
+				},
+				"wood": {
+					"description": "将物体转变回木块",
+					"flavor": "没什么能省下来的",
+					"decoration": "碎木装饰",
+					"fence": "碎木防御措施",
+					"furniture": "碎木家具",
+					"portal": "碎木门",
+					"window": "碎木窗"
+				},
+				"stone": {
+					"description": "将物体折转变回石块",
+					"flavor": "没什么能省下来的",
+					"decoration": "碎石装饰",
+					"fence": "碎石防御措施",
+					"furniture": "碎石家具",
+					"portal": "碎石门",
+					"window": "碎石窗"
+				},
+				"clay": {
+					"description": "把这个物体转变回一块粘土",
+					"flavor": "没什么能省下来的",
+					"decoration": "碎粘土装饰",
+					"fence": "碎粘土防御措施",
+					"furniture": "碎粘土家具",
+					"portal": "碎粘土门",
+					"window": "碎粘土窗"
+				}
+			}
+		},
+		"bonesmith": {
+			"bonesmith_description": {
+				"display_name": "骨匠",
+				"description": "用木头, 纤维等材料制作基础物品",
+				"requirements": "由萨满制作",
+				"level_3_data": {
+					"perk_000_name": "熟练的知识",
+					"perk_000_description": "当灵感来袭时，骨匠现在可以制作一种特别优质的物品."
+				},
+				"level_5_data": {
+					"perk_000_name": "大师的洞察力",
+					"perk_000_description": "骨匠现在可以创造出优质的物品,并且可以更频繁地制作优质物品."
+				}
+			},
+			"bonesmith_saw": {
+				"display_name": "骨锯",
+				"bonesmith_saw_talisman": {
+					"display_name": "骨锯",
+					"description": "基础的锯子只能做基础的活",
+					"flavor": "将一名哥布林转职成骨匠"
+				},
+				"description": "基础的锯子只能做基础的活"
+			},
+			"bonesmith_workbench": {
+				"display_name": "骨匠工作台",
+				"description": "这张工作台上只能完成一些简单的任务"
+			},
+			"recipes": {
+				"signs": "标志"
+			},
+			"weaving_table": {
+				"display_name": "编织台",
+				"description": "编织盔甲的地方,甚至是坚硬的盔甲"
+			}
+		},
+		"beast_tamer": {
+			"beast_tamer_description": {
+				"display_name": "御兽师",
+				"description": "召集并命令动物参与战斗",
+				"requirements": "由萨满制作",
+				"goblin_requirements": "萨满制作",
+				"level_1_data": {
+					"perk_000_name": "四翎",
+					"perk_000_description": "一队名叫四翎的精英波波鸡将会参与协助战斗"
+				},
+				"level_2_data": {
+					"perk_000_name": "野性",
+					"perk_000_description": "召集当地的野生动物群前来协助战斗"
+				},
+				"level_3_data": {
+					"perk_000_name": "张机",
+					"perk_000_description": "给敌人设下圈套, 将其禁锢一段时间"
+				},
+				"level_4_data": {
+					"perk_000_name": "巨蜥",
+					"perk_000_description": "召集一对巨蜥加入战斗"
+				},
+				"level_5_data": {
+					"perk_000_name": "群萤",
+					"perk_000_description": "召集一群流萤笼罩敌人, 使对方混乱和盲目"
+				},
+				"level_6_data": {
+					"perk_000_name": "龙兆",
+					"perk_000_description": "有了灵魂行者(最高级)的协助, 他们可以召唤古老的龙族灵魂前来助战",
+					"perk_001_name": "大灰狼",
+					"perk_001_description": "(仅限于炉民)<br>召唤一只大狼,它能激励你的盟友并恐吓敌人."
+				}
+			},
+			"beast_tamer_flute": {
+				"display_name": "御兽师的长笛",
+				"beast_tamer_flute_talisman": {
+					"display_name": "御兽师的长笛",
+					"description": "可与野兽交流",
+					"flavor": "把一名哥布林转职成御兽师"
+				}
+			},
+			"beast_tamer_claw": {
+				"display_name": "利爪",
+				"description": "锋利的近程武器"
+			}
+		},
+		"party_goblin": {
+			"party_goblin_description": {
+				"display_name": "派对哥布林"
+			},
+			"party_goblin_flute": {
+				"display_name": "派对哥布林的长笛",
+				"party_goblin_flute_talisman": {
+					"display_name": "派对哥布林的长笛"
+				}
+			}
+		},
+		"worker": {
+			"worker_description": {
+				"description": "工人只能做基础的任务, 例如采集资源, 搬运物资, 建造建筑.<br><br>⚔️ 哥布林普通工人也可以加入战斗或编入战队."
+			}
+		}
+	},
+	"kingdoms": {
+		"firefly_clan": "流萤族"
+	},
+	"ui": {
+		"data": {
+			"constants": {
+				"clay_decoration": "任何粘土装饰",
+				"clay_fence": "任何粘土围栏",
+				"clay_furniture": "任何粘土家具",
+				"clay_portal_door": "任何粘土门",
+				"clay_portal_window": "任何黏土窗户",
+				"stone_decoration": "任何石头装饰",
+				"stone_fence": "任何石头围栏",
+				"stone_furniture": "任何石头家具",
+				"stone_portal_door": "任何石头门",
+				"stone_portal_window": "任何石头窗户",
+				"wood_decoration": "任何木装饰",
+				"wood_fence": "任何木围栏",
+				"wood_furniture": "任何木家具",
+				"wood_portal_door": "任何木门",
+				"wood_portal_window": "任何木窗"
+			},
+			"raid_egg": "当心!有只虫子在追我们的蛋!"
+		},
+		"game": {
+			"build_mode2": {
+				"tooltips": {
+					"fiber_resource": "纤维"
+				}
+			},
+			"goblinpedia": {
+				"title": "哥布林百科",
+				"menu": {
+					"display_name": "菜单",
+					"goblins": {
+						"display_name": "流萤氏族",
+						"growth": {
+							"display_name": "家族成长",
+							"pedestal": "基架",
+							"egg": "蛋",
+							"baby": "宝宝",
+							"goblin": "哥布林"
+						},
+						"jobs": {
+							"display_name": "工作",
+							"beast_tamer": "最好的驯兽师",
+							"shaman": "萨满"
+						}
+					},
+					"swamp": {
+						"display_name": "沼泽生物群落",
+						"fauna": {
+							"display_name": "动物群系",
+							"firefly": "萤火虫"
+						}
+					}
+				},
+				"pages": {
+					"cover": {
+						"title": "关于哥布林和沼泽",
+						"text": "从侧菜单中选择要阅读的主题"
+					},
+					"growth": {
+						"pedestal": {
+							"title": "鸡蛋底座",
+							"description1": "一张很好的纪念桌,可以放一个重要的酒杯",
+							"topic1": {
+								"title": "制作:",
+								"desc1": "鸡蛋底座是由你们氏族中萨满制作的"
+							},
+							"topic2": {
+								"title": "如何使用:",
+								"desc1": "放置后,单击它.在左下角,您将看到它的按钮.点击鸡蛋图标.",
+								"desc2": "你的一个小哥布林(仅限工人)会来到这个基座上产下一个蛋."
+							}
+						},
+						"egg": {
+							"title": "哥布林蛋",
+							"description1": "世界上是先有哥布林还是先有蛋的?",
+							"description2": "许多哥布林在他们记忆中一直在想这件事,但没有人真正知道.",
+							"description3": "哥布林现在最可接受的答案是两者都不是,而是一条领带",
+							"topic1": {
+								"title": " 如何获得:",
+								"desc1": "首先需要一个鸡蛋底座,让哥布林下蛋"
+							},
+							"topic2": {
+								"title": "孵化:",
+								"desc1": "一天之后,蛋就会孵化成一个小哥布林."
+							},
+							"topic3": {
+								"title": "保护:",
+								"desc1": "当心,蛋吸引了野生动物."
+							}
+						},
+						"baby": {
+							"title": "哥布林宝宝",
+							"description1": "小祖宗",
+							"topic1": {
+								"title": "行为:",
+								"desc1": "吃,睡,注意安全,重复上述."
+							},
+							"topic2": {
+								"title": "提升:",
+								"desc1": "多吃一点.婴儿比成人多吃5倍,所以注意你的储备!"
+							},
+							"topic3": {
+								"title": "生长:",
+								"desc1": "再过一天,它们就长成了成年地精."
+							}
+						},
+						"goblin": {
+							"title": "哥布林",
+							"description1": "流萤哥布林",
+							"topic1": {
+								"title": "流萤家族:",
+								"desc1": "现在是社会的一员."
+							},
+							"topic2": {
+								"title": "工作:",
+								"desc1": "可以提升为战士,萨满,灵魂行者,捕猎者,驭兽师,骨匠和陆地大师.",
+								"desc2": "(如果你使用了别的职业MOD,那别的工作他们可能也能胜任)"
+							},
+							"topic3": {
+								"title": "好人:",
+								"desc1": "与绿色的哥布林不同,往往伴随着麻烦,这些都更加表现得根深蒂固."
+							}
+						}
+					},
+					"jobs": {
+						"beast_tamer": {
+							"title": "最好的驯兽师",
+							"description1": "与动物共同合作",
+							"topic1": {
+								"title": "描述:",
+								"desc1": "战斗职业,从猎人提升.可以召唤动物战斗,从波波鸡到巨龙都能召唤"
+							},
+							"topic2": {
+								"title": "它的作用:",
+								"desc1": "除了召唤动物之外,他们还可以捕获敌人并投下流萤云,使他们蒙羞和迷惑.",
+								"desc2": "只要有一个灵魂行者帮助,他们就可以召唤一个古老的龙神."
+							},
+							"topic3": {
+								"title": "炉民变异:",
+								"desc1": "炉民也可以提升到这个职业,不仅仅是哥布林.不过没了灵魂行者的帮助,现在最多只能召唤出一匹大狼."
+							}
+						},
+						"shaman": {
+							"title": "萨满",
+							"description1": "氏族的初始职业",
+							"topic1": {
+								"title": "描述:",
+								"desc1": "初始职业. 家族的核心和发展的中心人物."
+							},
+							"topic2": {
+								"title": "它的作用:",
+								"desc1": "收获萤火虫(流萤)香精,用来灌输魔法,一些烹饪和草药.",
+								"desc2": "制作所有家族护身符.也可以制作蛋座,是家族成长的重要物品."
+							},
+							"topic3": {
+								"title": "晋升:",
+								"desc1": "萨满可以被提升为灵魂行者,一个召唤者/治疗者类."
+							}
+						}
+					},
+					"fauna": {
+						"firefly": {
+							"title": "萤火虫",
+							"description1": "夜晚的光",
+							"topic1": {
+								"title": "说明:",
+								"desc1": "夜间发光的飞虫,哥布林的最爱."
+							},
+							"topic2": {
+								"title": "行为:",
+								"desc1": "通常成群结队地在夜晚的时候到树下发光"
+							},
+							"topic3": {
+								"title": "相互作用:",
+								"desc1": "不能直接互动,但萨满可以从他们身上提取魔法."
+							}
+						}
+					}
+				}
+			},
+			"menu": {
+				"crafter_menu": {
+					"items": {
+						"bonesmith": {
+							"display_name": "骨匠制作菜单",
+							"description": "制作简单家具与装饰.",
+							"required_job_text": "需要一名骨匠"
+						},
+						"earthmaster": {
+							"display_name": "塑土师制作菜单",
+							"description": "石土工艺.",
+							"required_job_text": "需要一名塑土师"
+						},
+						"shaman": {
+							"display_name": "萨满制作菜单",
+							"description": "制作提高生活质量的物品.",
+							"required_job_text": "需要一名萨满"
+						}
+					}
+				}
+			}
+		}
+	}
+}

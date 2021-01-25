@@ -1,0 +1,587 @@
+{
+	"data": {
+		"commands": {
+			"job_armor_variant": {
+				"asc_blue_archer": {
+					"display_name": "偏好蓝色盔甲",
+					"description": "这个弓箭手更喜欢穿着崛起之都的蓝色盔甲，点击以更换！"
+				},
+				"asc_green_archer": {
+					"display_name": "偏好绿色盔甲",
+					"description": "这个弓箭手更喜欢穿着崛起之都的绿色盔甲，点击以更换！"
+				},
+				"asc_purple_archer": {
+					"display_name": "偏好紫色盔甲",
+					"description": "这个弓箭手更喜欢穿着崛起之都的紫色盔甲，点击以更换！"
+				},
+				"asc_red_archer": {
+					"display_name": "偏好红色盔甲",
+					"description": "这个弓箭手更喜欢穿着崛起之都的红色盔甲，点击以更换！"
+				},
+				"asc_teal_archer": {
+					"display_name": "偏好青色盔甲",
+					"description": "这个弓箭手更喜欢穿着崛起之都的青色盔甲，点击以更换！"
+				},
+				"asc_yellow_archer": {
+					"display_name": "偏好黄色盔甲",
+					"description": "这个弓箭手更喜欢穿着崛起之都的黄色盔甲，点击以更换！"
+				},
+				"na_blue_archer": {
+					"display_name": "偏好蓝色盔甲",
+					"description": "这个弓箭手更喜欢穿着北方联盟的蓝色盔甲，点击以更换！"
+				},
+				"na_yellow_archer": {
+					"display_name": "偏好黄色盔甲",
+					"description": "这个弓箭手更喜欢穿着北方联盟的黄色盔甲，点击以更换！"
+				},
+				"rc_black_archer": {
+					"display_name": "偏好黑色盔甲",
+					"description": "这个弓箭手更喜欢穿着瑞雅之裔的黑色盔甲，点击以更换！"
+				},
+				"rc_red_archer": {
+					"display_name": "偏好红色盔甲",
+					"description": "这个弓箭手更喜欢穿着瑞雅之裔的红色盔甲，点击以更换！"
+				},
+				"asc_blue_cleric": {
+					"display_name": "偏好蓝色盔甲",
+					"description": "这个牧师更喜欢穿着崛起之都的蓝色盔甲，点击以更换！"
+				},
+				"asc_green_cleric": {
+					"display_name": "偏好绿色盔甲",
+					"description": "这个牧师更喜欢穿着崛起之都的绿色盔甲，点击以更换！"
+				},
+				"asc_purple_cleric": {
+					"display_name": "偏好紫色盔甲",
+					"description": "这个牧师更喜欢穿着崛起之都的紫色盔甲，点击以更换！"
+				},
+				"asc_red_cleric": {
+					"display_name": "偏好红色盔甲",
+					"description": "这个牧师更喜欢穿着崛起之都的红色盔甲，点击以更换！"
+				},
+				"asc_teal_cleric": {
+					"display_name": "偏好青色盔甲",
+					"description": "这个牧师更喜欢穿着崛起之都的青色盔甲，点击以更换！"
+				},
+				"asc_yellow_cleric": {
+					"display_name": "偏好黄色盔甲",
+					"description": "这个牧师更喜欢穿着崛起之都的黄色盔甲，点击以更换！"
+				},
+				"na_blue_cleric": {
+					"display_name": "偏好蓝色盔甲",
+					"description": "这个牧师更喜欢穿着北方联盟的蓝色盔甲，点击以更换！"
+				},
+				"na_yellow_cleric": {
+					"display_name": "偏好黄色盔甲",
+					"description": "这个牧师更喜欢穿着北方联盟的黄色盔甲，点击以更换！"
+				},
+				"rc_black_cleric": {
+					"display_name": "偏好黑色盔甲",
+					"description": "这个牧师更喜欢穿着瑞雅之裔的黑色盔甲，点击以更换！"
+				},
+				"rc_red_cleric": {
+					"display_name": "偏好红色盔甲",
+					"description": "这个牧师更喜欢穿着瑞雅之裔的红色盔甲，点击以更换！"
+				},
+				"asc_blue_footman": {
+					"display_name": "偏好蓝色盔甲",
+					"description": "这个步兵更喜欢穿着崛起之都的蓝色盔甲，点击以更换！"
+				},
+				"asc_green_footman": {
+					"display_name": "偏好绿色盔甲",
+					"description": "这个步兵更喜欢穿着崛起之都的绿色盔甲，点击以更换！"
+				},
+				"asc_purple_footman": {
+					"display_name": "偏好紫色盔甲",
+					"description": "这个步兵更喜欢穿着崛起之都的紫色盔甲，点击以更换！"
+				},
+				"asc_red_footman": {
+					"display_name": "偏好红色盔甲",
+					"description": "这个步兵更喜欢穿着崛起之都的红色盔甲，点击以更换！"
+				},
+				"asc_teal_footman": {
+					"display_name": "偏好青色盔甲",
+					"description": "这个步兵更喜欢穿着崛起之都的青色盔甲，点击以更换！"
+				},
+				"asc_yellow_footman": {
+					"display_name": "偏好黄色盔甲",
+					"description": "这个步兵更喜欢穿着崛起之都的黄色盔甲，点击以更换！"
+				},
+				"na_blue_footman": {
+					"display_name": "偏好蓝色盔甲",
+					"description": "这个步兵更喜欢穿着北方联盟的蓝色盔甲，点击以更换！"
+				},
+				"na_yellow_footman": {
+					"display_name": "偏好黄色盔甲",
+					"description": "这个步兵更喜欢穿着北方联盟的黄色盔甲，点击以更换！"
+				},
+				"rc_black_footman": {
+					"display_name": "偏好黑色盔甲",
+					"description": "这个步兵更喜欢穿着瑞雅之裔的黑色盔甲，点击以更换！"
+				},
+				"rc_red_footman": {
+					"display_name": "偏好红色盔甲",
+					"description": "这个步兵更喜欢穿着瑞雅之裔的红色盔甲，点击以更换！"
+				},
+				"asc_blue_knight": {
+					"display_name": "偏好蓝色盔甲",
+					"description": "这个骑士更喜欢穿着崛起之都的蓝色盔甲，点击以更换！"
+				},
+				"asc_green_knight": {
+					"display_name": "偏好绿色盔甲",
+					"description": "这个骑士更喜欢穿着崛起之都的绿色盔甲，点击以更换！"
+				},
+				"asc_purple_knight": {
+					"display_name": "偏好紫色盔甲",
+					"description": "这个骑士更喜欢穿着崛起之都的紫色盔甲，点击以更换！"
+				},
+				"asc_red_knight": {
+					"display_name": "偏好红色盔甲",
+					"description": "这个骑士更喜欢穿着崛起之都的红色盔甲，点击以更换！"
+				},
+				"asc_teal_knight": {
+					"display_name": "偏好青色盔甲",
+					"description": "这个骑士更喜欢穿着崛起之都的青色盔甲，点击以更换！"
+				},
+				"asc_yellow_knight": {
+					"display_name": "偏好黄色盔甲",
+					"description": "这个骑士更喜欢穿着崛起之都的黄色盔甲，点击以更换！"
+				},
+				"na_blue_knight": {
+					"display_name": "偏好蓝色盔甲",
+					"description": "这个骑士更喜欢穿着北方联盟的蓝色盔甲，点击以更换！"
+				},
+				"na_yellow_knight": {
+					"display_name": "偏好黄色盔甲",
+					"description": "这个骑士更喜欢穿着北方联盟的黄色盔甲，点击以更换！"
+				},
+				"rc_black_knight": {
+					"display_name": "偏好黑色盔甲",
+					"description": "这个骑士更喜欢穿着瑞雅之裔的黑色盔甲，点击以更换！"
+				},
+				"rc_red_knight": {
+					"display_name": "偏好红色盔甲",
+					"description": "这个骑士更喜欢穿着瑞雅之裔的红色盔甲，点击以更换！"
+				}
+			}
+		}
+	},
+	"entities": {
+		"armor": {
+			"green_cloth_padded_vest": {
+				"display_name": "绿色填充棉背心"
+			},
+			"green_cloth_padded_helmet": {
+				"display_name": "绿色夹层防护帽"
+			},
+			"green_leather_vest": {
+				"display_name": "绿色加厚皮革背心"
+			},
+			"green_leather_helmet": {
+				"display_name": "绿色无边皮革帽"
+			},
+			"green_bronze_breastplate": {
+				"display_name": "绿色青铜胸甲"
+			},
+			"green_bronze_helm": {
+				"display_name": "绿色青铜头盔"
+			},
+			"green_iron_mail": {
+				"display_name": "绿色铁盔甲"
+			},
+			"green_iron_helm": {
+				"display_name": "绿色铁头盔"
+			},
+			"green_iron_platemail": {
+				"display_name": "绿色全套铁甲"
+			},
+			"green_iron_helmet": {
+				"display_name": "绿色铁头盔"
+			},
+			"green_steel_chainmail": {
+				"display_name": "绿色钢盔甲"
+			},
+			"green_steel_mail": {
+				"display_name": "绿色全套钢甲"
+			},
+			"green_steel_helmet": {
+				"display_name": "绿色钢头盔"
+			},
+			"green_silver_mail": {
+				"display_name": "绿色全套银甲"
+			},
+			"green_silver_helmet": {
+				"display_name": "绿色银制头盔"
+			},
+			"purple_cloth_padded_vest": {
+				"display_name": "紫色填充棉背心"
+			},
+			"purple_cloth_padded_helmet": {
+				"display_name": "紫色夹层防护帽"
+			},
+			"purple_leather_vest": {
+				"display_name": "紫色加厚皮革背心"
+			},
+			"purple_leather_helmet": {
+				"display_name": "紫色无边皮革帽"
+			},
+			"purple_bronze_breastplate": {
+				"display_name": "紫色青铜胸甲"
+			},
+			"purple_bronze_helm": {
+				"display_name": "紫色青铜头盔"
+			},
+			"purple_iron_mail": {
+				"display_name": "紫色铁盔甲"
+			},
+			"purple_iron_helm": {
+				"display_name": "紫色铁头盔"
+			},
+			"purple_iron_platemail": {
+				"display_name": "紫色全套铁甲"
+			},
+			"purple_iron_helmet": {
+				"display_name": "紫色铁头盔"
+			},
+			"purple_steel_chainmail": {
+				"display_name": "紫色钢盔甲"
+			},
+			"purple_steel_mail": {
+				"display_name": "紫色全套钢甲"
+			},
+			"purple_steel_helmet": {
+				"display_name": "紫色钢头盔"
+			},
+			"purple_silver_mail": {
+				"display_name": "紫色全套银甲"
+			},
+			"purple_silver_helmet": {
+				"display_name": "紫色银制头盔"
+			},
+			"red_cloth_padded_vest": {
+				"display_name": "红色填充棉背心"
+			},
+			"red_cloth_padded_helmet": {
+				"display_name": "红色夹层防护帽"
+			},
+			"red_leather_vest": {
+				"display_name": "红色加厚皮革背心"
+			},
+			"red_leather_helmet": {
+				"display_name": "红色无边皮革帽"
+			},
+			"red_bronze_breastplate": {
+				"display_name": "红色青铜胸甲"
+			},
+			"red_bronze_helm": {
+				"display_name": "红色青铜头盔"
+			},
+			"red_iron_mail": {
+				"display_name": "红色铁盔甲"
+			},
+			"red_iron_helm": {
+				"display_name": "红色铁头盔"
+			},
+			"blue_iron_platemail": {
+				"display_name": "蓝色全套钢甲"
+			},
+			"blue_iron_helmet": {
+				"display_name": "蓝色钢头盔"
+			},
+			"red_steel_chainmail": {
+				"display_name": "红色钢盔甲"
+			},
+			"blue_steel_mail": {
+				"display_name": "蓝色全套钢甲"
+			},
+			"blue_steel_helmet": {
+				"display_name": "蓝色钢头盔"
+			},
+			"blue_silver_mail": {
+				"display_name": "蓝色全套银甲"
+			},
+			"blue_silver_helmet": {
+				"display_name": "蓝色银制头盔"
+			},
+			"na_horned_bronze_helm": {
+				"display_name": "北地青铜角盔"
+			},
+			"na_horned_iron_helm": {
+				"display_name": "北地铁制角盔"
+			},
+			"na_horned_steel_helm": {
+				"display_name": "北地钢制角盔"
+			},
+			"leather_archer_vest": {
+				"display_name": "弓箭手皮革背心",
+				"description": "皮革越厚，活的越久"
+			},
+			"leather_archer_hood": {
+				"display_name": "弓箭手皮革兜帽",
+				"description": "两层更比一层强（指兜帽）"
+			},
+			"rc_leather_archer_vest": {
+				"display_name": "弓箭手沙漠背心"
+			},
+			"rc_leather_archer_hood": {
+				"display_name": "弓箭手沙漠无边帽"
+			},
+			"na_leather_archer_vest": {
+				"display_name": "弓箭手隐蔽背心"
+			},
+			"na_leather_archer_hood": {
+				"display_name": "弓箭手隐蔽无边帽"
+			},
+			"varanus_archer_vest": {
+				"display_name": "弓箭手巨蜥皮背心",
+				"description": "为了那些最勇猛的猎人而做"
+			},
+			"varanus_archer_hood": {
+				"display_name": "弓箭手巨蜥皮兜帽",
+				"description": "99%的保证能吓跑那些胆小鬼"
+			},
+			"zilla_archer_vest": {
+				"display_name": "弓箭手斯拉皮背心",
+				"description": "最勇猛的猎人身上的最值钱的护甲"
+			},
+			"zilla_archer_hood": {
+				"display_name": "弓箭手斯拉皮兜帽",
+				"description": "定会让你的敌人肝胆俱裂"
+			},
+			"rc_black_cloth_padded_vest": {
+				"display_name": "黑色沙漠填充棉背心"
+			},
+			"rc_black_cloth_padded_helmet": {
+				"display_name": "黑色沙漠夹层防护帽"
+			},
+			"rc_black_leather_archer_vest": {
+				"display_name": "黑色弓箭手沙漠背心"
+			},
+			"rc_black_leather_archer_hood": {
+				"display_name": "黑色弓箭手沙漠无边帽"
+			},
+			"rc_black_leather_vest": {
+				"display_name": "黑色沙漠皮革背心"
+			},
+			"rc_black_leather_helmet": {
+				"display_name": "黑色沙漠皮革无边帽"
+			},
+			"rc_black_bronze_breastplate": {
+				"display_name": "黑色青铜鳞片甲"
+			},
+			"rc_black_bronze_cleric_breastplate": {
+				"display_name": "黑色牧师青铜鳞片甲"
+			},
+			"rc_black_bronze_helm": {
+				"display_name": "黑色青铜沙漠头盔"
+			},
+			"rc_black_bronze_circlet": {
+				"display_name": "黑色沙漠头环"
+			},
+			"rc_black_iron_cleric_mail": {
+				"display_name": "黑色牧师铁鳞片甲"
+			},
+			"rc_black_iron_mail": {
+				"display_name": "黑色铁鳞片甲"
+			},
+			"rc_black_iron_helm": {
+				"display_name": "黑色沙漠铁头盔"
+			},
+			"rc_black_iron_circlet": {
+				"display_name": "黑色沙漠铁头环"
+			},
+			"rc_black_iron_platemail": {
+				"display_name": "黑色镀金铁甲"
+			},
+			"rc_black_iron_helmet": {
+				"display_name": "黑色沙漠铁头盔"
+			},
+			"rc_black_steel_chainmail": {
+				"display_name": "黑色钢鳞片甲"
+			},
+			"rc_black_steel_cleric_chainmail": {
+				"display_name": "黑色牧师钢鳞片甲"
+			},
+			"rc_black_steel_helm": {
+				"display_name": "黑色沙漠钢头盔"
+			},
+			"rc_black_steel_circlet": {
+				"display_name": "黑色沙漠钢头环"
+			},
+			"rc_black_steel_mail": {
+				"display_name": "黑色镀金钢甲"
+			},
+			"rc_black_steel_helmet": {
+				"display_name": "黑色沙漠钢头盔"
+			},
+			"rc_black_silver_mail": {
+				"display_name": "黑色镀金银甲"
+			},
+			"rc_black_silver_helmet": {
+				"display_name": "黑色沙漠银头盔"
+			},
+			"na_blue_cloth_padded_vest": {
+				"display_name": "蓝色填充棉甲"
+			},
+			"na_blue_cloth_padded_helmet": {
+				"display_name": "蓝色北地无边帽"
+			},
+			"na_blue_leather_archer_vest": {
+				"display_name": "蓝色弓箭手隐蔽背心"
+			},
+			"na_blue_leather_vest": {
+				"display_name": "蓝色隐蔽背心"
+			},
+			"na_blue_bronze_breastplate": {
+				"display_name": "蓝色青铜锁子甲"
+			},
+			"na_blue_bronze_cleric_breastplate": {
+				"display_name": "蓝色牧师青铜锁子甲"
+			},
+			"na_blue_iron_cleric_mail": {
+				"display_name": "蓝色模式铁锁子甲"
+			},
+			"na_blue_iron_mail": {
+				"display_name": "蓝色铁锁子甲"
+			},
+			"na_blue_iron_platemail": {
+				"display_name": "蓝色铁镶片甲"
+			},
+			"na_blue_iron_helmet": {
+				"display_name": "蓝色北地铁头盔"
+			},
+			"na_blue_steel_mail": {
+				"display_name": "蓝色钢镶片甲"
+			},
+			"na_blue_steel_helmet": {
+				"display_name": "蓝色北地钢头盔"
+			},
+			"na_blue_steel_chainmail": {
+				"display_name": "蓝色钢锁子甲"
+			},
+			"na_blue_steel_cleric_chainmail": {
+				"display_name": "蓝色牧师钢锁子甲"
+			},
+			"na_blue_silver_mail": {
+				"display_name": "蓝色银镶片甲"
+			},
+			"na_blue_silver_helmet": {
+				"display_name": "蓝色北地银头盔"
+			},
+			"blue_leather_archer_vest": {
+				"display_name": "蓝色弓箭手皮革背心"
+			},
+			"blue_leather_archer_hood": {
+				"display_name": "蓝色弓箭手皮革兜帽"
+			},
+			"green_leather_archer_vest": {
+				"display_name": "绿色弓箭手皮革背心"
+			},
+			"green_leather_archer_hood": {
+				"display_name": "绿色弓箭手皮革兜帽"
+			},
+			"purple_leather_archer_vest": {
+				"display_name": "紫色弓箭手皮革背心"
+			},
+			"purple_leather_archer_hood": {
+				"display_name": "紫色弓箭手皮革兜帽"
+			},
+			"red_leather_archer_vest": {
+				"display_name": "红色弓箭手皮革背心"
+			},
+			"red_leather_archer_hood": {
+				"display_name": "红色弓箭手皮革兜帽"
+			},
+			"bronze_cleric_breastplate": {
+				"display_name": "牧师青铜胸甲",
+				"description": "对信奉圣光者的次等防护"
+			},
+			"iron_cleric_mail": {
+				"display_name": "牧师铁盔甲",
+				"description": "对信奉圣光者的普通防护"
+			},
+			"steel_cleric_chainmail": {
+				"display_name": "牧师钢盔甲",
+				"description": "对信奉圣光者的高级防护"
+			},
+			"rc_bronze_cleric_breastplate": {
+				"display_name": "牧师青铜鳞片甲"
+			},
+			"rc_iron_cleric_mail": {
+				"display_name": "牧师铁鳞片甲"
+			},
+			"rc_steel_cleric_chainmail": {
+				"display_name": "牧师钢鳞片甲"
+			},
+			"na_bronze_cleric_breastplate": {
+				"display_name": "牧师青铜锁子甲"
+			},
+			"na_iron_cleric_mail": {
+				"display_name": "牧师铁锁子甲"
+			},
+			"na_steel_cleric_chainmail": {
+				"display_name": "牧师钢锁子甲"
+			}
+		}
+	},
+	"jobs": {
+		"weaver": {
+			"recipes": {
+				"blue_weapons_name": "蓝色作战装备",
+				"green_weapons_name": "绿色作战装备",
+				"purple_weapons_name": "紫色作战装备",
+				"red_weapons_name": "红色作战装备",
+				"black_weapons_name": "黑色作战装备",
+				"white_weapons_name": "白色作战装备",
+				"leather_archer_vest_recipe": {
+					"description": "为弓箭手提供额外的保护",
+					"flavor": "请再次提醒我为什么你需要这个？"
+				},
+				"leather_archer_hood_recipe": {
+					"description": "一个可以把弓箭手的另一个头盔垫起来的头盔",
+					"flavor": "看起来就像是一盔垫一盔！"
+				},
+				"varanus_archer_vest_recipe": {
+					"description": "一件技艺娴熟的弓箭手才能穿着的巨蜥背心",
+					"flavor": "保证真实的吓人"
+				},
+				"varanus_archer_hood_recipe": {
+					"description": "一件有巨蜥皮做成的兜帽，专供弓箭手使用",
+					"flavor": "你的弓箭手现在看起来就像个活巨蜥！"
+				},
+				"zilla_archer_vest_recipe": {
+					"description": "一件有斯拉之皮做成的背心，只有大师级的弓箭手才能使用",
+					"flavor": "穿上这玩意一定很热"
+				},
+				"zilla_archer_hood_recipe": {
+					"description": "弓箭手兜帽的巅峰之作，仅次于传奇",
+					"flavor": "几乎可以让人召唤火山地震！（口胡）"
+				}
+			}
+		},
+		"blacksmith": {
+			"recipes": {
+				"blue_armor_name": "蓝色盔甲",
+				"green_armor_name": "绿色盔甲",
+				"purple_armor_name": "紫色盔甲",
+				"red_armor_name": "红色盔甲",
+				"black_armor_name": "黑色盔甲",
+				"white_armor_name": "白色盔甲",
+				"na_horned_helm": {
+					"flavor": "当你想嚎叫的时候......"
+				},
+				"bronze_cleric_breastplate_recipe": {
+					"description": "为你成为重甲牧师提供一些保护",
+					"flavor": "想穿这玩意不需要多大的力量"
+				},
+				"iron_cleric_mail_recipe": {
+					"description": "为你成为重甲牧师提供可靠的保护",
+					"flavor": "需要较强的力量才能装备"
+				},
+				"steel_cleric_chainmail": {
+					"description": "为你成为重甲牧师提供大量的保护",
+					"flavor": "这回需要很强的力量才能装备了"
+				}
+			}
+		}
+	}
+}

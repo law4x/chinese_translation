@@ -1,0 +1,427 @@
+{
+   "ui": {
+      "game": {
+         "candledark": {
+            "uh_what": "呃..什么?",
+            "such_as": "请解释!",
+            "dejavu": "好像有种既视感?",
+            "berry_wine": "您老树莓酒又喝高了?",
+            "urm_thanks": "emmm..谢谢!",
+            "last_year": "我们去年已经做过了!",
+            "pause": "...",
+            "urm_thanks2": "嗯..你说什么!?",
+            "dialog_nodes" : {
+               "bulletin_message" : {
+                  "000" : "这是能帮你们度过开始阶段的物资! 你们的木匠能用来做守护物品对抗亡灵.",
+                  "001" : "一位憔悴的老人出现在小镇旁边. 他驮着背, 但更难看的还是他的牙齿...",
+                  "002" : "'你们好啊! 黯烛前夕就要来了而你们居然还没开始准备!'",
+                  "003" : "'你知道吗? 黯烛节! 每年这个时候都会有很多诡异的事情发生.'",
+                  "004" : "'是.. 死人.. 他们在蠢蠢欲动. 你们最好听我, 老埃尔巴扎的劝告, 开始准备起来吧!'",
+                  "005" : "'呸! 去你的. 你们最好赶紧开始做守护物品, 不然就要有麻烦了!'",
+                  "006" : "'我几天后会带着货车, 卖点东西给你们, 现在我要把我会的, 都教给你们工匠.'",
+                  "007" : "'哇. 你们成功了! 在黯烛II后仍然幸存了下来. 为了特殊节日我可是存了不少好东西, 现在就拿出来. 享受你们成功的喜悦吧!....明年见....",
+                  "008" : "这是能帮你们度过开始阶段的物资! 你们需要石匠来吧这些东西做成守护物品, 对抗亡灵.",
+                  "009" : "'什么? 不可能. 站在你们面前的是埃尔-巴-扎. 既视感我也遇到过. 但那是有一个玻璃眼睛的滑稽男人....是不是叫戴夫来着?..'",
+                  "010" : "'我或许是挺老了, 但我可不糊涂! 我要是来过这里我也不会忘记; 不然我就不叫这名儿!'",
+                  "011" : "'好吧也许你们说得没错... emmm, 所以我们去年是打过僵尸了吧? 哈! 我知道要召唤什么东西了! 我们来看看对付这些晚上出来的东西, 你们表现如何吧... 要安全度过夜晚, 这些物品配方你们会得用上的.'",
+                  "012" : "'哇. 你们成功了! 在黯烛III后仍然幸存了下来. 为了特殊节日我可是存了不少好东西, 现在就拿出来. 享受你们成功的喜悦吧!....明年见...."
+               },
+               "bulletin_title" : "在我离开之前!",
+               "bulletin_title2" : "一位憔悴的老人走了过来",
+               "bulletin_title3" : "终于结束了!",
+               "dialog_title" : "憔悴的老人",
+               "crafting_unlock1" : "学到了高级冶炼技术!",
+               "crafting_unlock2" : "学到了高级烹饪技术!",
+               "crafting_unlock3" : "学到了高级编织技术!",
+               "crafting_unlock4" : "学到了高级砌石技术!",
+               "crafting_unlock5" : "学到了高级木工技术!",
+               "crafting_unlock6" : "学到了高级草药技术!"
+            }
+         },
+         "entities" : {
+            "bite_notification" : "[name(i18n_data.entity)]被咬到了.",
+            "turn_notification" : "[name(i18n_data.entity)]被他们的咬伤征服了."
+         }
+      }
+   },
+   "data": {
+      "names": {
+         "plagued": {
+            "male_name": "失去思想的游魂",
+            "female_name": "失去思想的游魂"
+         }
+      },
+      "buffs": {
+         "plagued": {
+            "display_name": "受到感染",
+            "description": "感觉一点都不好!"
+         }
+      },
+      "commands": {
+         "smash_pinata": {
+            "display_name": "锤爆彩罐",
+            "description": "里面都是糖啊!"
+         }
+      },
+      "gm": {
+         "campaigns": {
+            "trader" : {
+               "candledark_shop": {
+                  "shop_info": {
+                     "name": "黯烛节的各式小玩意儿",
+                     "title": "埃尔巴扎·格林姆洛克推着他的货车回到了镇上!"
+                  }
+               }
+            },
+            "darkness" : {
+               "mission": {
+                  "sighted_bulletin": {
+                     "title": "亡灵从地底钻出!"
+                  }
+               }
+            },
+            "darknessIII" : {
+               "mission": {
+                  "sighted_bulletin": {
+                     "title": "邪恶势力从阴影中冲出来了!"
+                  }
+               }
+            }
+         }
+      }
+   },
+   "entities": {
+      "critters": {
+         "black_cat": {
+            "display_name": "黑猫",
+            "description": "怎么看都有点诡异."
+         }
+      },
+      "construction": {
+         "cobblestone_fence_rail" : {
+            "cobblestone_fence_rail": {
+               "display_name": "圆石墙",
+               "description": "多了点保护性."
+            },
+            "cobblestone_fence_rail_ghost": {
+               "display_name": "圆石墙",
+               "description": "多了点保护性."
+            }
+         },
+         "cobblestone_fence_brazier" : {
+            "cobblestone_fence_brazier": {
+               "display_name": "圆石墙",
+               "description": "多了点保护性."
+            },
+            "cobblestone_fence_brazier_ghost": {
+               "display_name": "圆石墙",
+               "description": "多了点保护性."
+            }
+         },
+         "spooky_fence_gate" : {
+            "spooky_fence_gate": {
+               "display_name": "黯烛大门",
+               "description": "大大加固的吓人大门!"
+            },
+            "spooky_fence_gate_ghost": {
+               "display_name": "黯烛大门",
+               "description": "特别加固的恐怖大门!"
+            }
+         }
+      },
+      "consumables": {
+         "ancient_healing_tonic" : {
+               "display_name": "远古治疗药剂",
+               "description": "对付吸血鬼, 僵尸和蚊虫咬伤都有奇效."
+         }
+      },
+      "costume": {
+         "clown_mask" : {
+               "display_name": "小丑面具",
+               "description": "传统黯烛服装"
+         },
+         "monster_mask" : {
+               "display_name": "怪物面具",
+               "description": "好看的黯烛服装!"
+         },
+         "pumpkin_hat" : {
+               "display_name": "南瓜帽",
+               "description": "传统黯烛服装",
+               "flavor": "实在没什么好戴的时候!"
+         },
+         "scream_mask" : {
+               "display_name": "恐怖面具",
+               "description": "就很恐怖!",
+               "flavor": "你好啊, 西德尼!"
+         },
+         "witches_hat" : {
+               "display_name": "女巫帽",
+               "description": "传统黯烛服装"
+         }
+      },
+      "decoration": {
+         "ankh_ward": {
+            "ankh_ward": {
+               "display_name": "安可守护",
+               "description": "吸血鬼退散"
+            }
+         },
+         "scarecrow": {
+            "scarecrow_ghost": {
+               "display_name": "普通稻草人",
+               "description": "呜呀呀, 好可怕!!"
+            },
+            "scarecrow_iconic": {
+               "display_name": "普通稻草人",
+               "description": "好像需要现场组装."
+            }
+         },
+         "commemorative_tower_brazier_15": {
+            "commemorative_tower_brazier_ghost": {
+               "display_name": "纪念火炬",
+               "description": "你存活过了黯烛II"
+            },
+            "commemorative_tower_brazier_15_iconic": {
+               "display_name": "纪念火炬",
+               "description": "你存活过了黯烛II"
+            }
+         },
+         "commemorative_tower_brazier_16": {
+            "commemorative_tower_brazier_ghost": {
+               "display_name": "纪念火炬",
+               "description": "你存活过了黯烛III"
+            },
+            "commemorative_tower_brazier_16_iconic": {
+               "display_name": "纪念火炬",
+               "description": "你存活过了黯烛III"
+            }
+         }, 
+         "pinata": {
+            "pinata_ghost": {
+               "display_name": "黯烛彩罐",
+               "description": "满满的'招待'!"
+            },
+            "pinata_iconic": {
+               "display_name": "黯烛彩罐",
+               "description": "好像需要现场组装."
+            }
+         },
+         "pumpkin_ward": {
+            "pumpkin_ward": {
+               "display_name": "南瓜雕刻守护",
+               "description": "每天一守护, 僵尸不入户"
+            },
+            "pumpkin_ward_lantern": {
+               "display_name": "南瓜灯",
+               "description": "亡灵退散"
+            },
+            "pumpkin_ward_hanging_lantern": {
+               "display_name": "挂式南瓜灯",
+               "description": "亡灵退散"
+            }
+         },
+         "decorative_burial_mound": {
+            "decorative_burial_mound" : {
+               "description": "'这里躺着...' 你实在看不清名字",
+               "display_name": "装饰性坟冢"
+            }
+         }
+      },
+      "food": {
+         "candy_basket": {
+            "candy_basket": {
+               "display_name": "糖果篮",
+               "description": "都来吃啊, 是糖诶!"
+            },
+            "candy_serving": {
+               "display_name": "糖",
+               "description": "都来吃啊, 是糖诶!"
+            }
+         },
+         "pumpkin_soup": {
+            "pumpkin_soup": {
+               "display_name": "南瓜羹",
+               "description": "一碗的糊糊的南瓜羹!"
+            },
+            "pumpkin_soup_serving": {
+               "display_name": "一份南瓜羹",
+               "description": "美味."
+            }
+         },
+         "pumpkin_pie": {
+            "pumpkin_pie": {
+               "display_name": "南瓜派",
+               "description": "放窗台上!"
+            },
+            "pumpkin_pie_serving": {
+               "display_name": "一片南瓜派",
+               "description": "又甜又美味."
+            }
+         }
+      },
+      "monsters": {
+         "vampires": {
+            "hell_hound": {
+               "display_name": "地狱猎犬",
+               "description": "亡灵凶恶的仆人"
+            },
+            "vampires": {
+               "display_name": "吸血鬼",
+               "description": "亡灵凶恶的仆人"
+            },
+            "vampires_bride": {
+               "display_name": "吸血鬼新娘",
+               "description": "亡灵凶恶的仆人"
+            }
+         }
+      },
+      "tools": {
+         "pinata_stick": {
+               "display_name": "小幽灵毛绒玩具",
+               "description": "嗷~好可爱"
+         }
+      },
+      "toys": {
+         "plushie_toy_ghost": {
+            "plushie_toy_ghost": {
+               "display_name": "小幽灵毛绒玩具",
+               "description": "嗷~好可爱"
+            }
+         },
+         "plushie_toy_hanging_ghost": {
+            "plushie_toy_hanging_ghost": {
+               "display_name": "吊幽灵毛绒玩具",
+               "description": "嗷~好可爱"
+            }
+         }
+      },
+      "pets": {
+         "bat": {
+            "display_name": "蝙蝠",
+            "description": "...!"
+         }
+      }
+   },
+   "jobs": {
+      "weaver": {
+      	"recipes": {
+            "costumes_name" : "装束",
+            "clown_mask_recipe": {
+               "recipe_name": "小丑面具",
+               "description": "传统黯烛服装",
+               "flavor": "小丑没什么好害怕的! 对吧!"
+            },
+            "monster_mask_recipe": {
+               "recipe_name": "怪物面具",
+               "description": "好看的黯烛服装!",
+               "flavor": "大啊啊啊啊啊啊啊啊啊脑!"
+            },
+            "pumpkin_hat_recipe": {
+               "recipe_name": "南瓜帽",
+               "description": "传统黯烛服装",
+               "flavor": "当你实在没什么好戴的时候!"
+            },
+            "scream_mask_recipe": {
+               "recipe_name": "恐怖面具",
+               "description": "就很恐怖!",
+               "flavor": "你好啊, 西德尼!"
+            },
+            "witches_hat_recipe": {
+               "recipe_name": "女巫帽",
+               "description": "传统黯烛服装",
+               "flavor": "你好, 我美丽的公主!"
+            },
+            "plushie_toy_ghost_recipe": {
+               "description": "传统黯烛节玩具.",
+               "recipe_name": "小幽灵毛绒玩具"
+            },
+            "plushie_toy_hanging_ghost_recipe": {
+               "description": "传统黯烛节玩具.",
+               "recipe_name": "吊幽灵毛绒玩具"
+            }
+         }
+      },
+      "mason": {
+      	"recipes": {
+            "ankh_ward_recipe": {
+               "description": "吸血鬼退散",
+               "recipe_name": "安可守护"
+            },
+            "decorative_burial_mound_recipe": {
+               "description": "传统黯烛装饰.",
+               "recipe_name": "装饰性坟冢"
+            },
+            "cobblestone_fence_brazier_recipe": {
+               "description": "点亮暗夜",
+               "recipe_name": "火炬原石篱"
+            }
+         }
+      },
+      "herbalist": {  
+         "recipes": {
+            "ancient_healing_tonic_recipe": {
+               "recipe_name": "远古治疗药剂",
+               "description": "缓解吸血鬼, 僵尸和蚊虫咬伤的软膏",
+               "flavor": "直接涂抹咬伤区域. 若亡灵状态没有消去, 请咨询家庭医师."
+            }
+         }
+      },
+      "blacksmith": {
+         "recipes": {
+            "candledark_name": "Defences",
+            "cobblestone_fence_rail_recipe": {
+               "description": "多了点保护性.",
+               "recipe_name": "加固圆石墙"
+            },
+            "cobblestone_tripple_fence_rail_recipe": {
+               "description": "多了点保护性.",
+               "recipe_name": "加固三联圆石墙"
+            },
+            "spooky_fence_gate_recipe": {
+               "description": "特别加固的恐怖大门!",
+               "recipe_name": "黯烛大门"
+            }
+         }
+      },
+      "carpenter": {
+         "recipes": {
+            "candledark_name": "装饰品",
+            "scarecrow_recipe": {
+               "description": "传统黯烛节装饰.",
+               "recipe_name": "普通稻草人"
+            },
+            "pinata_recipe": {
+               "description": "满满的'招待'!",
+               "recipe_name": "黯烛彩罐"
+            }
+         }
+      },
+      "cook": {
+         "recipes": {
+            "holiday_recipes" : {
+               "candledark_name" : "节日配方"
+            },
+            "pumpkin_ward_recipe": {
+               "description": "传统黯烛节装饰.",
+               "recipe_name": "黯烛南瓜雕刻守护"
+            },
+            "pumpkin_soup_recipe": {
+               "description": "一种南瓜主题食物.",
+               "recipe_name": "南瓜羹"
+            },
+            "pumpkin_pie_recipe": {
+               "description": "南瓜加派, 谁能不爱?",
+               "recipe_name": "南瓜派"
+            },
+            "pumpkin_ward_lantern_recipe": {
+               "description": "传统黯烛节装饰. 有了别样的氛围",
+               "recipe_name": "黯烛南瓜灯"
+            },
+            "pumpkin_ward_hanging_lantern_recipe": {
+               "description": "传统黯烛节装饰. 能挂在墙上!",
+               "recipe_name": "黯烛挂式南瓜灯"
+            }
+         }
+      }
+   }
+}

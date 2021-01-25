@@ -1,0 +1,87 @@
+{
+	"perks": {
+		"work_1": {
+			"name": "采矿技术",
+			"desc": "这个炉民学习了基本的快速挖掘技术."
+		},
+		"inv_1": {
+			"name": "矿石背包",
+			"desc": "这个炉民已经装备了能额外装多2块矿石的背包."
+		},
+		"speed_1": {
+			"name": "急速",
+			"desc": "这个矿工不想浪费任何时间.移动速度+10."
+		},
+		"work_2": {
+			"name": "先进采矿技术",
+			"desc": "挖石头就好像刷牙一样简单.开采效率提升."
+		},
+		"inv_2": {
+			"name": "额外口袋",
+			"desc": "当有了这口袋,谁还需要背包？矿工能额外携带两个物品."
+		},
+		"speed_2": {
+			"name": "效率",
+			"desc": "Rocks and loose soil are second nature to this miner. Speed increased by 15."
+		},
+		"work_3": {
+			"name": "大师采矿技术",
+			"desc": "岩石在矿工的镐子之下就想刀切黄油一样.开采效率提升到最大."
+		},
+		"light": {
+			"name": "发光!",
+			"desc": "你的矿工发现了一块很耀眼的石头并装饰在帽子上."
+		}
+	},
+	"info": {
+		"name": "矿工",
+		"desc": "挖矿与运送的专业级工具.",
+		"req": "由铁匠制作",
+		"equipment_section_name": "转职工具"
+	},
+	"items": {
+		"coat": {
+			"name": "矿工大衣",
+			"desc": "隔离灰尘"
+		},
+		"iron_pick": {
+			"name": "铁镐",
+			"desc": "基础的挖矿工具"
+		},
+		"iron_pick_recipe": {
+			"name": "铁镐",
+			"desc": "使炉民转职为矿工"
+		},
+		"steel_pick": {
+			"name": "钢镐",
+			"desc": "由钢制成的坚固镐子"
+		},
+		"steel_pick_recipe": {
+			"name": "钢镐",
+			"desc": "由钢制成的坚固镐子"
+		},
+		"master_pick": {
+			"name": "大师镐",
+			"desc": "The solid-gold weight on this axe makes it cut through rock like a fish through water"
+		},
+		"master_pick_recipe": {
+			"name": "大师镐",
+			"desc": "The solid-gold weight on this axe makes it cut through rock like a fish through water"
+		},
+		"backpack": {
+			"name": "背包",
+			"desc_empty": "这个背包是空的",
+			"desc_cont": "背包里有: "
+		}
+	},
+	"loadouts": {
+		"load_metal" : {
+			"display_name" : "金属大师 (矿工)",
+			"description" : "Forge your town's future with the earth's riches. Harden your soldiers with fire and steel. When you have the earth, do you really need anything else?",
+			"tooltip" : "快速发展你的城镇的金属工业和军事力量.",
+			"ore" : "铜",
+			"ore2" : "锡",
+			"ore3" : "铁"
+		}
+	}
+}

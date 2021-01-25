@@ -1,0 +1,45 @@
+{
+	"ui": {
+		"shell": {
+			"select_settlement": {
+				"open_map_options": "自定义世界设置",
+				"world_size": {
+					"display": "世界大小:",
+					"small": "小型",
+					"normal": "正常",
+					"large": "大型"
+				},
+				"enable": {
+					"display": "启用:",
+					"lakes": "湖泊",
+					"dirt_holes": "泥坑"
+				},
+				"rivers": {
+					"display": "河流:",
+					"quantity": "最大数量:",
+					"sizes": {
+						"display": "尺寸:",
+						"narrow": "狭窄",
+						"wide": "宽阔"
+					},
+					"locations": {
+						"display": "地点:",
+						"plains": "平原",
+						"foothills": "丘陵",
+						"mountains": "山脉"
+					}
+				},
+				"modes": {
+					"display": "特殊模式:",
+					"superflat": "超平坦",
+					"waterworld": "水世界",
+					"canyons": "峡谷",
+					"sky_lands": "空岛"
+				},
+				"apply_map_options": "应用",
+				"default_map_options": "默认",
+				"cancel_map_options": "取消"
+			}
+		}
+	}
+}
