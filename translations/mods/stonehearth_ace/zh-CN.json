@@ -2239,7 +2239,7 @@
 					"values": {
 						"celebration": {
 							"display_name": "冰霜祭庆典!",
-							"tooltip": "The Frostfather is here and we've helped in making this Frostfeast special! Hooray!"
+							"tooltip": "冰霜老人要来了并且我们帮忙举办这次的冰霜祭庆典! 棒极了!"
 						}
 					}
 				}
@@ -11698,7 +11698,7 @@
 				"unripe_description": "这棵植物被采集过了, 还没长回去",
 				"seed": {
 					"moonbell_plant_seed_ghost": {
-						"display_name": "野生月铃花 Seed",
+						"display_name": "野生月铃花种子",
 						"description": "种下后, 能长出治疗药草"
 					},
 					"moonbell_plant_sprout": {
@@ -16871,7 +16871,7 @@
 		},
 		"moonbell": {
 			"display_name": "月铃花",
-			"description": "发着淡淡亮光的高原花. 需要几天才能完全长好, 收获可获得 <span class='blueHerb'>b蓝色</span> <span class='bitterHerb'>苦味</span> 草药.",
+			"description": "发着淡淡亮光的高原花. 需要几天才能完全长好, 收获可获得 <span class='blueHerb'>蓝色</span> <span class='bitterHerb'>苦味</span> 草药.",
 			"harvest_text": "收获月铃花"
 		},
 		"sunflower": {
@@ -16886,7 +16886,7 @@
 		},
 		"earthbud": {
 			"display_name": "地红蕾",
-			"description": "A mysterious bloom able to condensate hearth magic. Needs a long time to be fully grown and will provide hearth essences when harvested.",
+			"description": "一朵神秘的花能够凝聚石炉魔力. 需要很长时间才能完全成熟并在收获时提供石炉精华.",
 			"harvest_text": "收获地红蕾"
 		},
 		"sugarbell": {
@@ -16921,7 +16921,7 @@
 		},
 		"chives": {
 			"display_name": "细香葱",
-			"description": "北盟厨师的最爱. 需要几天才能完全长好, 收获可获得 <span class='greenHerb'>绿色en</span> 和 <span class='purpleHerb'>紫色</span> <span class='aromaticHerb'>芳香</span> 草药.",
+			"description": "北盟厨师的最爱. 需要几天才能完全长好, 收获可获得 <span class='greenHerb'>绿色</span> 和 <span class='purpleHerb'>紫色</span> <span class='aromaticHerb'>芳香</span> 草药.",
 			"harvest_text": "收获细香葱"
 		},
 		"bog_myrtle": {
@@ -17926,18 +17926,18 @@
 			"select_game_story": {
 				"game_modes": {
 					"normal": {
-						"description": "Adventure forth in a world fraught with danger! The most balanced and intended experience, your town will be subject to increasingly challenging invasions and perils."
+						"description": "在充满危险的世界里大胆开拓! 最平衡和最想要的体验, 你的城镇将受到越来越具有挑战性的侵略和灾难事件."
 					},
 					"peaceful": {
-						"description": "A sandbox! Freely build your town without any invasions. You may look for a fight in the wilds or through special events, if you decide to. Wounds and other effects have a meager impact on health."
+						"description": "沙盒模式! 自由建造你的城镇完全不会受到侵略. 如果你想要战斗的话, 你可以在野外通过寻找特殊事件加入战斗. 但受到的创伤及其它影响对健康影响不大."
 					},
 					"gentle": {
-						"description": "Enemies are as challenging as in Normal - but with a slower pace. Progression and events have longer intervals between each other. Wounds and such have a lesser impact on health.",
+						"description": "敌人的挑战难度是与正常模式一样的 - 但就是节奏比较慢. 发展进度与事件之间的间距比较长. 受到的创伤对健康影响不大.",
 						"display_name": "温和",
-						"post_selection_text": "an intriguing place to start anew."
+						"post_selection_text": "在一个有趣的地方重新开始."
 					},
 					"hard": {
-						"description": "Enemies will be stronger and the progression of challenges will be quicker and less merciful. Always be on your guard! Wounds and other effects can be very dangerous - or even lethal!"
+						"description": "敌人将变得更强大和进度也变快，并且更无情. 随时保持警惕! 受到的创伤及其它影响可能非常危险 - 或者甚至死亡!"
 					}
 				}
 			},
