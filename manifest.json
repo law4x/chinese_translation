@@ -7,18 +7,20 @@
 		"steam_file_id" : "1359505430",
 		"client_only" : true
 	 },
-	"dependencies": [
-		"chinese_font"
-   ],
+    "default_locale": "en",
+    "dependencies": [
+        "chinese_font"
+    ],
    "mixintos" : {
-      "stonehearth/locales/supported_languages.json" : "file(added_languages.json)"
+      "stonehearth/locales/supported_languages.json" : "file(added_languages.json)",
+      "stonehearth/locales/zh-CN.json": "file(translations/mods/stonehearth_ace/locales_mixin.json)"
    },
    "overrides" : {
    	"stonehearth/locales/zh-CN.json": "file(translations/stonehearth/zh-CN.json)",
     "rayyas_children/locales/zh-CN.json": "file(translations/rayyas_children/zh-CN.json)",
     "northern_alliance/locales/zh-CN.json": "file(translations/northern_alliance/zh-CN.json)",
-     
-     
+
+
     "stonehearth_ace/locales/zh-CN.json": "file(translations/mods/stonehearth_ace/zh-CN.json)",
     "stonehearth_ace/locales/zh-CN_mixin.json": "file(translations/mods/stonehearth_ace/zh-CN_mixin.json)",
     "archipelago_biome/locales/zh-CN.json": "file(translations/mods/archipelago_biome/zh-CN.json)",
@@ -55,5 +57,10 @@
     "homf/locales/zh-CN_fix.json": "file(translations/mods/homf/zh-CN_fix.json)",
     "core_dani/locales/zh-CN.json": "file(translations/mods/core_dani/zh-CN.json)",
     "extra_map_options/locales/zh-CN.json": "file(translations/mods/extra_map_options/zh-CN.json)"
+   },
+   "ui" : {
+        "less": [
+            "file(ui/shell/select_roster/select_roster.less)"
+        ]
    }
 }
