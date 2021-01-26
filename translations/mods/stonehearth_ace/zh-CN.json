@@ -2239,7 +2239,7 @@
 					"values": {
 						"celebration": {
 							"display_name": "冰霜祭庆典!",
-							"tooltip": "The Frostfather is here and we've helped in making this Frostfeast special! Hooray!"
+							"tooltip": "霜冻之父来了，我们也帮忙把这顿霜冻宴办得很特别! 好耶！"
 						}
 					}
 				}
@@ -2270,13 +2270,13 @@
 					"slayer": {
 						"display_name": "杀手",
 						"description": "杀死任何敌人获得!",
-						"40_display_name": "劫掠者",
+						"40_display_name": ",劫掠者",
 						"40_description": "他们击败了40个敌人!",
-						"100_display_name": "屠杀机器",
+						"100_display_name": ",屠杀机器",
 						"100_description": "他们击败了100个敌人!这真的有必要么?",
 						"250_display_name": ",反派克星",
 						"250_description": "他们击败了250个敌人!停不下来了啊!",
-						"600_display_name": "灵魂收割者",
+						"600_display_name": ",灵魂收割者",
 						"600_description": "他们击败了600个敌人!那一定是战争之子...."
 					},
 					"slayer_item": {
@@ -2286,7 +2286,7 @@
 						"40_description": "他们击败了40个敌人!",
 						"100_display_name": ",恐怖分子",
 						"100_description": "他们击败了100个敌人!可能需要暂停一下吧...",
-						"250_display_name": "死亡使者",
+						"250_display_name": ",死亡使者",
 						"250_description": "他们击败了250个敌人!足够了吧!",
 						"600_display_name": ",灵魂喰种",
 						"600_description": "他们击败了600个敌人!是如此的渴望掐架!"
@@ -2294,15 +2294,15 @@
 					"goblin_killer": {
 						"display_name": "哥布林杀手",
 						"description": "通过杀死哥布林获得.",
-						"5_display_name": "哥布林屠杀者",
+						"5_display_name": ",哥布林屠杀者",
 						"5_description": "他们杀死了五个哥布林!他们去了!又杀了!",
-						"10_display_name": "哥布林屠杀机器",
+						"10_display_name": ",哥布林屠杀机器",
 						"10_description": "他们杀了十个哥布林!他们真的很擅长!",
-						"25_display_name": "哥布林收割机",
+						"25_display_name": ",哥布林收割机",
 						"25_description": "他们杀了二十五个哥布林!他们热衷于此!",
 						"50_display_name": ",哥布林毁灭者",
 						"50_description": "他们杀了五十个哥布林!他们从哪找来的那么多哥布林?!",
-						"75_display_name": "哥布林断头台",
+						"75_display_name": ",哥布林断头台",
 						"75_description": "他们杀了七十五个哥布林!他们从哪找来的那么多哥布林?!",
 						"100_display_name": ",哥布林食者",
 						"100_description": "他们杀了一百个哥布林!也许他们应该接受治疗,重新审视他们真正该做的事."
@@ -2310,15 +2310,15 @@
 					"goblin_killer_item": {
 						"display_name": "哥布林杀手",
 						"description": "通过杀死哥布林获得.",
-						"5_display_name": "哥布林屠杀者",
+						"5_display_name": ",哥布林屠杀者",
 						"5_description": "它杀了五个哥布林!它去了!又杀了!",
-						"25_display_name": "哥布林收割机",
+						"25_display_name": ",哥布林收割机",
 						"25_description": "它杀了二十五个哥布林!它热衷于此!",
 						"50_display_name": ",哥布林毁灭者",
 						"50_description": "它杀死了五十个哥布林!这是不可阻挡的,即使是哥布林!",
 						"75_display_name": ",哥布林断头台",
 						"75_description": "它杀了五十个哥布林!它从哪找来的那么多哥布林?!",
-						"100_display_name": "哥布林食者",
+						"100_display_name": ",哥布林食者",
 						"100_description": "它杀了一百个哥布林!它的嗜血最终是否能被满足?"
 					},
 					"orc_killer": {
@@ -2326,7 +2326,7 @@
 						"description": "通过杀死红烬军获得.",
 						"5_display_name": ",红烬军的敌人",
 						"5_description": "他们杀了五个红烬军!",
-						"10_display_name": "红烬军屠杀者",
+						"10_display_name": ",红烬军屠杀者",
 						"10_description": "他们杀了十个红烬军!真是个挑战!",
 						"25_display_name": ",红烬军毁灭者",
 						"25_description": "他们杀了二十五个红烬军!这需要技巧!",
@@ -2344,7 +2344,7 @@
 						"5_description": "它杀了五个红烬军!",
 						"10_display_name": ",红烬军屠杀者",
 						"10_description": "它杀了十个红烬军!一把好武器!",
-						"25_display_name": "红色死神",
+						"25_display_name": ",红色死神",
 						"25_description": "它杀了二十五个红烬军!它有点东西.",
 						"50_display_name": ",可汗的篡位者",
 						"50_description": "它杀了五十个红烬军!它让他们在心中产生恐惧!",
@@ -2354,15 +2354,15 @@
 					"undead_killer": {
 						"display_name": "亡灵杀手",
 						"description": "通过杀死亡灵获得.",
-						"3_display_name": "亡灵猎人",
+						"3_display_name": ",亡灵猎人",
 						"3_description": "他们杀死了三只亡灵!",
-						"6_display_name": "掘墓人",
+						"6_display_name": ",掘墓人",
 						"6_description": "他们杀死了六只亡灵!用\"杀死\"这个词合适吗?",
-						"15_display_name": "亡灵天灾",
+						"15_display_name": ",亡灵天灾",
 						"15_description": "他们杀死了十五只亡灵!太吓人了!",
 						"25_display_name": ",希望使者",
 						"25_description": "他们杀死了二十五只亡灵!这感觉比之前安全多了.",
-						"50_display_name": "光明使者",
+						"50_display_name": ",光明使者",
 						"50_description": "他们杀死了五十只亡灵!漫漫长夜结束了."
 					},
 					"undead_killer_item": {
@@ -2370,11 +2370,11 @@
 						"description": "通过杀死亡灵获得.",
 						"3_display_name": ",希望之烛",
 						"3_description": "它杀死了三只亡灵!",
-						"6_display_name": "清洁剂",
+						"6_display_name": ",清洁剂",
 						"6_description": "它杀死了六只亡灵!多好的祝福啊!",
 						"15_display_name": ",净化器",
 						"15_description": "它杀死了十五只亡灵!今晚出去应该是安全的.",
-						"25_display_name": "神之干扰者",
+						"25_display_name": ",神之干扰者",
 						"25_description": "它杀死了二十五只亡灵!它绝对是尽力而为!",
 						"50_display_name": ",亡灵粉碎者",
 						"50_description": "它杀死了五十只亡灵!希望的灯塔啊!"
@@ -2384,21 +2384,21 @@
 						"description": "通过杀死木灵获得.",
 						"5_display_name": ",原始破坏者",
 						"5_description": "他们杀死了五只木灵!",
-						"10_display_name": "绞肉机",
+						"10_display_name": ",绞肉机",
 						"10_description": "他们杀死了十只木灵!小心!",
-						"25_display_name": "皮草收割机",
+						"25_display_name": ",皮草收割机",
 						"25_description": "他们杀死了二十五只木灵!那里现在还有它们的嗥叫吗?",
 						"50_display_name": ",咆哮消音器",
 						"50_description": "他们杀死了五十只木灵!这变得更清静了...",
-						"75_display_name": "不被驯服",
+						"75_display_name": ",不被驯服",
 						"75_description": "他们杀死了七十五只木灵!破坏原野是犯罪!",
-						"100_display_name": "野性狩猎",
+						"100_display_name": ",野性狩猎",
 						"100_description": "他们杀死了一百只木灵!大自然不是你的朋友吗?"
 					},
 					"forest_killer_item": {
 						"display_name": "木灵杀手",
 						"description": "通过杀死木灵获得.",
-						"5_display_name": "原始破坏者",
+						"5_display_name": ",原始破坏者",
 						"5_description": "它杀死了五只木灵!",
 						"10_display_name": ",锄草机",
 						"10_description": "它杀死了十只木灵!有人用木柴吗?",
@@ -2408,19 +2408,19 @@
 						"50_description": "它杀死了五十只木灵!大自然对它做了什么?",
 						"75_display_name": ",绿色终结者",
 						"75_description": "它杀死了七十五只木灵!也许是时候停下来了?",
-						"100_display_name": "荒原",
+						"100_display_name": ",荒原",
 						"100_description": "它杀死了一百只木灵!大自然永远不会忘记的!"
 					},
 					"titan_killer": {
 						"display_name": "泰坦风暴杀手",
 						"description": "通过杀死腐化生物而获得.",
-						"1_display_name": "影子猎手",
+						"1_display_name": ",影子猎手",
 						"1_description": "他们杀了一只腐化生物!",
 						"5_display_name": ",暗影的挑战者",
 						"5_description": "他们杀了五只腐化生物!真勇敢!",
-						"10_display_name": "禅师",
+						"10_display_name": ",禅师",
 						"10_description": "他们杀了十只腐化生物!他们又一次站在了暗影面前!",
-						"15_display_name": "无名杀手",
+						"15_display_name": ",无名杀手",
 						"15_description": "他们杀死了十五只腐化生物!这在上次的战斗中起到了作用!",
 						"25_display_name": ",虚空的征服者",
 						"25_description": "他们杀死了二十五只腐化生物!他们把光明投在黑暗面前!"
@@ -2428,9 +2428,9 @@
 					"titan_killer_item": {
 						"display_name": "泰坦风暴杀手",
 						"description": "通过杀死腐化生物而获得.",
-						"1_display_name": "光",
+						"1_display_name": ",光",
 						"1_description": "它杀了一只腐化生物!",
-						"5_display_name": "倒下的裹尸布",
+						"5_display_name": ",倒下的裹尸布",
 						"5_description": "它杀了五只腐化生物!难以置信!",
 						"10_display_name": ",搅碎机",
 						"10_description": "它杀了十只腐化生物!值得高歌!",
@@ -2442,7 +2442,7 @@
 					"ogre_killer": {
 						"display_name": "食人魔杀手",
 						"description": "通过杀死食人魔而获得.",
-						"3_display_name": "食人魔猎手",
+						"3_display_name": ",食人魔猎手",
 						"3_description": "他们杀了三只食人魔!",
 						"6_display_name": ",食人魔公敌",
 						"6_description": "他们杀了六只食人魔!无畏!",
@@ -2460,7 +2460,7 @@
 						"6_description": "它杀了六只食人魔!棒极了!",
 						"12_display_name": ",食人魔的绞肉机",
 						"12_description": "它杀了十二只食人魔!也许它是为此而设计的?",
-						"30_display_name": "狂暴机器人",
+						"30_display_name": ",狂暴机器人",
 						"30_description": "它杀了三十只食人魔!多么伟大的武器啊!"
 					},
 					"mountain_killer": {
@@ -2472,7 +2472,7 @@
 					"mountain_killer_item": {
 						"display_name": "食人魔头头猎手",
 						"description": "通过杀死食人魔首领而获得.",
-						"1_display_name": "绞肉机",
+						"1_display_name": ",绞肉机",
 						"1_description": "它被用来杀死最可怕的食人魔!"
 					},
 					"varanus_killer": {
@@ -2482,7 +2482,7 @@
 						"5_description": "他们杀了五只巨蜥!",
 						"10_display_name": ",巨蜥天灾",
 						"10_description": "他们杀了十只巨蜥!小心它们的牙齿!",
-						"25_display_name": "鳞片收藏家",
+						"25_display_name": ",鳞片收藏家",
 						"25_description": "他们杀了二十五只巨蜥!但里面没有龙...",
 						"50_display_name": ",冷血猎手",
 						"50_description": "他们杀了五十只巨蜥!这可能导致它们灭绝!"
@@ -2494,7 +2494,7 @@
 						"5_description": "它杀了五只巨蜥!",
 						"10_display_name": ",毒液",
 						"10_description": "它杀了十只巨蜥!强大!",
-						"25_display_name": "鳞片洗涤剂",
+						"25_display_name": ",鳞片洗涤剂",
 						"25_description": "它杀了二十五只巨蜥!或许需要洗一洗...",
 						"50_display_name": ",毒牙",
 						"50_description": "它杀了五十只巨蜥!这儿或许还有两栖动物."
@@ -2516,7 +2516,7 @@
 						"description": "通过杀死敌人的首领而获得.",
 						"1_display_name": ",搅局者",
 						"1_description": "他们杀了一个敌人的首领!",
-						"3_display_name": "躁动者",
+						"3_display_name": ",躁动者",
 						"3_description": "他们杀了三个敌人的首领!砍下敌人的首级!",
 						"5_display_name": ",竞争者",
 						"5_description": "他们杀了五个敌人的首领!敌人不会止步于此的...",
@@ -2532,13 +2532,13 @@
 						"3_description": "它杀了三个敌人的首领!混乱吧!",
 						"5_display_name": ",渴求权贵",
 						"5_description": "它杀了五个敌人的首领!他们现在会三思而行了",
-						"10_display_name": "白色恐怖",
+						"10_display_name": ",白色恐怖",
 						"10_description": "它杀了十个敌人的首领!它喜欢敌人群龙无首的样子!"
 					},
 					"ogo_killer": {
 						"display_name": "哥布林头头猎手",
 						"description": "通过杀死哥布林首领而获得.",
-						"1_display_name": "未连接的哥布林们",
+						"1_display_name": ",未连接的哥布林们",
 						"1_description": "他们杀死了最可怕的哥布林!"
 					},
 					"ogo_killer_item": {
@@ -2550,7 +2550,7 @@
 					"warchief_killer": {
 						"display_name": "兽人头头挑战者",
 						"description": "通过杀死兽人首领而获得.",
-						"1_display_name": "可汗的竞争者",
+						"1_display_name": ",可汗的竞争者",
 						"1_description": "他们在战斗中打败了最可怕的兽人!"
 					},
 					"warchief_killer_item": {
@@ -2578,7 +2578,7 @@
 					"hunter_item": {
 						"display_name": "伟大的猎人",
 						"description": "通过猎杀野兽而获得.",
-						"75_display_name": "残忍的猎手",
+						"75_display_name": ",残忍的猎手",
 						"75_description": "它猎杀了七十五只野兽!一把真正的猎杀武器!",
 						"150_display_name": ",开拓者",
 						"150_description": "它猎杀了一百五十只野兽!没有一片森林能幸免...",
@@ -2596,7 +2596,7 @@
 						"50_description": "他们在五十个敌人的手中保护城镇!",
 						"100_display_name": ",小镇英雄",
 						"100_description": "他们在一百个敌人的手中保护了城镇!终于要结束了吗?",
-						"500_display_name": "伟大的法律保护之手",
+						"500_display_name": ",伟大的法律保护之手",
 						"500_description": "他们在五百个敌人的手中保护城镇!多么令人难以置信的城镇对抗!",
 						"1000_display_name": ",文明的救世主",
 						"1000_description": "他们在一千个敌人的手中保护城镇!也许有必要采取更具外交性的手段了."
@@ -2606,7 +2606,7 @@
 						"description": "通过制作很多物品获得.",
 						"100_display_name": ",高产制造者",
 						"100_description": "他们创造了一百个物品!",
-						"200_display_name": "千手匠师",
+						"200_display_name": ",千手匠师",
 						"200_description": "他们创造了两百个物品!",
 						"500_display_name": ",大众匠师",
 						"500_description": "他们创造了五百个物品!也许他们需要一些助手.",
@@ -2620,7 +2620,7 @@
 						"10_description": "他们制作了十件优秀的商品!",
 						"25_display_name": ",非凡的创造者",
 						"25_description": "他们制作了二十五件优秀的商品!",
-						"100_display_name": "卓越的制造之皇",
+						"100_display_name": ",卓越的制造之皇",
 						"100_description": "他们制作了一百个优秀的商品!"
 					},
 					"master_crafter": {
@@ -2628,47 +2628,47 @@
 						"description": "通过制作大师品质的物品获得.",
 						"1_display_name": ",制作大师",
 						"1_description": "他们制作了大师作品!惊人!",
-						"10_display_name": "质量大师",
+						"10_display_name": ",质量大师",
 						"10_description": "他们制作了十个大师作品!难以置信!",
-						"25_display_name": "手工艺的传奇",
+						"25_display_name": ",手工艺的传奇",
 						"25_description": "他们制作了二十五个大师作品!谁能知道这是有可能的?"
 					},
 					"starving": {
 						"display_name": "挨饿者",
 						"description": "通过花费大量时间挨饿来获得",
-						"1_display_name": "挨饿者",
+						"1_display_name": ",挨饿者",
 						"1_description": "他们花了四个小时来挨饿!",
-						"2_display_name": "皮包骨",
+						"2_display_name": ",皮包骨",
 						"2_description": "他们饿了两天,仍然屹立!",
-						"3_display_name": "神仙",
+						"3_display_name": ",神仙",
 						"3_description": "他们已经饿了10天了! 也许食物采集的事情应该稍微优先考虑."
 					},
 					"incapacitated": {
 						"display_name": "瘫患儿童",
 						"description": "通过多次失去行动能力获得.",
-						"1_display_name": "挨揍者",
+						"1_display_name": ",挨揍者",
 						"1_description": "他们被击倒并起身然后被再次击倒.",
-						"2_display_name": "沙包",
+						"2_display_name": ",沙包",
 						"2_description": "他们已经被击倒两次了!是否有人能杀死他们?",
-						"4_display_name": "伤痕累累",
+						"4_display_name": ",伤痕累累",
 						"4_description": "他们已经被击倒四次了!有可能杀死他们吗?",
-						"8_display_name": "头都给你踢飞喽",
+						"8_display_name": ",头都给你踢飞喽",
 						"8_description": "他们已经被击倒八次了!他们能不能学会避免危及生命的事情?",
-						"12_display_name": "不朽者",
+						"12_display_name": ",不朽者",
 						"12_description": "他们已经被击倒十二次了!他们这样还能装几次死?",
-						"20_display_name": "不死神仙",
+						"20_display_name": ",不死神仙",
 						"20_description": "他们已经被击倒二十次了!令人难以相信的是,他们是如此幸运(或愚蠢)."
 					},
 					"swimming": {
 						"display_name": "游泳健将",
 						"description": "通过长时间游泳而获得.",
-						"1_display_name": "游泳运动员",
+						"1_display_name": ",游泳运动员",
 						"1_description": "他们花了一整天游泳!",
-						"2_display_name": "淡水鱼",
+						"2_display_name": ",淡水鱼",
 						"2_description": "他们花了三天在游泳!他们一定喜爱水!",
-						"3_display_name": "海马",
+						"3_display_name": ",海马",
 						"3_description": "他们花了一个月在游泳!如此有能量!",
-						"4_display_name": "鲨鱼",
+						"4_display_name": ",鲨鱼",
 						"4_description": "他们花了三个月在游泳!什么?!?!?",
 						"5_display_name": ",海王",
 						"5_description": "他们花了半年在游泳!我打赌其中有一半在睡觉...."
@@ -2676,55 +2676,55 @@
 					"sweet_energy": {
 						"display_name": "甜食大师",
 						"description": "通过吃许多甜品而获得.",
-						"1_display_name": "小试牛刀",
+						"1_display_name": ",小试牛刀",
 						"1_description": "他们吃了十次甜品!可能还很健康...",
-						"2_display_name": "唇齿留香",
+						"2_display_name": ",唇齿留香",
 						"2_description": "他们吃了二十五次甜品!谁能抗拒糖果?",
-						"3_display_name": "来者不拒",
+						"3_display_name": ",来者不拒",
 						"3_description": "他们吃了五十次甜品!他们的确喜欢吃!",
-						"4_display_name": "垂涎三尺 ",
+						"4_display_name": ",垂涎三尺 ",
 						"4_description": "他们吃了一百次甜品!太多了!小心你的血糖!",
-						"5_display_name": "糖果狂热者",
+						"5_display_name": ",糖果狂热者",
 						"5_description": "他们吃了二百次甜品!那或许很不健康...",
-						"6_display_name": "甜品大师",
+						"6_display_name": ",甜品大师",
 						"6_description": "他们吃了五百次甜品!他们最近睡得好吗?"
 					},
 					"drunk": {
 						"display_name": "酒鬼",
 						"description": "通过因喝酒而昏昏欲睡而获得",
-						"1_display_name": "真快活!",
+						"1_display_name": ",真快活!",
 						"1_description": "他们喝了六天了!",
-						"2_display_name": "停杯投箸不能食",
+						"2_display_name": ",停杯投箸不能食",
 						"2_description": "他们喝了十二天!头昏眼花!",
-						"3_display_name": "我..我还能喝",
+						"3_display_name": ",我..我还能喝",
 						"3_description": "他们喝了二十天了.他们还在工作吗?",
-						"4_display_name": "真逍遥快活",
+						"4_display_name": ",真逍遥快活",
 						"4_description": "他们喝了四十五天了.有很多次机会可以去思考啊.",
-						"5_display_name": "趴体!!!!!",
+						"5_display_name": ",趴体!!!!!",
 						"5_description": "他们喝了一年了.讲真,我们应该给他们一个奖励!"
 					},
 					"morning_after": {
 						"display_name": "无秩序",
 						"description": "通过醉后获得debuff而获得...",
-						"1_display_name": "得分了",
+						"1_display_name": ",得分了",
 						"1_description": "他们做到了!没有人是完美的.每个人最终都会这么做.他们喝了太多酒之后会享受一个美好的早晨...",
-						"2_display_name": "头痛爱好者",
+						"2_display_name": ",头痛爱好者",
 						"2_description": "他们通过了,同样喝了六次酒!也许他们需要帮助?",
-						"3_display_name": "风华",
+						"3_display_name": ",风华",
 						"3_description": "他们有十八次糟糕的早上...或许他们享受这个!",
-						"4_display_name": "不屈不挠",
+						"4_display_name": ",不屈不挠",
 						"4_description": "他们去过那里又回来过六十次!他们说,要生死都在瓶子里."
 					},
 					"bee_swarmed": {
 						"display_name": "群蜂!",
 						"description": "被蜜蜂团团围住.",
-						"1_display_name": "蜂蛰",
+						"1_display_name": ",蜂蛰",
 						"1_description": "他们已经被蜜蜂蛰过一次了. 嗷, 那可能会很疼...",
-						"2_display_name": "胡椒粉",
+						"2_display_name": ",胡椒粉",
 						"2_description": "他们已经被蜜蜂蛰过5次了! 这可不是小数字, 他们肯定对这不过敏了.",
-						"3_display_name": "授粉者",
+						"3_display_name": ",授粉者",
 						"3_description": "他们已经被蛰15次了.难道他们看起来像是花还是什么? 总之蜜蜂是真的爱他们啊!",
-						"4_display_name": ", 名誉蜂皇",
+						"4_display_name": ",名誉蜂皇",
 						"4_description": "他们被蛰了有30次! 这太疯狂了, 也许那些蜜蜂是真的想要跟随他们. 又或者你该给他们制作一个养蜂人的帽子..."
 					}
 				}
@@ -3177,7 +3177,7 @@
 				"display_name": "学习",
 				"description": "用这个来学习一个新的制作配方。使用后消失。",
 				"bulletin_title": "[str(i18n_data.job_name)] 解锁了 [str(i18n_data.recipe_count)]新配方！",
-				"bulletin_title_single": "[str(i18n_data.job_name)解锁了新的配方！"
+				"bulletin_title_single": "[str(i18n_data.job_name)]解锁了新的配方！"
 			}
 		},
 		"buffs": {
@@ -4065,27 +4065,27 @@
 			},
 			"alcohol_intolerance_trait": {
 				"display_name": "排斥酒精",
-				"description": "[name(i18n_data.entity)]]对含酒精饮料有强烈的厌恶.只是和他们的肚子不合得来."
+				"description": "[name(i18n_data.entity)] 对含酒精饮料有强烈的厌恶.只是和他们的肚子不合得来."
 			},
 			"alcohol_love_trait": {
 				"display_name": "放荡不羁",
-				"description": "众所周知,[name(i18n_data.entity)]喜欢所有类型的酒精饮料.如果可以的话,他们会喝任何的酒."
+				"description": "众所周知,[name(i18n_data.entity)] 喜欢所有类型的酒精饮料.如果可以的话,他们会喝任何的酒."
 			},
 			"juice_love_trait": {
 				"display_name": "果汁爱好者",
-				"description": "对于[name(i18n_data.entity)]来说,喜欢果汁对大家来说已经不是什么秘密了.如果可以的话,他们会喝各种的果汁."
+				"description": "对于[name(i18n_data.entity)] 来说,喜欢果汁对大家来说已经不是什么秘密了.如果可以的话,他们会喝各种的果汁."
 			},
 			"tea_love_trait": {
 				"display_name": "茶水爱好者",
-				"description": "对于[name(i18n_data.entity)]来说,喜欢茶水对大家来说已经不是什么秘密了.如果可以的话,他们会喝各种的茶水."
+				"description": "对于[name(i18n_data.entity)] 来说,喜欢茶水对大家来说已经不是什么秘密了.如果可以的话,他们会喝各种的茶水."
 			},
 			"light_sleeper_trait": {
 				"display_name": "早起的鸟儿",
-				"description": " [name(i18n_data.entity)]和波波鸡一起起床,或者更早.他比其他的炉民睡得更少,则会很容易的感到困倦."
+				"description": " [name(i18n_data.entity)] 和波波鸡一起起床,或者更早.他比其他的炉民睡得更少,则会很容易的感到困倦."
 			},
 			"sleepyhead_trait": {
 				"display_name": "瞌睡虫",
-				"description": "对于 [name(i18n_data.entity)]来说,起床是个艰巨的任务.他们十分喜欢睡觉,以至于他们会睡得比他们应该睡得更多一些."
+				"description": "对于 [name(i18n_data.entity)] 来说,起床是个艰巨的任务.他们十分喜欢睡觉,以至于他们会睡得比他们应该睡得更多一些."
 			}
 		},
 		"build": {
@@ -16871,7 +16871,7 @@
 		},
 		"moonbell": {
 			"display_name": "月铃花",
-			"description": "发着淡淡亮光的高原花. 需要几天才能完全长好, 收获可获得 <span class='blueHerb'>b蓝色</span> <span class='bitterHerb'>苦味</span> 草药.",
+			"description": "发着淡淡亮光的高原花. 需要几天才能完全长好, 收获可获得 <span class='blueHerb'>蓝色</span> <span class='bitterHerb'>苦味</span> 草药.",
 			"harvest_text": "收获月铃花"
 		},
 		"sunflower": {
@@ -16921,7 +16921,7 @@
 		},
 		"chives": {
 			"display_name": "细香葱",
-			"description": "北盟厨师的最爱. 需要几天才能完全长好, 收获可获得 <span class='greenHerb'>绿色en</span> 和 <span class='purpleHerb'>紫色</span> <span class='aromaticHerb'>芳香</span> 草药.",
+			"description": "北盟厨师的最爱. 需要几天才能完全长好, 收获可获得 <span class='greenHerb'>绿色</span> 和 <span class='purpleHerb'>紫色</span> <span class='aromaticHerb'>芳香</span> 草药.",
 			"harvest_text": "收获细香葱"
 		},
 		"bog_myrtle": {
@@ -17335,7 +17335,7 @@
 					"title": "材料质量偏好",
 					"description": "选择让工匠制作此订单时, 偏好高等级的优质还是劣质的原材料. 默认属性能在游戏设置中更改."
 				},
-				"prefer_high_quality": "使用高级原材"
+				"prefer_high_quality": "使用较高品质的原材料制作"
 			},
 			"zones_mode": {
 				"farm": {
@@ -17926,18 +17926,18 @@
 			"select_game_story": {
 				"game_modes": {
 					"normal": {
-						"description": "Adventure forth in a world fraught with danger! The most balanced and intended experience, your town will be subject to increasingly challenging invasions and perils."
+						"description": "在充满危险的世界中冒险前行! 最平衡和意想不到的体验，你的城镇将受到越来越多的挑战入侵和危险。"
 					},
 					"peaceful": {
-						"description": "A sandbox! Freely build your town without any invasions. You may look for a fight in the wilds or through special events, if you decide to. Wounds and other effects have a meager impact on health."
+						"description": "一个沙盒! 在没有任何入侵的情况下，自由建设你的城镇。如果你想要的话，可以在野外或通过特殊事件寻找战斗。伤口和其他效果对健康的影响微乎其微。"
 					},
 					"gentle": {
-						"description": "Enemies are as challenging as in Normal - but with a slower pace. Progression and events have longer intervals between each other. Wounds and such have a lesser impact on health.",
+						"description": "敌人和正常情况下一样具有挑战性--但节奏较慢。进度和事件之间的间隔时间较长。伤口和其他效果对健康的影响较小。",
 						"display_name": "温和",
-						"post_selection_text": "an intriguing place to start anew."
+						"post_selection_text": "令人兴奋的地方从零开始。"
 					},
 					"hard": {
-						"description": "Enemies will be stronger and the progression of challenges will be quicker and less merciful. Always be on your guard! Wounds and other effects can be very dangerous - or even lethal!"
+						"description": "敌人会更强大。节奏也会更快，更不留情面。要时刻保持警惕! 伤口和其他效果造成的影响可能是非常危险的--甚至是致命的!"
 					}
 				}
 			},

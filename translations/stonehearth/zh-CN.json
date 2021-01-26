@@ -499,14 +499,14 @@
             "worker_details": "详情",
             "workers_list_headers": {
                "name": "名字",
-               "haul": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;搬运",
-               "build": "&nbsp;&nbsp;建造",
-               "mine": "&nbsp;&nbsp;挖掘",
-               "job": "&nbsp;&nbsp;本职",
-               "current_activity": "&nbsp;&nbsp;&nbsp;当前活动",
+               "haul": "搬运ﾠ",
+               "build": "建造ﾠ",
+               "mine": " 挖掘ﾠ",
+               "job": " 本职",
+               "current_activity": "当前活动",
                "working_for": "效忠于",
                "status": "状态",
-               "morale": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;心情"
+               "morale": "当前心情"
             },
             "show_character_sheet": "人物详情",
             "button_suspend": "暂停",
@@ -621,7 +621,7 @@
             "unreachable_ingredient_notification": "[name(i18n_data.citizen)]拿不到可以制作[str(i18n_data.crafting_order)]的材料.",
             "where_is_food_notification": "[name(i18n_data.citizen)]找不到任何食物.",
             "health_status_normal": "一般",
-            "health": "生命值",
+            "health": "生命",
             "gender": {
                "male": "男性",
                "female": "女性"
@@ -2199,7 +2199,7 @@
             "recipes_label": "解锁配方",
             "citizen_info": "组织你的探险队",
             "accept_roster": "接受该名单",
-            "randomize": "随机\n样貌",
+            "randomize": "随机生成炉民的外观或样貌",
             "hair_style": "发型",
             "skin_color": "肤色",
             "facial_hair": "胡须",
@@ -19580,9 +19580,9 @@
             },
             "harvest_logs": {
                "scenario_data": {
-                  "message": "如果我们想发展,那就要木头,而且量很大! 把周围的树砍掉一点来获得木材吧!",
+                  "message": "如果我们想要发展,那就需要木头,而且量很大! 把周围的树砍掉一点来获得木材吧!",
                   "completed_message": "恭喜!我们现在有木头了.这些木材包括其他自然资源可以用来制作物品和建造建筑.它们是发展的第一块垫脚石!",
-                  "title": "小镇 [str(i18n_data.town_name)] : 新手教程",
+                  "title": "新手教程:最初供给",
                   "resource_display_name": "木材"
                },
                "ui_steps": {
