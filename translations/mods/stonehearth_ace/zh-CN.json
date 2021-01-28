@@ -16876,7 +16876,7 @@
 		},
 		"sunflower": {
 			"display_name": "向日葵",
-			"description": "所有人都喜欢明亮又欢乐的花. 需要几天才能完全长好, 收获可获得 span class='yellowHerb'>黄色</span> 和 <span class='whiteHerb'>白色</span> <span class='aromaticHerb'>芳香</span> 草药.",
+			"description": "所有人都喜欢明亮又欢乐的花. 需要几天才能完全长好, 收获可获得 <span class='yellowHerb'>黄色</span> 和 <span class='whiteHerb'>白色</span> <span class='aromaticHerb'>芳香</span> 草药.",
 			"harvest_text": "收获向日葵"
 		},
 		"silkweed": {
