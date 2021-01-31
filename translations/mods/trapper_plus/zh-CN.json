@@ -1,60 +1,60 @@
 {
    "na_rug_pelt_wolf": {
-      "recipe_name": "Black Wolf Pelt Rug",
-      "display_name": "Black Wolf Pelt Rug"
+      "recipe_name": "黑狼皮地毯",
+      "display_name": "黑狼皮地毯"
    },
    "armor": {
       "leather": {
-         "display_name": "Leather Vest",
-         "description": "Leather provides sturdy protection against light weapons.",
-         "flavor": "Insults bounce right off too!",
-         "i_description": "Leather provides sturdy protection."
+         "display_name": "皮革背心",
+         "description": "皮革对轻量级武器提供结实的保护.",
+         "flavor": "冒犯到会立刻反弹!",
+         "i_description": "皮革提供结实的保护."
       }
    },
    "trapper": {
       "recipes": {
-         "workbenches_name": "Workbenches & Tools",
-         "tannery_name": "Leatherworking",
-         "butchering_name": "Butchering",
-         "storage_name": "Storage",
-         "clothing_name": "Clothing & Outfits",
-         "decorations_name": "Decorations"
+         "workbenches_name": "工作台 & 工具",
+         "tannery_name": "皮革加工",
+         "butchering_name": "屠宰",
+         "storage_name": "存储",
+         "clothing_name": "衣服 & 套装",
+         "decorations_name": "装饰物"
       },
       "craft_menu": {
-         "display_name": "Trapper Craft Menu",
-         "description": "Handles leather tanning and meat butchering.",
-         "required_job_text": "Requires a trapper"
+         "display_name": "制作陷阱菜单",
+         "description": "处理皮革鞣制和肉类屠宰.",
+         "required_job_text": "需要陷阱"
       },
       "perks": {
-         "l1_display_name": "Tannery",
-         "l1_description": "The Trapper is able to build tannery facilities, extract tannins, dry fresh hides and prepare pelts."
+         "l1_display_name": "制革厂",
+         "l1_description": "捕猎者能够建造制革设施, 提取鞣质, 干燥新鲜皮皮和预制毛革."
       },
       "block": {
-         "display_name": "Trapper's Block",
-         "description": "Used by the Trapper for cleaning pelts.",
-         "recipe_display_name": "Trapper's Block",
-         "recipe_description": "Required for cleaning pelts and turning them into leather.",
-         "flavor": "Is that... b-blood?"
+         "display_name": "捕猎工坊",
+         "description": "被捕猎者用来清理毛皮.",
+         "recipe_display_name": "捕猎工坊",
+         "recipe_description": "用于清洁毛皮并将其变成皮革.",
+         "flavor": "这是... 血?"
       },
       "tanning_tub": {
-         "display_name": "Tanning Tub",
-         "description": "Used to tan rawhide into leather. Should be kept away due to its foul smell!",
-         "recipe_display_name": "Tanning Tub",
-         "recipe_description": "Used to tan rawhide into leather.",
-         "flavor": "Tanneries are usually built on the outskirts of towns due to their... particular smell."
+         "display_name": "鞣革桶",
+         "description": "用于鞣生皮制成皮革的. 有臭味应该远离它!",
+         "recipe_display_name": "鞣革桶",
+         "recipe_description": "用于鞣生皮制成皮革的.",
+         "flavor": "制革厂通常建在城镇的郊区，因为它们的... 特殊气味."
       },
       "drying_frame": {
-         "display_name": "Drying Frame",
-         "description": "Used to dry fresh large hides into useful pelts and skins.",
-         "recipe_display_name": "Drying Frame",
-         "recipe_description": "Required for drying pelts and skins for later tanning.",
-         "flavor": "It is NOT a jumping bed!"
+         "display_name": "干燥架",
+         "description": "用于剥皮和把大量新鲜的皮干燥成有用的毛皮.",
+         "recipe_display_name": "干燥架",
+         "recipe_description": "需要剥皮和干燥毛皮以备日后鞣革.",
+         "flavor": "这不是跳床!"
       },
       "small_drying_frame": {
-         "description": "Can simultaneously dry up to eight small hides into useful pelts and skins.",
-         "display_name": "Hanging Drying Frame",
-         "recipe_display_name": "Hanging Drying Frame",
-         "recipe_description": "Required for drying small pelts for later tanning.",
+         "description": "可同时剥皮和干燥成八张毛皮.",
+         "display_name": "悬挂式干燥架",
+         "recipe_display_name": "悬挂式干燥架e",
+         "recipe_description": "需要干燥小毛皮以备日后鞣革.",
          "flavor": ""
       },
       "racoon_hat": {
