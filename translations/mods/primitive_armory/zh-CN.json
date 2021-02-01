@@ -5,66 +5,66 @@
 	"entities": {
 		"armor": {
 			"primitive_armor1": {
-				"description": "A flimsily assembled armor made of wood parts and tree bark pieces.",
+				"description": "一件由部分木头和树皮碎片组成的单薄盔甲.",
 				"display_name": "树皮胸甲",
 				"recipe_name": "树皮胸甲",
-				"flavor": "It's time for our enemies to suffer as our foresters do."
+				"flavor": "是时候让我们的敌人像我们的护林人一样受折磨了."
 			},
 			"primitive_armor2": {
-				"description": "A suit of body armor created with overheated, hard ceramic plates.",
+				"description": "一件经过高温过热制作而成的胸甲, 硬质的陶瓷护板.",
 				"display_name": "陶瓷胸甲",
 				"recipe_name": "陶瓷胸甲",
-				"flavor": "'You may not pass.' says the Teapot Knight."
+				"flavor": "'你不能通过.' 茶壶骑士说到."
 			},
 			"primitive_helm1": {
-				"description": "A piece of headgear made out of wood and bark.",
-				"display_name": "Bark Helmet",
-				"recipe_name": "Bark Helmet",
-				"flavor": "Bearded goblins shall inflict certain head strikes."
+				"description": "一顶用木头和树皮制成的帽子.",
+				"display_name": "树皮头盔",
+				"recipe_name": "树皮头盔",
+				"flavor": "头部撞击有胡子的地精必定会吃苦头."
 			},
 			"primitive_helm2": {
-				"description": "A protective piece of ceramic armor for the head.",
-				"display_name": "Ceramic Cap",
-				"recipe_name": "Ceramic Cap",
-				"flavor": "'Darling, have you seen my garden pot?'"
+				"description": "一顶保护头部的陶瓷头盔.",
+				"display_name": "陶瓷帽",
+				"recipe_name": "陶瓷帽",
+				"flavor": "'亲爱的, 你看到我的花园的花盆了吗?'"
 			},
 			"primitive_shield1": {
-				"description": "A large chunk of tree bark used as a shield.",
-				"display_name": "Bark Buckler",
-				"recipe_name": "Bark Buckler",
-				"flavor": "What could possibly go wrong?"
+				"description": "把一大块厚树皮当作盾牌.",
+				"display_name": "树皮盾牌",
+				"recipe_name": "树皮盾牌",
+				"flavor": "可能会出岔子?"
 			},
 			"primitive_shield2": {
-				"description": "An improvised shield made of hard ceramic.",
-				"display_name": "Ceramic Lid",
-				"recipe_name": "Ceramic Lid",
-				"flavor": "Totally not a pot lid."
+				"description": "一张由硬质陶瓷临时做的盾牌.",
+				"display_name": "陶瓷盖",
+				"recipe_name": "陶瓷盖",
+				"flavor": "不是壶盖."
 			}
 		},
 		"weapons": {
 			"primitive_spear1": {
-				"description": "A crude spear shaved from a hard wood stick.",
-				"display_name": "Primitive Spear",
-				"recipe_name": "Primitive Spear",
-				"flavor": "The pointy end goes towards the wolves."
+				"description": "一根从硬木枝条上削下来的粗糙的矛.",
+				"display_name": "原始矛",
+				"recipe_name": "原始矛",
+				"flavor": "尖那头朝着狼群."
 			},
 			"primitive_spear2": {
-				"description": "A spear crafted with a piece of sharpened flint.",
-				"display_name": "Primitive Stone Spear",
-				"recipe_name": "Primitive Stone Spear",
-				"flavor": "Ideal for living in caves."
+				"description": "一根由锋利的燧石精制成的矛.",
+				"display_name": "原始石矛",
+				"recipe_name": "原始石矛",
+				"flavor": "适合使用在洞穴里的活物."
 			},
 			"primitive_hatchet": {
-				"description": "A small axe assembled with a stone headpiece.",
-				"display_name": "Primitive Hatchet",
-				"recipe_name": "Primitive Hatchet",
-				"flavor": "'But Workers already carry a metal hatchet' said no Hearthling ever."
+				"description": "一把石制小斧头.",
+				"display_name": "原始斧",
+				"recipe_name": "原始斧",
+				"flavor": "'但工人们早就拿着一把金属斧头说从来没有心疼过."
 			},
 			"primitive_dagger": {
-				"description": "A ceremonial dagger made with hard ceramic.",
-				"display_name": "Primitive Dagger",
-				"recipe_name": "Primitive Dagger",
-				"flavor": "Extra brittle, handle with care."
+				"description": "一把用硬质陶瓷制成的仪式用的匕首.",
+				"display_name": "原始匕首",
+				"recipe_name": "原始匕首",
+				"flavor": "特别易碎, 小心轻放."
 			}
 		}
 	},
