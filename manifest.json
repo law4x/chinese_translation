@@ -55,7 +55,7 @@
     "homesweethome/locales/zh-CN.json": "file(translations/mods/homesweethome/zh-CN.json)",
     "homf/locales/zh-CN.json": "file(translations/mods/homf/zh-CN.json)",
     "homf/locales/zh-CN_fix.json": "file(translations/mods/homf/zh-CN_fix.json)",
-    "core_dani/locales/zh-CN.json": "file(translations/mods/core_dani/zh-CN.json)",
+    "glassworks/locales/zh-CN.json": "file(translations/mods/glassworks/zh-CN.json)",
     "extra_map_options/locales/zh-CN.json": "file(translations/mods/extra_map_options/zh-CN.json)"
    },
    "ui" : {
