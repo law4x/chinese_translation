@@ -1,0 +1,128 @@
+{
+   "jobs": {
+      "herbalist": {
+         "composting_bin": {
+            "display_name": "Composting Bin",
+            "description": "Used to turn residues like rotten food and manure into compost."
+         },
+         "composting_bin_mulchy": {
+            "display_name": "Mulchy Composting Bin",
+            "description": "Requires new thatching to produce compost again."
+         },
+         "recipes": {
+            "herbalist_composting_bin_recipe": {
+               "recipe_name": "Composting Bin",
+               "description": "Used by the Herbalist to turn residues like rotten food and manure into compost.",
+               "flavor": "The thatching requires replacement every now and then"
+            },
+            "herbalist_manure_drying_rack_recipe": {
+               "recipe_name": "Manure Drying Rack",
+               "description": "Used for letting manure and compost dry enough so that they can be used as fuel.",
+               "flavor": "It is the cycle of life!"
+            },
+            "compost_recipe": {
+               "recipe_name": "Chunk o' Compost",
+               "description": "Mash some bits of organic matter together to form a larger chunk of nutritious compost.",
+               "flavor": ""
+            },
+            "compost_small_recipe": {
+               "recipe_name": "Bits o' Compost (x3)",
+               "description": "Break a chunk of nutritious organic matter into smaller bits.",
+               "flavor": ""
+            },
+            "fertilizer_compost_recipe": {
+               "recipe_name": "Compost Fertilizer",
+               "description": "Usable by skilled farmers for marginally improving the quality of their produce.",
+               "flavor": "Each sack can be used to fertilize 33 crops"
+            },
+            "veggie_mulch_recipe": {
+               "recipe_name": "Chunk o' Veggie Mulch",
+               "description": "Mash some vegetables together for the composting bin.",
+               "flavor": "Veggie Mulch takes some time to compost but becomes a whole chunk!"
+            }
+         },
+         "manure_drying_rack": {
+            "display_name": "Manure Drying Rack",
+            "description": "Used for letting manure or compost dry into more useful forms."
+         }
+      }
+   },
+   "data": {
+      "commands": {
+         "transform": {
+            "composting_bin_renew": {
+               "display_name": "Replace Thatching",
+               "description": "Order the Herbalist to bring dry, clean thatch and replace the mulchy one so composting can continue efficiently."
+            }
+         }
+      }
+   },
+   "ui": {
+      "data": {
+         "constants": {
+            "all_compostable_name": "Any Compostable",
+            "all_manure_name": "Only Manure",
+            "rotten_food_name": "Rotten Food",
+            "all_compost_name": "Any Compost",
+            "all_dryable_manure_name": "Any Manure or Compost"
+         }
+      },
+      "game": {
+         "zones_mode": {
+            "stockpile": {
+               "filters": {
+                  "compost": "Composting"
+               }
+            }
+         }
+      }
+   },
+   "entities": {
+      "resources": {
+         "manure": {
+            "display_name": "Manure",
+            "description": "Smells... funny. Can be used to make compost or dried."
+         },
+         "manure_small": {
+            "display_name": "Small Droppings",
+            "description": "They look cute... kind of. Can be used to make compost or dried."
+         },
+         "compost": {
+            "display_name": "Chunk o' Compost",
+            "description": "Nutritious and fertile organic matter."
+         },
+         "compost_small": {
+            "display_name": "Bits o' Compost",
+            "description": "Small, coarse bits of nutritious and fertile organic matter."
+         },
+         "manure_tiny": {
+            "display_name": "Tiny Droppings",
+            "description": "Too small, can't be used for anything..."
+         },
+         "veggie_mulch": {
+            "display_name": "Chunk o' Veggie Mulch",
+            "description": "What a mash! Ready to be composted in a bin."
+         },
+         "fuel": {
+            "manure_dry": {
+               "display_name": "Dry Manure",
+               "description": "Hard and brittle bits of manure. Can be used as a lower grade fuel."
+            },
+            "compost_small_dry": {
+               "display_name": "Dry Bit o' Compost",
+               "description": "Compacted organic matter with no moisture, can be used as lower grade fuel."
+            },
+            "compost_dry": {
+               "display_name": "Dry Chunk o' Compost",
+               "description": "Very hard and compact, full of energy! Can be used as a good grade fuel."
+            }
+         }
+      },
+      "consumables": {
+         "fertilizer_composting": {
+            "display_name": "Compost Fertilizer",
+            "description": "A skilled farmer will use it to marginally improve the quality of their crops."
+         }
+      }
+   }
+}

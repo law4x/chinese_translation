@@ -1,0 +1,128 @@
+{
+   "jobs": {
+      "herbalist": {
+         "composting_bin": {
+            "display_name": "堆肥箱",
+            "description": "使用如腐烂的食物和粪便等残渣堆成肥料."
+         },
+         "composting_bin_mulchy": {
+            "display_name": "覆盖式堆肥箱",
+            "description": "需要新的干草来再次生产堆肥."
+         },
+         "recipes": {
+            "herbalist_composting_bin_recipe": {
+               "recipe_name": "堆肥箱",
+               "description": "草药师把腐烂的食物和粪便等残渣堆成肥料.",
+               "flavor": "时而需要更换干草"
+            },
+            "herbalist_manure_drying_rack_recipe": {
+               "recipe_name": "粪肥烘干架",
+               "description": "使用粪便和肥料干燥到可用作燃料.",
+               "flavor": "这是生命的循环!"
+            },
+            "compost_recipe": {
+               "recipe_name": "大份肥料",
+               "description": "捣烂有机物形成一大份养分充足的肥料.",
+               "flavor": ""
+            },
+            "compost_small_recipe": {
+               "recipe_name": "小份肥料 (x3)",
+               "description": "把大份量养分充足的有机物捣烂成小份量.",
+               "flavor": ""
+            },
+            "fertilizer_compost_recipe": {
+               "recipe_name": "复合肥料",
+               "description": "技术熟练的农民可用它略微提高产品质量.",
+               "flavor": "每袋可施肥 33 棵作物"
+            },
+            "veggie_mulch_recipe": {
+               "recipe_name": "大份蔬菜覆盖物",
+               "description": "把一些蔬菜捣碎放进堆肥箱.",
+               "flavor": "蔬菜覆盖物需要一些时间形成肥料但分量足够大!"
+            }
+         },
+         "manure_drying_rack": {
+            "display_name": "粪肥烘干架",
+            "description": "让粪便或肥料干燥成更有用的形式."
+         }
+      }
+   },
+   "data": {
+      "commands": {
+         "transform": {
+            "composting_bin_renew": {
+               "display_name": "更换干草",
+               "description": "要求草药师带来干燥的, 干净的干草并替换覆盖物让堆肥继续生效."
+            }
+         }
+      }
+   },
+   "ui": {
+      "data": {
+         "constants": {
+            "all_compostable_name": "任意堆肥物",
+            "all_manure_name": "只有粪便",
+            "rotten_food_name": "腐烂的食物",
+            "all_compost_name": "任意肥料",
+            "all_dryable_manure_name": "任意粪便和肥料"
+         }
+      },
+      "game": {
+         "zones_mode": {
+            "stockpile": {
+               "filters": {
+                  "compost": "堆肥"
+               }
+            }
+         }
+      }
+   },
+   "entities": {
+      "resources": {
+         "manure": {
+            "display_name": "粪便",
+            "description": "气味... 妙不可言. 可用于烘干或者制作肥料."
+         },
+         "manure_small": {
+            "display_name": "小型动物粪便",
+            "description": "它们看起来可爱... 有点. 可用于烘干或者制作肥料."
+         },
+         "compost": {
+            "display_name": "大份肥料",
+            "description": "养分充足的有机物."
+         },
+         "compost_small": {
+            "display_name": "小份肥料",
+            "description": "小份, 小而粗糙且养分充足的有机物."
+         },
+         "manure_tiny": {
+            "display_name": "微型动物粪便",
+            "description": "太小了, 没有任何用处..."
+         },
+         "veggie_mulch": {
+            "display_name": "大份蔬菜覆盖物",
+            "description": "捣烂! 准备在箱中堆肥."
+         },
+         "fuel": {
+            "manure_dry": {
+               "display_name": "干粪便",
+               "description": "硬脆的粪便. 可用作劣质燃料."
+            },
+            "compost_small_dry": {
+               "display_name": "小份干肥料",
+               "description": "不含水分且紧凑的有机物, 可用作劣质燃料."
+            },
+            "compost_dry": {
+               "display_name": "大份干肥料",
+               "description": "非常坚硬紧凑, 能源充足! 可用作优质燃料."
+            }
+         }
+      },
+      "consumables": {
+         "fertilizer_composting": {
+            "display_name": "复合肥料",
+            "description": "技术熟练的农民可用它略微提高产品质量."
+         }
+      }
+   }
+}

@@ -36,6 +36,7 @@
     "autogg/locales/zh-CN.json": "file(translations/mods/auto_golems_guns/zh-CN.json)",
     "ace_armours/locales/zh-CN.json": "file(translations/mods/ace_armours/zh-CN.json)",
     "ace_armours_core/locales/zh-CN.json": "file(translations/mods/ace_armours_core/zh-CN.json)",
+    "ace_composting/locales/zh-CN.json": "file(translations/mods/ace_composting/zh-CN.json)",
 
     "betterstorage/locales/zh-CN.json": "file(translations/mods/betterstorage/zh-CN.json)",
     "canyon_biome/locales/zh-CN.json": "file(translations/mods/canyon_biome/zh-CN.json)",
